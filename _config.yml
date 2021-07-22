@@ -1,0 +1,319 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+minimal_mistakes_skin    : "appseconnect-light" # "air", "aqua", "contrast", "dark", "dirt", "neon", "default", "plum", "sunrise", "appseconnect", "appseconnect-light"
+
+# Site Settings
+locale                   : "en"
+title                    : "APPSeCONNECT Product Docs"
+title_separator          : "-"
+name                     : "APPSeCONNECT"
+description              : "APPSeCONNECT Product documentation for Customers, Implementers, Partners etc."
+url                      : "//docs.appseconnect.com"
+baseurl                  : ""
+repository               : "appseconnect"
+teaser                   : "/assets/images/APPSeCONNECT-documentation.png"
+breadcrumbs              : true # false, false (default)
+words_per_minute         : 200
+community_baseurl        : "https://community.appseconnect.com/"
+comments:
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname            : docs-appseconnect-com
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : light # "light" (default), "dark"
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : feed.xml # blank (default) uses feed.xml
+search                   : true #, false (default)
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : UA-106094300-15
+  crazyegg:
+    url                  : 0089/9312.js
+
+footer_scripts           :
+  - /assets/js/plugins/jquery.fitvids.js
+  - /assets/js/plugins/jquery.greedy-navigation.js
+  - /assets/js/plugins/jquery.magnific-popup.js 
+  - /assets/js/plugins/jquery.smooth-scroll.min.js
+  - /assets/js/main.min.js
+home_banners:    
+  - name: "ProcessFlow"
+    excerpt: "ProcessFlow is the next generation IDE for APPSeCONNECT that allows you as a developer or integration specialist only focus on the integration logic while the rest of the part is automatically handled by the platform. APPSeCONNECT designer is a place where you can drag/drop elements and create a real-time business pipeline which you can deploy and execute directly from the same interface."
+    url : /sdk/Overview-of-SDK/
+  - name: "REST API Connectivity"
+    excerpt: "HTTP based endpoint connector is a pre-packaged software package which provides seamless connectivity to RESTful APIs and leverage to communicate with any application supporting standard REST protocol and standard authentication mechanisms. This adapter is App-specific and is limited to certain apps which are developed using HTTP Protocol and REST Webservices."
+    url : /connectors/Overview-of-GenericRest-Adapters/
+  - name: "Mapping and Transformation"
+    excerpt: "This document will help you to understand and work with the MAPPING and TRANSFORMATION functionality in APPSeCONNECT portal. Primarily transformation is the field where the corresponding schemas are to be mapped. This is also the place where the logic behind the transformation is implemented such that the integration proceeds uninterrupted."
+    url : /transformation/overview/
+home_whatnew             :
+  - name: "Transformation Techniques"
+    url: /transformation/overview/
+  - name: "API Management"
+    url: /api-management/overview/
+  - name: "Deploying to On-premise Agent"
+    url: /deployment/Environment-Overview/
+  - name: "Upgrading Agent to Latest"
+    url: /deployment/upgradation-and-migration/
+home_using_guide         :
+  - name: "Getting Started"
+    url: /getting-started/
+  - name: "SDK Documentation"
+    url: /sdk/Overview-of-SDK/
+  - name: "License management"
+    url: /license%20management/license-management/
+  - name: "Alerts and Notifications"
+    url: /rule/overview-of-rule/
+home_other_links         :
+  - name: "Connecting to Magento 2.0"
+    url: /connectors/Magento2/
+  - name: "Connecting SAGE 300"
+    url: /connectors/Sage300/
+  - name: "Connecting REST Applications"
+    url: /connectors/Overview-of-GenericRest-Adapters/
+  - name: "Connecting a Database"
+    url: /connectors/Overview-of-OLEDB-Adapter/
+  - name: "Build a custom connector"
+    url: /connectors/overview-of-custom-connectors/
+
+# Site Author
+author:
+  name             : "Team APPSeCONNECT"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "APPSeCONNECT product development team."
+  location         : 
+  email            : "support@appseconnect.com"
+  uri              : "http://support.appseconnect.com"
+  home             : "https://www.appseconnect.com" # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           :
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://www.youtube.com/user/insyncsolutions"
+
+
+# Reading Files
+include: ['_pages']
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache 
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-menus
+  - jekyll-archives
+  - jemoji
+
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-menus
+  - jekyll-archives
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: jekyll-archives
+  path: /
+tag_archive:
+  type: jekyll-archives
+  path: /
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /:name/
+     tag: /:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+collections:
+  category:
+    output: true
+  listcourses:
+    permalink: /sources/:collection/:name
+    output: true
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true 
+  - scope:
+      path: "customers"
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: true
+      share: false
+      related: true
+    
