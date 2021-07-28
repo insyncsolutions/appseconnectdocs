@@ -18,7 +18,7 @@ to make out robust processflows. The drag-and-drop interface is easy to use by a
 processflow feature, users can now graphically organize, create and view the data flow of a process thereby enabling 
 customers to design integration anytime and anywhere with the help of our cloud portal. Thus, processflow supports 
 tailored business rules, email templates, automation flows and monitoring process. You can now build and deploy 
-processflows, from simple to sophisticated, through a modern, native-cloud platform.
+processflows, from simple to sophisticated, through a modern, native-cloud platform. Let us look at its benefits.
 
 ## Benefits of using Processflows
 
