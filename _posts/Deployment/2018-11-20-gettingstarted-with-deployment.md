@@ -97,10 +97,26 @@ it on your environment for seemless connection between the agent and our cloud p
 
 **NOTE: We also require you to keep some of the Ports Open for APPSeCONNECT**     
 
+# Real-Time Touchpoints
+It is highly recommended to use Proxy to configure real-time configurations, but if you still require to communicate using local server’s public IP, you need to exempt 80 port of that machine, such that local port could be correctly opened. The port and the URL could be configured in settings of APPSeCONNECT agent or from Portal.
+
+For proxy or API management, the URL will be in *.appseconnectapi.com format. The * is the subdomain chosen by the customer
+
+
+# Ports For Exemption
+In addition to these URLs, we also need local ports to be opened as follows:
+
+- APPSeCONNECT Agent opens a listener at Port : 59050
+- APPSeCONNECT Service opens a listener at Port : 59051
+
+These ports need to be exempted from the firewall such that the Inter-process communication between the service and the local agent application could be made.
+
+All communications are through HTTPS (256 BIT Encrypted) only.
+
 **ProTip:** In any circumstance if you see OP Agent is in disabled state after meeting all the installation
 criteria, ensure to check that FIPS (Federal Information Processing Standard) is disabled in that system/machine to enable the OP Agent.
 {: .notice--info}
 
-**Steps to FIPS Disablement is given in this [link](https://kb.fortinet.com/kb/documentLink.do?externalID=FD41274)**
+**Steps to FIPS Disablement is given in this [link](https://community.appseconnect.com/story-of-fips-and-appseconnect/)**
 
  
