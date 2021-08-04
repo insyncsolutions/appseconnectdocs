@@ -78,23 +78,22 @@ and would access the local application data folder to store cache and log files.
 
 Please ensure local system account have proper privilege to access "Installation directory".
 
-To run APPSeCONNECT, you need to make sure of few things : 
-
-You should whitelist the following URLs from Network Firewall settings :
-
-https://admin.appseconnect.com
-
-https://cloud.appseconnect.com
-
-https://appsdrive.blob.core.windows.net/
-
-https://services.appseconnet.com/
 
 ## Hostnames and URLs of APPSeCONNECT
 
-In addtion to secured connectivity, APPSeCONNECT requires a number of [URLS and Ports](https://community.appseconnect.com/hostnames-and-urls-for-appseconnect/) for deploying
+In addtion to secured connectivity, APPSeCONNECT requires a number of URLS and Ports for deploying
 it on your environment for seemless connection between the agent and our cloud portal. 
-
+|Destination|Url|Purpose|
+|---|---|---|
+|The Platform|[https://portal.appseconnect.com](https://portal.appseconnect.com)|The main portal where integration developer does every configuration.  iPaaS Platform.|
+|The API|[https://admin.appseconnect.com](https://admin.appseconnect.com)|The API stack which is used to download User info and customer metadata.|
+|Storage|[https://appsdrive.blob.core.windows.net/](https://appsdrive.blob.core.windows.net)|Represents configuration store, where most of the configuration created in Platform is stored.|
+|Storage|[https://appsdatalake.blob.core.windows.net/](https://appsdatalake.blob.core.windows.net/)|Represents transactional store, where all metadata related to sync is uploaded.|
+|Service Bus|[https://aec-prod.servicebus.windows.net ](https://aec-prod.servicebus.windows.net)|In Memory event hub, which tracks of any important event raised on the agent. It also uses _sb:\\_ protocol to communicate|
+|Service Bus|[https://appseconnect.servicebus.windows.net](https://appseconnect.servicebus.windows.net)|Hook for Service bus, required to execute real-time proxies. Service Bus represents a brokered service communication architecture. It also uses _sb:\\_  protocol to communicate|
+|SignalR Server|[https://services.appseconnect.com ](https://services.appseconnect.com/signalr)|Represents the real-time communication channel for web sockets. The Agent connects to the socket using _wss:\\_ protocol to the service.|
+|Document Database|[https://aecprod.documents.azure.com/ ](https://aecprod.documents.azure.com/)|APPSeCONNECT document database, which is used by new Process flow engine.|
+|Realtime Proxy URL|[https://(subdomain).appseconnectapi.com/](https://(subdomain).appseconnectapi.com/)|The Realtime communication channel is created to post messages to the agent in real-time. This url needs to be configured on application webhook such that the data could be passed in the url. The subdomain here is configured by the customer.|
 
 **NOTE: We also require you to keep some of the Ports Open for APPSeCONNECT**     
 
