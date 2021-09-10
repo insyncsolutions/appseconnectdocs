@@ -189,7 +189,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent3.png" />
-    <Content Include="staticfiles\connectors\media\application-connector\BusinessCentralUploadExtension.png.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\BusinessCentralUploadExtension.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
@@ -228,7 +228,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\magentoat7.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat8.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat9.png" />
-    <Content Include="staticfiles\connectors\media\application-connector\MenuWebServices.png.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\MenuWebServices.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral3.png" />
