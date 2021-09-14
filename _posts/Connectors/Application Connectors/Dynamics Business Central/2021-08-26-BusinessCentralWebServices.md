@@ -10,8 +10,19 @@ menus:
         icon: fa fa-file-word-o
         identifier: navbusinesscentralconnectorcloud
 ---
+## Introduction
+ 
+Business Central is a business management solution for managing your business for various sized organizations that automates and streamlines business processes. Companies can eventually add functionalities which is relevant to the domain of operations, and can customized to support even highly specialized industries. Business Central provides solutions to the companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and many more with its highly adaptable and rich features. 
+ 
+Business Central is fast and easy to implement and configure, and its simplicity guides to innovate product design, development, implementation and usability. 
+ 
+## Pre-requisite of Business Central
+ 
+* Valid credential of Business Central account.
+* You should have extension installation permission
 
-## Dynamics 365 Business Central Step by Step Installation: 
+
+## Installing the extension
 
 Navigate to https://dynamics.microsoft.com/en-us/business-central/signin/  for Sign in to Dynamics 365 Business Central with a valid credential. New users may apply for new account. 
 
@@ -28,7 +39,7 @@ In the deployment status details you can reach out to Refresh button in the acti
 
 After successfully deployment of the .app extension, choose the Refresh button to see the new extensions in the list of installed extensions. 
 
-## Web Services 
+## Exposing web services and describe the usage
 
 To reach the Web Services List, enter “Web Services” in the search section of the top menu bar and select the Web services option. 
 ![MenuWebServices](/staticfiles/connectors/media/application-connector/MenuWebServices.png)
