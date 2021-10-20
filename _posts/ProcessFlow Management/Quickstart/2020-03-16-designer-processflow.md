@@ -54,6 +54,8 @@ Details of the list of executable buttons are given below:
 * Delete: You can view this button beside the **SAVE** button that will allow you to [delete](/processflow/delete-processflow/) the complete processflow.
 * Environment List: You can see the environments where the Processflow is deployed. You can open the Processflow using the link too.
 
+![ProcessFlow Desginer](../../staticfiles/processflow/media/designer_environment.png)
+
 You can view the **Back to processflow** button that will navigate you to the [listing page](/processflow/processflow-listing-page/). 
 
 ## Processflow Left Panel

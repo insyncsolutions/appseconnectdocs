@@ -726,6 +726,7 @@
     <Content Include="staticfiles\processflow\media\deployhostedcred1.PNG" />
     <Content Include="staticfiles\processflow\media\deployhostedcred2.PNG" />
     <Content Include="staticfiles\processflow\media\deployhostedcred3.PNG" />
+    <Content Include="staticfiles\processflow\media\designer_environment.png" />
     <Content Include="staticfiles\processflow\media\edit-migratedpf.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action1.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action2.PNG" />
