@@ -52,6 +52,7 @@ Details of the list of executable buttons are given below:
 * You will have the option adjust the screen resolution to 100%, 50% & 25% & Fit to Screen as per the need.
 * Save: The save button allows you to save the following processflow for later use. You can edit the processflows anytime by clicking the edit button available in the processflow listing Page.
 * Delete: You can view this button beside the **SAVE** button that will allow you to [delete](/processflow/delete-processflow/) the complete processflow.
+* Environment List: You can see the environments where the Processflow is deployed. You can open the Processflow using the link too.
 
 You can view the **Back to processflow** button that will navigate you to the [listing page](/processflow/processflow-listing-page/). 
 

@@ -34,7 +34,9 @@ flows in folder structure such that user can maintain an easy usability as per t
    of the page for [creating a new processflow](/processflow/creating-processflow/). Clicking on the NEW button, 
    you will be navigated to the [ProcessFlow Designer](/processflow/designer-processflow/)
 ![processflowlisting-page4](/staticfiles/processflow/media/processflowlisting-page4.png)   
-7. The FILTER button is available beside the new button. Click on the button, you can filter processflows using search functionality, from the list.      
+7. The FILTER button is available beside the new button. Click on the button, you can filter processflows using search functionality, from the list.   
+8. You can download the mapping document directly from the Portal to get information about the transformation logic. 
+![ProcessFlow Mapper Document](/staticfiles/processflow/media/GenerateExcelDoc.png)
 
 ## ProcessFlow Folder
 
