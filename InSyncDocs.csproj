@@ -189,6 +189,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\BusinessCentralUploadExtension.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
@@ -227,6 +228,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\magentoat7.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat8.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat9.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\MenuWebServices.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral3.png" />
@@ -1645,6 +1647,7 @@
     <None Include="_posts\apps-management\how-to-guides\handling-schemas-on-apps.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-06-Dynamicsnav.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-09-generic-nav2017-mutliconnectionextension.md" />
+    <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2021-08-26-BusinessCentralWebServices.md" />
     <None Include="_posts\Connectors\Application Connectors\Lightspeed\2020-04-02-Lightspeed.md" />
     <None Include="_posts\Connectors\Application Connectors\Prestashop\2018-12-07-Prestashop.md" />
     <None Include="_posts\Connectors\Application Connectors\Salesforce\2018-12-07-Salesforce.md" />
