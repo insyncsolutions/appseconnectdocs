@@ -728,6 +728,7 @@
     <Content Include="staticfiles\processflow\media\deployhostedcred1.PNG" />
     <Content Include="staticfiles\processflow\media\deployhostedcred2.PNG" />
     <Content Include="staticfiles\processflow\media\deployhostedcred3.PNG" />
+    <Content Include="staticfiles\processflow\media\designer_environment.png" />
     <Content Include="staticfiles\processflow\media\edit-migratedpf.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action1.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action2.PNG" />
@@ -742,6 +743,7 @@
     <Content Include="staticfiles\processflow\media\export-importlookup5.png" />
     <Content Include="staticfiles\processflow\media\export-importlookup6.png" />
     <Content Include="staticfiles\processflow\media\export-importlookup7.png" />
+    <Content Include="staticfiles\processflow\media\GenerateExcelDoc.png" />
     <Content Include="staticfiles\processflow\media\hostedcreate3.png" />
     <Content Include="staticfiles\processflow\media\hosted_environment.png" />
     <Content Include="staticfiles\processflow\media\installedpffolder.png" />
@@ -1785,6 +1787,7 @@
     <None Include="_posts\Release-Notes\2021\Q1\2021-05-12-2021-Q1-V1.0-Hotfix.md" />
     <None Include="_posts\Release-Notes\2021\Q1\2021-04-27-2021-Q1.md" />
     <None Include="_posts\Release-Notes\2021\Q2\2021-06-07-2021-Q2.md" />
+    <None Include="_posts\Release-Notes\2021\Q3\2021-06-10-2021-Q3.md" />
     <None Include="_posts\Rule-Management\DefaultRule\preconfigured-rule-for-misfire-event.md" />
     <None Include="_posts\Rule-Management\DefaultRule\preconfigured-rule-for-resync-bucket.md" />
     <None Include="_posts\Rule-Management\DefaultRule\preconfigured-rule-for-log-bucket.md" />
