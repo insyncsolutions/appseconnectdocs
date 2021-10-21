@@ -78,7 +78,7 @@ and would access the local application data folder to store cache and log files.
 
 Please ensure local system account have proper privilege to access "Installation directory".
 
-To run APPSeCONNECT, you need to make sure of few things : 
+To run APPSeCONNECT, you need to make sure of few things :
 
 You should whitelist the following URLs from Network Firewall settings :
 
@@ -102,6 +102,6 @@ it on your environment for seemless connection between the agent and our cloud p
 criteria, ensure to check that FIPS (Federal Information Processing Standard) is disabled in that system/machine to enable the OP Agent.
 {: .notice--info}
 
-**Steps to FIPS Disablement is given in this [link](https://kb.fortinet.com/kb/documentLink.do?externalID=FD41274)**
+**Steps to FIPS Disablement is given in this [link](https://community.appseconnect.com/story-of-fips-and-appseconnect/)**
 
  
