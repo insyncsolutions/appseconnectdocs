@@ -189,6 +189,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\BusinessCentralUploadExtension.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
@@ -227,6 +228,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\magentoat7.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat8.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat9.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\MenuWebServices.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral3.png" />
@@ -726,6 +728,7 @@
     <Content Include="staticfiles\processflow\media\deployhostedcred1.PNG" />
     <Content Include="staticfiles\processflow\media\deployhostedcred2.PNG" />
     <Content Include="staticfiles\processflow\media\deployhostedcred3.PNG" />
+    <Content Include="staticfiles\processflow\media\designer_environment.png" />
     <Content Include="staticfiles\processflow\media\edit-migratedpf.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action1.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action2.PNG" />
@@ -740,6 +743,7 @@
     <Content Include="staticfiles\processflow\media\export-importlookup5.png" />
     <Content Include="staticfiles\processflow\media\export-importlookup6.png" />
     <Content Include="staticfiles\processflow\media\export-importlookup7.png" />
+    <Content Include="staticfiles\processflow\media\GenerateExcelDoc.png" />
     <Content Include="staticfiles\processflow\media\hostedcreate3.png" />
     <Content Include="staticfiles\processflow\media\hosted_environment.png" />
     <Content Include="staticfiles\processflow\media\installedpffolder.png" />
@@ -1643,6 +1647,7 @@
     <None Include="_posts\apps-management\how-to-guides\handling-schemas-on-apps.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-06-Dynamicsnav.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-09-generic-nav2017-mutliconnectionextension.md" />
+    <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2021-08-26-BusinessCentralWebServices.md" />
     <None Include="_posts\Connectors\Application Connectors\Lightspeed\2020-04-02-Lightspeed.md" />
     <None Include="_posts\Connectors\Application Connectors\Prestashop\2018-12-07-Prestashop.md" />
     <None Include="_posts\Connectors\Application Connectors\Salesforce\2018-12-07-Salesforce.md" />
@@ -1782,6 +1787,7 @@
     <None Include="_posts\Release-Notes\2021\Q1\2021-05-12-2021-Q1-V1.0-Hotfix.md" />
     <None Include="_posts\Release-Notes\2021\Q1\2021-04-27-2021-Q1.md" />
     <None Include="_posts\Release-Notes\2021\Q2\2021-06-07-2021-Q2.md" />
+    <None Include="_posts\Release-Notes\2021\Q3\2021-06-10-2021-Q3.md" />
     <None Include="_posts\Rule-Management\DefaultRule\preconfigured-rule-for-misfire-event.md" />
     <None Include="_posts\Rule-Management\DefaultRule\preconfigured-rule-for-resync-bucket.md" />
     <None Include="_posts\Rule-Management\DefaultRule\preconfigured-rule-for-log-bucket.md" />
