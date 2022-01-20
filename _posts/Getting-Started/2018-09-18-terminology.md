@@ -13,7 +13,7 @@ menus:
 
 Learning something new can feel a little like falling over the side of a ship.Everything is moving and you can barely keep your head above water.
 You are just starting to feel like you understand how something works and then a new piece of knowledge comes out of nowhere and your whole world feels topsy turvy again.
-Hence,users of APPSeCONNECT requires the knowledge of common terminologies that the user can come across,while working with syncing in APPSeCONNECT to perform a smooth and free-flowing integration.
+Hence,to overcome that situation users of APPSeCONNECT requires the knowledge of common terminologies that the user can come across,while working with syncing in APPSeCONNECT to perform a smooth and free-flowing integration.
 
 ##Terminology related to APPSeCONNECT
 
@@ -23,14 +23,17 @@ Hence,users of APPSeCONNECT requires the knowledge of common terminologies that 
 |***Action***|Action are certain tasks like getting data from an application or sending data to an application based on specific API filter conditions known as Action Filters.|
 |***Adapter***|Adapter is a piece of software component of an application which resides with the agent locally,that helps APPSeCONNECT communicate to the respective application efficiently and seamlessly for a complete sync process.|
 |***Agent***|APPSeCONNECT Agent is an application which execute and control the sync process by transferring data from one application to another with the help of adapters,after performing required data conversion or manipulation.The Agent is either locally installed in the target organization’s server or can reside withn the APPSeCONNECT cloud platform depending on the deployment model chosen,to handle the sync processes for an organization exclusively.|
-|Attributes|In APPSeCONNECT,an attribute is a property or characteristic of a schema.|
+|***Attributes***|In APPSeCONNECT,an attribute is a property or characteristic of a schema.|
 |***Connectors***|Connectors are plug and play oriented that act like a bridge to create connection between applications that connects different data sources both on-premise or in cloud using standard protocol based communication channel.|
 |***Custom Renderer***|Custom Renderer feature is targeted to build a complex XML structure according to business requirement without performing field to field mapping.|
 |***Environment***|APPSeCONNECT platform enables end-users to create and manage multiple deployment environment for free-flowing and smooth integration between various applications.|
-|***License Management***|License key-based authentication approach is security enhancement for your on-premise and cloud integrations. This mechanism authenticates users who tries to login to the integration client of APPSeCONNECT agent using a revocable, secure and unique license or a security token that is provided by the server.|
+|***Flow***|A flow or more specifically a business flow is a complete business process mapping that include multiple data integration points to sync data together.In other words,a flow is a set of different integration points which commonly run together to make a complete meaningful update to the business applications.|
+|***License Management***|License key-based authentication approach is security enhancement for your on-premise and cloud integrations.This mechanism authenticates users who tries to login to the integration client of APPSeCONNECT agent using a revocable,secure and unique license or a security token that is provided by the server.|
+|***Links***|Links are termed as connection to two or more nodes demarking the flow of data from one node to another.In certain scenario,a link can also point to itself,which is termed as self-loop,this kind of loops will indicate a continuous flow of execution of a single node and triggering the data back to the flow.|
 |***Log Bucket***|Log Bucket consists of logs that are generated during each transaction which are shown in the OP Agent and in Snapshot as well.|
 |***Lookup Mapping***|Lookup Mapping is a puissant feature in APPSeCONNECT which enables the end-users or implementer to provide a specific value to the application environment,such that when the source and destination application is integrated,the value in source application can easily be integrated with its value in destination application,corresponding to their respective fields.|
 |***Mapping***|The process by which end-users or implementor can transfer the data between schemas of source and destination application to perform a smooth and efficient sync is called mapping.|
+|***Nodes***|Nodes are associated with a particular action which uses specific action filters and credentials mentioned to the application to get a response back to APPSeCONNECT.Each node in APPSeCONNECT is tied to a particular connection,such that when the node is executed the data from that particular Application is generated and responded back to the application workspace.|
 |***ProcessFlow***|ProcessFlow is a one-stop solution of APPSeCONNCET that enables end-users to represent the bussiness flow graphically such that the data can be synced or integrated between various business applications in a free-flowing and flexible way.|
 |***Resync Bucket***|During the sync process,the errors that have occured will be displayed in the Resync bucket of the OP Agent and Cloud Agent.|
 |***Resync***|The errors generated during the sync process are available for another attempts.Any changes and rectification to the errors are made,user can either resync the data manually or can schedule the resync accordingly.|
