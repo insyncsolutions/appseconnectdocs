@@ -16,7 +16,7 @@ such that datas can flow quickly,easily and on-time. These applications are tota
 between two disparate applications,we need a solution which gives right mix of tools and technology specialized to provide easy,free-flowing and seamless integrations.
 `ProcessFlow` is the main workspace of APPSeCONNECT which lets you build an advance solution.
 
-Processflow is a visual representation of a business process integration, which helps you as an user to orchestrate a business process in such a way so that you can 
+ProcessFlow is a visual representation of a business process integration, which helps you as an user to orchestrate a business process in such a way so that you can 
 modularize and control the complexity of business integration properly. A processflow, under the hood creates a micro-service architecture that can run in cloud servers 
 or on-premise fetching or pushing data directly to the applications in execution and generate both transactional and data logs.ProcessFlow gives the IDE which lets you 
 develop integrations for your customers and partners,giving options for deployment and execution from the same UI.This enables you to choose different end-point filters,
@@ -29,7 +29,7 @@ This section of the documentation will guide the user with the process of Creati
 2. Applications should be chosen from the apps section, for proceeding with the design of processflows.
 3. You can also create a Package from the created processflow for sharing it to your other organisations. [Click Here](/processflow/processflow-packaging-overview/) to know more about processflow Packaging.
 
-## Steps to create a processflow
+## Steps to create a ProcessFlow
 1)	Login to the Portal and navigate to the **Designer > ProcessFlow** module. The Process Flow listing page appears.
 ![Create Basicprocessflow13](../../staticfiles/processflow/media/create-basicprocessflow13.png)
 
