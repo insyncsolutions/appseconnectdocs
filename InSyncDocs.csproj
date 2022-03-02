@@ -41,6 +41,7 @@
   <ItemGroup>
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
+    <Content Include="assets\css\googlefonts.css" />
     <Content Include="assets\css\aos.css" />
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\style.css" />
@@ -49,6 +50,7 @@
     <Content Include="assets\images\AEC-Code-Review.png" />
     <Content Include="assets\images\AEC-Coding-Guidelines.png" />
     <Content Include="assets\images\AEC-Development-Process.png" />
+    <Content Include="assets\images\appseconnect-2022.png" />
     <Content Include="assets\images\APPSeCONNECT-documentation.png" />
     <Content Include="assets\images\banner-img.png" />
     <Content Include="assets\images\business-user-img.png" />
@@ -1659,7 +1661,9 @@
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-10-22-Troubleshooting-Rest.md" />
     <None Include="_posts\Deployment\Environment Management\2018-11-20-Deployment Configuration.md" />
     <None Include="_posts\Deployment\Environment Management\2018-11-21-Agent Blocking and Unblocking.md" />
+    <None Include="_posts\Getting-Started\2022-02-11-marketplace.md" />
     <None Include="_posts\Getting-Started\2018-09-17-overview.md" />
+    <None Include="_posts\Getting-Started\2022-01-25-components-services.md" />
     <None Include="_posts\Getting-Started\2018-09-22-configurations-for-integration.md" />
     <None Include="_posts\Getting-Started\2018-09-21-configurations.md" />
     <None Include="_posts\Getting-Started\2018-09-20-accessing-portal.md" />

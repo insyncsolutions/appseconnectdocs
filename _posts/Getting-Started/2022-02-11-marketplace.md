@@ -1,27 +1,23 @@
 ---
-title: "Getting Started"
-description: "Getting started with APPSeCONNECT"
-keywords: "APPSeCONNECT, Getting Started,Knowledge base"
+title: "Marketplace"
+description: "Getting access to your one stop solution to packages"
+keywords: "Marketplace, integration, global"
 toc: true
 tag: developers
 category: "Getting Started"
 menus: 
-    header:
-        title: "Getting Started"
+    gettingstarted:
+        title: "Marketplace"
         weight: 1
         icon: fa fa-wpexplorer
-        identifier: gettingstarted
+        identifier: gettingstartedmarketplace
 ---
 
-APPSeCONNECT is a Business Process Automation tool which enables the users and citizen integrators to create and deploy Process Flows which
-lets the developers configure seamless integration between the line of business applications. Every business is different from one another
-and software programmes are incapable of solving complex business problems. Thus, it is advisable to employ best of breed applications and 
-services to solve a problem. 
+Time is directly proportional to money. The more you save time, it means the more you are saving money. When you can increase reusability of 
+developed resources, you save time, which means you save money. 
 
-APPSeCONNECT lets the developers and citizen integrators freely connect to application silos, thereby making the data flow between application
-and services such that all the applications are updated with most current business data.
-
-In this section, we will talk about everything that you want to know to get started with APPSeCONNECT. 
+APPSeCONNECT provides a marketplace which lists all the applications and packages, which are built grounds up for the customers to consume
+readily. The marketplace allows the citizen integrators to present their creations which customers can consume easily to save moeny. 
 
 ## APPSeCONNECT Basics
 
