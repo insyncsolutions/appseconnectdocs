@@ -39,7 +39,7 @@ Let us walkthrough the Functional Modules for understanding the usage and need o
 The **Home page** is the default page which you can view after logging in to the APPSeCONNECT portal. In this page you can see the snapshot of the project at a glance with respect to the activities of the user.   
 ![Dashboard](/staticfiles/root/media/Dashboard.png)
 
-The Home page view captures the following information- 
+The Home page view captures the following information - 
 1.	Project Basic Information
 2.	Configuration Completion Details
 3.	Subscription Details
@@ -47,22 +47,23 @@ The Home page view captures the following information-
 5.	Execution Counts 
 6.	Sync Errors
 7.	Execution Logs
+8.  Process Errors
 
 Click on the widgets to expand and view the related functionality of the widgets in details.
 
-*1. Project Basic Information: This widget displays the basic information of the organisation.*  
-The details displayed in the widget are:   
+*1. Project Basic Information : This widget displays the basic information of the organisation.*  
+The details displayed in the widget are :   
  
-a.	Project Name: Shows the organisation name.    
-b.	Main Contact Person: Displays the contact detail (Email Id only) of the project holder.    
-c.	Implementation contact: Displays the email id of InSync implementation Team.    
-d.	Sales Contact: Shows the Email details of InSync Sales Team.    
+a.	Project Name : Shows the organisation name.    
+b.	Main Contact Person : Displays the contact detail (Email Id only) of the project holder.    
+c.	Implementation contact: Displays the Email id of InSync implementation Team.    
+d.	Sales Contact: Shows the Email id of InSync Sales Team.    
 e.	Support Contact: Displays the Email Id of the InSync Support Team.   
 
-*2. Configuration Completion Details: This widget displays the configuration informations related to the organisation project. 
+*2. Configuration Completion Details : This widget displays the configuration informations related to the organisation project. 
 This widget also has a progress bar that displays the progress status for the organisation.* 
 
-*3.Subscription Details: This widget will inform the user about the categories of applications subscribed for the organisation.* 
+*3. Subscription Details : This widget will inform the user about the categories of applications subscribed for the organisation.* 
 
 These are the following information that will be displayed in the widget.  
 a.	Subscription Plan  
@@ -70,22 +71,22 @@ b.	Remaining Days
 c.	Subscription Expiry date  
 d.	Application Categories Subscribed.  
 
-**Note: The above three widgets initiate in minimized form by default. Users need to expand the widgets to view the widget details.**
+**Note: User can minimize or expand the above three widget as per their requirement.** 
  
 ![Subscription_Dashboard](/staticfiles/root/media/Subscription_Dashboard.png)
 
-*4.Execution Status: This widget displays the data synced wrt to an organization and is categorised based on the status: Success, Skipped & Failure.*  
+*4. Execution Status : This widget displays the data synced with respect to an organization and is categorized based on the status : Success, Skipped & Failure.*  
 The percentage is displayed on a pie chart  irrespective of connections. Hovering over the section on the pie chart will display the exact 
-number of data based on the statuses. Users can minimize, maximize the widget by click on the respective button available on the top right 
+number of data based on the statuses. Users can minimize and maximize the widget by click on the respective button available on the top right 
 corner of the widget. 
 
 **Note: The close button remains in disabled state.** 
 
 ![ExecutionStatus_Dashboard](/staticfiles/root/media/ExecutionStatus_Dashboard.png)
 
-*5. Execution Counts: This widget displays the data counters with respect to each connection in form of a Bar chart.*
-This widget displays the status of each connection based on:  Success, Skipped, Unprocessed & Failure.
-Users can minimize, maximize the widget by click on the respective button available on the top right corner of the widget.        
+*5. Execution Counts : This widget displays the data counters with respect to each connection in form of a Bar chart.*
+This widget displays the status of each connection based on :  Success, Unprocessed, Skipped & Failed.
+Users can minimize and maximize the widget by click on the respective button available on the top right corner of the widget.        
 **Note: The close button remains in disabled state**  
 ![ExecutionCount_Dashboard.png](/staticfiles/root/media/ExecutionCount_Dashboard.png)
 
@@ -95,15 +96,15 @@ a.	The time of the error faced.
 b.	Error Faced    
 c.	The source id of the item.    
 
- ![Syncerror_Dashboard.png](/staticfiles/root/media/Syncerror_Dashboard.png)
+![Syncerror_Dashboard.png](/staticfiles/root/media/Syncerror_Dashboard.png)
 
 *Note: Only the latest 100 errors would display in the widget.* 
 
 Users can search the error based on the source id and the error name by click on the search icon available on the top right corner of the widget.
-Users can minimize, maximize the widget by click on the respective button available on the top right corner of the widget. 
+Users can minimize and maximize the widget by click on the respective button available on the top right corner of the widget. 
 Note: The close button remains in disabled state.
 
-![Syncerror2_Dashboard.png](/staticfiles/root/media/Syncerror_Dashboard.png)
+![Syncerror_Dashboard.png](/staticfiles/root/media/Syncerror_Dashboard.png)
 
 *7. Execution Logs: This widget will display the execution logs of all the workflows & Realtime Time touchpoints executed through autosync.*
 Every log would display these following details:  
@@ -116,24 +117,26 @@ e.	Time taken to execute
 
 ![ExecutionLog_Dashboard.png](/staticfiles/root/media/ExecutionLog_Dashboard.png)
 
-Users can minimize, maximize the widget by click on the respective button available on the top right corner of the widget.  
+Users can minimize and maximize the widget by click on the respective button available on the top right corner of the widget.  
      
 **Note:(a) The close button remains in disabled state.  
        (b)Logs would be displayed only for autosync execution processes** 
 
-![ExecutionLog2_Dashboard.png](/staticfiles/root/media/ExecutionLog2_Dashboard.png)
+*8. Process Errors : This widget will display all the errors relating to processing of data such as no data is available for posting to your destination application,posting of same data to your destination applications etc.  
+
+![Processerrors_Dashboard.png](/staticfiles/root/media/Processerrors_Dashboard.png)
 
 ## Designer
 
 This section will enable the user to design their business specific integration flows using their selected Apps. You can easily create and design your integration flows using 
-Workflows and Processflows. Below are the list that provides you with the informations of **workflows** and **processflows**.
+Workflows and Processflows. Below are the list that provides you with the informations of *workflows** and **processflows**.
 
 ![Designer1](\staticfiles\root\media\designer1.png)
 
 ### Workflows
 
 APPSeCONNECT Workflow enables you to orchestrate business scenarios visually through a graphical interface. It equips you to handle any business context with proper logic and perform multiple business transactions in a flow, without manual intervention. As data is an integral part of any business and efficient utilization of that data is one of the most important aspects of integration, workflow ensures that those data gets passed from one point of execution to another based on the procedural rules as set by you.
-Organizations use workflows to coordinate tasks and synchronize data between systems, with the ultimate goal of improving organizational efficiency, responsiveness and ease of use.
+Organizations use workflows to coordinate tasks and synchronize data between systems, with the ultimate goal of improving organizational efficiency, responsiveness and ease of use. 
 Another situation is when you want to handle a large volume of data which is often challenging for the businesses in terms of performance. Henceforth, Workflows provide you with the tools to handle these scenarios with minimal effort.
 
 To know more about Workflow Management, [Click here](/workflow/overview/).
@@ -142,14 +145,14 @@ To know more about Workflow Management, [Click here](/workflow/overview/).
 
 `Processflow` is a visual representation of a business process integration, which enables you as a citizen integrator or developer to orchestrate a business process in such a way so that you can modularize and control the complexity of business integration properly.
 Processflows are the advanced workflows that enables you to design node specific flows which brings the ability to cater unique business process.
-Processflow is enabled with an advanced monitoring system that provides you with every detailed logs for troubleshooting purpose for each of your failed deployments and syncs. Also, processflow provides a **Packaging** system that enables the user to zip designed Processflows into packages
+Processflow is enabled with an advanced monitoring system that provides you with every detailed logs for troubleshooting purpose for each of your failed deployments and syncs. Also, processflow provides a **Packaging** system that enables the user to zip designed Processflows into packages 
 that enables you to share and install them in other organisations.
 
 To know more about Processflows, [Click Here](/processflow/overview-of-processflow/)
 
 ## Deploy
 
-This section will allow you to work with different **ENVIRONMENTS** either On-Premise or Hosted. You can perform multiple deployment functionalities that will help you setting up your environments.
+This section will allow you to work with different **ENVIRONMENTS** either On-Premise or Hosted. You can perform multiple deployment functionalities that will help you setting up your environments. 
 
 ![Deploy1](\staticfiles\root\media\deploy1.png)
 
@@ -159,7 +162,7 @@ This section will allow you to work with different **ENVIRONMENTS** either On-Pr
 
 ## Manage
 
-This section will allow you to manage the applications, connections, rules and other modules of APPSeCONNECT. Below are the modules
+This section will allow you to manage the applications, connections, rules and other modules of APPSeCONNECT. Below are the modules 
 that will be available to you under the **MANAGE** section in portal.
 
 ![manage3](\staticfiles\root\media\manage3.png)
@@ -211,23 +214,21 @@ b.	Organization Admin
 5) Input the details and assign the role to the user that is being added. Specify the Role for the user that is being added. 
 ![Useradd3](\staticfiles\root\media\useradd3.png)
 
-6) Once all the mandatory fields are filled up, click on the Save button. The created user should be visible in the list of users along with a success message. The created user will have the following keys available for any modification. The list is provided below:
+6) Once all the mandatory fields are filled up, click on the Save button. The created user should be visible in the list of users along with a success message. The created user will have the following keys available for any modification. The list is provided below :
 
-- Edit User: Only the details of the created user can be modified except the Email Address.
+- Edit User : Only the details of the created user can be modified except the Email Address.
 
-- Revoke User Permission: The delete button is for revoking the user from further use. The organisation owner and the Super Admin can only revoke the permission of an added user.
+- Revoke User Permission : The delete button is for revoking the user from further use. The organisation owner and the Super Admin can only revoke the permission of an added user.
 
-- Resend Activation Mail: User can resend the activation mail, if required. This button will be available only until the user has activated the account. Once activated, this button will not be visible.
+- Resend Activation Mail : User can resend the activation mail, if required. This button will be available only until the user has activated the account. Once activated, this button will not be visible.
 
-- Change Role: Here, the default user can change the role for the created user.
-
+- Change Role : Here, the default user can change the role for the created user.
 ![Useradd4](\staticfiles\root\media\useradd4.png)
 
 7) The created user gets an Activation Mail. You need to click on the Activation Link to activate your user account.
 ![Useradd5](\staticfiles\root\media\useradd5.png)
 
 8) Once activated, login to your account with the provided credential provided in the Activation Mail.
-
 ![useradd6](\staticfiles\root\media\useradd6.png)
 
 **Note:** 
@@ -490,18 +491,23 @@ user would be able to view the tools that are available for the organisation. Th
 1. You have logged in successfully as a user. Now  you'll be able to search all projects from the search box and from there you'll be able to add projects to your recent organization tab list. 
 2. Now the login page will be redirected to a homepage as shown below                                       
 ![Home1](/staticfiles/root/media/Home_1.png)
+
 3. If you are an existing user, you can search for projects using the search box.
 4. Enter keyword in the search field.                          
 ![Search-Project](/staticfiles/root/media/Search-Projects.png)
+
 5. Now click on Add button and the selected project will get added into your project tab.                      
 ![Add-SearchProjects](/staticfiles/root/media/Add-SearchProjects.png)
+
 6.  There is a `cross` and `pin` button. 
 7. If you click on the cross button then already tagged project will be untagged from project tab.
 8. The pin will toggle on or off, where On means the project will not be removed automatically.                                     
 ![Pinbar](/staticfiles/root/media/Pinbar.png)
+
 9. After the pin is in on state that project will go to the first option.
 10. All the pinned project will be visible as below.                                                            
-![Pinned-Projects](/staticfiles/root/media/Pinned-Projects.png)                                             
+![Pinned-Projects](/staticfiles/root/media/Pinned-Projects.png) 
+
 11. Newly added project, will be added to the left side of last accessed unpinned project like this.                       
 ![NewProject-Add](/staticfiles/root/media/NewProject-Add1.png)            
 

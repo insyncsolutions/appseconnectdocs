@@ -1180,8 +1180,7 @@
     <Content Include="staticfiles\root\media\dwonload.png" />
     <Content Include="staticfiles\root\media\edit-connection-tp.png" />
     <Content Include="staticfiles\root\media\ExecutionCount_Dashboard.png" />
-    <Content Include="staticfiles\root\media\ExecutionLog2_Dashboard.png" />
-    <Content Include="staticfiles\root\media\ExecutionLog_Dashboard.png" />
+    <Content Include="staticfiles\root\media\ExecutionLog_Dashboard.PNG" />
     <Content Include="staticfiles\root\media\ExecutionStatus_Dashboard.png" />
     <Content Include="staticfiles\root\media\feeds1.png" />
     <Content Include="staticfiles\root\media\feeds2.png" />
@@ -1206,6 +1205,7 @@
     <Content Include="staticfiles\root\media\notification.png" />
     <Content Include="staticfiles\root\media\Pinbar.png" />
     <Content Include="staticfiles\root\media\Pinned-Projects.png" />
+    <Content Include="staticfiles\root\media\Processerrors_Dashboard.png" />
     <Content Include="staticfiles\root\media\Projects-View.png" />
     <Content Include="staticfiles\root\media\protocoladd1.png" />
     <Content Include="staticfiles\root\media\protocoladd2.png" />
@@ -1219,12 +1219,11 @@
     <Content Include="staticfiles\root\media\SecuritySettings.png" />
     <Content Include="staticfiles\root\media\Select-Connection.png" />
     <Content Include="staticfiles\root\media\Select-Schema.png" />
+    <Content Include="staticfiles\root\media\Subscription_Dashboard.png" />
     <Content Include="staticfiles\root\media\subscription1.png" />
     <Content Include="staticfiles\root\media\subscription2.png" />
     <Content Include="staticfiles\root\media\subscription3.png" />
     <Content Include="staticfiles\root\media\subscription4.png" />
-    <Content Include="staticfiles\root\media\Subscription_Dashboard.png" />
-    <Content Include="staticfiles\root\media\Syncerror2_Dashboard.png" />
     <Content Include="staticfiles\root\media\Syncerror_Dashboard.png" />
     <Content Include="staticfiles\root\media\TechnologyApp-Creation-Screen2.png" />
     <Content Include="staticfiles\root\media\TechnologyApp-Creation-Screen3.png" />
