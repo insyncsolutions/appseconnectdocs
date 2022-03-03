@@ -122,7 +122,7 @@ Users can minimize and maximize the widget by click on the respective button ava
 **Note:(a) The close button remains in disabled state.  
        (b)Logs would be displayed only for autosync execution processes** 
 
-*8. Process Errors : This widget will display all the errors relating to processing of data such as no data is available for posting to your destination application,posting of same data to your destination applications etc.  
+*8. Process Errors : This widget will display all the errors relating to processing of data such as no data is available for posting to your destination application,posting of same data to your destination applications etc.*   
 
 ![Processerrors_Dashboard.png](/staticfiles/root/media/Processerrors_Dashboard.png)
 
