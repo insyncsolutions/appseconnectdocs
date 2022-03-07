@@ -1113,6 +1113,8 @@
     <Content Include="staticfiles\root\media\Add-Action.png" />
     <Content Include="staticfiles\root\media\Add-Schema.png" />
     <Content Include="staticfiles\root\media\Add-SearchProjects.png" />
+    <Content Include="staticfiles\root\media\agent1.png" />
+    <Content Include="staticfiles\root\media\agent3.png" />
     <Content Include="staticfiles\root\media\App.png" />
     <Content Include="staticfiles\root\media\AppComponents.png" />
     <Content Include="staticfiles\root\media\appfunctions.png" />
@@ -1666,6 +1668,7 @@
     <None Include="_posts\Getting-Started\2018-09-19-user-registration.md" />
     <None Include="_posts\Getting-Started\2018-09-18-terminology.md" />
     <None Include="_posts\Getting-Started\2018-09-16-getting-started.md" />
+    <None Include="_posts\Getting-Started\2022-03-03-Agent.md" />
     <None Include="_posts\Getting-Started\release-note.md" />
     <None Include="_posts\Glossary\2020-08-20-appseconnect-glossary.md" />
     <None Include="_posts\Glossary\2020-08-24-glossary.md" />
