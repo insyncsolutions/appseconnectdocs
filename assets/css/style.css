@@ -229,7 +229,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#214a73', end
 .headerLogo a {padding:0;}
 .layout--archive-taxonomy #main {max-width: 100%; padding: 0;}
 #cssmenu > ul > li > a span {padding: 6px 15px;}
-#cssmenu > ul > li:last-child > a span { padding: 6px 12px; background: #3030FF; color: #fff; border-radius: 18px; -moz-border-radius: 18px; -webkit-border-radius: 18px;}
+#cssmenu > ul > li:last-child > a span { padding: 6px 12px; background: #3030FF; color: #fff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
 
 .learningtrailpan {clear: both; background: #2970b7; color:#fff;}
 .learningtrailInn { max-width: 100%; clear: both; margin: 0 auto; padding: 50px 30px; overflow: hidden;}
@@ -311,9 +311,9 @@ body.layout--single .toc .nav__title i.fa {
     padding: 6px 12px;
     background: #3030FF;
     color: #fff;
-    border-radius: 18px;
-    -moz-border-radius: 18px;
-    -webkit-border-radius: 18px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 
 body.layout--single .sidebar__right.f-nav {

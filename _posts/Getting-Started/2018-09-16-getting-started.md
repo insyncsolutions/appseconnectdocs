@@ -2,7 +2,7 @@
 title: "Getting Started"
 description: "Getting started with APPSeCONNECT"
 keywords: "APPSeCONNECT, Getting Started,Knowledge base"
-toc: true
+toc: false
 tag: developers
 category: "Getting Started"
 menus: 
@@ -42,8 +42,8 @@ In this section, we will talk about everything that you want to know to get star
 - Understanding the APIs
 - APPSeCONNECT Expression Language
 - How to choose Agents
-- Deploying a ProcessFlow. 
-- Executing a ProcessFlow.
+- Deploying a ProcessFlow
+- Executing a ProcessFlow
 - Working with Generic Connectors
 - Implementing notifications
-
+ 
