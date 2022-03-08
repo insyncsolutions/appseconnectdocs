@@ -16,8 +16,8 @@ In this section, we will provide you details on how to get an account of APPSeCO
 
 ## Free Trial
 
-You can request a free trial of APPSeCONNECT by visting APPSeCONNECT website [https://www.appseconnect.com/](https://www.appseconnect.com/). A free
-trial is for everyone who wants to try the platform before using it. The free trial is absolutely free which does not require any credit card linking
+You can request a free trial of APPSeCONNECT by visting APPSeCONNECT website [https://www.appseconnect.com/](https://www.appseconnect.com/). A free 
+trial is for everyone who wants to try the platform before using it. The free trial is absolutely free which does not require any credit card linking 
 or even one single penny of expense. We give you the full fledged version of all the features and services for a limited time period. 
 
 The Free Trial selection option will only showcase the integration on vanilla systems.
@@ -35,7 +35,7 @@ The Free Trial selection option will only showcase the integration on vanilla sy
 ## Paid Trial
 
 Unlike free trial, we also give you an option to request for Paid trial. As you know integration is a complex topic, and your systems are not exactly 
-a vanilla system as you got it in first place. We generally do a lot of customizations and even we add more and more applications to the system. To adjust
+a vanilla system as you got it in first place. We generally do a lot of customizations and even we add more and more applications to the system. To adjust 
 the iPaaS platform tailored for your application, you need certain adjustments on the integration. The Paid trail gives you access to our 
 integration experts who will develop and adjust the integration based on the scope of work, and give a demo of the solution in liew of a small payment. 
 
@@ -68,7 +68,7 @@ temporary password generated, which you can use to login to the account.
 from the drop down list & Input your phone number.Click on Add Button to Add the phone number
 or skip button to skip the section. 
 ![addphone_number](/staticfiles/root/media/addphone_number.png)   
-(a) Incase of erroneous phone number you will get an error message on screen    
+(a) Incase of erroneous phone number you will get an error message on screen.    
 (b) You can also Enable Two Factor Authentication by clicking on the check box. This will
 send a verification code to your registered number.    
 7.	Once accepted, the user would be able to view the account profile details. Click on organisation tab, and this will navigate the user to the [Organisation Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/#a-accessing-organization-dashboard).   
@@ -88,6 +88,6 @@ Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
 The login page has a username and password field. Enter your chosen username and password combination and click `Sign In`. 
 You are now logged in to the application. Do not forget to check our Help Section to get introduction of the platform. You can also 
-select `Remember Me` checkbox in the login page, If you want the system to remember your login email id after logging out from the account.
+select `Remember Me` checkbox in the login page. If you want the system to remember your login email id after logging out from the account.
 Click `Forgot Password` option to reset the password. A mail will be sent to your (user) account. You can reset the password by clicking on the link provided in the mail and set up a new password.
 
