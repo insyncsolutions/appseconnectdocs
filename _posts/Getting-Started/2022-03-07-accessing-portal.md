@@ -1,17 +1,17 @@
 ---
-title: "Accessing Portal"
+title: "Portal"
 toc: true
 tag: developers
 category: "Accessing Portal"
 menus: 
     gettingstarted:
-        title: "Accessing APPSeCONNECT Portal"
+        title: "Portal"
         weight: 6
         icon: fa fa-wpexplorer
         identifier: accessingportal
 ---
 
-## Accessing Portal
+
 
 The APPSeCONNECT portal is the web based interface where you can access APPSeCONNECT application for integration, with the set of Functional modules. The [APPSeCONNECT portal page](https://portal.appseconnect.com/Account/Login?ReturnUrl=%2f#!) is easily accessible. 
 Once you have logged in, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as change your password.

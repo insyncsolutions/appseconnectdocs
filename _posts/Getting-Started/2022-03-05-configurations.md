@@ -11,7 +11,7 @@ menus:
         identifier: configuringaec
 ---
 
-This section gives the overall idea about choosing application, configuring connection, environment setup and execution of the sync process. Step by Step direction is given below:
+This section gives the overall idea about choosing application, configuring your apps in Processflow, environment setup and execution of the sync process. Step by Step direction is given below:
 Login to APPSeCONNECT - View [Home Page](https://portal.appseconnect.com/Account/Login?ReturnUrl=%2f#!) to get the details.
 
 |Sections|Details|

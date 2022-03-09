@@ -8,7 +8,7 @@ keywords: "integration,ipaas,appseconnect,data driven designer,process flow,inte
 menus: 
     header:
         title: "ProcessFlow"
-        weight: 4
+        weight: 2
         icon: fa fa-wpexplorer
         identifier: processflow
 ---

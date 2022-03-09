@@ -5,8 +5,8 @@ tag: developers
 category: "Connectors"
 menus: 
     header:
-        title: "Connectors"
-        weight: 2
+        title: "Application Profiles"
+        weight: 4
         icon: fa fa-file-word-o
         identifier: Connectors
 ---

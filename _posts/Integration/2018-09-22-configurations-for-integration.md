@@ -2,10 +2,13 @@
 title: "Configuring Connectors"
 toc: true
 tag: developers
-category: "Getting Started"
+category: "Integration"
+deprecated: 
+    url: "/processflow/overview-of-processflow"
+    title: "Overview of ProcessFlow"
 menus: 
-    gettingstarted:
-        title: "Configuring Connectors"
+    integration:
+        title: "Configuring Connectors and Touchpoints"
         weight: 7
         icon: fa fa-wpexplorer
         identifier: configuringintegration

@@ -1,11 +1,11 @@
 ---
-title: "User Registration"
+title: "Getting an Account"
 toc: true
 tag: developers
 category: "Getting Started"
 menus: 
     gettingstarted:
-        title: "User Registration"
+        title: "Getting an Account"
         weight: 4
         icon: fa fa-wpexplorer
         identifier: userregistration
@@ -44,12 +44,12 @@ integration experts who will develop and adjust the integration based on the sco
  2. Since it is a paid request where we will charge a nominal implementation cost but will implement integration based on visitors/customers customization.
   
 
-## Login
+## Accessing your account
 
 After you successfully registered with us, you will get activation link to verify your email address. The email will also show you your user id and 
 temporary password generated, which you can use to login to the account. 
 
-### Configuring the account
+### Steps to activate your account
 
 1. Once you receive an activation link over an email, you will receive few more resources in addition, such as
 - Link for Customer Stories that will allow you to know the product efficiency in Market.
@@ -77,10 +77,10 @@ send a verification code to your registered number.
 **Note: The newly created organisation will be a Trail Account by default, available only for 31days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
-## Accessing the Account
+### Accessing an activated account
 
-Once your account is ready for use, you can log out from the account, and again when you come back, you will be prompted with the login details to 
-access the same resources. 
+Once your account is activated, you can access your resources in our cloud portal by logging in to your account using valid username and password. Your account will be secured with us through authentication system,and we encourage
+you to logout after using it. 
 
 Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
@@ -91,3 +91,33 @@ You are now logged in to the application. Do not forget to check our Help Sectio
 select `Remember Me` checkbox in the login page. If you want the system to remember your login email id after logging out from the account.
 Click `Forgot Password` option to reset the password. A mail will be sent to your (user) account. You can reset the password by clicking on the link provided in the mail and set up a new password.
 
+### Enable multi-factor authentication
+
+To secure your account in APPSeCONNECT, we highly encourage our users to enable our multi factor authentication system such that even though your userid and password combination is compromized, you will still feel safe with the account. 
+To enable mutli factor authentication system,you need to perform the following validation.
+
+i) **Enable Two - Factor Authentication for your Account**
+
+* If this is your first login, you will get notified to change your password, and then to enable “Two-factor Authentication”.
+* Otherwise, you can enable it from the Profile section of your account.
+* To enable from Profile, just click on My Profile from the extreme right side menu on the screen.
+* In the Profile Section Select “Change Details” and select Personal Info.
+* You can check the “Two Factor Authentication”. It will verify your phone number and you are done.
+* Save Changes to take this effect.
+
+![Twofactorauthentication](/staticfiles/root/media/twofactorauthentication.png)
+
+After Two Factor is Authenticated, the login will prompt for an extra passcode to log in.
+
+ii) **Enable Password Expiry**
+
+* If this is your first login, you will get notified to change your password, and then to enable “Password Expiry”.
+* Otherwise, you can enable it from the Profile section of your account.
+* To enable from Profile, just click on My Profile from the extreme right side menu on the screen.
+* In the Profile Section Select “Change Details” and select Security Settings.
+* You can check the “Enable Password Expiry”. It will show a dropdown to set up an expiry of either One month, two months or three months.
+* Save Changes to take this effect.
+
+![Twofactorauthentication1](/staticfiles/root/media/twofactorauthentication1.png)
+
+After enabling password expiry, it will ask to change the password after every 1 – 3 months depending on the setup.

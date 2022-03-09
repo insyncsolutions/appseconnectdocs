@@ -32,14 +32,14 @@ processflows in form of packages for performing free-flowing,smooth and seamless
 applications. An approver after reviewing can approve or reject the packages. Moreover,marketplace also provides you with 
 an additional feature of withdrawing and responding to a comment made by the approver. 
 
-## Need of MarketPlace
+### Need of MarketPlace
 
 * Increase visibility of product. 
 * Advertise new updates.
 * Encash your innovations. 
 * Monetize for sustainability. 
 
-## Prerequisites
+### Prerequisites
 
 * You need to have valid credentials to login to portal. 
 * You need to have the Processflows created in your own organisation. To create Processflows, [Click here](/processflow/creating-processflow/). 
