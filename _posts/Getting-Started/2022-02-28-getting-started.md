@@ -33,6 +33,7 @@ In this section, we will talk about everything that you want to know to get star
 |[Components and Services](/getting%20started/components-services)|Here we will understand what are the various components and services involved to execute an integration|
 |[Portal](/accessing%20portal/accessing-portal/)|This page will talk about the dashboard and the customer profile information after logging in to the portal|
 |[Agent](/accessing%20portal/accessing-agents/)|This page will talk about the various deployment options which are available for you in APPSeCONNECT.|
+|[Marketplace](/accessing%20portal/marketplace/)|This page will guide you about how to install a package in your organisation.|
 |[Working with APPS](/getting%20started/configurations/)|All the necessary steps and processes are discussed in this page for configuring applications for Integration.|
 |[Create your first ProcessFlow](/getting%20started/configurations-for-integration/)|This page will provide the procedures related to the integration process. This page will talk about the prerequisites, necessary when beginning with the integration process|
 

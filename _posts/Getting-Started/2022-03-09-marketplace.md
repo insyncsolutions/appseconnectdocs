@@ -8,7 +8,7 @@ category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Marketplace"
-        weight: 1
+        weight: 8
         icon: fa fa-wpexplorer
         identifier: gettingstartedmarketplace
 ---
@@ -16,7 +16,7 @@ menus:
 Time is directly proportional to money. The more you save time, it means the more you are saving money. When you can increase reusability of 
 developed resources, you save time, which means you save money. 
 
-APPSeCONNECT provides a marketplace which lists all the applications and packages, which are built grounds up for the customers to consume
+APPSeCONNECT provides a marketplace which lists all the applications and packages, which are built grounds up for the customers to consume 
 readily. The marketplace allows the citizen integrators to present their creations which customers can consume easily to save moeny. 
 
 ## APPSeCONNECT Basics
@@ -42,4 +42,6 @@ readily. The marketplace allows the citizen integrators to present their creatio
 - Executing a ProcessFlow.
 - Working with Generic Connectors
 - Implementing notifications
+
+
 
