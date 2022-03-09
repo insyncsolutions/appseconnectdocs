@@ -1211,6 +1211,9 @@
     <Content Include="staticfiles\root\media\Login1.png" />
     <Content Include="staticfiles\root\media\manage1.PNG" />
     <Content Include="staticfiles\root\media\manage3.png" />
+    <Content Include="staticfiles\root\media\marketplaceinstall.png" />
+    <Content Include="staticfiles\root\media\marketplaceinstall1.png" />
+    <Content Include="staticfiles\root\media\marketplaceinstall2.png" />
     <Content Include="staticfiles\root\media\MyFeeds.png" />
     <Content Include="staticfiles\root\media\MyProfile.png" />
     <Content Include="staticfiles\root\media\New-ProjectAdd2.png" />
