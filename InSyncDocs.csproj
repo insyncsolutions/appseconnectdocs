@@ -1665,7 +1665,7 @@
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-10-22-Troubleshooting-Rest.md" />
     <None Include="_posts\Deployment\Environment Management\2018-11-20-Deployment Configuration.md" />
     <None Include="_posts\Deployment\Environment Management\2018-11-21-Agent Blocking and Unblocking.md" />
-    <None Include="_posts\Getting-Started\2022-02-11-marketplace.md" />
+    <None Include="_posts\Getting-Started\2022-03-09-marketplace.md" />
     <None Include="_posts\Getting-Started\2022-03-01-overview.md" />
     <None Include="_posts\Getting-Started\2022-03-04-components-services.md" />
     <None Include="_posts\Getting-Started\2018-09-22-configurations-for-integration.md" />
@@ -1675,6 +1675,7 @@
     <None Include="_posts\Getting-Started\2022-03-02-terminology.md" />
     <None Include="_posts\Getting-Started\2022-02-28-getting-started.md" />
     <None Include="_posts\Getting-Started\2022-03-08-agent.md" />
+    <None Include="_posts\Getting-Started\2022-03-10-create-your-first-processflow.md" />
     <None Include="_posts\Getting-Started\release-note.md" />
     <None Include="_posts\Glossary\2020-08-20-appseconnect-glossary.md" />
     <None Include="_posts\Glossary\2020-08-24-glossary.md" />
