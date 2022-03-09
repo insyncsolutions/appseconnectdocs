@@ -8,7 +8,7 @@ menus:
         title: "Getting an Account"
         weight: 4
         icon: fa fa-wpexplorer
-        identifier: userregistration
+        identifier: gettinganaccount
 ---
 
 User registration is the first step to get started with APPSeCONNECT. To work with any of our tools, you need to sign up first and get registered to get the login credentials. 
@@ -96,12 +96,12 @@ Click `Forgot Password` option to reset the password. A mail will be sent to you
 To secure your account in APPSeCONNECT, we highly encourage our users to enable our multi factor authentication system such that even though your userid and password combination is compromized, you will still feel safe with the account. 
 To enable mutli factor authentication system,you need to perform the following validation.
 
-i) **Enable Two - Factor Authentication for your Account**
+1. **Enable Two-Factor Authentication for your Account**
 
 * If this is your first login, you will get notified to change your password, and then to enable `Two-factor Authentication`.
 * Otherwise, you can enable it from the Profile section of your account.
 * To enable from Profile, just click on My Profile from the extreme right side menu on the screen.
-* In the Profile Section Select “Change Details” and select Personal Info.
+* In the Profile Section Select `Change Details` and select Personal Info.
 * You can check the `Two Factor Authentication`. It will verify your phone number and you are done.
 * Save Changes to take this effect.
 
@@ -109,15 +109,15 @@ i) **Enable Two - Factor Authentication for your Account**
 
 After Two Factor is Authenticated, the login will prompt for an extra passcode to log in.
 
-ii) **Enable Password Expiry**
+2. **Enable Password Expiry**
 
 * If this is your first login, you will get notified to change your password, and then to enable `Password Expiry`.
 * Otherwise, you can enable it from the Profile section of your account.
 * To enable from Profile, just click on My Profile from the extreme right side menu on the screen.
-* In the Profile Section Select “Change Details” and select Security Settings.
+* In the Profile Section Select `Change Details` and select Security Settings.
 * You can check the `Enable Password Expiry`. It will show a dropdown to set up an expiry of either One month, two months or three months.
 * Save Changes to take this effect.
 
 ![Twofactorauthentication1](/staticfiles/root/media/twofactorauthentication1.png)
 
-After enabling password expiry, it will ask to change the password after every 1 – 3 months depending on the setup.
+After enabling password expiry, it will ask to change the password after every 1 to 3 months depending on the setup.
