@@ -855,9 +855,13 @@
     <Content Include="staticfiles\processflow\media\migrated-pf-listing.PNG" />
     <Content Include="staticfiles\processflow\media\migratedpf-active-wf.PNG" />
     <Content Include="staticfiles\processflow\media\migration-processflow1.PNG" />
+    <Content Include="staticfiles\processflow\media\package-chooseprocessflow.png" />
+    <Content Include="staticfiles\processflow\media\package-configuration.png" />
+    <Content Include="staticfiles\processflow\media\package-create.png" />
     <Content Include="staticfiles\processflow\media\package-documentation.PNG" />
     <Content Include="staticfiles\processflow\media\package-edit-view.png" />
     <Content Include="staticfiles\processflow\media\package-edit.PNG" />
+    <Content Include="staticfiles\processflow\media\package-preview.png" />
     <Content Include="staticfiles\processflow\media\package-processflow.PNG" />
     <Content Include="staticfiles\processflow\media\package-view-detail.PNG" />
     <Content Include="staticfiles\processflow\media\package.PNG" />
@@ -868,11 +872,14 @@
     <Content Include="staticfiles\processflow\media\package5.PNG" />
     <Content Include="staticfiles\processflow\media\package6.PNG" />
     <Content Include="staticfiles\processflow\media\package7.PNG" />
+    <Content Include="staticfiles\processflow\media\packagecomments.png" />
     <Content Include="staticfiles\processflow\media\packagedocpreview.PNG" />
     <Content Include="staticfiles\processflow\media\packageinstall2.PNG" />
     <Content Include="staticfiles\processflow\media\packageinstall3.PNG" />
     <Content Include="staticfiles\processflow\media\packageinstall4.PNG" />
     <Content Include="staticfiles\processflow\media\packageinstall5.PNG" />
+    <Content Include="staticfiles\processflow\media\packagelibrary.png" />
+    <Content Include="staticfiles\processflow\media\packagereversioning.png" />
     <Content Include="staticfiles\processflow\media\packageshare1.PNG" />
     <Content Include="staticfiles\processflow\media\packageshare11.PNG" />
     <Content Include="staticfiles\processflow\media\packageshare2.PNG" />
@@ -1003,6 +1010,9 @@
     <Content Include="staticfiles\processflow\media\protocol4.PNG" />
     <Content Include="staticfiles\processflow\media\protocol5.PNG" />
     <Content Include="staticfiles\processflow\media\protocol6.PNG" />
+    <Content Include="staticfiles\processflow\media\publishtomarketplace1.png" />
+    <Content Include="staticfiles\processflow\media\publishtomarketplace2.png" />
+    <Content Include="staticfiles\processflow\media\publishtomarketplace3.png" />
     <Content Include="staticfiles\processflow\media\redeploy-processflow.png" />
     <Content Include="staticfiles\processflow\media\redeploy3.png" />
     <Content Include="staticfiles\processflow\media\redeploy4.png" />
@@ -1753,6 +1763,7 @@
     <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-18-processflow-package-installation.md" />
     <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-18-processflow-package-sharing.md" />
     <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-31-processflow-packaging-overview.md" />
+    <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2022-03-09-create-publish-comments.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2020-03-15-Quickstart-guide-to-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2020-03-16-designer-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2020-03-17-creating-processflow.md" />
