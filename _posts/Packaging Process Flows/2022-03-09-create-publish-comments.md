@@ -1,11 +1,11 @@
 ﻿---
-title: "Processflow Packaging"
+title: "Publishing to Marketplace"
 toc: true
 tag: developers
 category: "Processflow"
 menus: 
    packagesoverview:
-        title: "Processflow Packaging"
+        title: "Publishing to Marketplace"
         weight: 4
         icon: fa fa-file-word-o
         identifier: packageprocessflow

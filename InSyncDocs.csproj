@@ -1733,11 +1733,11 @@
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2020-12-15-working-with-Return-Response-Node.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2020-12-15-working-with-Start-Node.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\working-with-Halt-Resume.md" />
-    <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-14-processflow-packaging.md" />
-    <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-18-processflow-package-installation.md" />
-    <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-18-processflow-package-sharing.md" />
-    <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2020-08-31-processflow-packaging-overview.md" />
-    <None Include="_posts\ProcessFlow Management\Packaging Process Flows\2022-03-09-create-publish-comments.md" />
+    <None Include="_posts\Packaging Process Flows\2021-07-14-processflow-packaging.md" />
+    <None Include="_posts\Packaging Process Flows\2021-07-18-processflow-package-installation.md" />
+    <None Include="_posts\Packaging Process Flows\2021-08-18-processflow-package-sharing.md" />
+    <None Include="_posts\Packaging Process Flows\2021-07-31-processflow-packaging-overview.md" />
+    <None Include="_posts\Packaging Process Flows\2022-03-09-create-publish-comments.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2020-03-15-Quickstart-guide-to-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2020-03-16-designer-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2020-03-17-creating-processflow.md" />

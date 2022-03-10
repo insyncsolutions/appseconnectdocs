@@ -1,11 +1,11 @@
 ---
-title: "Package Sharing"
+title: "Steps to share a Package"
 toc: true
 tag: developers
 category: "Processflow"
 menus: 
    packagesoverview:
-        title: "Package Sharing"
+        title: "Sharing a package"
         weight: 3
         icon: fa fa-file-word-o
         identifier: packagesharing

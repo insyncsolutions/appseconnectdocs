@@ -1,11 +1,11 @@
 ---
-title: "Viewing, Installing & Re-Installing processflow Packages"
+title: "Installing a Package"
 toc: true
 tag: developers
 category: "Processflow"
 menus: 
    packagesoverview:
-        title: "Package Installation & Reinstallation"
+        title: "Installing a package"
         weight: 2
         icon: fa fa-file-word-o
         identifier: viewingpackageinstallation

@@ -1,11 +1,11 @@
 ---
-title: "Processflow Packaging"
+title: "Steps to create a Package"
 toc: true
 tag: developers
 category: "Processflow"
 menus: 
    packagesoverview:
-        title: "Processflow Packaging"
+        title: "Creating a Package"
         weight: 1
         icon: fa fa-file-word-o
         identifier: packageprocessflow
