@@ -329,8 +329,7 @@ You can also define additional criteria for triggering the Rule and perform the 
 
 This section will assist and connect the user with APPSeCONNECT Docs and Community for reference and instant support. Users can anytime navigate to the [Documentation portal](https://docs.appseconnect.com/) for usability assists and reference. 
 Users can also connect with our [Community Portal](https://community.appseconnect.com/) for instant help and support for APPSeCONNECT. Having connected with our community portal enables you to stay in connect with latest discussions and solutions. 
-Common helps and reference support documents is also provided to the user when navigating to the HELP section. Incase of major support, you can anytime raise [TICKETS](https://appseconnect.freshdesk.com/) to avail our In-House Customer Support.
-
+Common helps and reference support documents is also provided to the user when navigating to the HELP section.
 ![Help1](\staticfiles\root\media\help1.png)
 
 Users can also study and view the latest updates and hotfixes provided for APPSeCONNECT. You can anytime visit the latest Release Notes in the **What's New** section of the HELP page that keeps you updated with our every releases and updates.
