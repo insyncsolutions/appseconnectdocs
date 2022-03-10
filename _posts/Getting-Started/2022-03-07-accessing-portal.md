@@ -225,7 +225,6 @@ b.	Organization Admin
 ![Useradd4](\staticfiles\root\media\useradd4.png)
 
 7) The created user gets an Activation Mail. You need to click on the Activation Link to activate your user account.
-![Useradd5](\staticfiles\root\media\useradd5.png)
 
 8) Once activated, login to your account with the provided credential provided in the Activation Mail.
 ![useradd6](\staticfiles\root\media\useradd6.png)
@@ -308,7 +307,6 @@ Traces of past activities of the user can be viewed in the feed section. To view
 1. Login to your Organsiation.
 2. Navigate to Manage > Feeds.
 3. Here you can only see your non- transactional activities in your logged in profile.
-![feeds1](\staticfiles\root\media\feeds1.png)
 4. You can filter your search on the Feeds Page only by using keywords like `workflow`, `Rule`, `Account` etc.
 5. For each feeds on the page, you'll be provided with a hashtag that will define the activity area.
 ![feeds2](\staticfiles\root\media\feeds2.png)
