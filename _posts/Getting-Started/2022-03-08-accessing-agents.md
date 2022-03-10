@@ -1,12 +1,12 @@
 ﻿---
 title: "Agent"
-toc: true
+toc: false
 tag: developers
 category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Agent"
-        weight: 7
+        weight: 8
         icon: fa fa-wpexplorer
         identifier: accessingportal
 ---

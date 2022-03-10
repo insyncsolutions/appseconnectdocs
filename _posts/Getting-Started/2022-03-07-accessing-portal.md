@@ -6,7 +6,7 @@ category: "Accessing Portal"
 menus: 
     gettingstarted:
         title: "Portal"
-        weight: 6
+        weight: 7
         icon: fa fa-wpexplorer
         identifier: accessingportal
 ---
@@ -73,7 +73,7 @@ d.	Application Categories Subscribed.
 
 **Note: User can minimize or expand the above three widget as per their requirement.** 
  
-![Subscription_Dashboard](/staticfiles/root/media/Subscription_Dashboard.png)
+![Subscription_Dashboard](/staticfiles/root/media/Subcription_Dashboard.png)
 
 *4. Execution Status : This widget displays the data synced with respect to an organization and is categorized based on the status : Success, Skipped & Failure.* 
 The percentage is displayed on a pie chart irrespective of connections. Hovering over the section on the pie chart will display the exact 
@@ -286,13 +286,13 @@ Also, APPSeCONNECT supports both the Cloud and On Premise Based Application. Som
 
 One has to search for the organization in the search box and the organization will open up. Go to the App menu. Here you'll get several options like Choose app, Create Custom App, Create Technology App and Search box to handle different applications as per your requirement. 
 
-You can do [App Selection](/getting%20started/configurations/) & [touchpoint execution](/getting%20started/configurations-for-integration/#creating-connection--executing-the-touchpoint) from here. 
+You can do [App Selection](/getting%20started/configurations/) & [touchpoint execution](/integration/configurations-for-integration/) from here. 
 
 ### Connection
 
 The Connection Page of the Portal enables creating the connection between two different Applications.  You can also view the existing connection,as well as copy and search existing connection for a particular organization on this page. 
 
-You need to [Create Connection](/getting%20started/configurations-for-integration/#configuring-connector-while-creating-connection) & [Execute Touchpoint](/getting%20started/configurations-for-integration/#creating-connection--executing-the-touchpoint).
+You need to [Create Connection](/integration/configurations-for-integration/#configuring-connector-while-creating-connection) & [Execute Touchpoint](/integration/configurations-for-integration/#creating-connection--executing-the-touchpoint).
 
 ### APIs
 
@@ -481,7 +481,7 @@ user would be able to view the tools that are available for the organisation. Th
 * APPSeCONNECT Debugger
 * Application specific Add-Ons
 
-![download](/staticfiles/root/media/download.png)  
+![download](/staticfiles/root/media/dwonload.png)  
 
 
 ## Adding a Project in Recent Project Tab from Search Box
@@ -507,7 +507,7 @@ user would be able to view the tools that are available for the organisation. Th
 ![Pinned-Projects](/staticfiles/root/media/Pinned-Projects1.png) 
 
 11. Newly added project, will be added to the left side of last accessed unpinned project like this.                       
-![NewProject-Add](/staticfiles/root/media/NewProject-Add2.png)            
+![NewProject-Add](/staticfiles/root/media/New-ProjectAdd2.png)            
 
 **Protip** 
 - For a new user, Account menu will only be available. For an end user, Administration menu will not be available 

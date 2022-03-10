@@ -18,9 +18,9 @@ Login to APPSeCONNECT - View [Home Page](https://portal.appseconnect.com/Account
 |---|---|
 |[Searching Application](/getting%20started/configurations/#searching-applications)| You can filter all your added applications by searching application. Visit the section to know more about searching application.| 
 |[Choosing Applications](/getting%20started/configurations/#process-of-choosing-app) |User needs to choose the applications as per the requirement of the user. This is the very first step while proceeding with the integration process|
-|[Creating Applications](/getting%20started/configurations/#create-application) | You can successfully create custom or technology based applications as per requirement. Follow the steps given here tp create custom or a technology app. For Custom and Technology application, you can delete the application by selecting the delete option from the VIEW drop-down.|
+|[Creating Applications](/getting%20started/configurations/#create-application) | You can successfully create custom or technology based applications as per requirement. Follow the steps given here to create custom or a technology app. For Custom and Technology application, you can delete the application by selecting the delete option from the VIEW drop-down.|
 |[Providing Credentials](/connectors/OLEDB-Credentials/)|Working with cloud integration, you need to provide credentials on the cloud platform. This section will only be available for those application that supports cloud technology. Follow the process to know and understand the process to provide credentials on cloud.|
-|[Understanding Schema and Entity](/getting%20started/configurations/#understanding-schemaentity)|Every application has its schema and entity and for integrating with applications|
+|[Understanding Schema and Entity](/getting%20started/configurations/#understanding-schemaentity)|Every application has its schema and entity for integrating with applications|
 |[Understanding Attributes](/getting%20started/configurations/#understanding-custom-attributes)|Every schema has its attributes that are needed to be mapped with the destination application for the sync process|
 |[Working with Schemas, Attributes & Actions](/transformation/working-with-schemas-action-filter/)|Every Entity is transformed after configuring its proper Schema, attributes and its actions. Follow the steps if you need to create Schema, its attributes and actions.|
 |[Adapters](/connectors/Version-Extraction-For-Adapter-Upload/)| On expanding each applications, you get to see the button adapters that informs you about the latest adapter available for your selected application. You will also get to know about the process to add adapter on your organisation.|
@@ -53,7 +53,7 @@ User can also get an option for creating a Custom application or technology app.
 5. For [Cloud Supported Applications](/connectors/OLEDB-Credentials/#how-to-add-credentials-for-cloud-integration) the `Credential button` appears along with the other functionality that are attached.
 ![Cloud-AppComponents](/staticfiles/root/media/Cloud-AppComponents.png)
 
-[Click](/connectors/Overview-of-Connectors/)to view the configuration details of the Connectors.
+[Click](/connectors/Overview-of-Connectors/) to view the configuration details of the Connectors.
 
 Here you can view the details of the respective buttons [Schema](/configuring%20appseconnect/configurations/#appseconnect-schemaentity),[Adapters](/configuring%20appseconnect/configurations/#adapter),[Function](/configuring%20appseconnect/configurations/#functions) & [Delete](/configuring%20appseconnect/configurations/#delete).
 

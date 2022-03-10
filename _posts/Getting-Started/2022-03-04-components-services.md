@@ -58,7 +58,7 @@ Let us walkthrough the Functional Modules for understanding the usage and need o
 |Manage|This section will allow the users to manage their Apps,Connections,Rules,Repositories,APIs,Feeds etc.|
 |Help|This section will allow the user to get help and learn about the usability of the features. User can easily connect to the Documentation and Community resource from HELP.|
 
-[Learn more]()
+[Learn more](/accessing%20portal/accessing-portal/)
  
 ## Agent
 
@@ -72,7 +72,7 @@ APPSeCONNECT allows to use two kinds of Agents :
 The Hosted Agent is a micro-service based multi-tenant platform that executes your processflow into its fabric either automatically, or manually based 
 on users action. Any notification or status of synchronization will be directly available over the Portal.
 
-[Learn more]()
+[Learn more](/getting%20started/accessing-agents/)
 
 ## Application Profiles
 
@@ -104,7 +104,7 @@ the various tenats of the apps like schemas, actions, etc to map the APIs of any
 complexities of the data channels and connectivity. 
 * Custom App - These apps are built from scratch, and is only used when someone requires high level of customization and the other type of apps does not support them.
 
-[Learn more]()
+[Learn more](/getting%20started/configurations/)
 
 ## Packages
 
@@ -122,7 +122,7 @@ to connect between the two or more applications. After installing a Package, you
 1. Private Package: These are privately owned packages, which can be shared with other Organizations as a Partner. The Privately held packages can also be kept safe for furture use. 
 2. Public Packages: These are the packages which are in global cache and available to the external world. The Public packages can be freely installed in any organization based on the permission. 
 
-[Learn more]()
+[Learn more](/processflow/processflow-packaging-overview/)
 
 ## SDK
 

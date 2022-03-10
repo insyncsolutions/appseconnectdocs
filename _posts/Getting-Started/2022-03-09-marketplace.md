@@ -8,7 +8,7 @@ category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Marketplace"
-        weight: 8
+        weight: 9
         icon: fa fa-wpexplorer
         identifier: gettingstartedmarketplace
 ---
