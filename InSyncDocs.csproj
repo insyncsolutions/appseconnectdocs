@@ -940,8 +940,7 @@
     <Content Include="staticfiles\processflow\media\pf_splitternode3.png" />
     <Content Include="staticfiles\processflow\media\pf_splitternode4.png" />
     <Content Include="staticfiles\processflow\media\pf_splitternode5.png" />
-    <Content Include="staticfiles\processflow\media\process flow-architecture-01.jpg" />
-    <Content Include="staticfiles\processflow\media\process flow-architecture-01.png" />
+    <Content Include="staticfiles\processflow\media\processflow_architecture_01.png" />
     <Content Include="staticfiles\processflow\media\process-createchild-folder1.png" />
     <Content Include="staticfiles\processflow\media\process-createchild-folder2.png" />
     <Content Include="staticfiles\processflow\media\process-createchild-folder3.png" />

@@ -10,6 +10,7 @@ menus:
         icon: fa fa-gg
         identifier: architectureprocessflow
 ---
+
 Processflow is a visual representation of a business process integration, which helps you as an user
 to orchestrate a business process in such a way so that you can modularize and control the complexity
 of business integration properly. A processflow, under the hood creates a micro-service architecture
@@ -20,7 +21,7 @@ picture of the processflow.
 
 ## Architecture
 
-![processflow Architecture 01](/staticfiles/processflow/media/processflow-architecture-01.png)  
+![processflow Architecture 01](/staticfiles/processflow/media/processflow_architecture_01.png)  
 
 When a processflow is getting executed, there are a number of things that can happen. First, an execution 
 can happen on cloud directly on an hosted environment maintained by APPSeCONNECT, or it can generate a call
