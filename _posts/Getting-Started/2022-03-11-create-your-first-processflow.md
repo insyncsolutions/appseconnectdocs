@@ -44,7 +44,7 @@ This section of the documentation will guide you with the process of Creating & 
 you to the processflow Designer Page.** 
 
 4)	You will be navigated to the [processflow Designer Page](/processflow/designer-processflow/).     
-![Create BasicProcessflow14](/staticfiles/processflow/media/create-processflow14.png)
+![Create BasicProcessflow14](/staticfiles/processflow/media/create-basicprocessflow14.png)
 
 5)	Provide a Description for the processflow in the processflow header panel.        
 ![Create Basicprocessflow15](/staticfiles/processflow/media/create-basicprocessflow15.png)

@@ -645,6 +645,10 @@
     <Content Include="staticfiles\processflow\media\codeeditor1.PNG" />
     <Content Include="staticfiles\processflow\media\codeeditor2.PNG" />
     <Content Include="staticfiles\processflow\media\codeeditor3.PNG" />
+    <Content Include="staticfiles\processflow\media\componentsofprocessflow1.png" />
+    <Content Include="staticfiles\processflow\media\componentsofprocessflow_designer.png" />
+    <Content Include="staticfiles\processflow\media\componentsofprocessflow_header.png" />
+    <Content Include="staticfiles\processflow\media\componentsofprocessflow_rightpanel.png" />
     <Content Include="staticfiles\processflow\media\copypf1.PNG" />
     <Content Include="staticfiles\processflow\media\copypf2.PNG" />
     <Content Include="staticfiles\processflow\media\copypf3.png" />
@@ -672,7 +676,6 @@
     <Content Include="staticfiles\processflow\media\create-basicprocessflow23.png" />
     <Content Include="staticfiles\processflow\media\create-basicprocessflow24.png" />
     <Content Include="staticfiles\processflow\media\create-basicprocessflow3.png" />
-    <Content Include="staticfiles\processflow\media\create-basicprocessflow4.png" />
     <Content Include="staticfiles\processflow\media\create-basicprocessflow5.png" />
     <Content Include="staticfiles\processflow\media\create-basicprocessflow6.png" />
     <Content Include="staticfiles\processflow\media\create-basicprocessflow7.png" />
@@ -1641,6 +1644,7 @@
     <None Include="_pages\_listcourses\rules.md" />
     <None Include="_pages\_listcourses\touchpoint.md" />
     <None Include="_pages\_listcourses\workflow.md" />
+    <None Include="_posts\ProcessFlow Management\2022-02-18-components-of-processflow.md" />
     <None Include="_posts\Workflow-Management\Advance-Workflow\2019-10-05-working-with-delay-node.md" />
     <None Include="_posts\Workflow-Management\Advance-Workflow\2019-10-04-working-with-decision-node.md" />
     <None Include="_posts\Workflow-Management\Advance-Workflow\2019-10-03-saving-and-restoring-revised-adv-workflow.md" />
@@ -1697,9 +1701,9 @@
     <None Include="_posts\Integration\Shopify-Sage300\2020-05-23-ic-inventory-update.md" />
     <None Include="_posts\Integration\Shopify-Sage300\2020-05-23-sales-order-add.md" />
     <None Include="_posts\Integration\Shopify-Sage300\2020-05-24-ic-shipment-add.md" />
-    <None Include="_posts\ProcessFlow Management\2020-03-15-overview-of-processflow.md" />
-    <None Include="_posts\ProcessFlow Management\2020-03-16-Architecture.md" />
-    <None Include="_posts\ProcessFlow Management\2020-03-16-Terminology.md" />
+    <None Include="_posts\ProcessFlow Management\2022-02-15-overview-of-processflow.md" />
+    <None Include="_posts\ProcessFlow Management\2022-02-16-Architecture.md" />
+    <None Include="_posts\ProcessFlow Management\2022-02-17-Terminology.md" />
     <None Include="_posts\ProcessFlow Management\2020-03-17-processflow-listing-page.md" />
     <None Include="_posts\ProcessFlow Management\2020-03-19-export and import-lookup.md" />
     <None Include="_posts\ProcessFlow Management\2020-03-20-implementing-lookup-in-mapping.md" />

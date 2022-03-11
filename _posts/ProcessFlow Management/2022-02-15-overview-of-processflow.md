@@ -4,7 +4,7 @@ toc: true
 tag: developers
 category: "Processflow"
 description: "Processflow is the new generation advanced integration designer that helps you quickly drag and drop applications and orchestrator nodes into the canvas to generate an integration pipeline"
-keywords: "integration,ipaas,appseconnect,data driven designer,process flow,integrated development environment,web based ipaas"
+keywords: "Integration,ipaas,appseconnect,data driven designer,process flow,integrated development environment,web based ipaas"
 menus: 
     header:
         title: "ProcessFlow"
