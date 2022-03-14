@@ -1,6 +1,6 @@
 ---
 title: "Architecture"
-toc: true
+toc: false
 tag: developers
 category: "Processflow"
 menus: 

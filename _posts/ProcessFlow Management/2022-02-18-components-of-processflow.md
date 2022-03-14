@@ -82,7 +82,10 @@ following tabs and menus in the left panel of the page.
 2)  **Start** : This node initiates the execution of the processflow.
 3)	**End** : This node depicts the completion of the processflow.  
 4)	[Mapper](/processflow/working-with-mapper/) : This node allows you to map the fields of source and destination applications used in the processflow.       
-5)	[Apps](/processflow/processflow-app/) : You can view two tabs on expanding **Apps**: `Pre-prackaged apps` & `My Apps`. 
+5)	[Apps](/processflow/processflow-app/) : You can view two tabs on expanding **Apps** : `Pre-prackaged apps` & `My Apps`. 
+
+ - **Pre-packaged Apps** : You will be able to view all the pre-packaged apps available for your organisation as per the plan. 
+ - **My Apps** : You can view all the custom and the technology apps created in your organisation.
 
 ***On dragging the applications to the designer panel, the node configuration window would appear***.     
 
