@@ -138,3 +138,5 @@ adapter or the data is pushed directly to the target application. There are two 
 
 APPSeCONNECT platform is built using Microsoft.NET,so you need to be acquainted with any of the high level languages present in .NET platform. This platform provides an SDK which will be used to develop and implement an adapter using any standard .NET language like C# or VB.NET. 
 Our SDK is hosted as Nuget Package or publicly available to developers.
+
+[Learn more](/sdk/Overview-of-SDK/)

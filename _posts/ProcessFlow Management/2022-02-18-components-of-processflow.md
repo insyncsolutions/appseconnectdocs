@@ -40,13 +40,13 @@ The components provides specific building block for the integration, each of the
 As ProcessFlow gives you an IDE that lets you build an integration that is best suited for your customers while giving you the option to deploy and execute from the same,
 here comes the canvas where you can design,deploy and execute all from the single place.The canvas consists of various segements that are marked on which the user needs to work on.
 
-1. **Processflow Header panel** - This area provides you knowledge about the name and description of the ProcessFlow,various options to work with the ProcessFlow Designer and allows you to finally save/delete/deploy a ProcessFlow.
-2. **Processflow Left panel** - This section provides you with a toolbar which is grouped into Application tools,Flow Connect which represents the connectors for technology like REST, SOAP, Database, File System, etc., and the Flow Logic where the nodes representing orchestration are listed.
-3. **Processflow Designer View** - This is the actual canvas where you shall design your processflows.
-4. **Processflow Right Panel** - This section lists the ProcessFlow node suggestions and real-time view of the ProcessFlow.
+1. **Header panel** - This area provides you knowledge about the name and description of the ProcessFlow,various options to work with the ProcessFlow Designer and allows you to finally save/delete/deploy a ProcessFlow.
+2. **Left panel** - This section provides you with a toolbar which is grouped into Application tools,Flow Connect which represents the connectors for technology like REST, SOAP, Database, File System, etc., and the Flow Logic where the nodes representing orchestration are listed.
+3. **Designer View** - This is the actual canvas where you shall design your processflows.
+4. **Right Panel** - This section lists the ProcessFlow node suggestions and real-time view of the ProcessFlow.
 
 
-## Processflow Header Panel
+## Header Panel
 
 ![componentsofprocessflow header panel](/staticfiles/processflow/media/componentsofprocessflow_header.png)
 
@@ -73,7 +73,7 @@ Details of the list of executable buttons are given below :
 You can view the **Back to processflow** button that will navigate you to the [listing page](/processflow/processflow-listing-page/).
 
 
-## Processflow Left panel
+## Left panel
 
 You can add processflows nodes to the processflow designer panel. The nodes can be dragged and dropped in the design panel for configuring & designing the ProcessFlow. Users can utilize any node based on the business requirement and can view the 
 following tabs and menus in the left panel of the page.    
@@ -94,7 +94,7 @@ following tabs and menus in the left panel of the page.
 8)	**Notifications** : Expanding this menu, you can view all the nodes for implementing actions within a processflow.  
 
 
-## Processflow Designer View 
+## Designer View 
 
 ![componentsofprocessflow designer panel](/staticfiles/processflow/media/componentsofprocessflow_designer.png)
 
@@ -103,7 +103,7 @@ designer panel for creating the processflow. Expanding the menu in the left pane
 you can view all the node that can applied for designing the processflow.
 
 
-## Processflow Right Panel
+## Right Panel
 
 The right panel of the processflow Designer Page will have the following sections :  
 
