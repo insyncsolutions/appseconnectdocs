@@ -722,6 +722,7 @@
     <Content Include="staticfiles\processflow\media\delaynode4.png" />
     <Content Include="staticfiles\processflow\media\delaynode5.png" />
     <Content Include="staticfiles\processflow\media\delaynode6.png" />
+    <Content Include="staticfiles\processflow\media\delaynode7.png" />
     <Content Include="staticfiles\processflow\media\delete_processflow1.PNG" />
     <Content Include="staticfiles\processflow\media\delete_processflow3.PNG" />
     <Content Include="staticfiles\processflow\media\delete_processflow4.PNG" />

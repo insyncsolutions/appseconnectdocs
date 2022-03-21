@@ -1,5 +1,5 @@
 ---
-title: "SelfLoop"
+title: "SelfLoop Node"
 toc: true
 tag: developers
 category: "Processflow"
