@@ -642,6 +642,7 @@
     <Content Include="staticfiles\processflow\media\action_filter4.png" />
     <Content Include="staticfiles\processflow\media\action_filter5.PNG" />
     <Content Include="staticfiles\processflow\media\action_filter6.PNG" />
+    <Content Include="staticfiles\processflow\media\addingschema.png" />
     <Content Include="staticfiles\processflow\media\codeeditor1.PNG" />
     <Content Include="staticfiles\processflow\media\codeeditor2.PNG" />
     <Content Include="staticfiles\processflow\media\codeeditor3.PNG" />
@@ -753,6 +754,7 @@
     <Content Include="staticfiles\processflow\media\deployhostedcred3.PNG" />
     <Content Include="staticfiles\processflow\media\designer_environment.png" />
     <Content Include="staticfiles\processflow\media\edit-migratedpf.PNG" />
+    <Content Include="staticfiles\processflow\media\editingschema.png" />
     <Content Include="staticfiles\processflow\media\edit_action1.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action2.PNG" />
     <Content Include="staticfiles\processflow\media\edit_action3.png" />
@@ -767,7 +769,6 @@
     <Content Include="staticfiles\processflow\media\export-importlookup6.png" />
     <Content Include="staticfiles\processflow\media\export-importlookup7.png" />
     <Content Include="staticfiles\processflow\media\GenerateExcelDoc.png" />
-    <Content Include="staticfiles\processflow\media\getnode1.png" />
     <Content Include="staticfiles\processflow\media\getnode2.png" />
     <Content Include="staticfiles\processflow\media\hostedcreate3.png" />
     <Content Include="staticfiles\processflow\media\hosted_environment.png" />
@@ -1717,7 +1718,6 @@
     <None Include="_posts\ProcessFlow Management\2020-03-20-implementing-lookup-in-mapping.md" />
     <None Include="_posts\ProcessFlow Management\2020-03-21-Lookup-repository-masterdata.md" />
     <None Include="_posts\ProcessFlow Management\2020-06-30-protocol-implementation.md" />
-    <None Include="_posts\ProcessFlow Management\2020-07-15-adding-schema-actions.md" />
     <None Include="_posts\ProcessFlow Management\2020-07-15-working-with-variable.md" />
     <None Include="_posts\ProcessFlow Management\2020-08-05-manage-actions-actionfilters-errorfilters.md" />
     <None Include="_posts\ProcessFlow Management\adding-schema-actionss.md" />
@@ -1735,8 +1735,6 @@
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-10-working-with-decision.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-01-processflow-nodes-and-links.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-03-processflow-app.md" />
-    <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-04-working-with-GET.md" />
-    <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-06-working-with-POST.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-08-working-with-processflow-splitter.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-07-working-with-processflow-selfloop.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-11-working-with-processflow-delay.md" />

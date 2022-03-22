@@ -1,5 +1,5 @@
 ---
-title: "Working with Mapper"
+title: "Mapper Node"
 toc: true
 tag: developers
 category: "Processflow"

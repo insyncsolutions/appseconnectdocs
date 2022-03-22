@@ -17,9 +17,9 @@ Given below is the list of elements you will be able to use in APPSeCONNECT proc
 |Processflow Nodes|Description|
 |------------------|----------------|
 |[Start Node](/processflow/working-with-Start-Node/)| This node initiates the start process of the processflow execution. You cannot SAVE or execute a processflow without a Start Node.|
-|[GET Node](/processflow/working-with-GET/)|This node fetches the data from the source application for the sync purpose. You need to enable the APP dragged for operating GET node by selecting the Node Type as GET in the Node Configuration window of the dragged application.|
+|[GET Node](/processflow/processflow-app/)|This node fetches the data from the source application for the sync purpose. You need to enable the APP dragged for operating GET node by selecting the Node Type as GET in the Node Configuration window of the dragged application.|
 |[Mapper Node](/processflow/working-with-mapper/)| This node transforms the data to the destination application by applying field mappings of source and destination application.|
-|[POST Node](/processflow/working-with-POST/)| This node dumps the transformed data to the destination application after the transformation process is completed. You need to enable the destination application as POST node by selecting the Node Type as POST in the Node Configuration window of the dragged destination application.|
+|[POST Node](/processflow/processflow-app/)| This node dumps the transformed data to the destination application after the transformation process is completed. You need to enable the destination application as POST node by selecting the Node Type as POST in the Node Configuration window of the dragged destination application.|
 |[Splitter Node](/processflow/working-with-processflow-splitter/)|Splitter Node in processflow will split the incoming data into small packets such that the execution load of bulk data can be minimized during the execution process.|
 |[Merger Node](/processflow/working-with-revamped-merger/)|Merger Node in processflow will merge multiple data into batches as per the input provided by the user.|
 |[Self loop](/processflow/working-with-processflow-selfloop/)|This enables the user to apply self-loop on a node such that on execution, the self-loop will iterate until all data is available from its predecessor node.|

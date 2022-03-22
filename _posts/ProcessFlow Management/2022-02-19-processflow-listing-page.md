@@ -19,26 +19,24 @@ in folder structure such that user can maintain an easy usability as per their r
 
 ## ProcessFlow Home
 
-1. Click on the **ProcessFlow** folder or any other folder. The Home page for the selected folder is displayed on the right side of the page.  
-![processflowlisting-page1](/staticfiles/processflow/media/processflowlisting-page1.png)    
-
-2. The Processflow Home page will list all the processflows that are created in the selected folder.  
-3. For each processflows, the following details will be displayed.  
+1. Click on the **ProcessFlow** folder or any other folder. The Home page for the selected folder is displayed on the right side of the page. The Processflow Home page will list all the processflows that are created in the selected folder.  
+2. For each processflows, the following details will be displayed.  
 * **Name** : Displays the name of the ProcessFlows.  
 * **Description** : Displays the description of the ProcessFlows.   
 * **Action** : Clicking the three horizontal dots against each processflow, user gets the options to **Edit**,**Copy**,**Delete** & **Generate mapping document** for existing ProcessFlows.     
 
-4. a. Click Edit Button, the **[Designer page](/processflow/designer-processflow/)** opens for the selected ProcessFlow for editing.  
-   b. Click Copy Button, you'll be able to select the desired folder and sub-folder to duplicate your processflow and save them. Click [here](/processflow/copy-processflow/) to get details steps to perform duplication.
-   c. You can download the mapping document directly from the Portal to get information about the transformation logic.
+3. a. Click Edit Button, the **[Designer page](/processflow/designer-processflow/)** opens for the selected ProcessFlow for editing.  
+   b. Click Copy Button, you'll be able to select the desired folder and sub-folder to duplicate your processflow and save them. Click [here](/processflow/copy-processflow/) to get details steps to perform duplication. 
+   c. You can download the mapping document directly from the Portal to get information about the transformation logic. 
    d. Click Delete button, the selected ProcessFlow is moved to the Trash folder.
 ![processflowlisting-page2](/staticfiles/processflow/media/processflowlisting-page2.png) 
 
-5. The ProcessFlow Home page will have a **NEW** button on the top right corner  
+4. The ProcessFlow Home page will have a **NEW** button on the top right corner  
    of the page for [creating a new processflow](/processflow/creating-processflow/). Clicking on the **NEW** button, 
    you will be navigated to the [ProcessFlow Designer](/processflow/designer-processflow/).
-![processflowlisting-page4](/staticfiles/processflow/media/processflowlisting-page3.png)   
-6. The **FILTER** button is available beside the **NEW** button. Click on the button, you can filter processflows using search functionality, from the list.   
+![processflowlisting-page4](/staticfiles/processflow/media/processflowlisting-page3.png) 
+
+5. The **FILTER** button is available beside the **NEW** button. Click on the button, you can filter processflows using search functionality, from the list.   
 
 
 ## ProcessFlow Folder
@@ -46,7 +44,6 @@ in folder structure such that user can maintain an easy usability as per their r
 On visiting the **ProcessFlow Home** page, you can view the **Home** folder which is already selected. This 
 is a default folder and every organisation within APPSeCONNECT would contain the 
 Home folder for the **ProcessFlow Home** page.
-![Processflow Home1](/staticfiles/processflow/media/processflow-home1.png) 
 
 1. Click on the three horizontal dots of **Home** folder, you can view a **NEW** button 
 in the drop down that would enable the user to create a child folder of the selected folder.
@@ -70,24 +67,20 @@ Right side of  the page. Empty folder will have the view as given below.
 a.	Click on the ellipsis (...)of the home folder, you can view a **NEW** button.  
 ![Process Createchild Folder1](/staticfiles/processflow/media/processflow-createchild-folder1.png) 
 
-b.	Click the new button, you will get the window for adding a new child folder.   
-![Process Createchild Folder2](/staticfiles/processflow/media/processflow-createchild-folder2.png) 
-
-c.	Enter the name for the folder and click on the **Save** button. You get a success message.  
+b.	Click the new button, you will get the window for adding a new child folder. Enter the name of the folder and click on the **Save** button. You get a success message.  
 ![Process Createchild Folder3](/staticfiles/processflow/media/processflow-createchild-folder3.png)
 
-d. You can view the created folder in the processflow listing page upon expanding the **Home** folder.  
+c. You can view the created folder in the processflow listing page upon expanding the **Home** folder.  
 ![Process Createchild Folder4](/staticfiles/processflow/media/processflow-createchild-folder4.png) 
 
-e.	Click on the created folder (example - Production), you will get a message for creating new processflows if the folder is empty. 
+d.	Click on the created folder (example - Production), you will get a message for creating new processflows if the folder is empty. 
 Otherwise,click on the new button, you'll be navigated to the ProcessFlow Designing Page.  
-![Process Createchild Folder5](/staticfiles/processflow/media/processflow-createchild-folder5.png) 
 
-f.	You can further create child folders for a selected folder by selecting the new option that can be viewed by clicking on the Ellipsis.(...)  
-g.	All the created folder will get the options to create a **new** folder, **rename** the folder & **delete** the folder.      
+e.	You can further create child folders for a selected folder by selecting the new option that can be viewed by clicking on the Ellipsis.(...)  
+f.	All the created folder will get the options to create a **new** folder, **rename** the folder & **delete** the folder.      
 ![Process Createchild Folder6](/staticfiles/processflow/media/processflow-createchild-folder6.png)    
 
-h.	Folders on deleting would be moved to Trash with a toaster message for successful completion of the delete process.   
+g.	Folders on deleting would be moved to Trash with a toaster message for successful completion of the delete process.   
 
 
 **Note - 

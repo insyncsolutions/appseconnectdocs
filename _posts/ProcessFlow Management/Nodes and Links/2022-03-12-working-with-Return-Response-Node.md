@@ -1,5 +1,5 @@
 ---
-title: "Working with Return Response Node"
+title: "Return Response Node"
 toc: true
 tag: developers
 category: "Processflow"

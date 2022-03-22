@@ -1,5 +1,5 @@
 ---
-title: "Working with Start Node"
+title: "Start Node"
 toc: true
 tag: developers
 category: "Processflow"
