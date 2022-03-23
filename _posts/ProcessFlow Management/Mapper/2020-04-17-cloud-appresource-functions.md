@@ -1,5 +1,5 @@
 ---
-title: "Cloud Appresource Functions"
+title: "Cloud AppResource Functions"
 toc: true
 tag: developers
 category: "Processflow"
