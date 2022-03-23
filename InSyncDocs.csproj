@@ -817,6 +817,8 @@
     <Content Include="staticfiles\processflow\media\mapper\cloudappresource-6.png" />
     <Content Include="staticfiles\processflow\media\mapper\cloudappresource-7.png" />
     <Content Include="staticfiles\processflow\media\mapper\cloudappresource-8.png" />
+    <Content Include="staticfiles\processflow\media\mapper\cloudfunction1.png" />
+    <Content Include="staticfiles\processflow\media\mapper\cloudfunction2.png" />
     <Content Include="staticfiles\processflow\media\mapper\create-basicprocessflow1.png" />
     <Content Include="staticfiles\processflow\media\mapper\getnode1.png" />
     <Content Include="staticfiles\processflow\media\mapper\getnode2.png" />
@@ -1006,8 +1008,7 @@
     <Content Include="staticfiles\processflow\media\processflow_retry11.PNG" />
     <Content Include="staticfiles\processflow\media\processflow_retry12.png" />
     <Content Include="staticfiles\processflow\media\processflow_retry13.PNG" />
-    <Content Include="staticfiles\processflow\media\protocol1.PNG" />
-    <Content Include="staticfiles\processflow\media\protocol2.PNG" />
+    <Content Include="staticfiles\processflow\media\protocol1.png" />
     <Content Include="staticfiles\processflow\media\protocol3.PNG" />
     <Content Include="staticfiles\processflow\media\protocol4.PNG" />
     <Content Include="staticfiles\processflow\media\protocol5.PNG" />
