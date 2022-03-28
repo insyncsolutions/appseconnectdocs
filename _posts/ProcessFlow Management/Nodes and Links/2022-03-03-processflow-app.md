@@ -52,11 +52,6 @@ This section enables the user to view, add the Schema, Attributes of an applicat
 within a processflow for easy execution. The added schema and its component from the application node will
 be visible from the APP Section of the portal as well. 
 
-### Prerequisites
-- The User should have a valid APPSeCONNECT account.
-- APPSeCONNECT should be up and running.
-- An application node is needed for defining the Schemas and Actions.
-
 
 ### Listing of Schemas and Attributes
 
@@ -241,7 +236,7 @@ You can check the same by navigating to the App section of the portal, where the
 
 5) Primary set Attributes (local attributes)cannot be deleted.
 
-#### (b) Editing Attribute within Organization Scope (global attribute)
+##### (b) Editing Attribute within Organization Scope (global attribute)
 On deleting an Attribute from the Manage Schema section, it will not be visible in new processflow.
 
 (B) To `Delete Schema`, do the following steps:

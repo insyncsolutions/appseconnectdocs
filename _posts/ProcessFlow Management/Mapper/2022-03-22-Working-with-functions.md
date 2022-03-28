@@ -1,5 +1,5 @@
 ﻿---
-title: "Working with AppResource Functions"
+title: "Working with Functions"
 toc: true
 tag: developers
 category: "Processflow"
@@ -11,13 +11,18 @@ menus:
         identifier: different functions
 ---
 
-**Appresource Functions** are the functions in APPSeCONNECT that are written in the adapter(APPSeCONNECT supports calling external functions written in C# inside the adapter) which is used for the data transformation from the source Application to the Destination Application. 
+**Functions** are small piece of executable code which is used from various sections of APPSeCONNECT to perform complex activity on data. 
+These functions in APPSeCONNECT are libraries that enables you to implement any repeatable complex algorithm in mapping,action filter,variables,rules etc. 
+They gives more power to the implementor as they are written in high level language,capable of calling different APIs through functions which are not accesable by mapping.
 In APPSeCONNECT, you can use the following Appresource Functions :
 
-1)**Generic Function** - The generic appresources are the functions that have general defined task which are provided by APPSeCONNECT itself. APPSeCONNECT supports following generic functions.
+## Generic Function
+
+Generic functions are utility functions capable of performing some basic manipulation of data. 
+They are defined and delivered by APPSeCONNECT product team and are accessible to any project on the platform.  
 
 |Function_Name|Description|Example|
-|----------------------|---|----------------------|
+|-----------------------|---|----------------------|
 |GetLocalDateTime(format)|Gets the local date time|[genericlib:GetLocalDateTime('yyyy-dd-MM')]|
 |Base64Decode(base64String)|Base64Decode(base64String)|Base64Decode(base64String)|
 |Base64Encode(dataString)|Encodes the data into base64 encoded string|[genericlib:Base64Encode(dataString)]|
@@ -58,18 +63,20 @@ In APPSeCONNECT, you can use the following Appresource Functions :
 
 **Note : Click [here](/transformation/using-library-methods/) to know how to use generic functions in your processflow.
 
-2)**Cloud Appresource Function** -  The Cloud Appresources are the functions that are used when creating or editing a processflow. These functions are written within the cloud portal itself. The function of the cloud appresources are referred by *cloudResourcelib.** You can create and use a cloud appresource function by following the below mentioned steps.
+## User Defined Function
 
-###### Steps to Implement Cloud Appresource Functions for Process Flow:
+The User - defined functions are used while creating or editing a processflow. These functions are written within the cloud portal itself. The user-defined function are referred by *cloudResourcelib.** You can create and use such functions by following the below mentioned steps.
 
-a.	Create a new Process flow or open an existing Process Flow for which you need to implement Cloud Appresource. 
+###### Steps to Implement User-Defined Functions for ProcessFlow :
+
+a.	Create a new ProcessFlow or open an existing ProcessFlow for which you need to implement user-defined functions. 
 ![cloud1](\staticfiles\processflow\media\mapper\cloudfunction1.png)    
 b. Click on the Node Configuration icon for the Mapper Node. The Mapper/Transformation window for that Process flow opens. Expand the [transformation node](/transformation/getting-started-with-mapping/#structure-of-mapping). 
-**Open** the attribute for which you need to implement and map the Cloud Appresource. Expand the Function node to view the **Cloud Appresource Sub-Node**.
+**Open** the attribute for which you need to implement and map the function. Expand the Function node to view **Cloud** sub node.
 ![cloud2](\staticfiles\processflow\media\mapper\cloudfunction2.png)  
-c. For creating a new Cloud Appresource function, you need to click the **Blue coloured ADD (Plus Symbol) icon**. The Cloud Appresource Interface opens.
-d. Provide the **Description** and **Example** to the cloud resource mapping for easy  user reference as why and how the cloud appresource is needed to be implemented.
-![cloud5](\staticfiles\processflow\media\mapper\cloudappresource-5.png)  
+c. Click on **Blue coloured ADD (Plus Symbol) icon**,the code editor window opens up where you can create/edit your own function.
+d. Provide the **Description** and **Example** to the user defined for easy user reference as why and how the function is needed to be implemented.
+![cloud5](\staticfiles\processflow\media\mapper\cloudfunction3.png)  
 e. The user can choose from the **Code snippet template** and **language fundamentals templates** also. The templates can be added in the code panel by drag and drop. 
 ![cloud6](\staticfiles\processflow\media\mapper\cloudappresource-6.png)  
 f.	Code the Appresource and click on **Validate**. In case of error, validator will provide the area of the cause in the error message as shown below. 
@@ -91,6 +98,8 @@ Following the process, you can successfully create & define a Process Flow.
 - Cloud Appresource created & defined in App level of your organisation will be available when the app is used in the Process Flow, you need not have to create & define a new function.
 
 
-3)**Source & Destination Function** - These functions are used by our platform to retrieve and post data to respective business application. 
+## Native Function
+
+These are powerful functions defined within the adapters such that they can be used in our platform to retrieve and post data to respective business application. 
 To know,how to use source and destination function during transformation click [here](/transformation/using-library-methods/).
 

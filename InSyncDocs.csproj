@@ -1717,8 +1717,7 @@
     <None Include="_posts\ProcessFlow Management\2022-02-19-processflow-listing-page.md" />
     <None Include="_posts\ProcessFlow Management\2020-03-19-export and import-lookup.md" />
     <None Include="_posts\ProcessFlow Management\2020-03-20-implementing-lookup-in-mapping.md" />
-    <None Include="_posts\ProcessFlow Management\2020-03-21-Lookup-repository-masterdata.md" />
-    <None Include="_posts\ProcessFlow Management\2020-06-30-protocol-implementation.md" />
+    <None Include="_posts\Deployment\Repository Lookup\2022-03-28-Lookup-repository-masterdata.md" />
     <None Include="_posts\ProcessFlow Management\2020-07-15-working-with-variable.md" />
     <None Include="_posts\ProcessFlow Management\adding-schema-actionss.md" />
     <None Include="_posts\ProcessFlow Management\enable-tracking-fields.md" />
@@ -1730,7 +1729,6 @@
     <None Include="_posts\ProcessFlow Management\Mapper\2020-03-25-namespace-mapper.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2020-03-26-advance-mapping-render-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2022-03-05-working-with-mapper.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2020-04-17-cloud-appresource-functions.md" />
     <None Include="_posts\ProcessFlow Management\migration-of-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-10-working-with-decision.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2022-03-01-processflow-nodes-and-links.md" />

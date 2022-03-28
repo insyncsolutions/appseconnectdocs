@@ -1,66 +1,58 @@
 ---
-title: "Creating Lookup Repository Masterdata"
+title: "Creating Repository &  Masterdata"
 toc: true
 tag: developers
-category: "Processflow"
+category: "Deployment"
 menus: 
-    processflow:
+    deployment:
         title: "Creating Lookup Repository Masterdata"
-        weight: 7
+        weight: 6
         icon: fa fa-file-word-o
         identifier: lookuprepoprocessflow
 ---
 
-Repositories in APPSeCONNECT provides the user to create and manage Lookup types in form of tables 
-for the organisation. Lookups  enable the user to provide specific values to the application 
+Repositories in APPSeCONNECT provides the user to create and manage Lookups in form of reefrence tables 
+for the organisation. Lookups enables the user to provide specific values to the application 
 integration, such that when the source and destination application is integrated, the value in 
 source application can easily be integrated with its value in destination application, corresponding
-to its field.
-
-Having independent repositories for lookups will help the users to create Lookup collections 
-and manage them in separate tables as per their need. Each Repository Collection created will 
-multiple have Reference Tables that will enable the users to store and manage the collection 
+to its field. Having independent repositories for lookups will help the users to create Lookup collections 
+and manage them in separate refernce tables as per their need. Each Repository Collection created will 
+multiple have **reference tables** that will enable the users to store and manage the collection 
 of Lookup References.
 
-## Prerequisites for Creation of Lookup Repository Collections
+## Prerequisites for Creation of Repository Collections & LookUps
 
-* Should have an organisation created in APPSeCONNECT
+* Should have an organisation created in APPSeCONNECT.
 * User should have valid credentials for login to the APPSeCONNECT Credentials.
 
-## Steps to Create Repository Collections:
-1.	Login to the portal and navigate to **Manage > Repositories**. You can view Repository landing page, if creating for the first time.  
-![Create Lookrepo1](../../staticfiles/processflow/media/create-lookrepo1.png)   
-2.	Click the button to Create a new Repository Collection. The window for providing the name for the Repository Collection opens.  
-![Create Lookrepo2](../../staticfiles/processflow/media/create-lookrepo2.png)  
-3.	Enter the name for the Repository Collection and click on the SAVE button.  
-![Create Lookrepo3](../../staticfiles/processflow/media/create-lookrepo3.png)  
-4.	Click SAVE button and you can now view the Repository Page. The created Repository Collection will be present in the tree.  
-![Create Lookrepo4](../../staticfiles/processflow/media/create-lookrepo4.png)   
-5.	You can create another Repository Collection by clicking the `New Collection` button.  
-![Create Lookrepo5](../../staticfiles/processflow/media/create-lookrepo5.png)  
-6.	You will get the same view of the window as given in the previous steps.    
-![Create Lookrepo6](../../staticfiles/processflow/media/create-lookrepo6.png) 
+## Steps to Create Repository Collections :
 
-**Note: You cannot create multiple Repository Collection with same name.
-Following the above process, you can successfully create a multiple Repository Collection.**
+1.	Login to the portal and navigate to **Manage > Repositories**. You can view Repository landing page, if creating for the first time.  
+![Create Lookrepo1](/staticfiles/processflow/media/create-lookrepo1.png)   
+
+2.	Click the button to Create a new Repository Collection. The window for providing the name for the Repository Collection opens.  Enter the name for the Repository Collection and click on the **SAVE** button.  
+![Create Lookrepo3](/staticfiles/processflow/media/create-lookrepo3.png)  
+
+3.	On clicking the **Save** button,you can view **Repository** page and the created Repository Collection will be present in the tree.  
+![Create Lookrepo4](/staticfiles/processflow/media/create-lookrepo4.png)   
+
+4.	You can create another Repository Collection by clicking the `New` button.  
+![Create Lookrepo5](/staticfiles/processflow/media/create-lookrepo5.png) 
+
+6.	You will get the same view of the window as given in the previous steps to create multiple repositories.    
+
+**Note : You cannot create multiple Repository Collection with same name. Following the above process, you can successfully create multiple Repository Collection.**
 
 ## Reference Tables
+
 Reference tables are the collection of Lookup references which can be created under each Repository Collection. The steps for creating Reference Tables are given below.
 
-Prerequisites for Creating Lookup Reference Tables
-* Should have an organisation created with APPSeCONNECT.
-* User should have valid credentials for login to the APPSeCONNECT Credentials.
-* Should have a Repository Collection created.
 
-**Note: User cannot create a Reference Tables with same name under a single Repository Collection.**
+### Steps to create Reference Tables
 
-## Steps to Create Reference Tables
-1.	Login to the portal and navigate to **Manage > Repositories**. You can now view the Repositories Screen  
-![Reference Table1](../../staticfiles/processflow/media/reference-table1.png)  
-2.	On clicking over the Ellipsis icon (...) beside every Repository Collection, user gets the 
-following option.  
-a.	Edit: You can Rename the collection by clicking Edit Button.  
-b.	Delete:You can delete the whole Repository Collection including the Tables inside it, by clicking on delete button.   
+1.	Login to the portal and navigate to **Manage > Repositories**. On clicking over the ellipsis icon (...) beside every Repository Collection, user gets the following options.  
+a.	Edit : You can Rename the collection by clicking Edit Button.  
+b.	Delete : You can delete the whole Repository Collection including the Tables inside it, by clicking on delete button.   
 c.	**[Import](/processflow/export-and-import-lookup/#steps-to-import-lookups-from-repository-collection): You can import an excel file for creating reference tables from your local system.**  
 d.	**[Export](/processflow/export-and-import-lookup/#steps-to-export-lookups-from-repository-collection): You can export the created lookups to your local system.**    
 e.	New Table: You can create a new table under the selected Repository Collection by clicking on new table.  
