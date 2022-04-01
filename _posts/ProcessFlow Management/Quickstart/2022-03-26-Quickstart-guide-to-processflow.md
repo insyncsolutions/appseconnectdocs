@@ -7,7 +7,7 @@ menus:
     processflow:
         icon: fa fa-link
         title: "Quickstart"
-        weight: 4
+        weight: 5
         icon: fa fa-wpexplorer
         identifier: quickstartprocessflow
 ---

@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
     processflow:
         icon: fa fa-link
-        weight: 5
+        weight: 7
         title: "Nodes and Links" 
         identifier: processnodeandlinks 
 

@@ -1,64 +1,55 @@
 ---
-title: "Export and Import Lookup"
+title: "Export & Import Lookup"
 toc: true
 tag: developers
-category: "Processflow"
+category: "Deployment"
 menus: 
-    processflow:
-        title: "Export and Import Lookup"
-        weight: 8
+    lookuprepoprocessflow:
+        title: "Export & Import Lookup"
+        weight: 7
         icon: fa fa-file-word-o
-        identifier: exportimportlookup
+        identifier: lookuprepoimportexport
 ---
 
 Repositories in APPSeCONNECT provides the user to create and manage Lookup types in form of tables for the organisation. 
 As APPSeCONNECT has the approach to provide simpler usability to the users of the platform, 
-therefore Repositories in APPSeCONNECT has been implemented with the feature of Import & Export of 
-Reference tables that reduces the manual work of the table creation.
+therefore repositories in APPSeCONNECT has been implemented with the feature of `Import & Export` of 
+reference tables that reduces the manual work of the table creation.
 
-Users can import a file in  Excel format (.xlsx) While Exporting, users gets the exported in Excel 
-format (.xlsx).
+Users can import a file in  Excel format (.xlsx),while exporting, users gets the lookup information in Excel 
+format (.xlsx) dwonloaded in their local system. The Lookup Repository is implemented with a format that is followed while 
+importing and exporting the Lookups. The format for the lookups is given below with an example :
 
-The Lookup Repository is implemented with a format that is followed while 
-importing and exporting the Lookups. 
-
-The format for the lookups is given below with an example:
-
-|Type|Description|Source|Destination|
+|Type|Source|Destination|Description|
 |---|---|---|----------|
-|Country|Country Code|United States|US|
+|Country|United States|US|Country Code|
 
-* Type: The Lookup type needs to be provided for this column. This is also the Reference Table that would be 
-  stored inside the Repository Collection. For Ex: Country, Tax, Freight, PriceLists etc. 
-* Description: Needs to provide the description of the Lookup.
-* Source: The Source value of the lookup type needs to be provided.
-* Destination: The destination value of the lookup type needs to be provided.
+* Type : The Lookup type needs to be provided for this column. This is also the Reference Table that would be 
+  stored inside the Repository Collection. For example : Country, Tax, Freight, PriceLists etc. 
+* Source : The Source value of the lookup type needs to be provided.
+* Destination : The destination value of the lookup type needs to be provided.
+* Description : Needs to provide the description of the Lookup.
 
-Users can Import & Export lookups both from the [Repository Collection & Reference Table](/processflow/Lookup-repository-masterdata/)
+Users can Import & Export lookups both from the [Repository Collection & Reference Table](/deployment/Lookup-repository-masterdata/)
 
-## Prerequisites for Importing and Exporting the Lookups
+## Prerequisites for Importing and Exporting Lookups
 * Should have an organisation created with APPSeCONNECT.
 * Users should have valid credentials for login to the APPSeCONNECT Credentials.
-* Users need to follow the above given format for importing Lookups to Repositories.
+* Users need to follow the above given format for importing lookups to repositories.
 
 ## Steps to Export Lookups from Repository Collection
-1.	Login to the portal and navigate to Manage > Repository.
-2.	The Repository page opens. Clicking on the Ellipsis (...) of the selected Repository Collection, you can view the option Import & Export button.
-![Export Importlookup1](../../staticfiles/processflow/media/export-importlookup1.png)  
-3.	As the selected collection already has Reference Tables, export the selected Repository Collection by clicking on the Export button.  
+1.	Login to the portal and navigate to **Manage > Repository**,the Repository page opens. Clicking on the ellipsis (...) of the selected Repository Collection, you can view the option **Import** & **Export** button.
+![Export Importlookup1](/staticfiles/processflow/media/export-importlookup1.png)  
+2.	As the selected collection already has Reference Tables, export the selected Repository Collection by clicking on the Export button.  
  **Note: Users can also export a blank Repository Collection.**
-4.	The File will be auto downloaded in Excel Format (.xlsx). 
+3.	The File will be auto downloaded in Excel Format (.xlsx). 
 The exported file will have all the lookup types available inside the selected 
-Repository Collection. The downloaded file will display as shown below:  
-![Export Importlookup2](../../staticfiles/processflow/media/export-importlookup2.png)   
+Repository Collection. The downloaded file will display as shown below :  
+![Export Importlookup2](/staticfiles/processflow/media/export-importlookup2.png)   
 
 **The column Type is the name of the Reference Table in portal. Exporting a file from a Reference Table will download the records 
- only for the selected table/type. Users need to click the Ellipsis 
- button for the selected table, for viewing the Export button.** 
-
-The steps for `Exporting` remain the same as provided above.
-
-Following the above steps, users can successfully export Reference Tables from Repository Collections.
+ only for the selected table/type. Users need to click the ellipsis 
+ button for the selected table, for viewing the Export button**. Following the above steps, users can successfully export Reference Tables from Repository Collections.
 
 ## Steps to Import Lookups from Repository Collection
 1.	Login to the portal and navigate to Manage > Repository.

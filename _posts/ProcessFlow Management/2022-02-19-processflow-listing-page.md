@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
     processflow:
         title: "Organizing ProcessFlow"
-        weight: 5
+        weight: 6
         icon: fa fa-file-word-o
         identifier: organizing processflow
 ---
