@@ -30,7 +30,15 @@ $("#sidebarMenu")
         //var node = $('#sidebarMenu').find('[data-url="' + location.pathname + '"]');
         //isTreeSelection = true;
         //$('#sidebarMenu').jstree('select_node', node.attr('id'));
-    }).jstree();
+    }).jstree({
+        "core": {
+            "themes": {
+                "theme": "apple",
+                "dots": false,
+                "icons": false
+            }
+        }
+    });
 var onScrollCallback = function () {
     var nav = $('.sidebar__right,.page');
     // Get container scroll position

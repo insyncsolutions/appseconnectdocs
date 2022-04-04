@@ -31,7 +31,7 @@ $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
-body.layout--single {font-family:'Open Sans', sans-serif;}
+body.layout--single {font-family:'Nunito', 'Open Sans', sans-serif;}
 @media (min-width: 80em) {
 body.layout--single .masthead__inner-wrap {max-width: 100%;}
 body.layout--single .breadcrumbs {max-width: 100%;}
@@ -54,7 +54,7 @@ body.layout--single .breadcrumbs ol {font-size: 14px; margin:0; padding:0;}
 body.layout--single .breadcrumbs ol li, body.layout--single .breadcrumbs ol li a {color:#64757d; text-decoration:none;}
 body.layout--single .breadcrumbs .current {color: #36414a;}
 body.layout--single .search__toggle { border: 0; padding: 0; color: #ffffff; background-color: #00aadc; margin: 0 20px 0 0; border-radius: 50%; width: 44px; height: 44px;}
-body.layout--single .page__content p, body.layout--single .page__content li, body.layout--single .page__content dl {font-size: 14px !important; line-height: 24px; color: #4c5152; font-family:'Open Sans', sans-serif;}
+body.layout--single .page__content p, body.layout--single .page__content li, body.layout--single .page__content dl {font-size: 14px !important; line-height: 24px; color: #4c5152; font-family:'Nunito', 'Open Sans', sans-serif;}
 body.layout--single h1, body.layout--single h2, body.layout--single h3, body.layout--single h4 {color: #3d4a50;}
 body.layout--single  {color:#566267;}
 body.layout--single .toc, body.layout--single .notice--info, body.layout--single div.highlighter-rouge pre.highlight, body.layout--single figure.highlight pre.highlight {background: #fff;}
@@ -96,7 +96,7 @@ body.layout--single .notice--info:after {position:absolute; left:60px; top:50%; 
 .sidebar.sticky > p {color: #0c9fca !important;}
 .nav { background: #36414a; color: #bdd0de;}
 .navInn { clear: both; margin: 0; padding: 0 10px;}
-#cssmenu { background: transparent; margin: 0; width: auto; padding: 0; line-height: 1; display: block; position: relative; font-family: 'PT Sans', sans-serif;}
+#cssmenu { background: transparent; margin: 0; width: auto; padding: 0; line-height: 1; display: block; position: relative; font-family: 'Nunito', 'PT Sans', sans-serif;}
 #cssmenu ul {list-style: none; margin: 0; padding: 0; display: block;}
 #cssmenu ul:after, #cssmenu:after {content: " "; display: block; font-size: 0; height: 0; clear: both; visibility: hidden;}
 #cssmenu ul li { margin: 0; padding: 0; display: block; position: relative;}

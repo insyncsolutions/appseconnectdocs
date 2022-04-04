@@ -31,9 +31,9 @@ $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-body {font-family: 'Montserrat', sans-serif;}
+body {font-family: 'Nunito', 'Montserrat', sans-serif;}
 
-body.layout--single body.layout--archive-taxonomy {font-family:'Montserrat', sans-serif;}
+body.layout--single body.layout--archive-taxonomy {font-family:'Nunito', 'Montserrat', sans-serif;}
 @media (min-width: 80em) {
 body .masthead__inner-wrap {max-width: 100%;}
 body.layout--single .breadcrumbs, body.layout--archive-taxonomy .breadcrumbs {max-width: 100%;}
@@ -49,7 +49,7 @@ body.layout--single .search-content .archive__item, body.layout--archive-taxonom
 }
 @media (min-width: 64em){
 body.layout--single .breadcrumbs ol {float: left; width: 100%;}
-body.layout--single .sidebar.sticky {opacity: 1; filter: alpha(opacity=100); /* For IE8 and earlier */ margin: 0; background: #f1ecec;}
+body.layout--single .sidebar.sticky {opacity: 1; filter: alpha(opacity=100); /* For IE8 and earlier */ margin: 0; background: #f5f8fa;}
 body.layout--single .sticky {top:0;}
 }
 body.layout--single #site-nav.greedy-nav {background: #fff; -webkit-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.20); -moz-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.20); box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.20);}
@@ -59,7 +59,7 @@ body.layout--single .breadcrumbs ol {font-size: 14px; margin:0; padding:0;}
 body.layout--single .breadcrumbs ol li, body.layout--single .breadcrumbs ol li a {color:#000; text-decoration:none;}
 body.layout--single .breadcrumbs .current, body.layout--archive-taxonomy .breadcrumbs .current {color: #000;}
 body.layout--single .search__toggle, body.layout--archive-taxonomy .search__toggle { border: 0; padding: 0; color: #ffffff; background-color: #00aadc; margin: 0 20px 0 0; border-radius: 50%; width: 44px; height: 44px;}
-body.layout--single .page__content p, body.layout--single .page__content li, body.layout--single .page__content dl {font-size: 14px !important; line-height: 24px; color: #000; font-family:'Montserrat', sans-serif;}
+body.layout--single .page__content p, body.layout--single .page__content li, body.layout--single .page__content dl {font-size: 14px !important; line-height: 24px; color: #000; font-family:'Nunito', 'Montserrat', sans-serif;}
 
 body.layout--archive-taxonomy .page__content p, body.layout--archive-taxonomy .page__content li, body.layout--archive-taxonomy .page__content dl {font-size: 14px !important; line-height: 24px; color: #000; font-family:'Montserrat', sans-serif;}
 body.layout--archive-taxonomy h1, body.layout--archive-taxonomy h2, body.layout--archive-taxonomy h3, body.layout--archive-taxonomy h4 {color: #3d4a50;}
@@ -104,12 +104,12 @@ body.layout--single .notice--danger:after {position:absolute; left:60px; top:50%
 body.layout--single .notice--info {position:relative; padding-left: 75px; box-shadow: 1px 1px 5px rgba(0,0,0,0.20); -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.20); -moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.20);}
 body.layout--single .notice--info:before {position:absolute; left:16px; top:50%; content:"\f06a"; color:#8fa3ad; font-size:32px; transform: translate(0, -50%); font-family:"FontAwesome";}
 body.layout--single .notice--info:after {position:absolute; left:60px; top:50%; content:""; background:#dadfe0; width:3px; height:90%; transform: translate(0, -50%); font-size:30px; font-family:"FontAwesome";}
-.toc__menu a { display: block; padding: 0 0 0 10px !important; color: #000 !important; font-size: 11px !important; font-weight: 500 !important; line-height: 22px !important; border-bottom: 0px solid #e8f3f9 !important; border-left:4px solid #fff; text-transform: initial !important; text-transform: initial !important; font-family:'Montserrat', sans-serif;}
+.toc__menu a { display: block; padding: 0 0 0 10px !important; color: #000 !important; font-size: 11px !important; font-weight: 500 !important; line-height: 22px !important; border-bottom: 0px solid #e8f3f9 !important; border-left:4px solid #fff; text-transform: initial !important; text-transform: initial !important; font-family:'Nunito', 'Montserrat', sans-serif;}
 .toc__menu li ul>li a {padding-left: 0;}
 .sidebar.sticky > p {color: #0c9fca !important;}
 .nav { background: #272e33; color: #bdd0de;}
 .navInn { clear: both; margin: 0; padding: 0 10px;}
-#cssmenu { background: transparent; margin: 0; width: auto; padding: 0; line-height: 1; display: block; position: relative; font-family: 'PT Sans', sans-serif;}
+#cssmenu { background: transparent; margin: 0; width: auto; padding: 0; line-height: 1; display: block; position: relative; font-family: 'Nunito', 'PT Sans', sans-serif;}
 #cssmenu ul {list-style: none; margin: 0; padding: 0; display: block;}
 #cssmenu ul:after, #cssmenu:after {content: " "; display: block; font-size: 0; height: 0; clear: both; visibility: hidden;}
 #cssmenu ul li { margin: 0; padding: 0; display: block; position: relative;}
@@ -162,7 +162,7 @@ ul, ol {padding-left:20px;}
 .nav__sub-title {text-transform: capitalize;}
 .sidebar p, .sidebar li, .nav__list .nav__items a {line-height: 21px;}
 #main {}
-.sidebar p, .sidebar li, .nav__list .nav__items a { line-height: 24px; font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif; display: block; font-size: 14px !important;}
+.sidebar p, .sidebar li, .nav__list .nav__items a { line-height: 24px; font-family: "Blinker",-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif; display: block; font-size: 14px !important;}
 .sidebar.sticky>p {margin:16px 0 16px; font-size: 20px !important; color: #444 !important;}
 .sidebar__right .toc__menu li a.active {border-left:4px solid #00aadc;}
 .nav__list .nav__items .active { color: #fff; font-weight: normal !important; background: #1d79b1;  padding: 5px 0 5px 35px !important; margin: 0 !important; }
@@ -201,7 +201,7 @@ body.layout--single .LeftSearchBar .search__toggle, layout--archive-taxonomy .Le
 
 body.layout--archive-taxonomy .LeftSearchBar .search__toggle, layout--archive-taxonomy .LeftSearchBar .search__toggle, .LeftSearchBar .search__toggle { clear: both; width: 100%; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; background: #fff; border: 1px solid #b8b9b9; height: 40px; line-height: 40px; position: relative; border-radius:0; color:#889aa5; text-align:left; font-size:14px; margin:0; padding:0 10px;}
 
-.LeftSearchBar {clear: both; width: 100%; margin: 0 0 20px; overflow: hidden;}
+.LeftSearchBar {clear: both; width: 100%; margin: 0 0 10px; overflow: hidden;}
 .layout--archive-taxonomy .sidebar.sticky {top: 0; padding: 24px 15px 15px; height: calc(120vh - 90px - 2em); margin:0; background:#f1ecec;}
 .layout--archive-taxonomy .archive {padding-top:20px;}
 .search-content .archive__item {width:100% !important;}

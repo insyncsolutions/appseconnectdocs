@@ -1,17 +1,16 @@
 ---
-title: "Getting started with deployment"
+title: "Upgradation & Migration"
 toc: true
 tag: developers
 category: "Deployment"
-menus: 
-    deployment:
+menus:
+    deployment: 
         icon: fa fa-gg
-        weight: 1
-        title: "Getting started"
-        identifier: gsdeployment
-               
-               
+        weight: 7
+        title: "Upgradation & Migration"
+        identifier: upgradationmigration              
 ---
+
 
 This section lets you get started with the deploying processes and components to an environment for APPSeCONNECT.
 

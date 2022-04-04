@@ -1,7 +1,7 @@
 {% comment %}
 {% if page.author_profile or layout.author_profile or page.sidebar %}
 <div class="sidebar sticky">
-    <div class="LeftSearchBar">
+    <div class="LeftSearchBar content">
         {% if site.search == true %}
         <button class="search__toggle" type="button">
             Filter by title
@@ -25,7 +25,7 @@
     {% if page.sidebar.nav %}
     {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
-    {% endif %}
+    {% endif %} 
 </div>
 {% endif %}
 {% endcomment %}
