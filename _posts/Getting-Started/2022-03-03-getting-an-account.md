@@ -88,7 +88,7 @@ Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
 The login page has a username and password field. Enter your chosen username and password combination and click `Sign In`. 
 You are now logged in to the application. Do not forget to check our Help Section to get introduction of the platform. You can also 
-select `Remember Me` checkbox in the login page. If you want the system to remember your login email id after logging out from the account.
+select `Remember Me` checkbox in the login page,if you want the system to remember your login email id after logging out from the account.
 Click `Forgot Password` option to reset the password. A mail will be sent to your (user) account. You can reset the password by clicking on the link provided in the mail and set up a new password.
 
 ### Enable multi-factor authentication

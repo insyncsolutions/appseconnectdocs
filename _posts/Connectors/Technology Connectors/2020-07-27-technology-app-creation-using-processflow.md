@@ -2,9 +2,9 @@
 title: "Technology App creation Within processflow"
 toc: true
 tag: developers
-category: "Processflow"
+category: "Connectors"
 menus: 
-   quickstartprocessflow:
+   Connectors:
         title: "Technology App creation"
         weight: 6
         icon: fa fa-file-word-o
