@@ -11,8 +11,6 @@ menus:
         identifier: accessingportal
 ---
 
-
-
 The APPSeCONNECT portal is the web based interface where you can access APPSeCONNECT application for integration, with the set of Functional modules. The [APPSeCONNECT portal page](https://portal.appseconnect.com/Account/Login?ReturnUrl=%2f#!) is easily accessible. 
 Once you have logged in, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as change your password.
 
@@ -32,7 +30,7 @@ Let us walkthrough the Functional Modules for understanding the usage and need o
 |[Help](/accessing%20portal/accessing-portal/#help)|This section will allow the user to get help and learn about the usability of the features.User can easily connect to the Documentation and Community resource from HELP.|
 
 
-## HOME
+## Home
 
 **For Older users, the old DASHBOARD page is the new HOME page of the APPSeCONNECT portal**
 
@@ -87,11 +85,11 @@ corner of the widget.
 *5. Execution Counts : This widget displays the data counters with respect to each connection in form of a Bar chart.* 
 This widget displays the status of each connection based on :  Success, Unprocessed, Skipped & Failed. 
 Users can minimize and maximize the widget by click on the respective button available on the top right corner of the widget.        
-**Note: The close button remains in disabled state** 
+**Note : The close button remains in disabled state** 
 
 ![ExecutionCount_Dashboard.png](/staticfiles/root/media/ExecutionCount_Dashboard.png)
 
-*6.Sync Errors: This widget will display all the errors occurred, irrespective of the connections for the organisation.* 
+*6.Sync Errors : This widget will display all the errors occurred, irrespective of the connections for the organisation.* 
 For each error, the following details would be displayed.    
 a.	The time of the error faced.     
 b.	Error Faced.    
@@ -103,9 +101,9 @@ c.	The source id of the item.
 
 Users can search the error based on the source id and the error name by click on the search icon available on the top right corner of the widget. 
 Users can minimize and maximize the widget by click on the respective button available on the top right corner of the widget. 
-Note: The close button remains in disabled state.
+Note : The close button remains in disabled state.
 
-*7. Execution Logs: This widget will display the execution logs of all the workflows & Realtime Time touchpoints executed through autosync.* 
+*7. Execution Logs : This widget will display the execution logs of all the workflows & Realtime Time touchpoints executed through autosync.* 
 Every log would display these following details :  
 
 a.	Connection Name  
@@ -128,7 +126,7 @@ Users can minimize and maximize the widget by click on the respective button ava
 ## Designer
 
 This section will enable the user to design their business specific integration flows using their selected Apps. You can easily create and design your integration flows using 
-Workflows and Processflows. Below are the list that provides you with the informations of *workflows** and **processflows**.
+Workflows and Processflows. Below are the list that provides you with the informations of **processflows**.
 
 ![Designer1](\staticfiles\root\media\designer1.png)
 
@@ -136,7 +134,7 @@ Workflows and Processflows. Below are the list that provides you with the inform
 
 APPSeCONNECT Workflow enables you to orchestrate business scenarios visually through a graphical interface. It equips you to handle any business context with proper logic and perform multiple business transactions in a flow, without manual intervention. As data is an integral part of any business and efficient utilization of that data is one of the most important aspects of integration, workflow ensures that those data gets passed from one point of execution to another based on the procedural rules as set by you. 
 Organizations use workflows to coordinate tasks and synchronize data between systems, with the ultimate goal of improving organizational efficiency, responsiveness and ease of use. 
-Another situation is when you want to handle a large volume of data which is often challenging for the businesses in terms of performance. Henceforth, Workflows provide you with the tools to handle these scenarios with minimal effort.
+Another situation is when you want to handle a large volume of data which is often challenging for the businesses in terms of performance. Henceforth, Workflows provide you with the tools to handle these scenarios with minimal effort. 
 
 To know more about Workflow Management, [Click here](/workflow/overview/).
 
@@ -162,7 +160,7 @@ This section will allow you to work with different **ENVIRONMENTS** either On-Pr
 ## Manage
 
 This section will allow you to manage the applications, connections, rules and other modules of APPSeCONNECT. Below are the modules 
-that will be available to you under the **MANAGE** section in portal.
+that will be available to you under the **MANAGE** section in portal. 
 
 ![manage3](\staticfiles\root\media\manage3.png)
 
@@ -172,16 +170,16 @@ that will be available to you under the **MANAGE** section in portal.
 
  * We can add multiple users to a particular project on the cloud portal by clicking on 'Users'. 
  * Each user will have different levels to the portal depending on the role allotted to them. 
- * Depending on the role, different users have different levels of permission to access the various features.
- * These roles are Organization Admin, Implementer, Partner and many more.
-
+ * Depending on the role, different users have different levels of permission to access the various features. 
+ * These roles are Organization Admin, Implementer, Partner and many more. 
+  
 **Protip** - According to the present scope of understanding, there you will encounter 2 main roles as given below : 
 {:.notice--info} 
 
 (a) **Implementer :** In APPSeCONNECT, an implementer is a user who sets up the integration solution, depending on the customer's requirement. An implementer can modify a project once it has 
- been created by the Admin. He or she can edit the project and its status. An implementer has access to specific projects.
+ been created by the Admin. He or she can edit the project and its status. An implementer has access to specific projects. 
 
-(b) **Organization Admin : ** The access level of the customer is called the 'Organization Admin'. He or she can add/ choose apps. Create connections and setup workflows but he or she cannot setup roles, regulate the control of users, or bring about any configurational changes.
+(b) **Organization Admin : ** The access level of the customer is called the 'Organization Admin'. He or she can add/ choose apps. Create connections and setup workflows but he or she cannot setup roles, regulate the control of users, or bring about any configurational changes. 
 
 A company can have multiple user for an organisation in APPSeCONNECT project. Every project in APPSeCONNECT 
 has a single user `organisation owner` by default, implementers/users of APPSeCONNECT can add multiple 
@@ -202,7 +200,7 @@ b.	Organization Admin
 1) Login to the APPSeCONNECT Portal and navigate to the USER module under Manage.  
 2) By default, the interface would be of the tab Client Users. By default, APPSeCONNECT user would view the interface of the tab Client Users. 
 
-**Note: The tab Partners will not have any view unless an organization has any requirements for partners.**
+**Note : The tab Partners will not have any view unless an organization has any requirements for partners.**
 
 3)	For a fresh organisation, only the organisation owner will be displayed as the user in the user list. Click on the Add User button, to add more user to an organisation.
 ![Useradd1](\staticfiles\root\media\useradd1.png)
@@ -229,7 +227,7 @@ b.	Organization Admin
 8) Once activated, login to your account with the provided credential provided in the Activation Mail.
 ![useradd6](\staticfiles\root\media\useradd6.png)
 
-**Note:** 
+**Note :** 
 
 * All the modifications for the created user would be done by the organisation owner as well as for the newly created user.
 
@@ -260,7 +258,7 @@ application, corresponding to its field.
 Having independent repositories for lookups will help the users to create Lookup collections and manage them in separate tables as per their need. Each Repository Collection created will 
 have multiple Reference Tables that will enable the users to store and manage the collection of Lookup References.
 
-For more details on Repositories, [Click Here](/processflow/Lookup-repository-masterdata/)
+For more details on Repositories, [Click Here](/deployment/Lookup-repository-masterdata/)
 
 ![Create Lookrepo1](../../staticfiles/processflow/media/create-lookrepo1.png)
 
@@ -289,7 +287,7 @@ You can do [App Selection](/getting%20started/configurations/) & [touchpoint exe
 
 ### Connection
 
-The Connection Page of the Portal enables creating the connection between two different Applications.  You can also view the existing connection,as well as copy and search existing connection for a particular organization on this page. 
+The Connection Page of the Portal enables creating the connection between two different Applications. You can also view the existing connection,as well as copy and search existing connection for a particular organization on this page. 
 
 You need to [Create Connection](/integration/configurations-for-integration/#configuring-connector-while-creating-connection) & [Execute Touchpoint](/integration/configurations-for-integration/#creating-connection--executing-the-touchpoint).
 
@@ -362,8 +360,8 @@ Let us dive in details about every section of customer profile information.
 5. In the `Summary section` the count of projects you handle/under organization is shown. You can also see your expired and trail project counts according to your Role and access level.
 6. `Assigned Companies` will be shown on User Role basis.
 ![AssignedCompanies](/staticfiles/root/media/AssignedCompanies.png)
-7. In **My Company section**, only your company details will be there.
-8. **My Feeds** section is for seeing your recent activities.
+7. In **My Company section**, only your company details such as name of company, default contact details, account status will be present.
+8. **My Feeds** section will enable you to view recent activities that has occured in your organisation such as any rule that has been executed, any changes made in processflows, type of sync schedule selected etc.  
 
 By Clicking Projects and Workflows,you'll be redirected to respective pages where you can see various projects and workflows.
 
@@ -471,7 +469,7 @@ Here you'll get to know about APPSeCONNECT Notification and its functionality.
 ### Downloads Section
 
 User would be able to download and install APPSeCONNECT specific tools from this section. Clicking on the Downloads tab, 
-user would be able to view the tools that are available for the organisation. The tools that would be available are:
+user would be able to view the tools that are available for the organisation. The tools that would be available are :
 
 * [APPSeCONNECT On-Premise Agent](/deployment/Deployment-Configuration/)
 * [APPSeCONNECT Plugins](/deployment/Overview-of-Plugin/)
@@ -515,7 +513,7 @@ user would be able to view the tools that are available for the organisation. Th
 * Project can be deleted from recent accessed tab by implementer/dev/ISV partner/Implementation partner  [except new end customer/ user].
 * Only projects where the user has access can be added.
 
-For example: Let say you have logged in the portal with a user who doesn't have permission more than two projects (e.g-solera) now if you would search with any keyword related "solera"  it would not come in the search list.
+For example : Let say you have logged in the portal with a user who doesn't have permission more than two projects (e.g-solera) now if you would search with any keyword related "solera"  it would not come in the search list.
 
 
 

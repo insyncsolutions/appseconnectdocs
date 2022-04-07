@@ -46,7 +46,7 @@ integration experts who will develop and adjust the integration based on the sco
 
 ## Accessing your account
 
-After you successfully registered with us, you will get activation link to verify your email address. The email will also show you your user id and 
+After you successfully registered with us, you will get activation link to verify your email address. The email will also show your user id and 
 temporary password generated, which you can use to login to the account. 
 
 ### Steps to activate your account
@@ -65,7 +65,7 @@ temporary password generated, which you can use to login to the account.
 5.	Once logged in, APPSeCONNECT would ask to accept the License Agreement. Users can opt for reading the details by clicking on the provided links.  
 ![newcustomer_registration5](/staticfiles/root/media/newcustomer_registration5.png)  
 6. Now you will be directed to the `PhoneNumber`setting screen. Select Country/Region
-from the drop down list & Input your phone number.Click on Add Button to Add the phone number
+from the drop down list & Input your phone number. Click on Add Button to Add the phone number
 or skip button to skip the section. 
 ![addphone_number](/staticfiles/root/media/addphone_number.png)   
 (a) Incase of erroneous phone number you will get an error message on screen.    
@@ -74,12 +74,12 @@ send a verification code to your registered number.
 7.	Once accepted, the user would be able to view the account profile details. Click on organisation tab, and this will navigate the user to the [Organisation Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/#a-accessing-organization-dashboard).   
 8.	Here you can view the other [Organisation modules](https://docs.appseconnect.com/accessing%20portal/accessing-portal/) available for every organisation.  
 
-**Note: The newly created organisation will be a Trail Account by default, available only for 31days. Please make sure you follow your emails, as our 
+**Note: The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
 ### Accessing an activated account
 
-Once your account is activated, you can access your resources in our cloud portal by logging in to your account using valid username and password. Your account will be secured with us through authentication system,and we encourage
+Once your account is activated, you can access your resources in our cloud portal by logging in to your account using valid username and password. Your account will be secured with us through authentication system, and we encourage
 you to logout after using it. 
 
 Click on portal and this will take you the login page of  APPSeCONNECT Portal.
@@ -88,8 +88,8 @@ Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
 The login page has a username and password field. Enter your chosen username and password combination and click `Sign In`. 
 You are now logged in to the application. Do not forget to check our Help Section to get introduction of the platform. You can also 
-select `Remember Me` checkbox in the login page,if you want the system to remember your login email id after logging out from the account.
-Click `Forgot Password` option to reset the password. A mail will be sent to your (user) account. You can reset the password by clicking on the link provided in the mail and set up a new password.
+select `Remember Me` checkbox in the login page, if you want the system to remember your login email id after logging out from the account.
+To reset your password, click `Forgot Password`. The notification will be sent via email so that you can reset the password by clicking on the link provided in the mail and set up a new password.
 
 ### Enable multi-factor authentication
 

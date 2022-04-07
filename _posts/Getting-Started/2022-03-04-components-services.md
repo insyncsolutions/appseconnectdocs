@@ -12,7 +12,7 @@ menus:
 ---
 
 **APPSeCONNECT** is a iPaaS which enables developer or citizen integrator to build integration solution such that the data could be transferred from one application to another in a seamless and free-flowing manner. It acts as middleware between enterprise applications which transfers data from one application and updates the same to their respective applications. 
-It provides secured and powerful tooling capability which will let users create integrations between various bussiness applications. However,APPSeCONNECT consists of the following componenets to bring the power of automation into business operations,unleashing productivity and growth across teams in your organization.
+It provides secured and powerful tooling capability which will let users create integrations between various bussiness applications. However, APPSeCONNECT consists of the following componenets to bring the power of automation into business operations, unleashing productivity and growth across teams in your organization.
 
 ## What is an APPSeCONNECT Components?
 
@@ -41,7 +41,7 @@ the user a 360 degree view of all the services running on the environments and a
 
 ![DashboardView1](/staticfiles/root/media/DashboardView1.png)
 
-In the above figure,some elements of the APPSeCONNECT portal are common to all apps,accessible via the left side panel of the page.Of note,these also includes accessing your account,where you can update your information as well as changing your password.
+In the above figure, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as changing your password.
 
 The set of functional modules are easy to navigate and ease the method of integration via our Portal. 
 The view of functional module(s) is given below :
@@ -52,10 +52,10 @@ Let us walkthrough the Functional Modules for understanding the usage and need o
 
 |Modules|Details|
 |---|---|
-|Home|This page will show the details of the organisation,user logged in into,Project Basic Information,Configuration Completion Details etc.|
+|Home|This page will show the details of the organisation,user logged in into, Project Basic Information, Configuration Completion Details etc.|
 |Designer|This section will allow users to design the business flows using Workflows or Processflows.|
 |Deploy|This section will let users work with the Environment deployed.|
-|Manage|This section will allow the users to manage their Apps,Connections,Rules,Repositories,APIs,Feeds etc.|
+|Manage|This section will allow the users to manage their Apps, Connections, Rules, Repositories, APIs, Feeds etc.|
 |Help|This section will allow the user to get help and learn about the usability of the features. User can easily connect to the Documentation and Community resource from HELP.|
 
 [Learn more](/accessing%20portal/accessing-portal/)
@@ -80,7 +80,7 @@ iPaaS bridges the data synchronization between applications. Now if you think of
 are different in terms of structure, way of connectiviity, protocols, etc. Hence, there is always a need of creating Application Profiles, which 
 individually can connect to a specific application to fetch or push data. 
 
-In APPSeCONNECT,APPs provides you an area to define all the above mentioned particulars of an API for a business application such that they are separated from one another. In other words,APPs are the logical 
+In APPSeCONNECT, APPs provides you an area to define all the above mentioned particulars of an API for a business application such that they are separated from one another. In other words, APPs are the logical 
 grouping of schemas, actions, credentials, adapters etc. such that they can be easily separated from one another. The App section in APPSeCONNECT 
 provides a way of defining Schemas and Actions specific to an App, such that when the same is used again, these API informations can be reused again. 
 
@@ -119,8 +119,8 @@ to connect between the two or more applications. After installing a Package, you
 
 ### Types of Package
 
-1. Private Package: These are privately owned packages, which can be shared with other Organizations as a Partner. The Privately held packages can also be kept safe for furture use. 
-2. Public Packages: These are the packages which are in global cache and available to the external world. The Public packages can be freely installed in any organization based on the permission. 
+1. Private Package : These are privately owned packages, which can be shared with other Organizations as a Partner. The Privately held packages can also be kept safe for furture use. 
+2. Public Packages : These are the packages which are in global cache and available to the external world. The Public packages can be freely installed in any organization based on the permission. 
 
 [Learn more](/processflow/processflow-packaging-overview/)
 
@@ -136,7 +136,7 @@ adapter or the data is pushed directly to the target application. There are two 
  with APPSeCONNECT. As APPSeCONNECT works with XML, so from APPSeCONNECT any XML which is posted to an adapter needs to be processed and communicated to 
  the application. 
 
-APPSeCONNECT platform is built using Microsoft.NET,so you need to be acquainted with any of the high level languages present in .NET platform. This platform provides an SDK which will be used to develop and implement an adapter using any standard .NET language like C# or VB.NET. 
+APPSeCONNECT platform is built using Microsoft.NET, so you need to be acquainted with any of the high level languages present in .NET platform. This platform provides an SDK which will be used to develop and implement an adapter using any standard .NET language like C# or VB.NET. 
 Our SDK is hosted as Nuget Package or publicly available to developers.
 
 [Learn more](/sdk/Overview-of-SDK/)
