@@ -12,7 +12,7 @@ menus:
 ---
 
 The APPSeCONNECT portal is the web based interface where you can access APPSeCONNECT application for integration, with the set of Functional modules. The [APPSeCONNECT portal page](https://portal.appseconnect.com/Account/Login?ReturnUrl=%2f#!) is easily accessible. 
-Once you have logged in, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as change your password.
+Once you have logged in, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as change your password. 
 
 The set of functional modules are easy to navigate and ease the method of integration via our Portal. 
 The view of functional module(s) is given below :
@@ -23,11 +23,11 @@ Let us walkthrough the Functional Modules for understanding the usage and need o
 
 |Modules|Details|
 |---|---
-|[Home](/accessing%20portal/accessing-portal/#home)|This page will show the details of the organisation,User Logged in into,Project Basic Information,Configuration Completion Details,Subcription details etc.|
+|[Home](/accessing%20portal/accessing-portal/#home)|This page will show the details of the organisation, User Logged in into, Project Basic Information, Configuration Completion Details, Subcription details etc.|
 |[Designer](/accessing%20portal/accessing-portal/#designer)|This section will allow the user to design the business flows using Workflows or Processflows.|
 |[Deploy](/accessing%20portal/accessing-portal/#deploy)|This section will let the users work with different Environments that are currently available for performing their respective integrations.|
-|[Manage](/accessing%20portal/accessing-portal/#manage)|This section will allow the users to manage their Apps,Connections,Rules,Repositories,APIs,Feeds etc.|
-|[Help](/accessing%20portal/accessing-portal/#help)|This section will allow the user to get help and learn about the usability of the features.User can easily connect to the Documentation and Community resource from HELP.|
+|[Manage](/accessing%20portal/accessing-portal/#manage)|This section will allow the users to manage their Apps, Connections, Rules, Repositories, APIs, Feeds etc.|
+|[Help](/accessing%20portal/accessing-portal/#help)|This section will allow the user to get help and learn about the usability of the features. User can easily connect to the Documentation and Community resource from HELP.|
 
 
 ## Home
@@ -58,7 +58,7 @@ c.  Implementation contact : Displays the Email id of InSync implementation Team
 d.  Sales Contact : Shows the Email id of InSync Sales Team.    
 e.  Support Contact : Displays the Email Id of the InSync Support Team.   
 
-*2. Configuration Completion Details : This widget displays the configural informations related to the organisation project such as number of apps used,how many connections created,agent installed etc. 
+*2. Configuration Completion Details : This widget displays the configural informations related to the organisation project such as number of apps used, how many connections created, agent installed etc. 
 This widget also has a progress bar that displays the progress status for the organisation.* 
 
 *3. Subscription Details : This widget will inform the user about the categories of applications subscribed for the organisation.* 
@@ -128,7 +128,7 @@ Users can minimize and maximize the widget by click on the respective button ava
 This section will enable the user to design their business specific integration flows using their selected Apps. You can easily create and design your integration flows using 
 Workflows and Processflows. Below are the list that provides you with the informations of **processflows**.
 
-![Designer1](\staticfiles\root\media\designer1.png)
+![Designer1](\staticfiles\root\media\designer1.PNG)
 
 ### Workflows
 

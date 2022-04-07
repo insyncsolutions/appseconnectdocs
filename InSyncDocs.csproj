@@ -1202,7 +1202,7 @@
     <Content Include="staticfiles\root\media\DashboardScreen.png" />
     <Content Include="staticfiles\root\media\DashboardView1.png" />
     <Content Include="staticfiles\root\media\deploy1.png" />
-    <Content Include="staticfiles\root\media\designer1.png" />
+    <Content Include="staticfiles\root\media\designer1.PNG" />
     <Content Include="staticfiles\root\media\dwonload.png" />
     <Content Include="staticfiles\root\media\edit-connection-tp.png" />
     <Content Include="staticfiles\root\media\ExecutionCount_Dashboard.png" />

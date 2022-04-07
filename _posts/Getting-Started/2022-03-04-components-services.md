@@ -44,7 +44,7 @@ the user a 360 degree view of all the services running on the environments and a
 In the above figure, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as changing your password.
 
 The set of functional modules are easy to navigate and ease the method of integration via our Portal. 
-The view of functional module(s) is given below :
+The view of functional module(s) is given below:
 
 ![FunctionalMenus](/staticfiles/root/media/FunctionalMenus.png)
 
