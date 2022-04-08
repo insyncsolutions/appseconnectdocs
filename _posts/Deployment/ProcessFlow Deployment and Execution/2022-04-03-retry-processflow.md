@@ -4,9 +4,9 @@ toc: true
 tag: developers
 category: "Processflow"
 menus: 
-   quickstartprocessflow:
+   deployment:
         title: "Sync Info & Retry"
-        weight: 7
+        weight: 3
         icon: fa fa-file-word-o
         identifier: retryprocessflow
 ---

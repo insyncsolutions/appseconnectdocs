@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
     quickstartprocessflow:
         title: "Delete Processflow"
-        weight: 8
+        weight: 4
         icon: fa fa-file-word-o
         identifier: deleteprocessflow
 ---

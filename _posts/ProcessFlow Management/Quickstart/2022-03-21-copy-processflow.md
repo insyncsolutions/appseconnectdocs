@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
     quickstartprocessflow:
         title: "Copy Processflow"
-        weight: 8
+        weight: 3
         icon: fa fa-file-word-o
         identifier: copyprocessflow
 ---

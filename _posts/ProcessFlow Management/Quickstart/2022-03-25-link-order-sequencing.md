@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
    quickstartprocessflow:
         title: "Link Order Sequencing"
-        weight: 6
+        weight: 5
         icon: fa fa-file-word-o
         identifier: linkorderprocessflow
 ---

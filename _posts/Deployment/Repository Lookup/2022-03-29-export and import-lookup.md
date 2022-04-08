@@ -6,7 +6,7 @@ category: "Deployment"
 menus: 
     lookuprepoprocessflow:
         title: "Export & Import Lookup"
-        weight: 7
+        weight: 2
         icon: fa fa-file-word-o
         identifier: lookuprepoimportexport
 ---

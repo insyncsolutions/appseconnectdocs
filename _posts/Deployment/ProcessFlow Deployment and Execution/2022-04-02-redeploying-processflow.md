@@ -4,9 +4,9 @@ toc: true
 tag: developers
 category: "Processflow"
 menus: 
-    quickstartprocessflow:
+    deployment:
         title: "Redeploy"
-        weight: 9
+        weight: 2
         icon: fa fa-file-word-o
         identifier: redeployprocessflow
 ---

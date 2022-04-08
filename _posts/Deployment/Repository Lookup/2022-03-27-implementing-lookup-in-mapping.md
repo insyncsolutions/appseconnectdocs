@@ -6,7 +6,7 @@ category: "Deployment"
 menus: 
     lookuprepoprocessflow:
         title: "Lookup in Processflow Mapping"
-        weight: 8
+        weight: 3
         icon: fa fa-file-word-o
         identifier: implementlookup
 ---
