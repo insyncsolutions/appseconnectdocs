@@ -731,6 +731,7 @@
     <Content Include="staticfiles\processflow\media\deploy-processflow13.png" />
     <Content Include="staticfiles\processflow\media\deploy-processflow14.png" />
     <Content Include="staticfiles\processflow\media\deploy-processflow2.png" />
+    <Content Include="staticfiles\processflow\media\deploy-processflow21.png" />
     <Content Include="staticfiles\processflow\media\deploy-processflow3.png" />
     <Content Include="staticfiles\processflow\media\deploy-processflow4.png" />
     <Content Include="staticfiles\processflow\media\deploy-processflow5.png" />
@@ -1013,7 +1014,6 @@
     <Content Include="staticfiles\processflow\media\redeploy3.png" />
     <Content Include="staticfiles\processflow\media\redeploy4.png" />
     <Content Include="staticfiles\processflow\media\redeploy5.png" />
-    <Content Include="staticfiles\processflow\media\redeploy6.png" />
     <Content Include="staticfiles\processflow\media\reference-table1.png" />
     <Content Include="staticfiles\processflow\media\reference-table10.png" />
     <Content Include="staticfiles\processflow\media\reference-table11.png" />
