@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
    deployment:
         title: "Sync Info & Retry"
-        weight: 4
+        weight: 6
         icon: fa fa-file-word-o
         identifier: retryprocessflow
 ---

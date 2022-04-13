@@ -7,7 +7,7 @@ menus:
     deployment :
         title: "Environment"
         icon: fa fa-cloud-download
-        weight: 5
+        weight: 9
         identifier: environment
 ---
 
