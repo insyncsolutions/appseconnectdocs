@@ -52,17 +52,12 @@ By default, an organisation would have the following folders created `ProcessFlo
 
 |Modules| Description|  
 |---|---|           
-|[Creating processflow](/getting%20started/create-your-first-processflow/) |This section of the documentation will guide the user with the process of Creating & Saving new processflows.|   
-|[Copy ProcessFlows](/processflow/copy-processflow/)|This will enable you to copy your designed processflows for creating and storing a backup file of your configured processflow.|
-|[Deploying and Excecuting processflow](/processflow/deploying-and-executing-processfloww/) | This section enables the user to deploy the new or saved processflow to the environment in order to execute the integration process.|          
-|[Undeploying processflow](/processflow/deploying-and-executing-processfloww/#undeploy-process-flow-from-environment) | This section enables the user to undeploy a deployed process from the environment.|    
-|[Redeploying processflow](/processflow/redeploying-processflow/) | Redeploying processflow functionality allows you to re-deploy an existing processflows (deployed/deployed and executed) to the same environment in order to make any changes and execute the integration process.|      
-|[Snapshot processflow](/processflow/snapshot-processflow/) | This section of the documentation will guide the user about viewing snapshot of the created processflow.|    
-|[Processflow Packaging](/processflow/processflow-packaging-overview/)| This will enable you to create and install & reinstall packages containing processflows. You can share your created packages to other organisation when required also you will be able to install incoming packages shared to you.|
-|[Creating Lookup Repository Master Data](/deployment/Lookup-repository-masterdata/) | Repositories in APPSeCONNECT provides the user to create and manage Lookup types in form of tables for the organisation.|        
-|[Export & Import Lookup](/deployment/export-and-import-lookup/) | Repositories in APPSeCONNECT has been implemented with the feature of Import & Export of Reference tables that reduces the manual work of the table creation.|        
-|[Implemeting Lookup in Mapping](/deployment/implementing-lookup-in-mapping/) | Once the Collection and the Reference tables are created, users can implement those lookups in the attribute mapping for the sync process.|   
-|[Mapper Node](/processflow/working-with-mapper/) | processflow designer inteface gives you the space to design your business flow and do the node configurations of the applications and trasformation activities all in one go|  
+|[Architecture](/processflow/Architecture/) |This section of the documentation will guide the user about the working logic of ProcessFlow.|   
+|[Terminology](/processflow/Terminology/)|This will enable you to know about various terms that you will come across while using ProcessFlows.|
+|[Components of ProccesFlow](/processflow/components-of-processflow/) | This section enables you to know about various sections of ProcessFlow Designer page.|          
+|[QuickStart](/processflow/Quickstart-guide-to-processflow/)| This section enables the user to know about the operations of create, copy and delete ProcessFlow.|    
+|[Nodes and Links](/processflow/processflow-nodes-and-links/) | This section will allow to know various types of nodes and links used in ProcessFlow.|      
+|[Working with Variables](/processflow/working-with-variable/) |This section provides you the way to use variables in ProcessFlow.|    
 
 
 
