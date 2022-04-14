@@ -6,7 +6,7 @@ category: "Processflow"
 menus: 
     deployment:
         title: "Data view of Snapshot"
-        weight: 6
+        weight: 5
         icon: fa fa-file-word-o
         identifier: snapshotprocessflow
 ---
