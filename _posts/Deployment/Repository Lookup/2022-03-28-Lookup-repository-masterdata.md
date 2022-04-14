@@ -6,7 +6,7 @@ category: "Deployment"
 menus: 
     deployment:
         title: "Creating Repository Collection & Reference Tables"
-        weight: 6
+        weight: 1
         icon: fa fa-file-word-o
         identifier: lookuprepoprocessflow
 ---

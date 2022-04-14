@@ -21,7 +21,6 @@ This section will enable you to create new package from created processflows. Fo
 
 1. Login to Portal and navigate to the **Designer** > **ProcessFlow** module. This loads the ProcessFlow tree which gives access to your **Package Library**. 
 2. Expanding **Package Library** node,you'll be able to view **My Packages** folder. Click on **My Packages** folder,to create new packages. 
-
 ![Packagelibrary](/staticfiles/processflow/media/packagelibrary.png)
 
 3. In this screen,you'll see all the packages that you have already created as well as if you want to create new package click on **Create** button.
@@ -33,6 +32,7 @@ This section will enable you to create new package from created processflows. Fo
 i. **Choose ProcessFlows** - This section will allow you to choose various processflows from ProcessFlow folder as well as its sub-folder. The selected Processflows will be displayed in the upper table as you select them. 
 
 a) In the Choose ProcessFlows section, you’ll be able to view the folder path, that will enable you to find Processflows from your Processflow folders. By default, the Home Folder will be selected in the **Folder Path** and all the Processflows under **HOME** folder will be listed in the below table for the selection process. 
+
 b) The Processflow table below, will enable you to select the ProcessFlows for packaging. The following details will be displayed in the table. 
 
    **Name** - Name of the ProcessFlows. 
@@ -77,11 +77,9 @@ Once you have created your Processflow Packages, you can successfully view the p
 1. Navigate to the **Designer** > **ProcessFlow** module. This loads the ProcessFlow tree which gives access to your **Package Library**. 
 2. Expand the **Package Library** node in ProcessFlow listing page and click on **My Packages** folder. 
 3. On **My Packages** folder,you can view the created packages on your organisation. 
-
 ![publishtomarketplace1](/staticfiles/processflow/media/publishtomarketplace1.png)
 
 4. Select a package from **My Packages** folder that have its status displayed as **New**. Click on the contextual menu available in the Actions column which will display **Publish To Marketplace**. 
-
 ![publishtomarketplace2](/staticfiles/processflow/media/publishtomarketplace2.png)
 
 5. Clicking **Publish To Marketplace** will sent the package to the approver for acceptance. The approvers are the subject matter experts on the platform who can install your package, test it in their environment before approving. The approving is a manual process, and we encourage you to visit your library to check the status. 
@@ -98,15 +96,12 @@ Let us look at the steps to publish the package after re-versioning.
 1. Publish a package to Marketplace by clicking **Publish To Marketplace**. The status of this package will be changed to **Waiting for Approval** from **New**. 
 2. An Approver after reviewing the package can approve, reject or respond to a package. 
 3. Clicking on **Package Library** node in ProcessFlow listing page,you’ll be able to view **My Packages** folder. 
-4. On **My Packages** folder,you can view the created packages on your organisation. The status of those packages bear **Responded** will have comments given by the approver. 
+4. On **My Packages** folder, you can view the created packages on your organisation. The status of those packages bear **Responded** will have comments given by the approver. 
 5. Click on the context menu and you can view **Re-Publish to Marketplace**. You can view the comments provided by the approver. 
-
 ![packagecomments](/staticfiles/processflow/media/packagecomments.png)
 
-6. Perform the necessary changes as suggested by the approver and send the package for approval. 
-
+6. Perform the necessary changes as suggested by the approver and send the package for approval.
 **NOTE – Package with same version cannot be re-published. Upgrade the package version before sending for approval.** 
 
 7. If you donot change the version,then the message **Package Version already exist. Please Provide a new version** will be displayed.Henceforth,you should change the version of the package and **Re-Publish** the same. 
-
 ![packagereversioning](/staticfiles/processflow/media/packagereversioning.png)

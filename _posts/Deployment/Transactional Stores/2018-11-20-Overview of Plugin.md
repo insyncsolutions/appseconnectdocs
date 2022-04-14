@@ -7,7 +7,7 @@ menus:
     deployment :
         title: "Plugins"  
         icon: fa fa-file-word-o   
-        weight: 6    
+        weight: 13   
         identifier: plugins
 ---
 

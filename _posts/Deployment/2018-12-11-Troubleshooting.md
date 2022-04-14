@@ -6,7 +6,7 @@ category: "Deployment"
 menus:
     deployment: 
         icon: fa fa-gg
-        weight: 6
+        weight: 12
         title: "Troubleshooting"
         identifier: troubleshootingdeployment              
 ---

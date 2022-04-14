@@ -11,29 +11,29 @@ menus:
         identifier: configuringaec
 ---
 
-This section gives the overall idea about choosing application, configuring your apps in Processflow, environment setup and execution of the sync process. Step by Step direction is given below:
+This section gives the overall idea about choosing application, configuring your apps in Processflow, environment setup and execution of the sync process. Step by Step direction is given below :
 Login to APPSeCONNECT - View [Home Page](https://portal.appseconnect.com/Account/Login?ReturnUrl=%2f#!) to get the details.
 
 |Sections|Details|
 |---|---|
 |[Searching Application](/getting%20started/configurations/#searching-applications)| You can filter all your added applications by searching application. Visit the section to know more about searching application.| 
-|[Choosing Applications](/getting%20started/configurations/#process-of-choosing-app) |User needs to choose the applications as per the requirement of the user. This is the very first step while proceeding with the integration process|
+|[Choosing Applications](/getting%20started/configurations/#process-of-choosing-app) | User needs to choose the applications as per the requirement of the user. This is the very first step while proceeding with the integration process.|
 |[Creating Applications](/getting%20started/configurations/#create-application) | You can successfully create custom or technology based applications as per requirement. Follow the steps given here to create custom or a technology app. For Custom and Technology application, you can delete the application by selecting the delete option from the VIEW drop-down.|
-|[Providing Credentials](/connectors/OLEDB-Credentials/)|Working with cloud integration, you need to provide credentials on the cloud platform. This section will only be available for those application that supports cloud technology. Follow the process to know and understand the process to provide credentials on cloud.|
-|[Understanding Schema and Entity](/getting%20started/configurations/#understanding-schemaentity)|Every application has its schema and entity for integrating with applications|
-|[Understanding Attributes](/getting%20started/configurations/#understanding-custom-attributes)|Every schema has its attributes that are needed to be mapped with the destination application for the sync process|
-|[Working with Schemas, Attributes & Actions](/transformation/working-with-schemas-action-filter/)|Every Entity is transformed after configuring its proper Schema, attributes and its actions. Follow the steps if you need to create Schema, its attributes and actions.|
+|[Providing Credentials](/connectors/OLEDB-Credentials/)| Working with cloud integration, you need to provide credentials on the cloud platform. This section will only be available for those application that supports cloud technology. Follow the process to know and understand the process to provide credentials on cloud.|
+|[Understanding Schema and Entity](/getting%20started/configurations/#understanding-schemaentity)| Every application has its schema and entity for integrating with applications.|
+|[Understanding Attributes](/getting%20started/configurations/#understanding-custom-attributes)| Every schema has its attributes that are needed to be mapped with the destination application for the sync process.|
+|[Working with Schemas, Attributes & Actions](/transformation/working-with-schemas-action-filter/)| Every Entity is transformed after configuring its proper Schema, attributes and its actions. Follow the steps if you need to create Schema, its attributes and actions.|
 |[Adapters](/connectors/Version-Extraction-For-Adapter-Upload/)| On expanding each applications, you get to see the button adapters that informs you about the latest adapter available for your selected application. You will also get to know about the process to add adapter on your organisation.|
 |[Functions](/transformation/using-library-methods/)| This section will help with the functions that are available for your chosen application. You can also create more Cloud Appresource functions.|
 |[Protocols](/getting%20started/configurations/#protocol)| This section will help to work with protocols for the technology and custom created applications with in an organisation.|
 |[Delete](/getting%20started/configurations/#delete)| You can easily delete your selected applications by clicking on the delete button. Visit the section to know more about the delete functionality.|
 
-## Searching Applications: 
+## Searching Applications : 
 
-You can eaily filter all your added applications by the SEARCH functionality. You can filter your applications as per the process given below:
+You can eaily filter all your added applications by the SEARCH functionality. You can filter your applications as per the process given below :
 
-- Search by Name: You can search your applications by typing its name on the search box.
-- Search by Category: You can also search your application by selecting the category of your application. For Eg: Marketing, ERP, POS, Human Resource etc.
+- Search by Name : You can search your applications by typing its name on the search box.
+- Search by Category : You can also search your application by selecting the category of your application. For Eg: Marketing, ERP, POS, Human Resource etc.
 
 ![Appsearch](\staticfiles\root\media\appsearch.png)
 
@@ -46,7 +46,7 @@ User can also get an option for creating a Custom application or technology app.
  ![ChooseApp_Dialogbox](/staticfiles/root/media/ChooseApp_Dialogbox.png)
 2. A dialog box appears where you will choose the application and version number from the drop down list. Click **SAVE** to save the app.
 ![ChooseApp_Dialogbox1](/staticfiles/root/media/ChooseApp_Dialogbox1.png)
-3. The list of app you choose gets added and listed in the app section of the organization as shown below:
+3. The list of app you choose gets added and listed in the app section of the organization as shown below.
 ![AppView](/staticfiles/root/media/AppView.png)
 4. Each `OP supported app` has four different functionality attached to it - **Schema, Adapters, Functions & Delete**.
 ![AppComponents](/staticfiles/root/media/AppComponents.png)
@@ -55,7 +55,7 @@ User can also get an option for creating a Custom application or technology app.
 
 [Click](/connectors/Overview-of-Connectors/) to view the configuration details of the Connectors.
 
-Here you can view the details of the respective buttons [Schema](/configuring%20appseconnect/configurations/#appseconnect-schemaentity),[Adapters](/configuring%20appseconnect/configurations/#adapter),[Function](/configuring%20appseconnect/configurations/#functions) & [Delete](/configuring%20appseconnect/configurations/#delete).
+Here you can view the details of the respective buttons [Schema](/configuring%20appseconnect/configurations/#appseconnect-schemaentity), [Adapters](/configuring%20appseconnect/configurations/#adapter), [Function](/configuring%20appseconnect/configurations/#functions) & [Delete](/configuring%20appseconnect/configurations/#delete).
 
 
 ## Create Application
@@ -68,7 +68,7 @@ Both the process of application creation is given below.
 ### (a) Create Custom App
 
 The feature of custom app creation enables you to create a custom app with all the required credentials.
-The steps are shown below:
+The steps are shown below :
 
 1. Go to Manage > Apps > Choose App> Create Custom App. The following screen appears  
 ![CustomAPP-Creation1](/staticfiles/root/media/CustomAPP-Creation1.png)
@@ -80,7 +80,7 @@ The steps are shown below:
 * Stage indicates, in what state the App is, for example, it might be in development stage or design stage.
 * The Is Cloud Supported checkbox is to check if the version of the App is cloud supported.
 4. Click Continue button, it will direct to the Version detail page. Enter the details of the version of the App. 
-   The version screen will allow specifying the version number,version description, version definition, supported version, Adapter template.  
+   The version screen will allow specifying the version number, version description, version definition, supported version, Adapter template.  
 ![CustomAPP-Creation3](/staticfiles/root/media/CustomAPP-Creation3.png)
 5. Click Continue button, it will direct to the Protocol Setup Page. Enter the mandatory field like Protocol Name, Protocol Method.  
 ![CustomAPP-Creation4](/staticfiles/root/media/CustomAPP-Creation4.png)
@@ -94,7 +94,7 @@ You can upload/create a Template File. (If you upload a file then it has to be i
 ![CustomApp-AddNamespace](/staticfiles/root/media/CustomApp-AddNamespace.png)  
 In the Add Namespace portion, you can add new namespace by filling Prefix and URL field.
 The namespaces added to the template file will be applied to root node only during XSLT generation.  
-Click Continue button, it will direct to the Adapter page.Here you can `Upload Adapter or Select Adapter`.  
+Click Continue button, it will direct to the Adapter page. Here you can `Upload Adapter or Select Adapter`.  
 ![CustomApp-UploadAdapter](/staticfiles/root/media/CustomApp-UploadAdapter.png)
 Click Continue button, it will redirect you to the Credential section. After execution of all the steps mentioned above you have created a custom App successfully.
 The newly created app, can be viewed in the app listing section. 
@@ -160,7 +160,7 @@ View [Technology Apps](/connectors/Overview-of-technology-connectors/) section f
 * The definition of an entity is called its schema. In other words, the structure of an entity is called its schema.
 * If a customer is an entity then the complete set of the various fields associated with it is called its schema.
 
-Schema Image is given below:
+Schema Image is given below :
 
 ![Schema](/staticfiles/root/media/Schema.png)
 
@@ -204,26 +204,28 @@ custom attribute and map that with the data coming from the attribute at the oth
 Actions are nothing but defining certain tasks like getting data from an application or sending data to an application based on certain conditions and these conditions are defined through an action filter. 
 
 For example, suppose you want to fetch customer(s) data from an eCommerce site and in APPSeCONNECT you define a Customer entity for that.
-Now for getting data we can define an action name called `GET`. When you define an action for an entity you need to provide certain information
+Now for getting data we can define an action name called `GET`. When you define an action for an entity you need to provide certain information.
 
-* Action Name: Name of the action. In some predefined application many adapter logics are written based on this data.
-* Action Description: This is the Description of the action. At the time of touchpoint creation actions are selected based on this description.
-* Action Filter & Resync Filter Details
+* Action Name : Name of the action. In some predefined application many adapter logics are written based on this data.
+* Action Description : This is the description of the action. At the time of node configuration actions are selected based on this description.
+* Action Filter & Resync Filter Details : Action Filter & Resync Filter lets you define a filter criteria for an action which filters out the data from the API and rerun the integration for erronous data respectively.
 
 ### Understanding Schemas and Actions of an Application
+
 The user can view the schemas and the action present or can also add schema and add action for each application. 
 This section enables the user to view and add the Schema and its Actions. 
 
 _**[Click](/transformation/working-with-schemas-action-filter/) to know more about the process to add Schemas, attributes & Actions.**_
 
 **Prerequisites:**
+
 1. The User needs to have a valid AEC account.
 2. An application is needed to be select for defining the Schemas and its Actions.
 
 **Process:**
 1. Login to the APPSeCONNECT Portal with valid credentials.
 2. Move into Manage > APPS Page and [Choose any application](/configuring%20appseconnect/configurations/#process-of-choosing-app). 
-3. Click on the + sign after adding the application and click on Schema.(In this case, MS Dynamics NAV has been taken for the instance).
+3. Click on the + sign after adding the application and click on Schema. (In this case, MS Dynamics NAV has been taken for the instance).
 ![Select-Schema](/staticfiles/root/media/Select-Schema.png)
 4. On the Schema Window, the user can view the schemas present or can also add schemas present for the ADD Schema Option.  
 ![Add-Schema](/staticfiles/root/media/Add-Schema.png)
@@ -236,7 +238,7 @@ _**[Click](/transformation/working-with-schemas-action-filter/) to know more abo
 ### Adapter
 Adapters helps in integration with other applications easy. Adapter represents an interface between an APP and APPSeCONNECT. An adapter is a component which connects your app with APPSeCONNECT. [Click](/connectors/Version-Extraction-For-Adapter-Upload/) to know about the steps to Add adapter for an application in an organisation.
 
-There are few responsibilities of an adapter which are defined as under: 
+There are few responsibilities of an adapter which are defined as under : 
 
 * Create a credentials view which allows connecting to the respective APP where you want to connect.
 * Create Push and Pull method inside the adapter which can send and receive data to and from the application.
@@ -245,10 +247,13 @@ There are few responsibilities of an adapter which are defined as under:
 The Adapter is loaded dynamically by the [Agent](/deployment/overview/) and calls some specific methods using a fixed contract defined as an interface.
 
 ### Extension
+
 Extensions, on the other hand, are the applications which add an extra feature into the E-commerce/ERP platforms making them capable to work with the APPSeCONNECT agent. When an app supports extension, it enables customization.
 
 ### Functions
-The APPSeCONNECT expression methods are special transformation block used during `mapping`. The platform provides a bunch of helper functionalities which can be used during mapping/action filters/rules etc. These functions can either be provided through the platform, or you can write one as an independent Software Vendor. The three different types are as follows:
+
+The APPSeCONNECT expression methods are special transformation block used during `mapping`. The platform provides a bunch of helper functionalities which can be used during mapping/action filters/rules etc. These functions can either be provided through the platform, or you can write one as an independent Software Vendor. The three different types are as follows :
+
 * Generic
 * Native
 * Cloud App Resource
@@ -303,6 +308,7 @@ Following the above process, you can successfully create a protocol for an Techn
 - Protocol delete will not work if the same protocol is used in a touchpoint.
 
 ### Delete
+
 Clicking on the `Delete` button will remove the application from your application list. However, can anytime choose the deleted application from the `Choose App` list. Also for custom and technology application, you can delete the applications for the drop-down availble beside the `VIEW` button.
 
 _**Note:** You will be restricted from deleting the any application that is already in use._

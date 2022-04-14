@@ -11,8 +11,6 @@ menus:
         identifier: accessingportal
 ---
 
-**APPSeCONNECT** is an iPaaS which lets developer or citizen integrator to build integration solution such that the data could be seamlessly transferred through it. 
-It acts as middleware between enterprise applications which transfers data from one business application and updates the same to their respective applications through the aid of agent. 
 APPSeCONNECT Agent is a lightweight dynamic runtime engine that can be downloaded on your own server locally or as cloud hosted one and does the actual data synchronization with On-Premise application as well as Cloud hosted applications with the help of adapters. 
 The Agent is a background service which runs as per your configuration running on schedule, either automatically or manually, and syncing data between applications. 
 The Agent is capable of responding to any configurational changes and can retain that application configuration until the next change. 
