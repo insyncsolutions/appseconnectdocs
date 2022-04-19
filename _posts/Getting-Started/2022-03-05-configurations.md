@@ -28,7 +28,7 @@ Login to APPSeCONNECT - View [Home Page](https://portal.appseconnect.com/Account
 |[Protocols](/getting%20started/configurations/#protocol)| This section will help to work with protocols for the technology and custom created applications with in an organisation.|
 |[Delete](/getting%20started/configurations/#delete)| You can easily delete your selected applications by clicking on the delete button. Visit the section to know more about the delete functionality.|
 
-## Searching Applications : 
+## Searching Applications
 
 You can eaily filter all your added applications by the SEARCH functionality. You can filter your applications as per the process given below :
 
@@ -40,7 +40,7 @@ You can eaily filter all your added applications by the SEARCH functionality. Yo
 ##  Process of Choosing App 
 
 Choose App option enables the user to select applications from the list of pre-packaged apps on the portal. 
-User can also get an option for creating a Custom application or technology app. 
+User can also get an option for creating a Custom application or Technology app. 
 
 1.	Naviagte to Manage > App. Clicking Choose App button, the user gets the view of the following window.
  ![ChooseApp_Dialogbox](/staticfiles/root/media/ChooseApp_Dialogbox.png)
@@ -55,7 +55,7 @@ User can also get an option for creating a Custom application or technology app.
 
 [Click](/connectors/Overview-of-Connectors/) to view the configuration details of the Connectors.
 
-Here you can view the details of the respective buttons [Schema](/configuring%20appseconnect/configurations/#appseconnect-schemaentity), [Adapters](/configuring%20appseconnect/configurations/#adapter), [Function](/configuring%20appseconnect/configurations/#functions) & [Delete](/configuring%20appseconnect/configurations/#delete).
+Here you can view the details of the respective buttons [Schema](/getting%20started/configurations/#understanding-schemaentity), [Adapters](/sdk/overview-adapters/) & [Function](/processflow/Working-with-functions/).
 
 
 ## Create Application
@@ -74,10 +74,9 @@ The steps are shown below :
 ![CustomAPP-Creation1](/staticfiles/root/media/CustomAPP-Creation1.png)
 2. In the Custom App Creation Screen the section are divided into - **App Details, Version Details, Protocol Setup & Adapter**
 ![CustomAPP-Creation2](/staticfiles/root/media/CustomAPP-Creation2.png)  
-3. Enter details like- App Name, Description, Category, Stage, Status, Is Cloud Supported, Choose Picture.
+3. Enter details like - App Name, Description, Category, Stage, Status, Is Cloud Supported, Choose Picture.
 * Stage indicates, in what state the App is, for example, it might be in development stage or design stage.
 * Some of the predefined categories are : ERP, ECommerce, CRM, Accounting, etc.
-* Stage indicates, in what state the App is, for example, it might be in development stage or design stage.
 * The Is Cloud Supported checkbox is to check if the version of the App is cloud supported.
 4. Click Continue button, it will direct to the Version detail page. Enter the details of the version of the App. 
    The version screen will allow specifying the version number, version description, version definition, supported version, Adapter template.  
@@ -85,7 +84,7 @@ The steps are shown below :
 5. Click Continue button, it will direct to the Protocol Setup Page. Enter the mandatory field like Protocol Name, Protocol Method.  
 ![CustomAPP-Creation4](/staticfiles/root/media/CustomAPP-Creation4.png)
 
-Protocol setup will have two sections: 
+Protocol setup will have two sections : 
  1. Either create new protocol on fly which will require them to create protocol file 
   OR 
 2. Select from the generic protocol. The generic protocol will generally have adapter assigned to it, if not the adapter needed to be uploaded to next screen.
@@ -112,7 +111,7 @@ The Upload adapter will allow either selecting generic adapter or upload adapter
   * In case of  Upload Adapter, you must give File Name, File Title, Assembly Version and upload Adapter.
   
 **Protip**  App Name will take up to 30 characters and will not allow special character except underscore(_)and dot(.)  
-The Adapter needs to be in Zip Format else will show an Error message. Selection of the adapter is restricted to only one  The user can edit & delete the custom app & technology app  
+The Adapter needs to be in Zip Format else will show an Error message. Selection of the adapter is restricted to only one.  The user can edit & delete the custom app & technology app  
 {: .notice--info}
 
 ### (b) Technology App Creation
@@ -120,10 +119,10 @@ The feature of technology app creation in APPSeCONNECT is to ease the process of
 Technology App Creation wizard provides a single screen where input details like Application Name, 
 Description and the Adapter Technology for adding Specific App (a business requirement) can be provided in one go.
 
-The steps are given below:
+The steps are given below :
 1. Go to Manage > Apps > Choose App> Create Technology App. Click on the drop-down icon and select Create Technology APP.  
 ![TechnologyApp-Creation](/staticfiles/root/media/TechnologyApp-Creation.png)
-2. In the screen, Provide the **APP NAME and DESCRIPTION**, Choose the **Adapter Technology** and click SAVE.  
+2. In the screen, provide the **APP NAME and DESCRIPTION**, choose the **Adapter Technology** and click SAVE.  
 ![TechnologyApp-Creation-Screen2](/staticfiles/root/media/TechnologyApp-Creation-Screen2.png)
 3. Now you can view the technology application name, successfully added to your List of APPLICATIONS with a default Image. 
 ![TechnologyApp-Creation-Screen3](/staticfiles/root/media/TechnologyApp-Creation-Screen3.png)
@@ -136,19 +135,17 @@ View [Technology Apps](/connectors/Overview-of-technology-connectors/) section f
 **Protip** Currently we are using only these Technology Adapter - FILE, REST, OLEDB & FTP. 
 {: .notice--info}
 
-### Viewing & Editing Custom & Technology Applications:
+### Viewing & Editing Custom & Technology Applications
 
-1. Once your application is created, you can view the following interface of you Custom/Technology App. You can view a `VIEW` button beside your created application.
-
+1. Once your application is created, you can view the following interface of your Custom/Technology App. You can view a `VIEW` button beside your created application.
 ![customview1](\staticfiles\root\media\customview1.png)
 
 2. Click on the view button, you will able to edit the following details as provided in the screen below.
-
 ![customview2](\staticfiles\root\media\customview2.png)
 
 3. You can also delete the created application if required by click on the delete button available under the drop-down of the `VIEW` button.
 
-**Note: You cannot delete the application if it is associated with any connection.**
+**Note : You cannot delete the application if it is associated with any connection.**
 
 ### Understanding Schema/Entity
  
@@ -217,14 +214,14 @@ This section enables the user to view and add the Schema and its Actions.
 
 _**[Click](/transformation/working-with-schemas-action-filter/) to know more about the process to add Schemas, attributes & Actions.**_
 
-**Prerequisites:**
+**Prerequisites :**
 
 1. The User needs to have a valid AEC account.
 2. An application is needed to be select for defining the Schemas and its Actions.
 
-**Process:**
+**Process :**
 1. Login to the APPSeCONNECT Portal with valid credentials.
-2. Move into Manage > APPS Page and [Choose any application](/configuring%20appseconnect/configurations/#process-of-choosing-app). 
+2. Move into Manage > APPS Page and choose any application. 
 3. Click on the + sign after adding the application and click on Schema. (In this case, MS Dynamics NAV has been taken for the instance).
 ![Select-Schema](/staticfiles/root/media/Select-Schema.png)
 4. On the Schema Window, the user can view the schemas present or can also add schemas present for the ADD Schema Option.  
@@ -232,7 +229,7 @@ _**[Click](/transformation/working-with-schemas-action-filter/) to know more abo
 5. The Actions inside a schema can be viewed by clicking on the + sign. The ADD ACTION option is provided for Adding Actions inside a Schema.
 ![Add-Action](/staticfiles/root/media/Add-Action.png)
 
-**Protip:** Default Schemas would only be present for the Pre-packaged APPS.
+**Protip :** Default Schemas would only be present for the Pre-packaged APPS.
 {: .notice--info}
 
 ### Adapter
@@ -260,20 +257,20 @@ The APPSeCONNECT expression methods are special transformation block used during
 
 ![Appfunctions](\staticfiles\root\media\appfunctions.png)
 
-Here you will get the details of [Appresource Functions](/transformation/using-library-methods/) of APPSeCONNECT
+Here you will get the details of [Appresource Functions](/transformation/using-library-methods/) of APPSeCONNECT.
 
 ### Protocol
 
 This section is only available for the custom application and technology application. Follow the instructions below to create Protocol Methods for your application.
 
-**Prerequisites:**
+**Prerequisites :**
 
 - You need to have valid credentials to the portal.
-- You need to create a [custom app](/configuring%20appseconnect/configurations/#a-create-custom-app) or a [Technology app](/configuring%20appseconnect/configurations/#b-technology-app-creation) to access the protocol section.
+- You need to create a [Custom app](/connectors/overview-of-custom-connectors/) or a [Technology app](/connectors/technology-app-creation-using-processflow/) to access the protocol section.
 
-**Steps to work with Protocol Methods:**
+**Steps to work with Protocol Methods :**
 
-Protocol Add screen is for creating or updating the existing protocol. An user will be able to add more protocols to the existing app such that the same can be used for implementer's connections. So, to Add or Update protocol you must follow the steps written below:
+Protocol Add screen is for creating or updating the existing protocol. An user will be able to add more protocols to the existing app such that the same can be used for implementer's connections. So, to Add or Update protocol you must follow the steps written below :
 
 1) Navigate to the app section and expand the node of the created custom or tech app to view the `Protocol` button.
 
@@ -294,13 +291,13 @@ Protocol Add screen is for creating or updating the existing protocol. An user w
 
 ![Protocoladd4](\staticfiles\root\media\protocoladd4.png)
 
-5) On the method window, you to provide the name of the protocol `method` and the token from the drop down. Once selected click on the SAVE button.
+5) On the method window, you need to provide the name of the protocol `method` and the token from the drop down. Once selected click on the SAVE button.
 
 ![Protocoladd5](\staticfiles\root\media\protocoladd5.png)
 
 Following the above process, you can successfully create a protocol for an Technology or a Custom app.
 
-**Note:** 
+**Note :** 
 
 - Each protocol can have protocol methods under them. You can create more than one method for a protocol. 
 - Multiple methods can be added to a protocol, each of which allows XSLT Templates. 
@@ -311,10 +308,10 @@ Following the above process, you can successfully create a protocol for an Techn
 
 Clicking on the `Delete` button will remove the application from your application list. However, can anytime choose the deleted application from the `Choose App` list. Also for custom and technology application, you can delete the applications for the drop-down availble beside the `VIEW` button.
 
-_**Note:** You will be restricted from deleting the any application that is already in use._
+_**Note :** You will be restricted from deleting the any application that is already in use._
 
 
-**ProTip:** Please choose the category correctly because depending on your choice, you might be allowed to add Connectors. This portal do not support connectors between Apps in the same group (As that won't process any business requirement). For instance, migration jobs from SAP B1 to SAP ECC will not be supported at this time. 
+**ProTip :** Please choose the category correctly because depending on your choice, you might be allowed to add Connectors. This portal do not support connectors between Apps in the same group (As that won't process any business requirement). For instance, migration jobs from SAP B1 to SAP ECC will not be supported at this time. 
 {: .notice--info}
 
 

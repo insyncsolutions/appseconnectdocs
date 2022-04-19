@@ -1200,7 +1200,7 @@
     <Content Include="staticfiles\root\media\customview2.png" />
     <Content Include="staticfiles\root\media\Dashboard.png" />
     <Content Include="staticfiles\root\media\DashboardScreen.png" />
-    <Content Include="staticfiles\root\media\DashboardView1.png" />
+    <Content Include="staticfiles\root\media\Dashboardview1.png" />
     <Content Include="staticfiles\root\media\deploy1.png" />
     <Content Include="staticfiles\root\media\designer1.PNG" />
     <Content Include="staticfiles\root\media\dwonload.png" />

@@ -39,7 +39,7 @@ related to the application is performed over time. The [APPSeCONNECT portal](htt
 is protected behind a secure authentication to ensure the data is safe inside it. The Portal can be opened directly from the browser application giving 
 the user a 360 degree view of all the services running on the environments and also allows to manage them from it. 
 
-![DashboardView1](/staticfiles/root/media/DashboardView1.png)
+![DashboardView1](/staticfiles/root/media/Dashboardview1.png)
 
 In the above figure, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as changing your password.
 
@@ -52,7 +52,7 @@ Let us walkthrough the Functional Modules for understanding the usage and need o
 
 |Modules|Details|
 |---|---|
-|Home|This page will show the details of the organisation,user logged in into, Project Basic Information, Configuration Completion Details etc.|
+|Home|This page will show the details of the organisation, user logged in into, Project Basic Information, Configuration Completion Details etc.|
 |Designer|This section will allow users to design the business flows using Workflows or Processflows.|
 |Deploy|This section will let users work with the Environment deployed.|
 |Manage|This section will allow the users to manage their Apps, Connections, Rules, Repositories, APIs, Feeds etc.|
@@ -98,7 +98,7 @@ provides a way of defining Schemas and Actions specific to an App, such that whe
 ### Types of APPs
 
 * Native App - These are pre-built and pre-packaged APPs that are natively supported by the platform. The APIs are already mapped for these applications and tested by the community. 
-The native apps are configured by the product team to give you best experience and lesser or negligiable learning curve to use it. 
+The native apps are configured by the product team to give you best experience and lesser or negligible learning curve to use it. 
 * Technology App - These apps are pre-build and provided by the platform for a specific protocol. A protocol defines the way of communication. Even though a technology app does not define 
 the various tenats of the apps like schemas, actions, etc to map the APIs of any application, but they provides a way to connect APIs without defining an Adapter or without going through the 
 complexities of the data channels and connectivity. 

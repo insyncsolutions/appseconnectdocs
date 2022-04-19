@@ -23,7 +23,7 @@ or even one single penny of expense. We give you the full fledged version of all
 The Free Trial selection option will only showcase the integration on vanilla systems.
 
 1. The Landing page of the APPSeCONNECT Portal gives the option to request for a [FREE TRIAL](https://www.appseconnect.com/free-trial/).
-2. Click the option Free Trial and the following screen appears  
+2. Click the option Free Trial and the following screen appears.  
 ![FreeTrial](/staticfiles/root/media/FreeTrial.png)
 3. A vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
 ![Trial_Form](/staticfiles/root/media/Trial_Form.png)
@@ -94,7 +94,7 @@ To reset your password, click `Forgot Password`. The notification will be sent v
 ### Enable multi-factor authentication
 
 To secure your account in APPSeCONNECT, we highly encourage our users to enable our multi factor authentication system such that even though your userid and password combination is compromized, you will still feel safe with the account. 
-To enable mutli factor authentication system,you need to perform the following validation.
+To enable mutli factor authentication system, you need to perform the following validation.
 
 1. **Enable Two-Factor Authentication for your Account**
 

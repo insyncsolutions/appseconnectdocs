@@ -78,7 +78,7 @@ The percentage is displayed on a pie chart irrespective of connections. Hovering
 number of data based on the statuses. Users can minimize and maximize the widget by click on the respective button available on the top right 
 corner of the widget. 
 
-**Note: The close button remains in disabled state.** 
+**Note : The close button remains in disabled state.** 
 
 ![ExecutionStatus_Dashboard](/staticfiles/root/media/ExecutionStatus_Dashboard.png)
 
@@ -97,7 +97,7 @@ c.	The source id of the item.
 
 ![Syncerror_Dashboard.png](/staticfiles/root/media/Syncerror_Dashboard.png)
 
-*Note: Only the latest 100 errors would display in the widget.* 
+*Note : Only the latest 100 errors would display in the widget.* 
 
 Users can search the error based on the source id and the error name by click on the search icon available on the top right corner of the widget. 
 Users can minimize and maximize the widget by click on the respective button available on the top right corner of the widget. 
@@ -119,7 +119,7 @@ Users can minimize and maximize the widget by click on the respective button ava
 **Note:(a) The close button remains in disabled state.  
        (b)Logs would be displayed only for autosync execution processes** 
 
-*8. Process Errors : This widget will display all the errors relating to processing of data such as no data is available for posting to your destination application,posting of same data to your destination applications etc.*   
+*8. Process Errors : This widget will display all the errors relating to processing of data such as no data is available for posting to your destination application, posting of same data to your destination applications etc.*   
 
 ![Processerrors_Dashboard.png](/staticfiles/root/media/Processerrors_Dashboard.png)
 
@@ -155,7 +155,7 @@ This section will allow you to work with different **ENVIRONMENTS** either On-Pr
 
 ### Environment
 
-[Environment](https://docs.appseconnect.com/getting%20started/configurations-for-integration/#configuring-environment---agent-download--cloud-agent-configuration) page lists the devices that have access to the project that the customer is working on. 
+[Environment](/deployment/Environment-Management/) page lists the devices that have access to the project that the customer is working on. 
 
 ## Manage
 
@@ -287,7 +287,7 @@ You can do [App Selection](/getting%20started/configurations/) & [touchpoint exe
 
 ### Connection
 
-The Connection Page of the Portal enables creating the connection between two different Applications. You can also view the existing connection,as well as copy and search existing connection for a particular organization on this page. 
+The Connection Page of the Portal enables creating the connection between two different Applications. You can also view the existing connection, as well as copy and search existing connection for a particular organization on this page. 
 
 You need to [Create Connection](/integration/configurations-for-integration/#configuring-connector-while-creating-connection) & [Execute Touchpoint](/integration/configurations-for-integration/#creating-connection--executing-the-touchpoint).
 
@@ -336,7 +336,7 @@ Users can also study and view the latest updates and hotfixes provided for APPSe
 ### Chat
 
 On every page, there is a small icon available at the bottom right corner of the page which allows you to chat with our executive. The chat functionality is open 24/7 throughout the year and you can quickly click on the icon to execute the step. 
-The chat functionality connects to our support executive who are available for you to help you as and when required. You can also upload file with your requirement,insert emoji,and rate the conservation about how much you are satisfied with the same. 
+The chat functionality connects to our support executive who are available for you to help you as and when required. You can also upload file with your requirement, insert emoji, and rate the conservation about how much you are satisfied with the same. 
 ![Chat](\staticfiles\root\media\chat.png)
 
 **Feel free to chat with it whenever required**. 
@@ -363,7 +363,7 @@ Let us dive in details about every section of customer profile information.
 7. In **My Company section**, only your company details such as name of company, default contact details, account status will be present.
 8. **My Feeds** section will enable you to view recent activities that has occured in your organisation such as any rule that has been executed, any changes made in processflows, type of sync schedule selected etc.  
 
-By Clicking Projects and Workflows,you'll be redirected to respective pages where you can see various projects and workflows.
+By Clicking Projects and Workflows, you'll be redirected to respective pages where you can see various projects and workflows.
 
 **ProTip:** If you click on Change Details tab, you can edit all your personal details. 
 {: .notice--info}
@@ -371,7 +371,7 @@ By Clicking Projects and Workflows,you'll be redirected to respective pages wher
 ![ChangeDetails](/staticfiles/root/media/ChangeDetails.png)
 
 
-* Click **Personal Info** to chnage your name and contact number.
+* Click **Personal Info** to change your name and contact number.
 * Click  **Change Avatar** to change your Profile picture.
 * Click **Change Password** to change the password and set your new password.
 * The **Privacy Setting section** allows you to agree/disagree with the privacy policy. Basic privacy policy includes - Subscribing to Email Notifications & Acceptance of Terms & Condition.
@@ -390,7 +390,7 @@ following actions :
 
 2. Our Support team helps you in Selection of necessary addons and enable you in updating subscription.
 
-**Note: On Expiry of your organisation you'll not be able to perform the following functionalities**
+**Note: On Expiry of your organisation you'll not be able to perform the following functionalities**.
 
 - You'll not be able to perform the sync process of new data either through Auto-Sync or Manual Sync.
 
@@ -402,13 +402,13 @@ following actions :
 
 For Pricing details [click here](https://www.appseconnect.com/pricing/)
 
-#### Scenario 1: Updating Addons for Generic REST Applications
+#### Scenario 1 : Updating Addons for Generic REST Applications
 
 1.	Login to the APPSeCONNECT Portal and Navigate to the [My Subscription](/accessing%20portal/accessing-portal/#b-my-subscription). 
 2.	For adding license addons to REST Based Applications you need to increase the Add On `Additional Custom Data Sources`. 
 3.	You need to Update Subscription for the selected addon by clicking on the `Update Subscription` Button.
 4.  Now navigate to the On-Premise Agent. Do `Update Configuration` in the agent followed by `Update Adapters`.
-![UpdateSubscription_Rest](/staticfiles/root/media/UpdateSubscription.png)   
+![UpdateSubscription_Rest](/staticfiles/root/media/Updatesubscription.png)   
 5.	After the completion of Update Adapters, Close & Exit the On-Premise Agent from the taskbar.
 6.	Restart the On-Premise Agent to reflect the subscription for REST Based Adapters.
 
@@ -428,11 +428,11 @@ Click on the logout button will logout the user from the portal.
 ![bookmark1](/staticfiles/root/media/bookmark1.png)
 
 In the bookmark panel, user can also view the following buttons :    
-a. Bookmarks: For adding portal specific bookmarks.  
-b. Help: For getting help regarding how to use portal or to create business specific workflows and processflows,you can use this help option and will be redirected to our documentation portal.  
-c. Notifications: For viewing portal specific notification.      
-d. Downloads: For downloading APPSeCONNECT tools like Agent, Plugins, Addons etc.      
-e. Full Screen: Users can also view the portal in full screen mode by clicking on the full screen button.     
+a. Bookmarks : For adding portal specific bookmarks.  
+b. Help : For getting help regarding how to use portal or to create business specific workflows and processflows, you can use this help option and will be redirected to our documentation portal.  
+c. Notifications : For viewing portal specific notification.      
+d. Downloads : For downloading APPSeCONNECT tools like Agent, Plugins, Addons etc.      
+e. Full Screen : Users can also view the portal in full screen mode by clicking on the full screen button.     
  
 ### Steps to create portal specific Bookmark
 1) Clicking on the bookmarks link, user gets the option to Create Bookmark.   
@@ -443,7 +443,7 @@ e. Full Screen: Users can also view the portal in full screen mode by clicking o
 ![bookmark4](/staticfiles/root/media/bookmark4.png)   
 
 
-**Note: Application specific Add-ons would be available as per the application chosen in the apps section of the organisation.**
+**Note : Application specific Add-ons would be available as per the application chosen in the apps section of the organisation.**
 
 ### Organization Specific Notification for Users in AEC Portal 
 
@@ -504,10 +504,10 @@ user would be able to view the tools that are available for the organisation. Th
 11. Newly added project, will be added to the left side of last accessed unpinned project like this.                       
 ![NewProject-Add](/staticfiles/root/media/New-ProjectAdd2.png)            
 
-**Protip** 
+**Note**: 
+
 - For a new user, Account menu will only be available. For an end user, Administration menu will not be available 
-- When one project is added beyond the 5 projects, the last accessed project will be automatically removed. When already few project are added as pinned then after adding new project the new project will add to the left side of last unpinned added to project.
-{: .notice--info}  
+- When one project is added beyond the 5 projects, the last accessed project will be automatically removed. When already few project are added as pinned then after adding new project the new project will add to the left side of last unpinned added to project.  
 
 * If all 5 projects are pinned in the tab, thereafter if a new project is added it will be added but will not be visible in the tab.
 * Project can be deleted from recent accessed tab by implementer/dev/ISV partner/Implementation partner  [except new end customer/ user].
