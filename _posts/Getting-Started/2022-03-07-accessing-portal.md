@@ -151,7 +151,7 @@ To know more about Processflows, [Click Here](/processflow/overview-of-processfl
 
 This section will allow you to work with different **ENVIRONMENTS** either On-Premise or Hosted. You can perform multiple deployment functionalities that will help you setting up your environments. 
 
-![Deploy1](\staticfiles\root\media\deploy1.png)
+![Deploy1](\staticfiles\root\media\deploy1.PNG)
 
 ### Environment
 
@@ -203,13 +203,13 @@ b.	Organization Admin
 **Note : The tab Partners will not have any view unless an organization has any requirements for partners.**
 
 3)	For a fresh organisation, only the organisation owner will be displayed as the user in the user list. Click on the Add User button, to add more user to an organisation.
-![Useradd1](\staticfiles\root\media\useradd1.png)
+![Useradd1](\staticfiles\root\media\useradd1.PNG)
 
 4) On clicking the button Add User, a sliding window opens with a form for providing the details of new user to the organisation.
-![Useradd2](\staticfiles\root\media\useradd2.png)
+![Useradd2](\staticfiles\root\media\useradd2.PNG)
 
 5) Input the details and assign the role to the user that is being added. Specify the Role for the user that is being added. 
-![Useradd3](\staticfiles\root\media\useradd3.png)
+![Useradd3](\staticfiles\root\media\useradd3.PNG)
 
 6) Once all the mandatory fields are filled up, click on the Save button. The created user should be visible in the list of users along with a success message. The created user will have the following keys available for any modification. The list is provided below :
 
@@ -220,7 +220,7 @@ b.	Organization Admin
 - Resend Activation Mail : User can resend the activation mail, if required. This button will be available only until the user has activated the account. Once activated, this button will not be visible.
 
 - Change Role : Here, the default user can change the role for the created user.
-![Useradd4](\staticfiles\root\media\useradd4.png)
+![Useradd4](\staticfiles\root\media\useradd4.PNG)
 
 7) The created user gets an Activation Mail. You need to click on the Activation Link to activate your user account.
 
@@ -241,7 +241,7 @@ b.	Organization Admin
 2. Now Search/find the appropriate organization you want to change details for. 
 3. Click on Users menu.
 4. Click on Edit link for an existing user.    
-![Usernode](/staticfiles/root/media/usernode.png)
+![Usernode](/staticfiles/root/media/usernode.PNG)
 
 In the edit user screen, you can change all the deatils except Email Address for that particular user.
 
@@ -328,7 +328,7 @@ You can also define additional criteria for triggering the Rule and perform the 
 This section will assist and connect the user with APPSeCONNECT Docs and Community for reference and instant support. Users can anytime navigate to the [Documentation portal](https://docs.appseconnect.com/) for usability assists and reference. 
 Users can also connect with our [Community Portal](https://community.appseconnect.com/) for instant help and support for APPSeCONNECT. Having connected with our community portal enables you to stay in connect with latest discussions and solutions. 
 Common helps and reference support documents is also provided to the user when navigating to the HELP section.
-![Help1](\staticfiles\root\media\help1.png)
+![Help1](\staticfiles\root\media\help1.PNG)
 
 Users can also study and view the latest updates and hotfixes provided for APPSeCONNECT. You can anytime visit the latest Release Notes in the **What's New** section of the HELP page that keeps you updated with our every releases and updates.
 

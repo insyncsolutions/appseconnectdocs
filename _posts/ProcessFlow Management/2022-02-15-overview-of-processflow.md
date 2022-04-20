@@ -31,7 +31,7 @@ STREAMLINE AND AUTOMATE COMPLEX BUSINESS PROCESSES
 CUSTOMIZE AND EXTEND BEST PRACTICES
 
 * Build customized business-related flows and templates to use it across departments for best practices.
-* Zero coding experience needed; build and share complex flows using visual designer.
+* Zero coding experience needed, build and share complex flows using visual designer.
 
 UNINTERRUPTEDLY IMPROVE PRODUCTIVITY
 

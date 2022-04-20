@@ -14,9 +14,9 @@ menus:
 **ProcessFlow** is the main workspace of the product which lets you build an advanced and smart integration solution. 
 ProcessFlow gives you an IDE that lets you build an integration that is best suited for your customers while giving you the option to deploy and execute from the same. 
 A processflow, under the hood creates a micro-service architecture 
-that can run in **Cloud servers** or **On Premise** getting or pushing data directly to the applications 
+that can run in **Cloud servers** or **On Premise** fetching or pushing data directly to the applications 
 in execution and generate both transactional and data logs. In this article, we will see how the 
-architecture of APPSeCONNECT processflow is laid out such that we can understand the under the hood big 
+architecture of APPSeCONNECT processflow is laid out such that we can understand the underhood big 
 picture of the processflow. 
 
 ## Architecture
@@ -36,11 +36,7 @@ activities to different workloads.
 
 The processflow engine takes care of each and every task or activity that needs to be executed on the platform. The 
 engine takes help of Adapter to call individual Applications to invoke Get or Post actions. The engine calls the 
-adapters, execute storage plugins, triggers notification, generate logs etc. 
-
-If there is any cloud involvement from an on-premise execution or an on-premise dependency for a 
-cloud solution, it triggers the call automatically using Service Bus and executes the process. 
-
-The repository services takes care of storage and snapshot of the processflow executions which one can investigate later.
+adapters, execute storage plugins, triggers notification, generate logs etc. If there is any cloud involvement from an on-premise execution or an on-premise dependency for a 
+cloud solution, it triggers the call automatically using Service Bus and executes the process. The repository services takes care of storage and snapshot of the processflow executions which one can investigate later.
 
 

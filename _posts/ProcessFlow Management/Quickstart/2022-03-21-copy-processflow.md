@@ -17,10 +17,10 @@ This document will let you help in creating a duplicate of your designed Process
 
 ## Prerequisites
 
-- You need to have the ProcessFlows created. Steps to create ProcessFlow are [Given Here](/processflow/creating-processflow/).
+- You need to have the ProcessFlows created. Steps to create ProcessFlow are [Given Here](/getting%20started/create-your-first-processflow/).
 - You will be provided with **rename** option before copying to the destination folder in case a processflow with same name is available already.
 - All the mappings and configurations made in the original processflow, will be copied while copying the processflow.
-- All the copied versions will be treated as a **newly designed** processflow, hence the user needs to [freshly deploy](/processflow/deploying-and-executing-processfloww/) the copied processflow, when required.
+- All the copied versions will be treated as a **newly designed** processflow, hence the user needs to [freshly deploy](/processflow/deploying-and-executing-processflow/) the copied processflow, when required.
 - Processflows that are copied from the **[ProcessFlow Folder](/processflow/processflow-listing-page/#process-flow-folder) and its subfolders** can be copied only within the same area, that is : **ProcessFlow Folder and its Sub-Folder**.
 - Processflows that are copied from the **[Installed ProcessFlow Folder](/processflow/processflow-listing-page/#installed-process-flows-folder) and its subfolders** can be copied only within the same area, that is : **Installed ProcessFlow Folder and its Sub-Folder**.
 - In-case of same name, you will have the option to rename your copied processflow before copying starts. If not renamed, your copied processflow will be named as `processflow name (n)`,where `n` stands for the sequence of the same name. **For Ex: Business Partner Add (1)**.
@@ -64,7 +64,7 @@ This section of the document will help you to copy and store a backup of your de
 ![copy4](\staticfiles\processflow\media\copy4.png)
 
 6) If in-case your chosen folder has a processflow with same name, you will get an option to **rename** the processflow that is to be copied. On renaming, the copying process starts automatically.
-If not renamed, your copied ProcessFlow will be named as `processflow name (n)`,where `n` stands for the sequence of the same name. **For Ex : Business Partner Add (1)**.
+If not renamed, your copied ProcessFlow will be named as `processflow name (n)`, where `n` stands for the sequence of the same name. **For Ex : Business Partner Add (1)**.
 
 ![copypf7](\staticfiles\processflow\media\copy5.png)
 
@@ -79,7 +79,7 @@ Following the above process, you can successfully copy your processflows from on
 **Note:**
 
 - **You cannot copy processflows from the ProcessFlow folder to Installed ProcessFlow Folder or vice versa.**
-- **In-case of same name, you will have the option to rename your copied processflow before copying starts. If not renamed, your copied ProcessFlow will be named as `ProcessFlow name (n)`. Where `n` stands for the sequence of the same name. `For Ex: Business Partner Add (1)`**.
+- **In-case of same name, you will have the option to rename your copied processflow before copying starts. If not renamed, your copied ProcessFlow will be named as `ProcessFlow name (n)`, where `n` stands for the sequence of the same name. `For Ex: Business Partner Add (1)`**.
 - Once copied, any changes made to the original processflow, the updates will not reflect in its copied version.
 
 
