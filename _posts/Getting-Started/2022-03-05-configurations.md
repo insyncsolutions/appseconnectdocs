@@ -2,11 +2,11 @@
 title: "Working with Apps"
 toc: true
 tag: developers
-category: "Getting Started"
+category: "Connectors"
 menus: 
-    gettingstarted:
+    Connectors:
         title: "Working with Apps"
-        weight: 6
+        weight: 7
         icon: fa fa-wpexplorer
         identifier: configuringaec
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: "Marketplace"
 description: "Getting access to your one stop solution to packages"
-keywords: "Marketplace, integration, global"
+keywords: "Marketplace, Integration, Global"
 toc: true
 tag: developers
 category: "Getting Started"

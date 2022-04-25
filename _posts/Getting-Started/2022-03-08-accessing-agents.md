@@ -1,6 +1,8 @@
 ﻿---
 title: "Agent"
 toc: false
+description: "Know about our Lightweight, Dynamic, Runtime Engine"
+keywords: "Agent Classification, On-Premise Agent, Hosted Agent, lightweight, active, dynamic, runtime"
 tag: developers
 category: "Getting Started"
 menus: 
@@ -17,8 +19,8 @@ The Agent is capable of responding to any configurational changes and can retain
 
 APPSeCONNECT supports following kinds of integration modes for data synchronization between various business applications.
 
-**1. On-Premise to On-Premise Integration.**
-**2. On-Premise to Cloud Integration.**
+**1. On-Premise to On-Premise Integration.**                       
+**2. On-Premise to Cloud Integration.**                         
 **3. Cloud to Cloud Integration.**
 
 To perform data synchronization, you can either use our cloud agent or can install the agent in your local server depending on the applications between which you want to sync data. 

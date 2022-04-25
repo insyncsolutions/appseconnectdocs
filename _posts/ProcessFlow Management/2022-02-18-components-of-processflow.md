@@ -1,6 +1,8 @@
 ﻿---
 title: "Components of ProcessFlow"
 toc: true
+description: "Various sections of ProcessFlow Designer to create,design and develop your smart,interactive and free-flowing integfration system"
+keywords: "Constituent, Components of ProcessFlow, Header panel, Left panel, Right panel, Designer view"
 tag: developers
 category: "Processflow"
 menus: 

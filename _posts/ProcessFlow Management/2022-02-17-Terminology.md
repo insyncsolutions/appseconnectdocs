@@ -1,6 +1,8 @@
 ---
 title: "Important Terminology"
 toc: true
+description: "Terms related to ProcessFlow"
+keywords: "ProcessFlow Folder, Trash Folder, Tracker,APPS, Manage Schema,Manage Actions, Links, Nodes, Flow Connect "
 tag: developers
 category: "Processflow"
 menus: 
@@ -13,7 +15,7 @@ menus:
 This document demonstrates the important terminologies that you need to consider while using ProcessFlows. 
 
 ### ProcessFlow Folder
-It is one the default folders available in the [listing page](/processflow/processflow-listing-page/#process-flow-folder). You can create child folders from the ProcessFlow folders for managing and organising ProcessFlows. 
+It is one of the default folders available in the [listing page](/processflow/processflow-listing-page/#process-flow-folder). You can create child folders from the ProcessFlow folders for managing and organising ProcessFlows. 
 
 ### Trash Folder
 The Trash folder is also available in the ProcessFlow Listing Page. Any folders or Processflow 

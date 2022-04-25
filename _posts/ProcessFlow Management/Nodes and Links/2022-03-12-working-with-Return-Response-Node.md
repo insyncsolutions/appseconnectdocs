@@ -16,15 +16,15 @@ menus:
 Return Response Node is a confirmation node that returns back an acknowledgement information to your Source Application about its predecessor node.
 Return Response Node needs to be implemented after the node whose response you're willing to return.
 
-For Eg: If you're willing to return the response of GET Node, you need to implement the Response Node after GET Node.
+For Eg : If you're willing to return the response of GET Node, you need to implement the Response Node after GET Node.
 
-The return information can be configured according to 2 Responses:
+The return information can be configured according to 2 Responses :
 
 - User-defined Acknowledgement
 - Output of the previous node
 
 
-## Working Principle:
+## Working Principle
 
 1) Navigate to the designer and drag the Return Response Node to the design panel, available under **Flow Logic** menu. The Node Configuration Window of the Return Response Node Opens.
 
@@ -43,7 +43,7 @@ a. On selecting this response type, you get the following field :
 
 b. Click on the SAVE button, once you provided the customized info.
 
-c. [Design](/processflow/creating-processflow/) your processflow and [Deploy](/processflow/deploying-and-executing-processfloww/#deploying-processflows-to-environment) to execute your designed processflow.
+c. [Design](/processflow/creating-processflow/) your processflow and [Deploy](/processflow/deploying-and-executing-processflow/) to execute your designed processflow.
 
 d. The snapshots will be generated for each execution that will allow you to survey the data synced and the returned response. You will be able to view the Customized Info provided by the user as Return Response in the **ACTIVITY LOG** of Snapshot.
 

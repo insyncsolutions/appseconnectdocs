@@ -11,7 +11,7 @@ menus:
         identifier: transformationactionsschemas
 ---
 
-## Knowing Schema, Actions & Filters
+## Knowing Schema, Actions & Filters 
 
 The user can view the schemas and the action present or can also add schema and add action for each 
 application. This section enables the user to view and add the Schema and its Actions.
@@ -116,7 +116,7 @@ When you define an action for an entity you need to provide certain information
 * Action Description: Description of the action. At the time of touchpoint creation, actions are selected based on this description.
 * Action Filter & Resync Filter Details
 
-**Action Filters**  
+### Action Filters  
 
 The important part of an action is defining an action filter where we can define the conditions based on 
 which data will be fetched. The criteria we define here need to follow the filter parsing logic or the rules to read the 
@@ -141,7 +141,7 @@ Conjunctions - And/Or [$Node1 + $Node2]
 
 ![actionfilter-image](/staticfiles/Transformation/media/actionfilter-image.png)
 
-**Error Filter**
+### Error Filter
 
 Error filters are the same as the action filters. They are written for syncing erroneous data which are present in APPSeCONNECT error log bucket or the resync bucket. Based on the logic implemented in adapter code you need to specify the error filter.
 For explanation purpose, sample filter for SOAP API has been taken, where a hierarchical node structure is maintained for filtration.

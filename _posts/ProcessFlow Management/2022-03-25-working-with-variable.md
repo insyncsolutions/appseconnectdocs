@@ -28,7 +28,7 @@ Once defined, upon calling the variable, it will execute the expression associat
 ### Creating Variable
 
 Creating variables in Processflow is easier and can be done directly by dragging the app node
-in the [designer section](/getting%20started/create-your-first-processflow/). You need to follow the below steps so that you can create variables and take the advantage of them.
+in the [designer section](/processflow/components-of-processflow/). You need to follow the below steps so that you can create variables and take the advantage of them.
 
 1) Select an application node and drag the node to the designer panel where you want to define the variables, the node configuration window appears. You can view two tabs in the node configuration window.
 * General  
@@ -131,7 +131,7 @@ C. You'll be getting a confirmation message for the deletion process.
 
 D. Your variable gets deleted from the list.
 
-_**Note:** You cannot delete a Variable that is currently in use for execution and will be provided with an error while doing so._
+_**Note :** You cannot delete a Variable that is currently in use for execution and will be provided with an error while doing so._
 
 ### Execution Flow of Variable
 

@@ -26,7 +26,7 @@ On dragging the Start node to the designer panel, the Start Node Configuration w
 
 1) Drag the **Start Node** to the designer panel. The Start Node configuration panel opens.
 
-![startnode1](\staticfiles\processflow\media\startnode1.png)
+![startnode1](\staticfiles\processflow\media\startnode1.PNG)
 
 2) You will get the following 2 Trigger Type :
 
@@ -40,9 +40,9 @@ By default, the **Polling type** would be selected.
 
 a) Selection of Polling Type will allow your processflow to trigger a normal sync process either manually or if scheduled. Click on the **SAVE** button after selecting the Radio button for **POLLING** Type.
 
-b) [Design](/processflow/creating-processflow/) and [Deploy](/processflow/deploying-and-executing-processfloww/#deploying-processflows-to-environment) your ProcessFlow to your choice of environment.
+b) [Design](/getting%20started/create-your-first-processflow/) and [Deploy](/processflow/deploying-and-executing-processflow/#deploying-processflows-to-environment) your ProcessFlow to your choice of environment.
 
-c) [Execute](/processflow/deploying-and-executing-processfloww/#executing-deployed-processflow) ProcessFlow by clicking on the **PLAY** button on your designer page.
+c) [Execute](/processflow/deploying-and-executing-processflow/#deploying-processflows-to-environment) ProcessFlow by clicking on the **PLAY** button on your designer page.
 
 d) You can anytime check your snapshot for the execution status and data survey for both Trigger Types. For more details on Snapshot, [Click Here](/processflow/snapshot-processflow/).
 
@@ -53,7 +53,7 @@ a) On selecting the Trigger Type as **Event**, the following field would appear 
 
   **Enter Register URL** : You will have to provide your Organisation name as the sub-domain that would be merged with the APPseCONNECT Domain. 
 
-![startnode2](\staticfiles\processflow\media\startnode2.png)
+![startnode2](\staticfiles\processflow\media\startnode2.PNG)
 
 For Example: `MRFCorporation.appseconnectapi.com` where **MRFCorporation** is the sub-domain name of the organisation. The rest is the domain name.
 This field for registering URL will appear only when you haven't registered any URL for your organisation. The URL will be displayed in the Regsiter URL field in Read-Only mode, if its already registered on your organisation. 
@@ -64,13 +64,11 @@ You can also view your registered URL on your **APIs Section**. Navigate: Manage
 
 ![startnode7](\staticfiles\processflow\media\startnode7.PNG)
 
-**Note: You cannot alter a registered URL for any processflow, once SAVED in your organisation.**
+**Note : You cannot alter a registered URL for any processflow, once SAVED in your organisation.**
 
-d) Design your processflow to integrate your chosen apps. [Click Here](/processflow/creating-processflow/) to know more on ProcessFlow creation.
+d) Design your processflow to integrate your chosen apps. [Click Here](/getting%20started/create-your-first-processflow/) to know more on ProcessFlow creation.
 
-e) Deploy your designed processflow to your required environment. For Trigger Type **Event**, the deployment will not have the **Sync & Retry** step.
-
-[Click Here](/processflow/deploying-and-executing-processfloww/#deploying-processflows-to-environment) for more details ProcessFlow Deployment.
+e) Deploy your designed processflow to your required environment. For Trigger Type **Event**, the deployment will not have the **Sync & Retry** step. [Click Here](/processflow/deploying-and-executing-processflow/) for more details ProcessFlow Deployment.
 
 f) The deployed processflows with Trigger Type **EVENT** will represent with a Black Icon in the [ProcessFlow tab](/deployment/Environment-Management/#pre-requisites) in environment section.
 
