@@ -94,14 +94,14 @@ permalink: /
 				{% endif %} 
             </div>
             <div class="questionBox" data-aos="fade-up">
-                <h2>Do you have any question ?</h2>
-                <a href="{{ site.community_baseurl }}questions/" target="_blank" title="Start Discussion" class="aecButton">Start Discussion </a>
+                <h2>Are you looking for solutions ?</h2>
+                <a href="{{ site.main_baseurl }}knowledgebase/" target="_blank" title="Visit Knowledgebase" class="aecButton">Visit Knowledgebase </a>
             </div>
         </div>
     </div>
     <!-- Main Body :: End -->
 	 <div class="footer">
-			<div class="copyrights"><a href="https://www.appseconnect.com/" title="APPSeCONNECT" target="_blank">APPSeCONNECT</a> is a product by InSync<br>&copy; 2021 <a href="https://insync.co.in/" title="InSync Tech-Fin Solutions Ltd" target="_blank">InSync Tech-Fin Solutions Ltd</a>. All rights reserved.</div>
+			<div class="copyrights"><a href="https://www.appseconnect.com/" title="APPSeCONNECT" target="_blank">APPSeCONNECT</a> is a product by InSync<br>&copy; 2022 <a href="https://insync.co.in/" title="InSync Tech-Fin Solutions Ltd" target="_blank">InSync Tech-Fin Solutions Ltd</a>. All rights reserved.</div>
 	 </div>
     {% if page.permalink <> "/" %}
 
