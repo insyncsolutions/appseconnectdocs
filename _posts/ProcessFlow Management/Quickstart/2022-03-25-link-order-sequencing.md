@@ -1,5 +1,7 @@
 ---
 title: "Link Order Sequencing"
+description: "The Sequential Node Ordering enables you to manage the execution sequence of multiple flows within a processflow such that you do not have to unlink the nodes everytime to sequence the flows."
+keywords: "Link order sequencing, ordering of nodes, sequential execution,  sequential node ordering"
 toc: true
 tag: developers
 category: "Processflow"
@@ -16,7 +18,7 @@ menus:
 Processflow being the advanced sync flow feature of APPSeCONNECT, allows you to create and implement complex flows smoothly. A processflow can cater and sync multiple business flows based upon the requirement. 
 For example : You can design & implement the processflow in a sequential manner such that you can easily sync Products, Inventory Updates, New Customers & customer updated in a single processflow.
 
-Execution of these flows can be sequantial and may have dependency on each other as you cannot update customers unless you add new customers first.
+Execution of these flows can be sequential and may have dependency on each other as you cannot update customers unless you add new customers first.
 Implementing such complex cases totally depends on the execution order and within processflow, you can now easily modify the execution flows, without altering any of the node links or creating a new processflow.
 The Sequential Node Ordering enables you to manage the execution sequence of multiple flows with a processflow such that you do not have to unlink the nodes everytime to sequence the flows.
 

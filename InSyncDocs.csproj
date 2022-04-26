@@ -1000,7 +1000,7 @@
     <Content Include="staticfiles\processflow\media\processflow-retry9.png" />
     <Content Include="staticfiles\processflow\media\processflow-schema-listing.png" />
     <Content Include="staticfiles\processflow\media\processflowlisting-page5.png" />
-    <Content Include="staticfiles\processflow\media\protocol1.png" />
+    <Content Include="staticfiles\processflow\media\protocol1.PNG" />
     <Content Include="staticfiles\processflow\media\protocol3.PNG" />
     <Content Include="staticfiles\processflow\media\protocol4.PNG" />
     <Content Include="staticfiles\processflow\media\protocol5.PNG" />

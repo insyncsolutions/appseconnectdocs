@@ -1,5 +1,7 @@
 ---
 title: "Decision Node"
+description: "Get the flavour of handling unique datas, by removing the complexity of redundant ones with our decision node"
+keywords: "decision node, option, selection, choice node"
 toc: true
 tag: developers
 category: "Processflow"

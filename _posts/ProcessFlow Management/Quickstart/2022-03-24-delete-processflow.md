@@ -1,5 +1,7 @@
 ﻿---
 title: "Deleting Processflow"
+description: "Deletion operation enables you to completely remove processflows and create a new, fresh one for fulfilling your requirements."
+keywords: "Deleteing processflow, delete processflow"
 toc: true
 tag: developers
 category: "Processflow"
@@ -15,7 +17,7 @@ APPSeCONNECT processflows suite features an extensive interface that provide the
 The drag-and-drop interface is easy to use by any citizen integrator. With the aid of processflow feature, users can now graphically organize, create and view the data flow of a process thereby enabling customers to design integration anytime and anywhere with the help of our cloud portal.
 In addition to the above functionalities, APPSeCONNECT provides deleting option which will allow you to delete a processflow once you have designed it,
 [deployed](/processflow/deploying-and-executing-processflow/) it or executed it. Deletion is an easy process for the user and this 
-button is available in the [designer section]/processflow/components-of-processflow/) of the portal.
+button is available in the [designer section](/processflow/components-of-processflow/) of the portal.
 
 ## Prerequisites
 

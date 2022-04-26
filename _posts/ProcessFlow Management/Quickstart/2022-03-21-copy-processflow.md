@@ -1,5 +1,7 @@
 ---
 title: "Copy Processflow"
+description: "Get the flavour of duplication and reusability of processflows"
+keywords: "Copy processflow, copy from ProcessFlow folder, copy from Installed Processflow folder, duplication of processflow"
 toc: true
 tag: developers
 category: "Processflow"

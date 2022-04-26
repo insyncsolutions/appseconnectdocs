@@ -1,5 +1,7 @@
 ---
 title: "Working with Variables"
+description: "Working with variables in a processflow"
+keywords: "Working with variables, creating variables, listing of variables, editing variables, deleting variables, utility of variables."
 toc: true
 tag: developers
 category: "Processflow"

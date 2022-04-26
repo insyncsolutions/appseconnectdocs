@@ -2,7 +2,7 @@
 title: "Important Terminology"
 toc: true
 description: "Terms related to ProcessFlow"
-keywords: "ProcessFlow Folder, Trash Folder, Tracker,APPS, Manage Schema,Manage Actions, Links, Nodes, Flow Connect "
+keywords: "ProcessFlow Folder, Trash Folder, Tracker, APPS, Manage Schem ,Manage Actions , Links, Nodes, Flow Connect,Mapper Node , Deploy, Redeploy, Undeploy, Processflow Snapshot, ProcessFlow Retry, Repository Collection,Reference Tables"
 tag: developers
 category: "Processflow"
 menus: 

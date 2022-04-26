@@ -2,7 +2,7 @@
 title: "Organizing ProcessFlow"
 toc: true
 description: "ProcessFlow Home section helps users to organize & manage all the processflows in folder structure such that user can maintain an easy usability as per their requirement."
-keywords: "Create,Edit,Rename,Delete,Generate Excel Document of a ProcessFlow,Create and Rename folders and sub-folders,Trash Folder,Package Library Folder"
+keywords: "Create,Edit,Rename,Delete,Generate Excel Document of a ProcessFlow,Create and Rename folders and its sub-folders,Trash Folder,Package Library Folder, Processflow Home, Processflow Folder, Installed ProcessFlow Folder"
 tag: developers
 category: "Processflow"
 menus: 

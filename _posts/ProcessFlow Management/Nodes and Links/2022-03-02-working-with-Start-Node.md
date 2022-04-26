@@ -1,5 +1,7 @@
 ---
 title: "Start Node"
+description: "Experience real-time execution and sync of information between various business applications."
+keywords: "Start process, trigger type, Polling, Event"
 toc: true
 tag: developers
 category: "Processflow"

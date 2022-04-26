@@ -1,5 +1,7 @@
 ---
 title: "Quickstart to Design ProcessFlow"
+description: "Experience the power of automation for business with integration modernization, APPSeCONNECT ProcessFlow Designer and low-code platform, you can easily integrate apps and automate intelligent processes and customize as per your need."
+keywords: "Quickstart to Design ProcessFlow"
 toc: false
 tag: developers
 category: "Processflow"

@@ -1,5 +1,7 @@
 ---
 title: "APP Node"
+description: "Get familiar with GET/POST node along with actions and its filter to fetch and push data to your business centric applications through our web based IDE."
+keywords: "GET node, POST node,managing schemas and attributes, listing of schemas and attributes, adding schemas in an application node, importing schemas and attributes, editing and deleting schemas in  an application node, managing actions and  different filters, action filter, retry filter, runtime filter, template filter, protocol implementation for applications"
 toc: true
 tag: developers
 category: "Processflow"
@@ -397,7 +399,7 @@ Click on the SAVE button on the window to save the current filter. To add a conj
 You can reuse this saved template on any other nodes of any processflow in your organisation, 
 provided the **application node** , **Schema** & the **Action** remains the same.
 
-7) You can view the saved for the schema and action by navigating to **[Manage Schema](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) > your selected Schema Entity > The Action in which you have created the Template > Click on the Action filter.**
+7) You can view the saved for the schema and action by navigating to **[Manage Schema](/processflow/processflow-app/#adding-schemas-in-an-application-node) > Your selected Schema Entity > The Action in which you have created the Template > Click on the Action filter.**
 You will be able to view the saved template for that schema and the action. The template will not be editable in the Manage schema window.
 
 8) To create filter from a saved template, navigate to Node Config window ->  Select Schema -> Select Action -> Configure filter. Expand the Schema node until Action Filter, Retry Filter appears.
@@ -420,7 +422,7 @@ Following the above process you can successfully SAVE and create filter from tem
 ## Working with Runtime Filter
 
 You can create the Dynamic Runtime Filter for performing specific integration operations. However, you cannot execute from this section. 
-The **Runtime Filter** functionality on this area will only allow you to Create, View and Delete. The filters created can be also be viewed in the **Execute with Runtime filter** area. For more Details, [Click Here](/processflow/User-Defined-Dynamic-Filter/#implementing-dynamic-custom-filter).
+The **Runtime Filter** functionality on this area will only allow you to Create, View and Delete. The filters created can be also be viewed in the **Execute with Runtime filter** area. For more Details, [Click Here](/processflow/deploying-and-executing-processflow/).
 
 1)Drag the application node in the designer panel.Fill the manadatory details and then click on **Configure Filter**.
 
@@ -440,9 +442,9 @@ Following the above process, you can successfully **Create, View and Delete** Dy
 
 **- Each action of a schema can have only one created template.**
 
-**- You cannot modify the template when viewed from the [Manage Schema](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) section.**
+**- You cannot modify the template when viewed from the Manage Schema section.**
 
-**- You can also `view` , `edit` and `delete` the saved template from the [APPS](/getting%20started/configurations/) section.**
+**- You can also `view` , `edit` and `delete` the saved template from the [APPS](/connectors/configurations/) section.**
 
 
 ## Protocol Implementation for Applications
@@ -461,7 +463,7 @@ SAP Business One follows two more protocols **DI API** & **FTP** for other purpo
 
 1. You need to have basic knowledge of the protocol used by the application selected by you.
 
-2. You need to design a processflow before implementing Protocol. [Click Here](/processflow/creating-processflow/) for the steps to design a processflow. 
+2. You need to design a processflow before implementing Protocol. [Click Here](/getting%20started/create-your-first-processflow/) for the steps to design a processflow. 
 
 3. Protocol implementation is done only for the application in POST operation. Therefore you need to design the processflow with you application in destination.
 
@@ -469,22 +471,21 @@ SAP Business One follows two more protocols **DI API** & **FTP** for other purpo
 
 **_Note_**: _Here we will demonstrate you with the steps to implement and setup Protocol keeping SAP business One in Destination. The flow remains the same if you are working with other application as well apart of SAP Business One.
 
-1. Login to the Portal and Navigate to the [processflow](/processflow/overview-of-processflow/) section. Click on the new button to [create a new processflow](/processflow/creating-processflow/).
+1. Login to the Portal and Navigate to the [processflow](/processflow/overview-of-processflow/) section. Click on the new button to [create a new processflow](/getting%20started/create-your-first-processflow/).
 
 2. Design the processflow keeping the selected application in Destination (In this case SAP Business One).
 
-3. On dragging the [destination application](/processflow/working-with-POST/) (SAP Business One in this case), the Node Configuration Window opens. You need to select the **Protocols** from the drop-down. The protocols would be displayed as per the App version selected. For SAP Business One (version >= 8.8), you will get the following protocols. 
+3. On dragging the [destination application](/processflow/processflow-app/#what-is-getpost-node) (SAP Business One in this case), the Node Configuration Window opens. You need to select the **Protocols** from the drop-down. The protocols would be displayed as per the App version selected. For SAP Business One (version >= 8.8), you will get the following protocols. 
+![protocol1](\staticfiles\processflow\media\protocol1.PNG) 
 
 - **DI API:** Used for operating any type of data using SAP Business One API.
 - **DI Server Object:** Used for operating general transactional data like Business Partner, Products etc.
 - **DI Server Service:** Used for creating master data in SAP Business One, you need work with the protocol **DI Server Service**.
 - **FTP:** Used for operating any type of data using File System.
-![protocol1](\staticfiles\processflow\media\protocol1.png)  
 4. Click on the **Save** button after all the mandatory fields are filled up. Link up the Nodes and Save the processflow. Click on the Node configuration Button of the [Mapper Node](/processflow/working-with-mapper/). The Mapper Window opens.     
-5. Click on the **Preview** button to view the generated XSLT with respect to the choosen protocol.
+5. Click on the **Preview** button to view the generated XSLT with respect to the choosen protocol.          
    a. When the Protocol is selected as **DI API** you get the following XSLT Preview.
         ![protocol3](\staticfiles\processflow\media\protocol3.PNG)
-
    b. When the Protocol is selected as **DI Server Object**, you get the following XSLT Preview.
         ![protocol4](\staticfiles\processflow\media\protocol4.PNG)
 6. When the Protocol is selected as **DI Server Service**, you get the following XSLT Preview.
