@@ -1,5 +1,7 @@
 ---
 title: "Unfinished Deployment"
+description: "Track undeployed processflows, check the status and redeploy them to complete the smooth free-flowing data integration."
+keywords: "unfinished deployment"
 toc: true
 tag: developers
 category: "Processflow"
@@ -19,8 +21,8 @@ aids you to check the status of unfinished deployment in the portal itself, and 
 
 1) Background Services Interrupted.  
 2) API Service Down.  
-2) Cloud Agent Services Down.    
-3) Autosync Stopped working during deployment.  
+3) Cloud Agent Services Down.    
+4) Autosync Stopped working during deployment.  
 
 ### Prerequisites 
 
@@ -33,7 +35,7 @@ configurations should be available.
 ### Steps to re-deploy processflows to Environment
 
 1.	Login to the portal and navigate to **Designer -> ProcessFlow**. Choose the processflow to be deployed to make any redeployment or do deploy a designed configured processflow.   
-2.	Click on the deploy button in the processflow [Designing Page](/processflow/designer-processflow/).   
+2.	Click on the deploy button in the processflow [Designing Page](/processflow/components-of-processflow/).   
 ![unfinished_deployment1](\staticfiles\processflow\media\unfinished_deployment1.png)    
 3. The deploy wizard opens up and the consecutive steps to [deployment](/processflow/deploying-and-executing-processflow/) starts. Deployment wizard takes you to the Processflow Designer page. The Tracker window opens automatically.    
 4. During the process of deployment, if the background service is interuppted/API Service gets down, the 
@@ -71,16 +73,16 @@ it will show `Unsuccessful` status.
 deploy specific processflow to the selected environment. Once deployed successfully, 
 the number of tries reset to zero.  
 13. `Deployment Log`- column will have a link that will open the Deployment Log window. 
-The window will show the last deployment log that shows in the Tracker window.   
+The window will show the last deployment log that shows in the Tracker window. 
 Users will be able to un-deploy any processflow that has the status of `Successful or Unsuccessful`. 
  
 Thus the above given steps enable you to work with unfinished deployment of Processflow and [redeploy](/processflow/redeploying-processflow/)
 it to your organization. 
 
 **NOTE : (a) `Deploy` button always remains disabled - Till the completion of  processflow deployment or processflow deployment state remains Pending 
-in [environment](/deployment/Environment-Management/) section.  
+in [environment](/deployment/Environment-Management/) section.                       
 (b) `Execute` button always remain disabled -  Till the completion of  processflow deployment or processflow deployment state remains Pending 
-in [environment](/deployment/Environment-Management/) section    
+in [environment](/deployment/Environment-Management/) section.                        
 (c) Before redeploying, the agent will take backup of the previously 
 deployed XSLT of the specific processflow and processflow database, along with dependent data. 
 If redeployment of the processflow fails, the agent will automatically restore backed up 

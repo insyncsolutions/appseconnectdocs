@@ -1,5 +1,7 @@
 ---
 title: "Runtime Filter"
+description: "Get the flavour of fetching and posting data to your business applications for specific scenarios using our runtime filter."
+keywords: "Runtime filter, dynamic runtime filter"
 toc: true
 tag: developers
 category: "Processflow"
@@ -59,7 +61,7 @@ This part of the document will allow you to create Runtime Filter on GET node fo
 
 2) You can also add conditions and conjuctions over the filters by clicking on the Ellipses over the HEADER and the BODY section.
 
-![customfilter4](\staticfiles\processflow\media\customfilter4.png)
+![customfilter4](\staticfiles\processflow\media\customfilter4.PNG)
 
 3) You can either click on the **Cancel** button or directly execute the process by clicking on the **Execute**  button. You can track the Execution details on the Tracker Window.
 
@@ -77,20 +79,20 @@ This part of the document will allow you to create Runtime Filter on GET node fo
 
 1) Click on the Node Configuration button for the GET Node. You get the Node Configuration window. Click on the **Configure Filter** button to get the Action Filter window.
 
-![customfilter10](\staticfiles\processflow\media\customfilter10.png)
+![customfilter10](\staticfiles\processflow\media\customfilter10.PNG)
 
 2) Expand the nodes to view the **Runtime Filter** option. Click on the Ellipses to view the **CREATE** option.
 
-![customfilter11](\staticfiles\processflow\media\customfilter11.png)
+![customfilter11](\staticfiles\processflow\media\customfilter11.PNG)
 
 3) Clicking on the CREATE button, you get the window for providing the filter. Input the filter as required and click on the **Save** button.
 
-4) The **Saved** filters will also be available in the **Execute with Runtime filter**. The process to add and create the filter is same as that performed in [**Execute with Custom Action filter**](/processflow/manage-actions-actionfilters-errorfilters/#working-with-custom-filter).
+4) The **Saved** filters will also be available in the **Execute with Runtime filter**. The process to add and create the filter is same as that performed in Execute with Custom Action filter.
 
-For more details on this section, [ClicK Here](/processflow/manage-actions-actionfilters-errorfilters/)
+For more details on this section, [ClicK Here](/connectors/configurations/#understanding-actions).
 
 
-**Note:**
+**Note :**
 
 - By Default, the Runtime filter will display the [Action Filter](/processflow/manage-actions-actionfilters-errorfilters/) used normally in the GET node. However, once edited and saved, you will not have to work on the same from the 2nd instances.  
 - Changes made in the normal Action Filter will not impact that in the Runtime filter.
@@ -103,16 +105,16 @@ For more details on this section, [ClicK Here](/processflow/manage-actions-actio
 
 2) Click on the ellipses of the GET node, whose filter you would like to delete.
 
-![customfilter8](\staticfiles\processflow\media\customfilter8.png)
+![customfilter8](\staticfiles\processflow\media\customfilter8.PNG)
 
 3) You will get a confirmation message for proceeding with the delete process. Click on the `YES` button to proceed with the deletion process, otherwise click on `NO`.
 
 ![customfilter9](\staticfiles\processflow\media\customfilter9.PNG)
 
-4) You can also delete the filter from the normal action filter UI. [Click Here](/processflow/manage-actions-actionfilters-errorfilters/#working-with-custom-filter) for more details.
+4) You can also delete the filter from the normal action filter UI. [Click Here](/connectors/configurations/) for more details.
 
 
-**Note:**
+**Note :**
 
 - You may delete filters anytime from both the interfaces of Runtime Filter.
 - For every operation you perform with Runtime Filter - Create, Edit, Delete & Execute, you will be updated with its operation on your [FEEDS](/accessing%20portal/accessing-portal/#feeds) section.

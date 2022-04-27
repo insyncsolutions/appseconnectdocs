@@ -1,5 +1,7 @@
 ﻿---
 title: "Publishing to Marketplace"
+description: "Publishing to marketplace enables a citizen integrator to get ready access to desired packages as an wehen required."
+keywords: "Publishing to marketplace, publishing packages, accessing comments, reversioning, republishing"
 toc: true
 tag: developers
 category: "Processflow"

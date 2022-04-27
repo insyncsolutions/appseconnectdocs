@@ -1,5 +1,7 @@
 ---
 title: "Redeployment"
+description: "No need to design a fresh procesflow, just make changes to the exsisting ones and deploy them."
+keywords: " redeployment, redeploy"
 toc: true
 tag: developers
 category: "Processflow"
@@ -41,7 +43,7 @@ changes pertaining to redeloying a processflow.
     and the remaining part is in disabled Mode. This means if your selected environment is 
    `On-Premise` then Hosted will be in disabled mode and vice-versa. Make sure to check the
     envirnonment is in connected state.    
-    **NOTE: If the environment is in disconnected state, you will get an error message -
+    **NOTE : If the environment is in disconnected state, you will get an error message -
 `Environment is not enabled` and thus you cannot proceed with further deployment steps**. 
 ![Redeploy Processflow](../../staticfiles/processflow/media/redeploy-processflow.png) 
 
@@ -75,11 +77,11 @@ Downloading processflow Data, Downloading XSLT Files, Deployed etc. while re-dep
 click the Finish button. Following the above steps, you can successfully Re-deploy and Execute 
 a processflow.
 
-**NOTE: (a) You can redeploy a processflow by clicking `Deploy` button in the designer. 
+**NOTE: (a) You can redeploy a processflow by clicking `Deploy` button in the designer.                                          
 (b) Before redeployment starts, the agent will take a backup of the previously deployed 
-XSLT of the specific processflow, processflow database, along with dependent data. 
+XSLT of the specific processflow, processflow database, along with dependent data.                                       
 (c) If redeployment of the processflow fails, the agent will automatically restore backed up configuration 
-after pending time outs. 
+after pending time outs.                                     
 (d) After successful deployment, the deploy button will get enabled** 
 
 

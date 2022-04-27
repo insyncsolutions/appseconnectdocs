@@ -1,5 +1,7 @@
 ---
 title: "Lookup Repositories"
+description: "Create and manage lookups using reference tables and repository collection."
+keywords: "Repository collection, refernece tables, steps to create repository collection, steps to create reference tables"
 toc: true
 tag: developers
 category: "Deployment"
@@ -11,7 +13,7 @@ menus:
         identifier: lookuprepoprocessflow
 ---
 
-Repositories in APPSeCONNECT provides the user to create and manage Lookups in form of reefrence tables 
+Repositories in APPSeCONNECT provides the user to create and manage Lookups in form of reference tables 
 for the organisation. Lookups enables the user to provide specific values to the application 
 integration, such that when the source and destination application is integrated, the value in 
 source application can easily be integrated with its value in destination application, corresponding

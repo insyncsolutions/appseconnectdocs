@@ -1,5 +1,7 @@
 ﻿---
 title: "Deploy, Execute & Undeploy"
+description: "Deploy and execute your processflows to perform smooth, free-flowing and interactive integration among your business applications."
+keywords: "deploy, execute, undeploy, deploying processflows to hosted environment, deploying processflows to on-premise environment"
 toc: true
 tag: developers
 category: "Processflow"
@@ -31,7 +33,7 @@ credential for the applications that is used in the processflows.
 
 1)  Login to the portal and navigate to the **ProcessFlow** module available on the left menu. 
 
-2)  Choose the processflow which is already designed and saved or you can [create a processflow](/processflow/creating-processflow/).       
+2)  Choose the processflow which is already designed and saved or you can [create a processflow](/getting%20started/create-your-first-processflow/).       
 
 3)  Click on the `edit` button available for the selected processflow, which will navigate the user to the processflow Designing Page. Click on the `Deploy` button in the processflow Designing Page.  
 
@@ -44,7 +46,7 @@ credential for the applications that is used in the processflows.
 - **Select lookups :** You need to fix up the lookups mapped for the attribute in the mapper node.
 - **Sync & Retry :** You need to configure the Manual/Auto  & Retry execution of the processflow.
 
-**Note: You can view some explained steps on the Right Side of the Deploy Wizard in the How it 
+**Note : You can view some explained steps on the Right Side of the Deploy Wizard in the How it 
 Works section, that will also help you deploy your processflow successfully.** 
 
 ![Deploy Processflow3](../../staticfiles/processflow/media/deploy-processflow3.png) 
@@ -58,13 +60,13 @@ This section will let you define and select the environment where you want to de
 
 (a)  Choose the type of environment as **HOSTED** by selecting the Radio button - Incase, no options available in the drop-down for **Hosted environment**, you will have to create your [HOSTED environment](/deployment/Environment-Management/#hosted). 
 
-![pfdeploycloud](\staticfiles\processflow\media\pfdeploycloud1.png)
+![pfdeploycloud](\staticfiles\processflow\media\pfdeploycloud1.PNG)
 
 * For more Environment related details, [Click Here](/deployment/Environment-Management/). 
 
 (b) Select your Hosted agent from the drop down and click on the NEXT button. The wizard moves to **Set Up connection** section.
 
-![pfdeploycloud2](\staticfiles\processflow\media\pfdeploycloud2.png)
+![pfdeploycloud2](\staticfiles\processflow\media\pfdeploycloud2.PNG)
 
 ### Set up Connection : Hosted
 
@@ -74,15 +76,15 @@ _**Note : You cannot navigate to the next section of the wizard without selectin
 
 (a) The screen navigates to the Set-up connection section of the Deploy wizard. You need to select the credential from the drop down, for the respective application used in the processflow. 
 
-![deployhostedcred1](\staticfiles\processflow\media\deployhostedcred1.png)
+![deployhostedcred1](\staticfiles\processflow\media\deployhostedcred1.PNG)
 
 (b) If you do not have any credentials in the drop down, click on the `+` button. 
 
-![deployhostedcred2](\staticfiles\processflow\media\deployhostedcred2.png)
+![deployhostedcred2](\staticfiles\processflow\media\deployhostedcred2.PNG)
 
 (c) The credential page opens for providing the [cloud credentials](/connectors/OLEDB-Credentials/#how-to-add-credentials-for-cloud-integration) for that application. You can provide your application credentials or can modify an existing one.
 
-![deployhostedcred3](\staticfiles\processflow\media\deployhostedcred3.png)
+![deployhostedcred3](\staticfiles\processflow\media\deployhostedcred3.PNG)
 
 (d) Clicking on the NEXT button will allow you to navigate to the [Select Lookups](/deployment/Lookup-repository-masterdata/) section.
 
@@ -120,7 +122,7 @@ This section will allow you to deploy processflow to your On-Premise Environment
 
 This section will allow you to map the credential tokens selected in the app node configuration window with the credentials provided in your agent.
 
-_**Note: You cannot navigate to the next section of the wizard without selecting the credentials of the applications used.**_  
+_**Note : You cannot navigate to the next section of the wizard without selecting the credentials of the applications used.**_  
   
 (a) The screen navigates to the Set-up connection section of the Deploy wizard. You need to select the credential from the drop down, for the respective application used in the processflow.    
 
@@ -148,7 +150,7 @@ Click the button **FIX** to select the lookup type/table that is needed to deplo
 
 ![Deploy Processflow11](../../staticfiles/processflow/media/deploy-processflow11.png)
 
-**Note:** 
+**Note :** 
 
 - **Here, the lookup is implemented for City, therefore we select the table city for fixing the lookup mapping.** 
 - **You can select only one table at a time.**
@@ -165,7 +167,7 @@ Click the button **FIX** to select the lookup type/table that is needed to deplo
 This section enables you to configure your processflow Sync and Re-try either in **auto mode** or **manual mode** before 
 execution of the processflow here. By default, the sync type toggle button is selected in Manual Mode. 
 
-**The below steps are same, if you are deploying your processflow on your **HOSTED** environment.**
+The below steps are same, if you are deploying your processflow on your **HOSTED** environment.
 
 ![Deploy Processflow13](../../staticfiles/processflow/media/deploy-processflow13.png)
 
@@ -223,7 +225,7 @@ Execution of a processflow is a vital process for transforming data from one app
   * Failed Operation : Red       
   * Successful Operation : Green  
   
- **Note : ** You can [view the node specific snapshot](/processflow/snapshot-processflow/) for the processflow results. 
+ **Note : You can [view the node specific snapshot](/processflow/snapshot-processflow/) for the processflow results.**    
 
 ## Deployed processflows in Environment
 
@@ -246,4 +248,4 @@ The deployed processflow (both executed/non-executed) can be undeployed from the
 
 3. You get a pop up message for undeploying processflow. Click `Yes` and the deployed processflow automatically will gets undeployed and you can view the same in the 
 portal. To cancel the step, click `No`.
-![processflow-undeploy1](../../staticfiles/processflow/media/processflow-undeploy1.png)    
+![processflow-undeploy1](../../staticfiles/processflow/media/processflow-undeploy1.PNG)    
