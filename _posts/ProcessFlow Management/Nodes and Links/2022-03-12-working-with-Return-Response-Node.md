@@ -1,5 +1,7 @@
 ---
 title: "Return Response Node"
+description: "Return Response Node is a confirmation node that returns back an acknowledgement information to your Source Application about its predecessor node"
+keywords: "Return response node, return response"
 toc: true
 tag: developers
 category: "Processflow"
@@ -16,15 +18,15 @@ menus:
 Return Response Node is a confirmation node that returns back an acknowledgement information to your Source Application about its predecessor node.
 Return Response Node needs to be implemented after the node whose response you're willing to return.
 
-For Eg: If you're willing to return the response of GET Node, you need to implement the Response Node after GET Node.
+For Eg : If you're willing to return the response of GET Node, you need to implement the Response Node after GET Node.
 
-The return information can be configured according to 2 Responses:
+The return information can be configured according to 2 Responses :
 
 - User-defined Acknowledgement
 - Output of the previous node
 
 
-## Working Principle:
+## Working Principle
 
 1) Navigate to the designer and drag the Return Response Node to the design panel, available under **Flow Logic** menu. The Node Configuration Window of the Return Response Node Opens.
 
@@ -33,17 +35,17 @@ The return information can be configured according to 2 Responses:
 - User-defined Acknowledgement
 - Output of the previous node
 
-### Reponse Type: User Defined Acknowledgement
+### Reponse Type : User Defined Acknowledgement
 
 a. On selecting this response type, you get the following field :
 
 - Define Acknowledgement Message : You need to provide a customized information that will be returned as the response.
 
-![returnresponse3](\staticfiles\processflow\media\returnresponse3.png)
+![returnresponse3](\staticfiles\processflow\media\returnresponse3.PNG)
 
 b. Click on the SAVE button, once you provided the customized info.
 
-c. [Design](/processflow/creating-processflow/) your processflow and [Deploy](/processflow/deploying-and-executing-processfloww/#deploying-processflows-to-environment) to execute your designed processflow.
+c. [Design](/processflow/components-of-processflow/) your processflow and [Deploy](/processflow/deploying-and-executing-processflow/) to execute your designed processflow.
 
 d. The snapshots will be generated for each execution that will allow you to survey the data synced and the returned response. You will be able to view the Customized Info provided by the user as Return Response in the **ACTIVITY LOG** of Snapshot.
 
@@ -53,11 +55,11 @@ e. Clicking over the specific LOG, you can view the complete defined text provid
 
 ![returnresponse6](\staticfiles\processflow\media\returnresponse5.PNG)
 
-### Reponse Type: Output of the Previous Node
+### Reponse Type : Output of the Previous Node
 
 a.  On selecting this response type, the output of the preceeding node will be displayed in the **Transaction file tab** of [snapshot](/processflow/snapshot-processflow/) for the Response Type node.
 
-![responsenode5](\staticfiles\processflow\media\responsenode5.png)
+![responsenode5](\staticfiles\processflow\media\responsenode5.PNG)
 
 b. Click on the SAVE button, once you provided the customized info.
 

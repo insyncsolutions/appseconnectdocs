@@ -1,5 +1,7 @@
 ---
 title: "Merger Node"
+description: "Experience the advantage of time saving merger node as it combines multiple documents into a single one and pushes them into successive applications. "
+keywords: "merger node, merger node configuration, merge"
 toc: true
 tag: developers
 category: "Processflow"
@@ -51,7 +53,7 @@ The XPath provided for the MERGER Node is shown below:
 `Application used for the Processflow Execution is: Magento2 and SAP B1.`
 
    
-1) Go to Processflow section & [Design](/processflow/designer-processflow/) a Processflow.  
+1) Go to Processflow section & [Design](/getting%20started/create-your-first-processflow/) a Processflow.  
 
 ![mergerflow1](\staticfiles\processflow\media\mergeflow1.PNG)
 
@@ -61,9 +63,9 @@ The XPath provided for the MERGER Node is shown below:
 
 4) Add the Merger node after mapper such that all the incoming files can be merged in a batch of 2.
 
-5) Now [Deploy](/processflow/deploying-and-executing-processfloww/) the processflow. After successful deployment, to your environment, [Execute](/processflow/deploying-and-executing-processfloww/) the Processflow. 
+5) Now [Deploy](/processflow/deploying-and-executing-processflow/) the processflow. After successful deployment, to your environment, [Execute](/processflow/deploying-and-executing-processflow/) the Processflow. 
 
-6) Go to [Environment](/deployment/Environment-Management/)section of the portal, select the processflow from the listing section and click [View Snapshot](/processflow/snapshot-processflow/)
+6) Go to [Environment](/deployment/Environment-Management/) section of the portal, select the processflow from the listing section and click [View Snapshot](/processflow/snapshot-processflow/)
 to view the detailed node by node snapshot data of the processflow.    
 
 7) Click on the `Transaction files` of splitter node to view the incoming files for merger node.

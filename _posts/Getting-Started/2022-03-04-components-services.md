@@ -1,6 +1,8 @@
 ---
 title: "Components and Services"
 toc: true
+description: "Components and Services of APPSeCONNECT"
+keywords: "APPSeCONNECT, Components, services, overview, portal, agent, profiles, apps, packages, software development kit,SDK,menu,APPSeCONNECT modules, private package, public package, hosted agent, cloud agent,functional modules"
 tag: developers
 category: "Getting Started"
 menus: 

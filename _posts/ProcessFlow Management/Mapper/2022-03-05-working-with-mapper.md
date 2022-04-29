@@ -1,5 +1,7 @@
 ---
 title: "Mapper Node"
+description: "Mapper node allows you to portray the attributes and schemas of source and destination application to perform data synchronization."
+keywords: "mapper node,mapper"
 toc: true
 tag: developers
 category: "Processflow"
@@ -13,14 +15,14 @@ menus:
 ---
 
 When working with Process Flows, it is essential to map the attributes and the entities of both source and destination applications, for synchronizing data.
-Process flow [designer inteface](/processflow/designer-processflow/) gives you the space to design your business flow
+Process flow [designer inteface](/processflow/components-of-processflow/) gives you the space to design your business flow
 and do the node configurations of the applications and trasformation activities all in one go. In Process Flows designer page, you need to drag the mapper node and link up the application nodes for activating the Node Configuration window 
-of the Mapper Node, as shown in [process flow creation](/processflow/creating-processflow/) section.
+of the Mapper Node, as shown in [process flow creation](/getting%20started/create-your-first-processflow/) section.
 
 ## Prerequisites for working with Mapper Node
 
 * You should have valid credentials to the portal.
-* [Design](/processflow/designer-processflow/) a process flow or open an existing process flow.
+* [Design](/processflow/components-of-processflow/) a process flow or open an existing process flow.
 * Link both Source and the Destination application with the Mapper Node 
   for activating the Node Configuration window of Mapper Node.
 
@@ -28,7 +30,7 @@ of the Mapper Node, as shown in [process flow creation](/processflow/creating-pr
 
 1)	Login to the Portal and Navigate to the Process Flow Section from [Process Flow Listing Page](/processflow/processflow-listing-page/).        
 
-2)	[Create a New Process Flow](/processflow/creating-processflow/) or Edit an existing Process Flow in the [Designer Page](/processflow/designer-processflow/).      
+2)	[Create a New Process Flow](/getting%20started/create-your-first-processflow/) or Edit an existing Process Flow in the [Designer Page](/processflow/components-of-processflow/).          
 
 3)  Start with linking the Source and Destination application with the mapper node.The Node Configuration Window of Mapper Node opens.
  ![Mapper 1](/staticfiles/processflow/media/mapper/mappernode1.png)   
@@ -56,9 +58,9 @@ applications. To know more, view [steps to Customize Attribute Mapping](/process
 
 9)	You can also implement logic over attributes using IF condition. To know more, view [implementing IF condition](/processflow/steps-to-define-logic-over-destination-mapping/) in attribute mapping.  
 
-10) Lookup maps specific value that are required during transformation are also possible. To know more on repository, view [Lookup Repositories](/processflow/implementing-lookup-in-mapping/).  
+10) Lookup maps specific value that are required during transformation are also possible. To know more on repository, view [Lookup Repositories](/deployment/Lookup-repository-masterdata/).  
 
-**Note: The option for Lookups in [Structure of Mapping](/transformation/getting-started-with-mapping/#structure-of-mapping) will not be available for ProcessFlows**
+**Note : The option for Lookups in [Structure of Mapping](/transformation/getting-started-with-mapping/#structure-of-mapping) will not be available for ProcessFlows**
 
 Following are the steps and necessary links that are required while working with the Mapper node of Process Flow.
 For executing a sync process user needs to execute the following tasks in mapper node.

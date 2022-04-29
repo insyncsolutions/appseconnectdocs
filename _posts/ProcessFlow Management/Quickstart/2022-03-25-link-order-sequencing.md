@@ -1,5 +1,7 @@
 ---
 title: "Link Order Sequencing"
+description: "The Sequential Node Ordering enables you to manage the execution sequence of multiple flows within a processflow such that you do not have to unlink the nodes everytime to sequence the flows."
+keywords: "Link order sequencing, ordering of nodes, sequential execution,  sequential node ordering"
 toc: true
 tag: developers
 category: "Processflow"
@@ -16,20 +18,20 @@ menus:
 Processflow being the advanced sync flow feature of APPSeCONNECT, allows you to create and implement complex flows smoothly. A processflow can cater and sync multiple business flows based upon the requirement. 
 For example : You can design & implement the processflow in a sequential manner such that you can easily sync Products, Inventory Updates, New Customers & customer updated in a single processflow.
 
-Execution of these flows can be sequantial and may have dependency on each other as you cannot update customers unless you add new customers first.
+Execution of these flows can be sequential and may have dependency on each other as you cannot update customers unless you add new customers first.
 Implementing such complex cases totally depends on the execution order and within processflow, you can now easily modify the execution flows, without altering any of the node links or creating a new processflow.
 The Sequential Node Ordering enables you to manage the execution sequence of multiple flows with a processflow such that you do not have to unlink the nodes everytime to sequence the flows.
 
 ## Prerequisites
 
 - You need to have valid credentials of the portal.
-- [Create a processflow](/processflow/creating-processflow/) with 2 or more GET node attached to the Start Node.
+- [Create a processflow](/getting%20started/create-your-first-processflow/) with 2 or more GET node attached to the Start Node.
 - All the nodes should be linked with each other. 
 - The processflow will be executed based on the Link Order sequenced.
 - On altering or modifying the link orders, you need to save the processflow.
 - A deployed processflow needs to be saved and redeployed, if the link ordering has been changed within the processflow.
 
-**Note: The window for Link Ordering will not display the nodes that are not linked with the neighbouring nodes.**
+**Note : The window for Link Ordering will not display the nodes that are not linked with the neighbouring nodes.**
 
 ## Steps to perform Link Order Sequencing
 
@@ -39,23 +41,23 @@ Following the below process, you can successfully sequence the execution order o
 
 2) Click on **Link Order** button in the [header panel of the designer page](/processflow/components-of-processflow/#process-flow-header-panel).
 
-![Linkorder1](\staticfiles\processflow\media\linkorder1.png)
+![Linkorder1](\staticfiles\processflow\media\linkorder1.PNG)
 
 3) The Link Order Slider Window opens. Initially you can view the START Node only and will be represented to you in collapsed state.
 
-![Linkorder2](\staticfiles\processflow\media\linkorder2.png)
+![Linkorder2](\staticfiles\processflow\media\linkorder2.PNG)
 
 4) While dragging you can view the dotted boundaries that represent the drag limit for those nodes. With Link Order you can drag and reorder any of the nodes having a parellel execution.
 
-![Linkorder3](\staticfiles\processflow\media\linkorder3.png)
+![Linkorder3](\staticfiles\processflow\media\linkorder3.PNG)
 
 5) Drag the parent links and reorder execution flow of the processflow. On dragging, all the child nodes under it gets dragged too.
 
-![Linkorder4](\staticfiles\processflow\media\linkorder4.png)
+![Linkorder4](\staticfiles\processflow\media\linkorder4.PNG)
 
 6) You need to save the processflow after re-ordering the execution flow. The processflow will be executed based on the ordering initiated.
 
-7) Once saved, you need to [deploy the processflow](/processflow/deploying-and-executing-processfloww/#prerequisites-to-deploy-process-flows) to deploy the configurations to the environment. If already deployed and yet the execution is reordered, you need to [redeploy the processflow](/processflow/redeploying-processflow/).
+7) Once saved, you need to [deploy the processflow](/processflow/deploying-and-executing-processflow/) to deploy the configurations to the environment. If already deployed and yet the execution is reordered, you need to [redeploy the processflow](/processflow/deploying-and-executing-processflow/).
 
 8) On viewing the [snapshot](/processflow/snapshot-processflow/) for the execution, your snapshot will be displayed as per the ordering made in the Link Order Window.
 

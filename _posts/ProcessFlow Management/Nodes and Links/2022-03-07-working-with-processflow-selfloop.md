@@ -1,5 +1,7 @@
 ---
 title: "SelfLoop Node"
+description: "Self-loop is an interesting functionality as it can be used in a node to iterate as per configuration."
+keywords: "Loop node, self loop node configuration, until data available, no of occurences, for time out, self loop usability, execution flow for self loop"
 toc: true
 tag: developers
 category: "Processflow"
@@ -23,8 +25,8 @@ iterate a node execution as per the configuration.
 Self-loop is an interesting functionality as it can be used in a node to iterate as per configuration. 
 Presently three option is available to configure self-loop : 
 
-- Until data available: This option allows a self loop execution over a Node where self-loop will continue to execute until data available in the source app or node.
-- Number of occurrences: This option allows Number of iterations on node over which self-loop implemented will execute.  
+- Until data available : This option allows a self loop execution over a Node where self-loop will continue to execute until data available in the source app or node.
+- Number of occurrences : This option allows Number of iterations on node over which self-loop implemented will execute.  
 **User can set Maximum 999, to iterate the occurrence** 
 - For Time Out : This option allows you to specify the time interval for which the self loop will be executed.
 
@@ -96,13 +98,13 @@ _**(c)Data availability is the first condition for execution of the self-loop, i
 
 ### Execution flow for Self loop
 
-1. [Design the processflow](/processflow/creating-processflow/) and self link the node where you want to implement the Self-loop.In this case, self-loop is applied on Mapper node.
+1. [Design the processflow](/getting%20started/create-your-first-processflow/) and self link the node where you want to implement the Self-loop.In this case, self-loop is applied on Mapper node.
 ![PF_selfloop5](\staticfiles\processflow\media\selfloop5.png)  
 
 2. On linking the Mapper node with self loop, the self loop configuration window opens. Select the execution order of the Self-Loop as `Number of Occurences`.
 ![PF_selfloop6](\staticfiles\processflow\media\selfloop6.png)
 
-3. Save and [Deploy the processflow](/processflow/deploying-and-executing-processfloww/) to deploy all the configurations to the environment.
+3. Save and [Deploy the processflow](/processflow/deploying-and-executing-processflow/) to deploy all the configurations to the environment.
 4. You need to execute the processflow after the deployment process.
 **Your processflow will automatically be executed if your sync type is set to Auto mode.**
 5. Navigate to `Manage > Environment`. Click on the **processflow tab** for the environment where you have deployed the processflow and check for the 
@@ -128,7 +130,7 @@ If the condition is met, the loop stops. Otherwise, the loop repeats to extract 
 fetched. Thus with the aid of Self loop user can fetch bulk data (with the defined configuration in the self loop)
 and execute a sync operation successfully to the destination application.
 
-Example for Execution:  Start node-> Get Node(SELF LOOP)-> Mapper -> Post
+Example for Execution :  Start node-> Get Node(SELF LOOP)-> Mapper -> Post
 
 **(B) Using self loop in the source application & destination application - When both the Source Application & destination application
  is unable to sync bulk records at a single execution.**    
@@ -139,7 +141,7 @@ Self loop in both the source and destination application in the Integration Proc
 that processflow is executed and bulk data is synced using a Self Loop. This Process incorporates splitter node
 for splitting bulk data into chunks of data for reducing data load in destination application.
 
-Example for Execution:  Start node-> Get Node(SELF LOOP)-> Mapper -> Split-> Post (SELF LOOP)
+Example for Execution :  Start node-> Get Node(SELF LOOP)-> Mapper -> Split-> Post (SELF LOOP)
 
 **(C)Using self loop during data transformation - Data Loss Prevention For Processing number of input packets from 
 Source Application to Destination Application**

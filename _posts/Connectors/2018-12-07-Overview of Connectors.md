@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     header:
         title: "Application Profiles"
-        weight: 4
+        weight: 5
         icon: fa fa-file-word-o
         identifier: Connectors
 ---

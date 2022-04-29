@@ -1,6 +1,8 @@
 ﻿---
 title: "Steps to Create a ProcessFlow"
 toc: true
+description: "Steps to Create a ProcessFlow"
+keywords: "ProcessFlow, Create, Build, Design"
 tag: developers
 category: "Getting Started"
 menus: 
@@ -20,7 +22,7 @@ between two disparate applications, we need a solution which gives right mix of 
 ProcessFlow is a visual representation of a business process integration, which helps you as an user to orchestrate a business process in such a way so that you can 
 modularize and control the complexity of business integration properly. A processflow, under the hood creates a micro-service architecture that can run in cloud servers 
 or on-premise fetching or pushing data directly to the applications in execution and generate both transactional and data logs. ProcessFlow gives the IDE which lets you 
-develop integrations for your customers and partners,giving options for deployment and execution from the same UI. This enables you to choose different end-point filters, 
+develop integrations for your customers and partners, giving options for deployment and execution from the same UI. This enables you to choose different end-point filters, 
 deployment environments and schedule for automatic execution.
 
 This section of the documentation will guide you with the process of Creating & Saving new processflows. The steps for implementing the same is provided below :

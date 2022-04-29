@@ -1,5 +1,7 @@
 ---
 title: "How to use in Mapping"
+description: "Implement lookups in attribute mapping for syncing datas between business applications."
+keywords: "mapping lookups, lookup in attribute mapping, getMapping syntax, lookup syntax"
 toc: true
 tag: developers
 category: "Deployment"
@@ -20,7 +22,7 @@ Once the Repository Collection and the Reference tables are created, users can i
 * You need to have the processflow created along with the mapper node.
 
 ## Steps to implement lookup in attribute mapping
-1.	Login to the portal and navigate to the processflow section,the processflow [listing page](/processflow/processflow-listing-page/) opens. [Create a processflow](/processflow/creating-processflow/) or edit a created processflow in the processflow [Designer page](/processflow/designer-processflow/) opens.    
+1.	Login to the portal and navigate to the processflow section,the processflow [listing page](/processflow/processflow-listing-page/) opens. [Create a processflow](/getting%20started/create-your-first-processflow/) or edit a created processflow in the processflow [Designer page](/processflow/components-of-processflow/) opens.    
 
 2.	Click on the Configuration node button of the mapper node. You can view the mapper page after clicking on the mapper configuration button. 
 
@@ -36,21 +38,21 @@ lookup using two syntax formats. The syntax is given below for your reference.
 Where ObjectType is the Reference Table Name & Value is the Source Attribute Name.        
 For ex: if your reference table name is Country & attribute name country_id therefore the syntax will be as above.
 
-**Note: You will get the function by expanding the function node available at the left-hand side 
+**Note : You will get the function by expanding the function node available at the left-hand side 
 of the mapping page. Expand Function > Generic Function & click over the getMapping function.** 
 
-**Syntax 2: Using lookup syntax**   
+**Syntax 2 : Using lookup syntax**   
 
 ![Lookup Mapping New2](../../staticfiles/processflow/media/lookupmapping2.png)  
 
 The above syntax is a hardcoded syntax. You can code the syntax as given above for implementing the mapping.
-For Ex: if your reference table name is Country & attribute name country_id therefore the syntax will be.
+For Ex : if your reference table name is Country & attribute name country_id therefore the syntax will be.
 
-**Note: You cannot select this function from the function nodes. Implementing this function needs to be done as hardcoded.**
+**Note : You cannot select this function from the function nodes. Implementing this function needs to be done as hardcoded.**
 
 On successfully implementing the mapping in the mapping space, you get a confirmation pop up for mapping the lookup. The screen is given below. Click on the Yes, do it button.
 ![Lookup Mapping7](../../staticfiles/processflow/media/lookupmapping3.png)  
-**Note: You would not get this confirmation message when the mapping implemented is not syntactically correct.**
+**Note : You would not get this confirmation message when the mapping implemented is not syntactically correct.**
  
 After finishing the mapping click `Save` button to save the mapping implemented.   
 ![Lookup Mapping8](../../staticfiles/processflow/media/lookup-mapping8.png)  

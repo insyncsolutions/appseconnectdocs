@@ -1,5 +1,7 @@
 ﻿---
 title:  "Sync Info & Retry"
+description: "Resync the data after rectifying the errors such that no data loss occurs with respect to the sync process."
+keywords: "sync info, retry, sync info and retry, auto-retry, processflow retry, manual retry"
 toc: true
 tag: developers
 category: "Processflow"

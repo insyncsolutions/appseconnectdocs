@@ -1,5 +1,7 @@
 ---
 title: "Terminology"
+description: "Terms related to APPSeCONNECT"
+keywords: "ProcessFlow, Agent, Environment, Schema, Attributes, Action, Adapter, Packages, Custom Renderer, License, Nodes, Links, Sync Info, Resync, Snapshot, Mapping, Lookup Mapping, Variables, Rules,Technology Application, Expresssion Language"
 toc: false
 tag: developers
 category: "Getting Started"

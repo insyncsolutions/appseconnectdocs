@@ -1,5 +1,7 @@
 ---
 title: "Splitter Node"
+description: "Split input data into smaller chunks with our smart and interactive splitter node."
+keywords: "splitter node, low server response, splitter"
 toc: true
 tag: developers
 category: "Processflow"
@@ -17,9 +19,9 @@ This node is used to split a data packet into smaller chunks for processing in s
 as shown below. 
 
 - **Node Description** : Here, you can provide a short description for the splitter node.  
-- **Entity Name**: Here you can specify the name which will act as a root element to append the splitted data.  
+- **Entity Name** : Here you can specify the name which will act as a root element to append the splitted data.  
  - **XPath** : Here user need to specify a XPath based on which data will be splitted.
-- **Batch Size**: Here you need to specify the number of data to be present in each splitted data of the output file of the spiltter node.  
+- **Batch Size** : Here you need to specify the number of data to be present in each splitted data of the output file of the spiltter node.  
 For example, suppose you have a data packet which contains 10 customer data and you applied a splitter 
 with 2 batch size, so after execution of the splitter node the data packet will be split into 5 data 
 packets where each packet contains two customer data and smaller packets will be sent to the next node
@@ -34,15 +36,15 @@ for processing.
 ### Working Principle
 
 `SPLITTER` node in APPSeCONNECT processflow is used for splitting large volume of data received as input files and 
-breaking them into smaller chunks go to the next process of transformation in the processflow. For example,let an input packet contains 20 customer data. A batch size of 1 is defined in the splitter node,where **XPATH**  is  response/items/item and **Entity name** as response. 
-So,after data passed through the splitter node 20 individual XML data files will be created as output file where each file contains a single customer data.
+breaking them into smaller chunks go to the next process of transformation in the processflow. For example, let an input packet contains 20 customer data. A batch size of 1 is defined in the splitter node,where **XPATH**  is  response/items/item and **Entity name** as response. 
+So, after data passed through the splitter node 20 individual XML data files will be created as output file where each file contains a single customer data.
 
 ![Processflow Splitter Properties](\staticfiles\processflow\media\splitternode1.png)     
 `For providing the properties of Splitter/ Merger, XPath for the packets is needed to be known.` 
 
 The Parent node for the items present in the XSLT is the `XPATH` that needs to be given in the Splitter and Merger Property.
 
-**Note: Single forward Slash (For Eg: /Items) access all the sub nodes present inside it. 
+**Note : Single forward Slash (For Eg: /Items) access all the sub nodes present inside it. 
 Double Forward Slash (For Eg: //Items) access all the nodes present inside it.**
 
 The XPath provided in the splitter node section also depends on the packets. If the Splitter Node is attached before the 
@@ -57,14 +59,14 @@ The Entity field is the Parent nodes of the packet that would be split. The XPat
 
 The XPath provided for the node **SPLITTER** (Magento2 to SAP B1) is shown above :      
 
-1) Go to Processflow section & [Design](/processflow/designer-processflow/) a Processflow.  
+1) Go to Processflow section & [Design](/getting%20started/create-your-first-processflow/) a Processflow.  
 2) The Processflow is designed as shown in the screen below.
 ![splitflow1](\staticfiles\processflow\media\splitternode2.png)
 3) Here the `splitter` node is used after  getting customer data from Magento,
 and splitting it into multiple output packets for posting in destination application.  
 4) You have to add [Self loop](/processflow/working-with-processflow-selfloop/) in the mapper node so that all the splitted files are executed
 and posted in the destination application, to avoid any data loss.   
-5) Now [Deploy](/processflow/deploying-and-executing-processfloww/) the processflow. After successful deployment, to your environment, [Execute](/processflow/deploying-and-executing-processfloww/) the Processflow.  
+5) Now [Deploy](/processflow/deploying-and-executing-processflow/) the processflow. After successful deployment, to your environment, [Execute](/processflow/deploying-and-executing-processflow/) the Processflow.  
 6) Go to [Environment](/deployment/Environment-Management/)section of the portal, select the processflow from the listing section and click [View Snapshot](/processflow/snapshot-processflow/)
 to view the detailed node by node snapshot data of the processflow.    
 7) Click on the Splitter node to get the snapshot dataview of the splitted files.      

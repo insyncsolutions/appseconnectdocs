@@ -1,5 +1,7 @@
 ---
 title: "APP Node"
+description: "Get familiar with GET/POST node along with actions and its filter to fetch and push data to your business centric applications through our web based IDE."
+keywords: "GET node, POST node,managing schemas and attributes, listing of schemas and attributes, adding schemas in an application node, importing schemas and attributes, editing and deleting schemas in  an application node, managing actions and  different filters, action filter, retry filter, runtime filter, template filter, protocol implementation for applications"
 toc: true
 tag: developers
 category: "Processflow"
@@ -25,7 +27,7 @@ using API Endpoints provided by the application. When you drag an application no
 * **App Version** : This denotes the version of the Application. You need to select the version of the application which is needed for the integration.
 * **Protocol** : The protocols would be listed for the application that is selected. 
 * **Schema** : The schemas for the selected application and protocol would be listed in the drop-down. 
-* **Action** : All the action based on the selected schema would be available. You can also modify **Action filters** by clicking on the **Configure Action Filter** button. Click [here](/processflow/manage-actions-actionfilters-errorfilters/) to know more about working with Action Filter.
+* **Action** : All the action based on the selected schema would be available. You can also modify **Action filters** by clicking on the **Configure Action Filter** button. [Click here](/transformation/working-with-schemas-action-filter/#action-filters) to know more about working with Action Filter.
 * **Credential** : You need to click the button Add, beside Credential to add token in the list. Select the Credential Token added for storing the credential provided for the application in the OP Agent.
 
 **You need to select the Node Type as `GET` to make the application node execute GET operation or as POST to make the node perform pushing operation to your respective business application.**
@@ -58,9 +60,9 @@ be visible from the APP Section of the portal as well.
 Processflow allows a defined tree view listing structure for managing and viewing
 defined Schema, Attributes and Actions associated with it. To view the listing of Schemas and Attributes,  navigate to the following section :   
 
-(a) Go to Portal and Navigate to **Designer > processflow** module.
+(a) Go to Portal and Navigate to **Designer > ProcessFlow** module.
 
-(b) Go to [desiger](/processflow/designer-processflow/) section and drag the required App node.
+(b) Go to [desiger](/processflow/components-of-processflow/) section and drag the required App node.
 
 (c) The Node Configuration window opens. Go to General tab and Click `Manage Schema`.
 
@@ -74,14 +76,14 @@ defined Schema, Attributes and Actions associated with it. To view the listing o
 
 ![Processflow Schema Listing](../../staticfiles/processflow/media/processflow-schema-listing.png)
 
-**Note: Any Changes done to the Schema and Attributes from the Portal->> App module will be displayed in this section.**
+**Note : Any Changes done to the Schema and Attributes from the Portal->> App module will be displayed in this section.**
 
 Thus listing view gives a clear synopisis to the user regarding the Schema access and Management from the processflow node configuration level. 
 
 
 ### Adding Schemas in an Application node
 
-1) Go to [designer section](/processflow/designer-processflow/) and [create a process](/processflow/creating-processflow/) flow. 
+1) Go to [designer section](/processflow/components-of-processflow/) and [create a process](/getting%20started/create-your-first-processflow/) flow. 
 
 2) Drag the application node and the Node Configuration window appears. Provide the required details in the fields available in the Node Configuration window. 
 
@@ -100,7 +102,8 @@ the list of schema. And if `No schema` is available for the given application no
 5) The newly created Schema is added and gets listed in the left side panel. Thus, following the above process you can successfully add schemas for your application.
 
 ### Importing Schemas & Attributes
-Processflow allows you to import schemas that helps to create schemas and attributes instantly. You can upload the schema files of your application based on the formats listed below:
+
+Processflow allows you to import schemas that helps to create schemas and attributes instantly. You can upload the schema files of your application based on the formats listed below :
 
 - XML - The functionality traverses and renders through the file when uploaded in the XML format.
 - Json - The functionality traverses and renders through the file when uploaded in Json format.
@@ -108,11 +111,11 @@ Processflow allows you to import schemas that helps to create schemas and attrib
     
 #### Steps to import schemas and attributes
 
-1) Navigate to processflows in portal and open the processflow where you want to import the schema. If you are required to create a new processflow, [Click Here](/processflow/creating-processflow/).
+1) Navigate to processflows in portal and open the processflow where you want to import the schema. If you are required to create a new processflow, [Click Here](/getting%20started/create-your-first-processflow/).
 
 2) Open the Node configuration window for the application whose schema you need to import. Click on the **Manage Schema** Button.
 
-3) The [Listing window](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) of the Schemas section opens. Click on the **Import** button.
+3) The [Listing window](/processflow/processflow-app/#importing-schemas--attributes) of the Schemas section opens. Click on the **Import** button.
 
 ![pf_importschema1](\staticfiles\processflow\media\pf_importschema1.PNG)
 
@@ -120,7 +123,7 @@ Processflow allows you to import schemas that helps to create schemas and attrib
 
 - Selecting **XML** - On selecting the import type as XML, you will be able to view the following fields.
     - Choose File : You will be able to select the XML files from your local system for importing the schemas.
-    - Element Nam e: You need to provide the parent Element name through which the XML file shall be traversed. Your file will not be traversed if you provide a wrong element name.
+    - Element Name: You need to provide the parent Element name through which the XML file shall be traversed. Your file will not be traversed if you provide a wrong element name.
     - Render : Clicking on the Render button, the functionality would traverse your entire XML file as per the Element Name provided and will list you all the Schema complex Objects and Complex Object Collections based upon the file.
 
 ![pf_importschema2](\staticfiles\processflow\media\pf_importschema2.PNG)
@@ -140,7 +143,7 @@ Processflow allows you to import schemas that helps to create schemas and attrib
 
 5) Select the import type as per your requirement, upload the document as per the selected format and click on the Render Button. (Here, we have selected the XML type)
 
-6) You can view all the Complex Objects and Complex Object Collections along with their attributes as schemas of your application. On expanding each of the rendered schema, you can view all its attributes. You can alter these fields of attributes as per your requirement: **Datatype** and **Reference Entity**
+6) You can view all the Complex Objects and Complex Object Collections along with their attributes as schemas of your application. On expanding each of the rendered schema, you can view all its attributes. You can alter these fields of attributes as per your requirement : **Datatype** and **Reference Entity**.
 
 ![pf_importschema5](\staticfiles\processflow\media\pf_importschema5.PNG)
 
@@ -148,9 +151,9 @@ Processflow allows you to import schemas that helps to create schemas and attrib
 
 ![pf_importschema6](\staticfiles\processflow\media\pf_importschema6.PNG)
 
-8) On clicking the SAVE button, all the rendered schemas will be displayed on the [Schema listing](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) page of your app. Whenever you drag or reuse the app for a different processflow, you can view all the saved schemas, in the [Schema listing](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) page.
+8) On clicking the SAVE button, all the rendered schemas will be displayed on the [Schema listing](/processflow/processflow-app/#listing-of-schemas-and-attributes) page of your app. Whenever you drag or reuse the app for a different processflow, you can view all the saved schemas, in the [Schema listing](/processflow/processflow-app/#listing-of-schemas-and-attributes) page.
 
-**Note:**
+**Note :**
 
 - **You cannot upload a JSON file for an XML import type and vice versa.**
 
@@ -165,7 +168,7 @@ Thus, following the above process you can successfully add schemas, by importing
 
 To `Edit Schema`, you need to perform the following steps :
      
-1) Go to Processflow [designer](/processflow/designer-processflow/) section and drag the app node for which you want to edit schema.    
+1) Go to Processflow [designer](/processflow/components-of-processflow/) section and drag the app node for which you want to edit schema.    
 2) Follow the path - Node Configuration window -> General Tab -> Schema-> Manage Schema.          
 3) You will be redirected to the `Manage Schema and Action` pop-up.    
 4) In the `Manage Schema and Action` window, you will be able to edit any existing Schema by clicking on the Schema
@@ -174,7 +177,7 @@ context menu and do the changes.
 5) The `Schema Name` is uneditable, rest other fields are editable like Schema Description, Namespace &
 Namespace URL.
   
-**NOTE: (a) Once a processflow has been saved in an Environment you will be
+**NOTE : (a) Once a processflow has been saved in an Environment you will be
 unable to Rename the Schema, Delete the Schema.  
 (b) You will be able to add/edit the `Namespace`, and `Namespace URL` values provided in the Schema.  
 (c) You will be able to edit the `Description`, via `Edit Schema` option.**
@@ -185,7 +188,7 @@ unable to Rename the Schema, Delete the Schema.
 2) Click `Add Attribute` to add attribute to the schema. The Add Attribute window opens up.  
 ![Pf Addattribute](../../staticfiles/processflow/media/pf-addattribute.png)  
 The fields in the Attriburte Property Window are :   
-a. Attribute Name: It is a mandatory field, used for providing name to the attribute. 
+a. Attribute Name : It is a mandatory field, used for providing name to the attribute. 
    * The Attribute Name field will allow a `maximum of 100 characters`.  
    * In the Attribute Name field space and special characters will not be allowed.    
 b. Data Type : Select the datatype from the drop-down as per the requirement. This is also a mandatory field.    
@@ -201,12 +204,12 @@ the Schema Name from the drop-down as a reference Entity. The Reference API fiel
 d. Tags : Used  providing specific tags to the attribute.  
 e. Namespace Prefix : Prefix could be added for this attribute while working with namespaces.  
 f. Attribute Scope : Select the Scope - Organization Level or ProcessFlow Level. This is a mandatory field
-select as per your business requirement.Attributes with scope `Organization` will be added at the Organization
- level whereas Attributes with scope `Local` will be added at the processflow level. 
-g. Attribute Property: This section has 3 checkboxes - Primary, Required, Attribute.   
+select as per your business requirement. Attributes with scope `Organization` will be added at the Organization
+ level whereas Attributes with scope `Local` will be added at the processflow level.       
+g. Attribute Property : This section has 3 checkboxes - Primary, Required, Attribute.   
    * Primary : For allotting this attribute as the Primary Key.  
    * Required : For making this attribute mandatory for the mapping purpose.  
-   * Attribute :To add attribute in the XSLT    
+   * Attribute : To add attribute in the XSLT    
 **Only one Attribute can be set as `Primary Attribute` within a Schema.**
 
 
@@ -219,14 +222,13 @@ appears on the window stating the attribute is created successfully.
 5) Click on the created attribute in the node structure, for Renaming and Deleting 
 the attribute.  
 
-**Note: For adding Reference API, the created attribute must have the datatype Complex Object or Complex Object Collection.**
+**Note : For adding Reference API, the created attribute must have the datatype Complex Object or Complex Object Collection.**
 
-#### Editing. Deleting & Renaming Attribute in an Application node
+#### Editing, Deleting & Renaming Attribute in an Application node
 
 ##### (a) Editing Attribute within a  processflow Scope (local attribute)
 
-1) Any editing/changes done to an existing Attribute will not change the Attribute defined under the Organization Scope (global).    
-You can check the same by navigating to the App section of the portal, where the Schema Attribute(s) under Organization scope (global) will remain unchanged.
+1) Any editing/changes done to an existing Attribute will not change the Attribute defined under the Organization Scope (global). You can check the same by navigating to the App section of the portal, where the Schema Attribute(s) under Organization scope (global) will remain unchanged.
 
 2) Changes done to an existing Attribute will be reflected within that specific processflow only.
 
@@ -239,12 +241,12 @@ You can check the same by navigating to the App section of the portal, where the
 ##### (b) Editing Attribute within Organization Scope (global attribute)
 On deleting an Attribute from the Manage Schema section, it will not be visible in new processflow.
 
-(B) To `Delete Schema`, do the following steps:
+To `Delete Schema`, do the following steps :
 
-1) Go to Processflow [designer](/processflow/designer-processflow/) section and drag the app node for which you want to deleted schema.
-2) Now click on the app node, and under schema field click Manage Schema.
-3) You will be redirected to the `Manage Schema and Action` pop-up.
-4) In the `Manage Schema and Action` window, you will be able to delete any existing Schema by click on the Schema
+1) Go to Processflow [designer](/processflow/components-of-processflow/) section and drag the app node for which you want to deleted schema.       
+2) Now click on the app node, and under schema field click Manage Schema.           
+3) You will be redirected to the `Manage Schema and Action` pop-up.                      
+4) In the `Manage Schema and Action` window, you will be able to delete any existing Schema by click on the Schema 
 context menu and clicking on Delete Schema Option.
 
 #### Deleting Attribute
@@ -252,7 +254,7 @@ context menu and clicking on Delete Schema Option.
 If you have saved the processflow (both for Organization and processflow Scope)
 you will be able to delete the Attribute(s) used in Mapping.
 
-**Note: For saved processflow for both organization and PF scope, 
+**Note : For saved processflow for both organization and PF scope, 
         Data Type of the Attribute(s) cannot be changed used in Mapping.
         Reference API of an Attribute cannot be changed . 
         Primary property of Attribute(s) can be changed/updated**.
@@ -260,15 +262,15 @@ you will be able to delete the Attribute(s) used in Mapping.
 ## Managing - Action & Different Filters
 
 Actions are certain tasks like getting data from an application or sending data to an application based on specific API filter conditions known as Action Filters. 
-Every Schema is an entity that requires to multiple actions to perform multiple operations as per the transaction happening. For Eg: GET, POST, PUT, DELETE etc.  
+Every Schema is an entity that requires multiple actions to perform multiple operations as per the transaction happening. For Eg : GET, POST, PUT, DELETE etc.  
 This section of the document will enable the user to create actions, action filter and error filters under a created schema, when working with processflow.
 
 ### Prerequisites
 - The User should have a valid APPSeCONNECT account.
 - APPSeCONNECT should be up and running.
 - An application node is needed for defining the Actions.
-- The app node needs to be dragged in the [designer section](/processflow/designer-processflow/) to define the actions under [manage schema](/processflow/adding-schema-actions/).
-- The [Schemas should be created](/processflow/adding-schema-actions/#adding-schemas-in-an-application-node-of-process-flow) under which the Actions are to be defined.
+- The app node needs to be dragged in the [designer section](/processflow/components-of-processflow/) to define the actions under [manage schema](/processflow/processflow-app/#listing-of-schemas-and-attributes).
+- The [Schemas should be created](/processflow/processflow-app/#adding-schemas-in-an-application-node) under which the Actions are to be defined.
 - For defining **Action & Retry Filters**, you need to have the ACTIONS created for the chosen application on your organisations. 
 - You need to have an action filter/retry filter created, to create it as a template.
 
@@ -286,8 +288,8 @@ This section of the document will enable the user to create actions, action filt
 
 4) You will be provided with two mandatory fields for creating the **ACTION** under the schema. Below are the mentioned fields.
 
-- **Action Name :** This is the name of the action that would signify the operation it would be doing. For Example: POST Customers, getting Customer from WooCommerce etc. 
-- **Action Description :** The description of the actions briefs the operation, the action would be performing. For Example: Adding customes to Shopify, Fetching Orders from Magento etc.
+- **Action Name :** This is the name of the action that would signify the operation it would be doing. For Example : POST Customers, getting Customer from WooCommerce etc. 
+- **Action Description :** The description of the actions briefs the operation, the action would be performing. For Example : Adding customes to Shopify, Fetching Orders from Magento etc.
 
 Click on the **SAVE** button.
 
@@ -295,9 +297,9 @@ Click on the **SAVE** button.
 
 Following the above steps , you can successfully create a new Action to a schema.
 
-**Note:**
+**Note :**
 - The newly created action will be created in the organisation level.
-- The field **Action Name** will allow a maximum 100 characters
+- The field **Action Name** will allow a maximum 100 characters.
 - You can create multiple ACTIONS under a schema.
 
 ### Edit, Delete & Rename an existing action
@@ -321,9 +323,9 @@ Following the above steps , you can successfully create a new Action to a schema
 
 Following the above process, you can successfully Edit, Delete & Rename an existing action.
 
-**Note:**
+**Note :**
 - You cannot delete an action that is already in use and deployed.
-- You can also perform the DELETE and the EDIT operation of the schema for the [APP > Select your App > Schema](/getting%20started/configurations/). 
+- You can also perform the DELETE and the EDIT operation of the schema for the [APP > Select your App > Schema](/connectors/configurations/). 
 
 
 ## Adding Action Filters
@@ -338,23 +340,23 @@ we can define action filters in ProcessFlow.
 
 2) The Configure filter window opens. You can view the selected schema listed on the window. Expand the nodes `Customer_Detail > Action > Select Action` to view the **Action Filter**, Retry Filter and the Runtime Filter.
 
-![actionfilter2](\staticfiles\processflow\media\action_filter2.png)
+![actionfilter2](\staticfiles\processflow\media\action_filter2.PNG)
 
 3) Click on the ellipses beside the Action Filter to view the **CREATE** Button. Clicking on the create button, the action filter creation window opens.
 
-![actionfilter3](\staticfiles\processflow\media\action_filter3.png)
+![actionfilter3](\staticfiles\processflow\media\action_filter3.PNG)
 
 4) You get the option to provide your filter for two sections. Either on **HEADER** and **BODY**. As per you application API, you can provide the following details to configure the action filter.
  
 - Key : The key defines the field on which you want to apply the filter on. For example, let us suppose you want to filter by date, then key will have created_at in it. 
 - Operator : It represents the operator between the two operands. The operator is not mandatory. For instance, in case of REST based APIs, the Operator does not generally makes sense, as the filter goes into the query string which contains only a combination of key-value pair.
-- Value: You need to provide the value to the filter. This represents the data. For example, if you want to filter out the customers greater than a particular date, you can specify the date in the value field.
+- Value : You need to provide the value to the filter. This represents the data. For example, if you want to filter out the customers greater than a particular date, you can specify the date in the value field.
 
 Click on the SAVE icon below the window to save the entire filter.
 
 5) You can add as many filters as you want by clicking on the **Add Child Clause** button. An optional conjunction is needed for some integrations which you can provide to join two queries. To add a conjuction on a level below, click on the ellipses button beside the parent sibling.
 
-6) You can also save the filter as a template by clicking on **SAVE AS TEMPLATE** for reusing it on a different processflow. For more details on TEMPLATE, [Click Here](/processflow/manage-actions-actionfilters-errorfilters/#saving-a-template-filter).
+6) You can also save the filter as a template by clicking on **SAVE AS TEMPLATE** for reusing it on a different processflow. For more details on TEMPLATE, [Click Here](/processflow/processflow-app/#saving-and-creating-from-a-template-filter).
 
 
 ## Adding Retry Filters
@@ -397,7 +399,7 @@ Click on the SAVE button on the window to save the current filter. To add a conj
 You can reuse this saved template on any other nodes of any processflow in your organisation, 
 provided the **application node** , **Schema** & the **Action** remains the same.
 
-7) You can view the saved for the schema and action by navigating to **[Manage Schema](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) > your selected Schema Entity > The Action in which you have created the Template > Click on the Action filter.**
+7) You can view the saved for the schema and action by navigating to **[Manage Schema](/processflow/processflow-app/#adding-schemas-in-an-application-node) > Your selected Schema Entity > The Action in which you have created the Template > Click on the Action filter.**
 You will be able to view the saved template for that schema and the action. The template will not be editable in the Manage schema window.
 
 8) To create filter from a saved template, navigate to Node Config window ->  Select Schema -> Select Action -> Configure filter. Expand the Schema node until Action Filter, Retry Filter appears.
@@ -420,7 +422,7 @@ Following the above process you can successfully SAVE and create filter from tem
 ## Working with Runtime Filter
 
 You can create the Dynamic Runtime Filter for performing specific integration operations. However, you cannot execute from this section. 
-The **Runtime Filter** functionality on this area will only allow you to Create, View and Delete. The filters created can be also be viewed in the **Execute with Runtime filter** area. For more Details, [Click Here](/processflow/User-Defined-Dynamic-Filter/#implementing-dynamic-custom-filter).
+The **Runtime Filter** functionality on this area will only allow you to Create, View and Delete. The filters created can be also be viewed in the **Execute with Runtime filter** area. For more Details, [Click Here](/processflow/deploying-and-executing-processflow/).
 
 1)Drag the application node in the designer panel.Fill the manadatory details and then click on **Configure Filter**.
 
@@ -440,9 +442,9 @@ Following the above process, you can successfully **Create, View and Delete** Dy
 
 **- Each action of a schema can have only one created template.**
 
-**- You cannot modify the template when viewed from the [Manage Schema](/processflow/adding-schema-actions/#listing-of-schemas-and-attributes) section.**
+**- You cannot modify the template when viewed from the Manage Schema section.**
 
-**- You can also `view` , `edit` and `delete` the saved template from the [APPS](/getting%20started/configurations/) section.**
+**- You can also `view` , `edit` and `delete` the saved template from the [APPS](/connectors/configurations/) section.**
 
 
 ## Protocol Implementation for Applications
@@ -461,7 +463,7 @@ SAP Business One follows two more protocols **DI API** & **FTP** for other purpo
 
 1. You need to have basic knowledge of the protocol used by the application selected by you.
 
-2. You need to design a processflow before implementing Protocol. [Click Here](/processflow/creating-processflow/) for the steps to design a processflow. 
+2. You need to design a processflow before implementing Protocol. [Click Here](/getting%20started/create-your-first-processflow/) for the steps to design a processflow. 
 
 3. Protocol implementation is done only for the application in POST operation. Therefore you need to design the processflow with you application in destination.
 
@@ -469,22 +471,21 @@ SAP Business One follows two more protocols **DI API** & **FTP** for other purpo
 
 **_Note_**: _Here we will demonstrate you with the steps to implement and setup Protocol keeping SAP business One in Destination. The flow remains the same if you are working with other application as well apart of SAP Business One.
 
-1. Login to the Portal and Navigate to the [processflow](/processflow/overview-of-processflow/) section. Click on the new button to [create a new processflow](/processflow/creating-processflow/).
+1. Login to the Portal and Navigate to the [processflow](/processflow/overview-of-processflow/) section. Click on the new button to [create a new processflow](/getting%20started/create-your-first-processflow/).
 
 2. Design the processflow keeping the selected application in Destination (In this case SAP Business One).
 
-3. On dragging the [destination application](/processflow/working-with-POST/) (SAP Business One in this case), the Node Configuration Window opens. You need to select the **Protocols** from the drop-down. The protocols would be displayed as per the App version selected. For SAP Business One (version >= 8.8), you will get the following protocols. 
+3. On dragging the [destination application](/processflow/processflow-app/#what-is-getpost-node) (SAP Business One in this case), the Node Configuration Window opens. You need to select the **Protocols** from the drop-down. The protocols would be displayed as per the App version selected. For SAP Business One (version >= 8.8), you will get the following protocols. 
+![protocol1](\staticfiles\processflow\media\protocol1.PNG) 
 
 - **DI API:** Used for operating any type of data using SAP Business One API.
 - **DI Server Object:** Used for operating general transactional data like Business Partner, Products etc.
 - **DI Server Service:** Used for creating master data in SAP Business One, you need work with the protocol **DI Server Service**.
 - **FTP:** Used for operating any type of data using File System.
-![protocol1](\staticfiles\processflow\media\protocol1.png)  
 4. Click on the **Save** button after all the mandatory fields are filled up. Link up the Nodes and Save the processflow. Click on the Node configuration Button of the [Mapper Node](/processflow/working-with-mapper/). The Mapper Window opens.     
-5. Click on the **Preview** button to view the generated XSLT with respect to the choosen protocol.
+5. Click on the **Preview** button to view the generated XSLT with respect to the choosen protocol.          
    a. When the Protocol is selected as **DI API** you get the following XSLT Preview.
         ![protocol3](\staticfiles\processflow\media\protocol3.PNG)
-
    b. When the Protocol is selected as **DI Server Object**, you get the following XSLT Preview.
         ![protocol4](\staticfiles\processflow\media\protocol4.PNG)
 6. When the Protocol is selected as **DI Server Service**, you get the following XSLT Preview.

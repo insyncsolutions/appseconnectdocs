@@ -1,6 +1,8 @@
 ---
 title: "Organizing ProcessFlow"
 toc: true
+description: "ProcessFlow Home section helps users to organize & manage all the processflows in folder structure such that user can maintain an easy usability as per their requirement."
+keywords: "Create,Edit,Rename,Delete,Generate Excel Document of a ProcessFlow,Create and Rename folders and its sub-folders,Trash Folder,Package Library Folder, Processflow Home, Processflow Folder, Installed ProcessFlow Folder"
 tag: developers
 category: "Processflow"
 menus: 
@@ -23,17 +25,16 @@ in folder structure such that user can maintain an easy usability as per their r
 2. For each processflows, the following details will be displayed.  
 * **Name** : Displays the name of the ProcessFlows.  
 * **Description** : Displays the description of the ProcessFlows.   
-* **Action** : Clicking the three horizontal dots against each processflow, user gets the options to **Edit**,**Copy**,**Delete** & **Generate mapping document** for existing ProcessFlows.     
+* **Action** : Clicking the three horizontal dots against each processflow, user gets the options to **Edit**, **Copy**, **Delete** & **Generate mapping document** for existing ProcessFlows.     
 
-3. a. Click Edit Button, the **[Designer page](/processflow/designer-processflow/)** opens for the selected ProcessFlow for editing.  
-   b. Click Copy Button, you'll be able to select the desired folder and sub-folder to duplicate your processflow and save them. Click [here](/processflow/copy-processflow/) to get details steps to perform duplication. 
-   c. You can download the mapping document directly from the Portal to get information about the transformation logic. 
+3. a. Click Edit Button, the **[Designer page](/processflow/components-of-processflow/)** opens for the selected ProcessFlow for editing.     
+   b. Click Copy Button, you'll be able to select the desired folder and sub-folder to duplicate your processflow and save them. Click [here](/processflow/copy-processflow/) to get details steps to perform duplication.     
+   c. You can download the mapping document directly from the Portal to get information about the transformation logic.     
    d. Click Delete button, the selected ProcessFlow is moved to the Trash folder.
 ![processflowlisting-page2](/staticfiles/processflow/media/processflowlisting-page2.png) 
 
-4. The ProcessFlow Home page will have a **NEW** button on the top right corner  
-   of the page for [creating a new processflow](/processflow/creating-processflow/). Clicking on the **NEW** button, 
-   you will be navigated to the [ProcessFlow Designer](/processflow/designer-processflow/).
+4. The ProcessFlow Home page will have a **NEW** button on the top right corner of the page for [creating a new processflow](/getting%20started/create-your-first-processflow/). Clicking on the **NEW** button, 
+   you will be navigated to the [ProcessFlow Designer](/processflow/components-of-processflow/).
 ![processflowlisting-page4](/staticfiles/processflow/media/processflowlisting-page3.png) 
 
 5. The **FILTER** button is available beside the **NEW** button. Click on the button, you can filter processflows using search functionality, from the list.   
@@ -54,7 +55,7 @@ of 50 folders for processflow for an organization.
 3. Click on the Home folder, the processflow listing page appears on the 
 Right side of  the page. Empty folder will have the view as given below.
 ![Processflow Home3](/staticfiles/processflow/media/processflow-home1.png)
-4. Now Click on [Create a ProcessFlow](/processflow/designer-processflow/) button, the ProcessFlow Designer page opens.
+4. Now Click on [Create a ProcessFlow](/getting%20started/create-your-first-processflow/) button, the ProcessFlow Designer page opens.
 
 ### Usability for the SUB/CHILD Folder
 
@@ -87,7 +88,7 @@ g.	Folders on deleting would be moved to Trash with a toaster message for succes
 1) Folder name will consist of 50 characters and can have alphanumeric characters. 
 Name of a folder cannot be same if created on same level. However, folder name can 
 remain same if created on different level.  
-2) Full Folder Name is visible by hovering the tool tip over the folder name**
+2) Full Folder Name is visible by hovering the tool tip over the folder name**.
 
 ### Steps to Rename a Created Folder
 
@@ -109,8 +110,7 @@ be available in the ProcessFlow List.
 drop-down of the selected folder.  
 ![processflow-listing9](/staticfiles/processflow/media/processflow-folder-delete1.png)      
 
-2) On clicking the **Delete** button, user gets a confirmation message for the deletion process.  
-Click Yes button, you will delete the selected folder.  
+2) On clicking the **Delete** button, user gets a confirmation message for the deletion process. Click Yes button, you will delete the selected folder.  
 ![processflow-listing10](/staticfiles/processflow/media/processflow-folder-delete2.png)        
 
 3) Clicking `Yes` button, will delete all its child folders & the processflow present inside it.
@@ -137,7 +137,7 @@ To know more on Installed Process Flows, [Click Here](/processflow/processflow-p
 
 ## Package Library folder
 
-This folder will list you with three Sub-Folders : **My Packages**,**Shared With Me** & **Marketplace**. Clicking on **Package Library** folder, you will be shown the summary of packages you have created and shared in both the Sub-Folders.
+This folder will list you with three Sub-Folders : **My Packages**, **Shared With Me** & **Marketplace**. Clicking on **Package Library** folder, you will be shown the summary of packages you have created and shared in both the Sub-Folders.
 
 The Sub-Folders will enable you to perform the following functionalities :
 
@@ -155,7 +155,7 @@ To know more on packaging of processflows, [Click Here](/processflow/processflow
 
 This folder will list you with all the processflows as well as various folders which you have deleted.
 
-To completely remove processflows from your organisation,you need to perform the following steps :
+To completely remove processflows from your organisation, you need to perform the following steps :
     
 1) Click on the Ellipsis (...) beside the Trash folder, you  can view the button Empty Trash Folder.     
 ![Trashfolder1](/staticfiles/processflow/media/trashfolder1.png)   
@@ -165,9 +165,9 @@ To completely remove processflows from your organisation,you need to perform the
 
 3) You can also delete each processflows and folders individually.
  
-   a)Click on **Trash** folder,click on the ellipsis of any processflow and finally select **Delete** or **Restore** as required.
+   a)Click on **Trash** folder, click on the ellipsis of any processflow and finally select **Delete** or **Restore** as required.
 
-   b)In case of folder deletion,select the required folder,click on ellipsis against that folder and finally click on **Delete**.You will get a confirmation message,click on **Yes**.
+   b)In case of folder deletion, select the required folder, click on ellipsis against that folder and finally click on **Delete**. You will get a confirmation message, click on **Yes**.
 
 **Note: You cannot create any child folders under Trash. Default Folders can neither be Renamed nor Deleted.** 
 

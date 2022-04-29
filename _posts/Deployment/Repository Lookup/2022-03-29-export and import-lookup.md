@@ -1,5 +1,7 @@
 ---
 title: "Export & Import Lookup"
+description: "Experience the value of time by importing and exporting lookups"
+keywords: "export lookup, import lookup, export and import lookup, export lookup from repository collection, import lookup from repository collection"
 toc: true
 tag: developers
 category: "Deployment"
@@ -38,10 +40,10 @@ Users can Import & Export lookups both from the [Repository Collection & Referen
 * Users need to follow the above given format for importing lookups to repositories.
 
 ## Steps to Export Lookups from Repository Collection
-1.	Login to the portal and navigate to **Manage > Repository**,the Repository page opens. Clicking on the ellipsis (...) of the selected Repository Collection, you can view the option **Import** & **Export** button.
+1.	Login to the portal and navigate to **Manage > Repository**, the Repository page opens. Clicking on the ellipsis (...) of the selected Repository Collection, you can view the option **Import** & **Export** button.
 ![Export Importlookup1](/staticfiles/processflow/media/export-importlookup1.png)  
 2.	As the selected collection already has Reference Tables, export the selected Repository Collection by clicking on the Export button.  
- **Note: Users can also export a blank Repository Collection.**
+ **Note : Users can also export a blank Repository Collection.**
 3.	The File will be auto downloaded in Excel Format (.xlsx). 
 The exported file will have all the lookup types available inside the selected 
 Repository Collection. The downloaded file will display as shown below :  
@@ -62,15 +64,15 @@ Repository Collection. The downloaded file will display as shown below :
 4.	Select the file from your system by clicking the Browse button. The File 
     contains the following Lookup records.
 ![Export Importlookup5](../../staticfiles/processflow/media/export-importlookup5.png)   
-**Note: The column Type is the name of the Reference Table in portal.**
+**Note : The column Type is the name of the Reference Table in portal.**
 5.	After selecting the file, click on the Import button. You will get a confirmation message for saving the records of the file. Click on the Yes Button to save lookup records.
 ![Export Importlookup6](../../staticfiles/processflow/media/export-importlookup6.png)  
 6.	On clicking the Yes button, the records get uploaded in the selected Repository Collection. On expanding the selected node, you can view the uploaded records.
  ![Export Importlookup7](../../staticfiles/processflow/media/export-importlookup7.png)  
-**(a)The column Type is the name of the Reference Table in portal.
-  (b) Importing a file from a Reference Table will upload all the records only for the selected table. 
+**(a)The column Type is the name of the Reference Table in portal.                        
+  (b) Importing a file from a Reference Table will upload all the records only for the selected table.                    
   Users need to click the Ellipsis button for the selected table, for viewing the 
-  Import button. The steps for Importing remains the same as provided above.
+  Import button. The steps for Importing remains the same as provided above.                      
   (c) Duplicate records will not be imported from the file if already exists for
    Repository Collection or Reference Tables.** 
 

@@ -1,5 +1,7 @@
 ---
 title: "Getting an Account"
+description: "Accessing Account in APPSeCONNECT"
+keywords: "Free Trial, Paid Trial, Accessing Account, Enable Multi - Factor Authentication,two factor authentication"
 toc: true
 tag: developers
 category: "Getting Started"
@@ -23,14 +25,14 @@ or even one single penny of expense. We give you the full fledged version of all
 The Free Trial selection option will only showcase the integration on vanilla systems.
 
 1. The Landing page of the APPSeCONNECT Portal gives the option to request for a [FREE TRIAL](https://www.appseconnect.com/free-trial/).
-2. Click the option Free Trial and the following screen appears.  
-![FreeTrial](/staticfiles/root/media/FreeTrial.png)
-3. A vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
-![Trial_Form](/staticfiles/root/media/Trial_Form.png)
-4. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
-5. The visitors will complete the form Fill up and click on **Start Free Trial** button given at the end of the form.
-6. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
-7. Our Consultant will connect back to the vistors and help them with their request for integration within our trial period of 30 days.
+![FreeTrial](/staticfiles/root/media/FreeTrial.png) 
+
+2. Click the option Free Trial and a vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
+![Trial_Form](/staticfiles/root/media/TrialForm.png)
+3. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
+4. The visitors will complete the form Fill up and click on **Start Free Trial** button given at the end of the form.
+5. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
+6. Our Consultant will connect back to the vistors and help them with their request for integration within our trial period of 30 days.
 
 ## Paid Trial
 
@@ -74,7 +76,7 @@ send a verification code to your registered number.
 7.	Once accepted, the user would be able to view the account profile details. Click on organisation tab, and this will navigate the user to the [Organisation Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/#a-accessing-organization-dashboard).   
 8.	Here you can view the other [Organisation modules](https://docs.appseconnect.com/accessing%20portal/accessing-portal/) available for every organisation.  
 
-**Note: The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
+**Note : The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
 ### Accessing an activated account
@@ -84,7 +86,7 @@ you to logout after using it.
 
 Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
-![Customer_Login](/staticfiles/root/media/Customer_Login.png)
+![Customer_Login](/staticfiles/root/media/CustomerLogin.png)
 
 The login page has a username and password field. Enter your chosen username and password combination and click `Sign In`. 
 You are now logged in to the application. Do not forget to check our Help Section to get introduction of the platform. You can also 
