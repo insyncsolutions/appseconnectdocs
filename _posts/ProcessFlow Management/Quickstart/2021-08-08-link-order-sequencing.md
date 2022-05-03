@@ -41,19 +41,19 @@ Following the below process, you can successfully sequence the execution order o
 
 2) Click on **Link Order** button in the [header panel of the designer page](/processflow/components-of-processflow/#process-flow-header-panel).
 
-![Linkorder1](\staticfiles\processflow\media\linkorder1.PNG)
+![Linkorder1](/staticfiles/processflow/media/linkorder1.PNG)
 
 3) The Link Order Slider Window opens. Initially you can view the START Node only and will be represented to you in collapsed state.
 
-![Linkorder2](\staticfiles\processflow\media\linkorder2.PNG)
+![Linkorder2](/staticfiles/processflow/media/linkorder2.PNG)
 
 4) While dragging you can view the dotted boundaries that represent the drag limit for those nodes. With Link Order you can drag and reorder any of the nodes having a parellel execution.
 
-![Linkorder3](\staticfiles\processflow\media\linkorder3.PNG)
+![Linkorder3](/staticfiles/processflow/media/linkorder3.PNG)
 
 5) Drag the parent links and reorder execution flow of the processflow. On dragging, all the child nodes under it gets dragged too.
 
-![Linkorder4](\staticfiles\processflow\media\linkorder4.PNG)
+![Linkorder4](/staticfiles/processflow/media/linkorder4.PNG)
 
 6) You need to save the processflow after re-ordering the execution flow. The processflow will be executed based on the ordering initiated.
 

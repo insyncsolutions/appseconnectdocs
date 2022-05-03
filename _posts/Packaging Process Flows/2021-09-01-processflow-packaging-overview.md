@@ -24,7 +24,7 @@ different organisation.
 
 1) Navigate to the **Designer > ProcessFlow**. The [processflow Home](/processflow/processflow-listing-page/) page appears.
 
-![pfprocess1.png](\staticfiles\processflow\media\pfprocess1.png)
+![pfprocess1.png](/staticfiles/processflow/media/pfprocess1.png)
 
 2) Click on the **Package Library** folder that gives the summary on Packages. On expanding the Package Library node, you will listed with three sub folders.
 
@@ -32,7 +32,7 @@ different organisation.
 - Shared With Me - This will enable you to view and install incoming packages from other organisations, shared to you.
 - Marketplace - APPSeCONNECT users can anytime share packages as well as install various packages that have been shared any by other users from here.
 
-![packagelisting1](\staticfiles\processflow\media\packagelisting1.png)
+![packagelisting1](/staticfiles/processflow/media/packagelisting1.png)
 
 ## For more details on packaging, please visit the below sections
 

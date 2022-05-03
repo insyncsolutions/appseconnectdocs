@@ -133,7 +133,7 @@ The folder will have sub folders created while installing packages, with the sam
 
 To know more on Installed Process Flows, [Click Here](/processflow/processflow-package-installation/)
 
-![installedpffolder](\staticfiles\processflow\media\installedprocessflow.png)
+![installedpffolder](/staticfiles/processflow/media/installedprocessflow.png)
 
 ## Package Library folder
 
@@ -149,7 +149,7 @@ The Sub-Folders will enable you to perform the following functionalities :
 
 To know more on packaging of processflows, [Click Here](/processflow/processflow-packaging-overview/)
 
-![sharedlistingpage1](\staticfiles\processflow\media\packagelibraryfolder.png)
+![sharedlistingpage1](/staticfiles/processflow/media/packagelibraryfolder.png)
 
 ## Trash Folder 
 
