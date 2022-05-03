@@ -1678,7 +1678,7 @@
     <None Include="_posts\Getting-Started\2021-07-05-components-services.md" />
     <None Include="_posts\Getting-Started\2021-07-10-sdk.md" />
     <None Include="_posts\Integration\2018-09-22-configurations-for-integration.md" />
-    <None Include="_posts\Getting-Started\2021-09-06-configurations.md" />
+    <None Include="_posts\Getting-Started\2021-11-06-configurations.md" />
     <None Include="_posts\Getting-Started\2021-07-07-accessing-portal.md" />
     <None Include="_posts\Getting-Started\2021-07-04-getting-an-account.md" />
     <None Include="_posts\Getting-Started\2021-07-03-terminology.md" />
@@ -1712,9 +1712,9 @@
     <None Include="_posts\ProcessFlow Management\2021-08-02-Architecture.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-03-Terminology.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-09-processflow-listing-page.md" />
-    <None Include="_posts\Deployment\Repository Lookup\2021-10-03-export and import-lookup.md" />
-    <None Include="_posts\Deployment\Repository Lookup\2021-10-01-implementing-lookup-in-mapping.md" />
-    <None Include="_posts\Deployment\Repository Lookup\2021-10-02-Lookup-repository-masterdata.md" />
+    <None Include="_posts\Deployment\Repository Lookup\2021-10-02-export and import-lookup.md" />
+    <None Include="_posts\Deployment\Repository Lookup\2021-10-03-implementing-lookup-in-mapping.md" />
+    <None Include="_posts\Deployment\Repository Lookup\2021-10-01-Lookup-repository-masterdata.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-27-working-with-variable.md" />
     <None Include="_posts\ProcessFlow Management\adding-schema-actionss.md" />
     <None Include="_posts\ProcessFlow Management\enable-tracking-fields.md" />
@@ -1907,7 +1907,7 @@
     <None Include="_posts\Connectors\Technology Connectors\Database\2018-12-12-OLEDB-using-filters.md" />
     <None Include="_posts\Deployment\2018-12-11-Troubleshooting.md" />
     <None Include="_posts\Deployment\2018-12-10- settings.md" />
-    <None Include="_posts\Deployment\2022-04-18-overview-deployment.md" />
+    <None Include="_posts\Deployment\2021-10-01-overview-deployment.md" />
     <None Include="_posts\Deployment\gettingstarted-with-deployment.md" />
     <None Include="_posts\Deployment\Transactional Stores\2018-11-21-hana-plugin-installation.md" />
     <None Include="_posts\Deployment\Transactional Stores\2018-11-23-OLE-db-plugin-installation.md" />

@@ -18,7 +18,7 @@ menus:
 In Business, you may not have time for redundant data or data which is of no use to the business. Your Business can be Country specific or certain sets of customer specific and therefore you may not require data which are not oriented to your business. Therefore, in such case you may need to deal with data that are redundant. 
 APPSeCONNECT processflow is enabled with a decision node that will not execute the data that does not fulfills your decision criteria. The below image will help you design a processflow with the Decision Node.
 
-![PFdecision1](\staticfiles\processflow\media\decisionnode1.png)
+![PFdecision1](/staticfiles/processflow/media/decisionnode1.png)
 
 ### Understanding conditions
 
@@ -66,7 +66,7 @@ _**Note :** You can only provide those Appresource Functions (both Cloud & Gener
 
 1)  Drag the **decision node** in the designer panel from the Process Property menu. The Decision Node Configuration Window opens. Enter the **description** of the node. Click on the **Add Criteria** button to specify the conditions.
 
-![PFdecision1](\staticfiles\processflow\media\decisionnode2.png)
+![PFdecision1](/staticfiles/processflow/media/decisionnode2.png)
 
 2) You need to provide the Decision KEY, for commanding the Decision Operation. Here you can view the decision key applied on the Decision Attribute.
 
@@ -91,7 +91,7 @@ _**Note :**_
 
  - _**If the Decision key is Generic Function you need to provide the syntax with the Namespace Prefic for the function.**_
 
-![PFdecision4](\staticfiles\processflow\media\decisionnode3.png)
+![PFdecision4](/staticfiles/processflow/media/decisionnode3.png)
 
 3) Enable the Toggle buttons for the criteria and click on the SAVE button.
 
@@ -99,7 +99,7 @@ _**Note :**_
 
 5) After completion of the execution, you successfully view the snapshot for the Decision Node. [Click Here](/processflow/snapshot-processflow/) to know more about processflow Snapshots. The **Activity Log** against the `Decision node` in snapshot will display you the status of the condition.
 
-![PFdecision5](\staticfiles\processflow\media\decisionnode4.png)
+![PFdecision5](/staticfiles/processflow/media/decisionnode4.png)
 
 **Note :** 
 

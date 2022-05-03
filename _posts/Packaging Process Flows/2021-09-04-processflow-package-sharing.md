@@ -33,7 +33,7 @@ This document will enable you to initate sharing packages from one organisation 
 
 2) Expand the **Package Library** node and click on **My Packages**. The [package listing](/processflow/processflow-packaging/#listing-packages) page opens. 
    You will be able to view two options : **Share** and **Create**. Click on the Share button.
-![packageshare1](\staticfiles\processflow\media\packageshare1.PNG)  
+![packageshare1](/staticfiles/processflow/media/packageshare1.PNG)  
 
 3) The Package Sharing windows opens. The package sharing window consists of the two sections : 
      
@@ -64,7 +64,7 @@ Beside the package name, you will have checkboxes that will allow you to select 
 
 3) Enabling the checkboxes, the packages selected will be displayed in the **Selected Packages** section on your right side. You can also remove the packages from Selected Packages, if you have chosen mistakenly, by unchecking the checkbox in the list of packages section.
 Once the packages are selected, click on the **Continue** button. 
-![packageshare5](\staticfiles\processflow\media\packageshare5.PNG)
+![packageshare5](/staticfiles/processflow/media/packageshare5.PNG)
 
 #### Select Organisations
 
@@ -74,15 +74,15 @@ This section of the window will allow you to select the organisation to which yo
 
 2) The search box in the **Select Organisation from list** will enable you to look for the required organisation. You can type the name of the organisation or the associated Email Address. Based on the input the suggestion will be provided in the list.
 
-![packageshare7](\staticfiles\processflow\media\packageshare7.PNG)
+![packageshare7](/staticfiles/processflow/media/packageshare7.PNG)
 
 3) You need to click on the organisation name to select. On its selection, you will be able to view the selected organisation in the **Selected Organisation to share** section.
 You can remove the selected organisation, by clicking on the **CLOSE** `X` button beside the organisation in the  **Selected Organisation to share** section. Once the organisation is selected, click on the share button. You will be getting a confirmation message and confirmation mail regarding the successful sharing.
-![packageshare9](\staticfiles\processflow\media\packageshare9.PNG)
+![packageshare9](/staticfiles/processflow/media/packageshare9.PNG)
 
 4) You can confirm the sharing by navigating to **My Packages** listing page under PACKAGE LIBRARY node. You will be able to view the **Shared icon** beside the packages you have shared.
 
-![packageshare11](\staticfiles\processflow\media\packageshare11.PNG)
+![packageshare11](/staticfiles/processflow/media/packageshare11.PNG)
 
 Following the above process, you can successfully share packages from your organisation to multiple other organisation.
 

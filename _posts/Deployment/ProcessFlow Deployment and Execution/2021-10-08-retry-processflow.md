@@ -121,10 +121,10 @@ window is now featured to display [Snapshot](/processflow/snapshot-processflow/)
 
 2) You will be listed with all your data that was executed previously. Click on the Hyperlink against the `Sourceids` provided against each data captured.
 
-![processflow_retry11](\staticfiles\processflow\media\processflow-retry11.png)
+![processflow_retry11](/staticfiles/processflow/media/processflow-retry11.png)
 
 3) You will get the all the snapshots for the selected data displaying all the execution instances.
 
-![processflow_retry13](\staticfiles\processflow\media\processflow-retry13.png)
+![processflow_retry13](/staticfiles/processflow/media/processflow-retry13.png)
 
 Following the above process you can successfully view the snapshots of the retried data.

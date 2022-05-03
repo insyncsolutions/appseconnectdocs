@@ -41,7 +41,7 @@ a. On selecting this response type, you get the following field :
 
 - Define Acknowledgement Message : You need to provide a customized information that will be returned as the response.
 
-![returnresponse3](\staticfiles\processflow\media\returnresponse3.PNG)
+![returnresponse3](/staticfiles/processflow/media/returnresponse3.PNG)
 
 b. Click on the SAVE button, once you provided the customized info.
 
@@ -49,23 +49,23 @@ c. [Design](/processflow/components-of-processflow/) your processflow and [Deplo
 
 d. The snapshots will be generated for each execution that will allow you to survey the data synced and the returned response. You will be able to view the Customized Info provided by the user as Return Response in the **ACTIVITY LOG** of Snapshot.
 
-![returnresponse4](\staticfiles\processflow\media\returnresponse4.PNG)
+![returnresponse4](/staticfiles/processflow/media/returnresponse4.PNG)
 
 e. Clicking over the specific LOG, you can view the complete defined text provided on a separate window.
 
-![returnresponse6](\staticfiles\processflow\media\returnresponse5.PNG)
+![returnresponse6](/staticfiles/processflow/media/returnresponse5.PNG)
 
 ### Reponse Type : Output of the Previous Node
 
 a.  On selecting this response type, the output of the preceeding node will be displayed in the **Transaction file tab** of [snapshot](/processflow/snapshot-processflow/) for the Response Type node.
 
-![responsenode5](\staticfiles\processflow\media\responsenode5.PNG)
+![responsenode5](/staticfiles/processflow/media/responsenode5.PNG)
 
 b. Click on the SAVE button, once you provided the customized info.
 
 c. The snapshots will be generated for each execution that will allow you to survey the Data synced and the returned response. You will be able to view the the previous node output in Response node transaction file.
 
-![responsenode6](\staticfiles\processflow\media\responsenode6.PNG)
+![responsenode6](/staticfiles/processflow/media/responsenode6.PNG)
 
 **Note:**
 

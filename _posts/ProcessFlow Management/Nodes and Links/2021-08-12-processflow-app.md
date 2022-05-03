@@ -117,7 +117,7 @@ Processflow allows you to import schemas that helps to create schemas and attrib
 
 3) The [Listing window](/processflow/processflow-app/#importing-schemas--attributes) of the Schemas section opens. Click on the **Import** button.
 
-![pf_importschema1](\staticfiles\processflow\media\pf_importschema1.PNG)
+![pf_importschema1](/staticfiles/processflow/media/pf_importschema1.PNG)
 
 4) You will be able to view the `Three Radio buttons` that specifies the type of file you need to upload for importing.
 
@@ -126,30 +126,30 @@ Processflow allows you to import schemas that helps to create schemas and attrib
     - Element Name: You need to provide the parent Element name through which the XML file shall be traversed. Your file will not be traversed if you provide a wrong element name.
     - Render : Clicking on the Render button, the functionality would traverse your entire XML file as per the Element Name provided and will list you all the Schema complex Objects and Complex Object Collections based upon the file.
 
-![pf_importschema2](\staticfiles\processflow\media\pf_importschema2.PNG)
+![pf_importschema2](/staticfiles/processflow/media/pf_importschema2.PNG)
 
 -  Selecting **Json** - On selecting the import type as Json, you will be able to view the following fields.
     - Choose File : You will be able to select the Json files from your local system for importing the schemas.
     - Element Name : You need to provide the parent Element name through which the JSON file shall be traversed. Your file will not be traversed if you provide a wrong element name.
     - Render : Clicking on the Render button, the functionality would traverse your entire JSON file as per the Element Name provided and will list you all the Schema complex Objects and Complex Object Collections based upon the file.
 
-![pf_importschema3](\staticfiles\processflow\media\pf_importschema3.PNG)
+![pf_importschema3](/staticfiles/processflow/media/pf_importschema3.PNG)
 
 - Selecting **WSDL** - WSDL is the Web Services Description language. On selecting the Radio button for WSDL, you will be able to view the following fields.
     - File URL : You will be able to provide the URL for importing the schemas for your application.
     - Render : Clicking on the Render button, the functionality would traverse your entire WSDL file and will list you all the Schema Complex Objects and Complex Object Collections based upon the file.
 
-![pf_importschema4](\staticfiles\processflow\media\pf_importschema4.PNG)
+![pf_importschema4](/staticfiles/processflow/media/pf_importschema4.PNG)
 
 5) Select the import type as per your requirement, upload the document as per the selected format and click on the Render Button. (Here, we have selected the XML type)
 
 6) You can view all the Complex Objects and Complex Object Collections along with their attributes as schemas of your application. On expanding each of the rendered schema, you can view all its attributes. You can alter these fields of attributes as per your requirement : **Datatype** and **Reference Entity**.
 
-![pf_importschema5](\staticfiles\processflow\media\pf_importschema5.PNG)
+![pf_importschema5](/staticfiles/processflow/media/pf_importschema5.PNG)
 
 7) By Default all the rendered schemas will be displayed. You can uncheck any of the schema if not required.
 
-![pf_importschema6](\staticfiles\processflow\media\pf_importschema6.PNG)
+![pf_importschema6](/staticfiles/processflow/media/pf_importschema6.PNG)
 
 8) On clicking the SAVE button, all the rendered schemas will be displayed on the [Schema listing](/processflow/processflow-app/#listing-of-schemas-and-attributes) page of your app. Whenever you drag or reuse the app for a different processflow, you can view all the saved schemas, in the [Schema listing](/processflow/processflow-app/#listing-of-schemas-and-attributes) page.
 
@@ -280,11 +280,11 @@ This section of the document will enable the user to create actions, action filt
 
 2) If you donot get to find the needed action in the `actions` menu, click on the **Manage Action** button for defining Actions. 
 
-![pf_actions1](\staticfiles\processflow\media\pf_action1.png)
+![pf_actions1](/staticfiles/processflow/media/pf_action1.png)
 
 3) The Manage Action window opens. You will be able to view the schema, selected in the node configuration window. Click on the **Ellipsis icon** (three horizontal dots) beside the schema to view the **Add Action** option in the contextual menu and click it.
 
-![pf_actions2](\staticfiles\processflow\media\pf_action2.png)
+![pf_actions2](/staticfiles/processflow/media/pf_action2.png)
 
 4) You will be provided with two mandatory fields for creating the **ACTION** under the schema. Below are the mentioned fields.
 
@@ -293,7 +293,7 @@ This section of the document will enable the user to create actions, action filt
 
 Click on the **SAVE** button.
 
-![pf_action3](\staticfiles\processflow\media\pf_action3.png)
+![pf_action3](/staticfiles/processflow/media/pf_action3.png)
 
 Following the above steps , you can successfully create a new Action to a schema.
 
@@ -310,7 +310,7 @@ Following the above steps , you can successfully create a new Action to a schema
     - You can view two fields **Action Name** & **Action Description** in the edit window.
     - Modify the changes required and click on the SAVE button. 
 
-![pf_editaction1](\staticfiles\processflow\media\pf_editaction1.png)
+![pf_editaction1](/staticfiles/processflow/media/pf_editaction1.png)
 
 - Delete Action 
     - Clicking on the delete action button, you get a confirmation message for deletion process.
@@ -336,15 +336,15 @@ we can define action filters in ProcessFlow.
 
 1) Select the Action from the contextual menu of the node configuration window of the dragged application. Click on the **Configure Filter** button after selecting the action from the contextual menu.
 
-![actionfilter1](\staticfiles\processflow\media\action_filter1.png)
+![actionfilter1](/staticfiles/processflow/media/action_filter1.png)
 
 2) The Configure filter window opens. You can view the selected schema listed on the window. Expand the nodes `Customer_Detail > Action > Select Action` to view the **Action Filter**, Retry Filter and the Runtime Filter.
 
-![actionfilter2](\staticfiles\processflow\media\action_filter2.PNG)
+![actionfilter2](/staticfiles/processflow/media/action_filter2.PNG)
 
 3) Click on the ellipses beside the Action Filter to view the **CREATE** Button. Clicking on the create button, the action filter creation window opens.
 
-![actionfilter3](\staticfiles\processflow\media\action_filter3.PNG)
+![actionfilter3](/staticfiles/processflow/media/action_filter3.PNG)
 
 4) You get the option to provide your filter for two sections. Either on **HEADER** and **BODY**. As per you application API, you can provide the following details to configure the action filter.
  
@@ -367,11 +367,11 @@ The retry filter allows the integration to rerun an erronous data to fix it. The
 
 2) The Configure filter window opens. You can view the selected schema listed on the window. Expand the nodes `Customer_Detail > Action > Select Action` to view the **Retry Filter**.
 
-![retryfilter1](\staticfiles\processflow\media\retryfilter1.png)
+![retryfilter1](/staticfiles/processflow/media/retryfilter1.png)
 
 3) Click on the ellipses beside the Error Filter to view the **CREATE** Button. Clicking on the create button, the error filter creation window opens.
 
-![retryfilter2](\staticfiles\processflow\media\retryfilter2.png)
+![retryfilter2](/staticfiles/processflow/media/retryfilter2.png)
 
 4) You get the option to provide your retry filter for TWO sections. Either on **HEADER** and **BODY**. As per you application API, you can provide the following details to configure the retry filter. Provide the following details to configure the retry filter.
 
@@ -393,7 +393,7 @@ Click on the SAVE button on the window to save the current filter. To add a conj
 
 4) Provide the details in the fields and click on the SAVE icon beside the filter column. After saving the column, you get the option of **SAVE AS TEMPLATE**.
 
-![savetemplate1](\staticfiles\processflow\media\savetemplate1.PNG)
+![savetemplate1](/staticfiles/processflow/media/savetemplate1.PNG)
 
 6) Click on the **Save as Template** button to save the provided Action Filter as a template. 
 You can reuse this saved template on any other nodes of any processflow in your organisation, 
@@ -406,15 +406,15 @@ You will be able to view the saved template for that schema and the action. The 
 
 9) Click on the Ellipses beside your chosen option (Action Filter, Retry Filter) and select the option **Create from template** from the context menu.
 
-![createtemplate1](\staticfiles\processflow\media\createtemplate1.PNG)
+![createtemplate1](/staticfiles/processflow/media/createtemplate1.PNG)
 
 10) On clicking **Create from template** you get a confirmation message. Click on the YES button.
 
-![createtemplate2](\staticfiles\processflow\media\createtemplate2.PNG)
+![createtemplate2](/staticfiles/processflow/media/createtemplate2.PNG)
 
 11) The saved template opens. You can anytime edit the action filter placed in the template as per your requirement. The updates made will not change in the template that is saved.
 
-![createtemplate3](\staticfiles\processflow\media\createtemplate3.PNG)
+![createtemplate3](/staticfiles/processflow/media/createtemplate3.PNG)
 
 Following the above process you can successfully SAVE and create filter from template.
 
@@ -431,7 +431,7 @@ The **Runtime Filter** functionality on this area will only allow you to Create,
   - Create - You create a new runtime filter from here by providing the details as key-value pair.
   - Edit - You can make changes to an existing runtime filter from here.
 
-![runtimefilternormal](\staticfiles\processflow\media\runtimefilter1.png)
+![runtimefilternormal](/staticfiles/processflow/media/runtimefilter1.png)
 
 3)Click on create or edit as per your requirement and finally click on **save** button.
 
@@ -476,7 +476,7 @@ SAP Business One follows two more protocols **DI API** & **FTP** for other purpo
 2. Design the processflow keeping the selected application in Destination (In this case SAP Business One).
 
 3. On dragging the [destination application](/processflow/processflow-app/#what-is-getpost-node) (SAP Business One in this case), the Node Configuration Window opens. You need to select the **Protocols** from the drop-down. The protocols would be displayed as per the App version selected. For SAP Business One (version >= 8.8), you will get the following protocols. 
-![protocol1](\staticfiles\processflow\media\protocol1.PNG) 
+![protocol1](/staticfiles/processflow/media/protocol1.PNG) 
 
 - **DI API:** Used for operating any type of data using SAP Business One API.
 - **DI Server Object:** Used for operating general transactional data like Business Partner, Products etc.
@@ -485,14 +485,14 @@ SAP Business One follows two more protocols **DI API** & **FTP** for other purpo
 4. Click on the **Save** button after all the mandatory fields are filled up. Link up the Nodes and Save the processflow. Click on the Node configuration Button of the [Mapper Node](/processflow/working-with-mapper/). The Mapper Window opens.     
 5. Click on the **Preview** button to view the generated XSLT with respect to the choosen protocol.          
    a. When the Protocol is selected as **DI API** you get the following XSLT Preview.
-        ![protocol3](\staticfiles\processflow\media\protocol3.PNG)
+        ![protocol3](/staticfiles/processflow/media/protocol3.PNG)
    b. When the Protocol is selected as **DI Server Object**, you get the following XSLT Preview.
-        ![protocol4](\staticfiles\processflow\media\protocol4.PNG)
+        ![protocol4](/staticfiles/processflow/media/protocol4.PNG)
 6. When the Protocol is selected as **DI Server Service**, you get the following XSLT Preview.
-![protocol5](\staticfiles\processflow\media\protocol5.PNG)
+![protocol5](/staticfiles/processflow/media/protocol5.PNG)
 7. When the protocol is selected as **FTP**, you get the the following XSLT Preview.
 
-![protocol6](\staticfiles\processflow\media\protocol6.PNG)
+![protocol6](/staticfiles/processflow/media/protocol6.PNG)
 
 **_Note:_** _The XSLT format and structure for the protocols `DI API` & `FTP` remains same._
 

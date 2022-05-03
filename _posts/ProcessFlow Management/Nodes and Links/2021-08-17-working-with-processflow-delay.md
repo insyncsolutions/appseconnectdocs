@@ -17,7 +17,7 @@ menus:
 
 API request may have a limitation of accepting one request per second. So for implementing GET or POST operation, Delay node has the ability to hold the execution flow for a specific period, so as to fetch as many request it can by delaying the execution flow.
 
-![delay1](\staticfiles\processflow\media\delaynode1.png)
+![delay1](/staticfiles/processflow/media/delaynode1.png)
 
 ### Understanding conditions
 
@@ -33,14 +33,14 @@ Dragging the Delay node in the Designer panel, you can view the following fields
         - You need to provide a static value, that will define the duration of the delay time.
         - Click on the SAVE button after providing the value.
 
-    ![delay2](\staticfiles\processflow\media\delaynode2.png)
+    ![delay2](/staticfiles/processflow/media/delaynode2.png)
 
     - Delay on **Dynamic Time :**
         - On selecting the checkbox for `Dynamic Time`, you will be provided with a field `Define your function`.
         - You need to provide a generic expression with proper syntax for initiating the duration of the delay time.
         - Click on the SAVE button after providing the value.
 
-![delay3](\staticfiles\processflow\media\delaynode3.png)
+![delay3](/staticfiles/processflow/media/delaynode3.png)
 
 **Note :**
 
@@ -63,7 +63,7 @@ Dragging the Delay node in the Designer panel, you can view the following fields
 
 2) Enter the static value and click on the SAVE button. Save the processflow for storing the changes.
 
-![delay4](\staticfiles\processflow\media\delaynode4.png)
+![delay4](/staticfiles/processflow/media/delaynode4.png)
 
 3) [Deploy and Execute the processflow](/processflow/deploying-and-executing-processflow/) after covering all other configurations.
 
@@ -71,7 +71,7 @@ Dragging the Delay node in the Designer panel, you can view the following fields
 
 5) Click on the Delay node in the snapshot to view the Data Log, Activity Log and Transaction File.
 
-![delay5](\staticfiles\processflow\media\delaynode5.png)
+![delay5](/staticfiles/processflow/media/delaynode5.png)
 
 **Note : The above flow for delay node was configured with `Static Time`.**
 
@@ -81,9 +81,9 @@ Dragging the Delay node in the Designer panel, you can view the following fields
 
 Currently, for implementing Delay using Generic Function, you will have to create a [Variable](/processflow/working-with-variable/#creating-variable) of **String** datatype with default value provided as : `Hour=00;Min=00;Sec=00;Millisec=00`. The scope of the variable should be `processflow` (Global Variable) so as to use the variable in Delay Node.
 
-![delay6](\staticfiles\processflow\media\delaynode6.png)
+![delay6](/staticfiles/processflow/media/delaynode6.png)
 
 Navigating back to the node configuration window for Delay Node, on selecting the **WaitTime** checkbox as **Dynamic Time**, you will be required to provide the generic function for operating the delay. Enter the generic function `~~{gen:GetContextualDataObject(' VariableName ')}~` with the variable name passed in its parameter. 
 Deploy and Execute the processflow for implementing the Delay.
 
-![delay7](\staticfiles\processflow\media\delaynode7.png)
+![delay7](/staticfiles/processflow/media/delaynode7.png)

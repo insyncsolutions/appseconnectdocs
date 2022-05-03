@@ -60,13 +60,13 @@ This section will let you define and select the environment where you want to de
 
 (a)  Choose the type of environment as **HOSTED** by selecting the Radio button - Incase, no options available in the drop-down for **Hosted environment**, you will have to create your [HOSTED environment](/deployment/Environment-Management/#hosted). 
 
-![pfdeploycloud](\staticfiles\processflow\media\pfdeploycloud1.PNG)
+![pfdeploycloud](/staticfiles/processflow/media/pfdeploycloud1.PNG)
 
 * For more Environment related details, [Click Here](/deployment/Environment-Management/). 
 
 (b) Select your Hosted agent from the drop down and click on the NEXT button. The wizard moves to **Set Up connection** section.
 
-![pfdeploycloud2](\staticfiles\processflow\media\pfdeploycloud2.PNG)
+![pfdeploycloud2](/staticfiles/processflow/media/pfdeploycloud2.PNG)
 
 ### Set up Connection : Hosted
 
@@ -76,15 +76,15 @@ _**Note : You cannot navigate to the next section of the wizard without selectin
 
 (a) The screen navigates to the Set-up connection section of the Deploy wizard. You need to select the credential from the drop down, for the respective application used in the processflow. 
 
-![deployhostedcred1](\staticfiles\processflow\media\deployhostedcred1.PNG)
+![deployhostedcred1](/staticfiles/processflow/media/deployhostedcred1.PNG)
 
 (b) If you do not have any credentials in the drop down, click on the `+` button. 
 
-![deployhostedcred2](\staticfiles\processflow\media\deployhostedcred2.PNG)
+![deployhostedcred2](/staticfiles/processflow/media/deployhostedcred2.PNG)
 
 (c) The credential page opens for providing the [cloud credentials](/connectors/OLEDB-Credentials/#how-to-add-credentials-for-cloud-integration) for that application. You can provide your application credentials or can modify an existing one.
 
-![deployhostedcred3](\staticfiles\processflow\media\deployhostedcred3.PNG)
+![deployhostedcred3](/staticfiles/processflow/media/deployhostedcred3.PNG)
 
 (d) Clicking on the NEXT button will allow you to navigate to the [Select Lookups](/deployment/Lookup-repository-masterdata/) section.
 
