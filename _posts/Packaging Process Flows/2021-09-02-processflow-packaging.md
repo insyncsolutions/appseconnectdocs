@@ -95,7 +95,7 @@ Once you have created your Processflow Package, you can successfully view the pa
 - **Sharing** - You can view an icon indicating that the package is shared to any other organisation.
 - **Actions** - Clicking on the Ellipses (Three horizontal dots) on the action column, you can view the following three options : **Edit**, **View** & **Publish to Marketplace**.
 
-![package7](\staticfiles\processflow\media\package7.PNG)
+![package7](/staticfiles/processflow/media/package7.PNG)
 
 Following the above process you can successfully view the list of the packages.
 
@@ -103,11 +103,11 @@ Following the above process you can successfully view the list of the packages.
 
 Now you have done creating your packages, and you can view the packages listed under `My Packages` Section. 
 To View a specific Package,  click **View** option available on the Contextual menu of the Package.
-![package-edit-view](\staticfiles\processflow\media\package-edit-view.png)
+![package-edit-view](/staticfiles/processflow/media/package-edit-view.png)
 
 The following pop up appears where you can view the package details along with 
 three specific tabs namely - Description, Documentation, Processflow.
-![packageview_package_final](\staticfiles\processflow\media\packageview.png)
+![packageview_package_final](/staticfiles/processflow/media/packageview.png)
 
 The `View Package` window offers you with the following package information.  
 
@@ -135,10 +135,10 @@ created. You can edit any Package available in Package Library section.
 
 1. For editing packages go to ProcessFlow Menu -> Package Library section-> My Packages.
 2. Now to edit a  Package, click **Edit** option of the Contextual menu of that Package.
-![package-edit-view](\staticfiles\processflow\media\packageedit.png)  
+![package-edit-view](/staticfiles/processflow/media/packageedit.png)  
 
 3. This will open the `Edit Package` window.  
-![package-edit](\staticfiles\processflow\media\packageedit1.png)
+![package-edit](/staticfiles/processflow/media/packageedit1.png)
 
 4. In the `Edit Package Details` window, here you will be able to edit the following fields :
 

@@ -39,7 +39,7 @@ for processing.
 breaking them into smaller chunks go to the next process of transformation in the processflow. For example, let an input packet contains 20 customer data. A batch size of 1 is defined in the splitter node,where **XPATH**  is  response/items/item and **Entity name** as response. 
 So, after data passed through the splitter node 20 individual XML data files will be created as output file where each file contains a single customer data.
 
-![Processflow Splitter Properties](\staticfiles\processflow\media\splitternode1.png)     
+![Processflow Splitter Properties](/staticfiles/processflow/media/splitternode1.png)     
 `For providing the properties of Splitter/ Merger, XPath for the packets is needed to be known.` 
 
 The Parent node for the items present in the XSLT is the `XPATH` that needs to be given in the Splitter and Merger Property.
@@ -61,7 +61,7 @@ The XPath provided for the node **SPLITTER** (Magento2 to SAP B1) is shown above
 
 1) Go to Processflow section & [Design](/getting%20started/create-your-first-processflow/) a Processflow.  
 2) The Processflow is designed as shown in the screen below.
-![splitflow1](\staticfiles\processflow\media\splitternode2.png)
+![splitflow1](/staticfiles/processflow/media/splitternode2.png)
 3) Here the `splitter` node is used after  getting customer data from Magento,
 and splitting it into multiple output packets for posting in destination application.  
 4) You have to add [Self loop](/processflow/working-with-processflow-selfloop/) in the mapper node so that all the splitted files are executed
@@ -70,9 +70,9 @@ and posted in the destination application, to avoid any data loss.
 6) Go to [Environment](/deployment/Environment-Management/)section of the portal, select the processflow from the listing section and click [View Snapshot](/processflow/snapshot-processflow/)
 to view the detailed node by node snapshot data of the processflow.    
 7) Click on the Splitter node to get the snapshot dataview of the splitted files.      
-![splitflow2](\staticfiles\processflow\media\splitternode3.png)      
+![splitflow2](/staticfiles/processflow/media/splitternode3.png)      
 8) Now click on the `Transactional Log` to view the splitted data.    
- ![splitflow3](\staticfiles\processflow\media\splitternode4.png)      
+ ![splitflow3](/staticfiles/processflow/media/splitternode4.png)      
 Here you can view two splitted files are created each containing `two customer record` for further processing and 
 posting in destination application.   
 9) Now Click on `Mapper node` and you can view two iterations are created for two files
@@ -81,7 +81,7 @@ the file details.
    
 10) Click on the destination application node present under every iteration to view the
 file posting status - Success/Failure.    
-![splitflow4](\staticfiles\processflow\media\splitternode5.png)
+![splitflow4](/staticfiles/processflow/media/splitternode5.png)
 
 **Note: Since Self Loop configuration was set as `Until Data Available`, you will be generated with an extra iteration. For more details related to Self-Loop, [Click Here](/processflow/working-with-processflow-selfloop/).**
 

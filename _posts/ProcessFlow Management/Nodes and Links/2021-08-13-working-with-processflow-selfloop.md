@@ -37,7 +37,7 @@ self-loop.
 **Note: You can anytime update the self loop configuration, by clicking on the DOT over the self loop link. You need to SAVE the processflow after the saving the updated node configuration of the self loop. [Redeploy](/processflow/redeploying-processflow/) the processflow to get the data as per the updated configuration after execution._**
 
 ### Working Principle
-![PF_selfloop1](\staticfiles\processflow\media\selfloop1.png)
+![PF_selfloop1](/staticfiles/processflow/media/selfloop1.png)
 
 Self Loop Execution on the nodes :
 
@@ -56,7 +56,7 @@ Self Loop Execution on the nodes :
 - Self-Loop: Until Data Available will display only one iteration when checked for the Snapshot.    
 - Self-Loop:Until Data Availble will stop its execution when there is no further data availble send from its predecessor node or from the data Source.  
 - Self-loop over GET node will not be executed during the `RETRY` process if the GET node is connected to the START node as its predecessor node.  
-![PF_selfloop2](\staticfiles\processflow\media\selfloop2.png)  
+![PF_selfloop2](/staticfiles/processflow/media/selfloop2.png)  
 
 3. Enter the Description of the self-loop in the node configuration window.        
 4. Self loop over these nodes GET/MAPPER/POST will be executed until all the data are fetched from the predecessor node.  
@@ -66,7 +66,7 @@ Self Loop Execution on the nodes :
 
 1. In the self loop node, select and choose the option `Number of Occurence` radio button. The following 
 screen appears.   
-![PF_selfloop3](\staticfiles\processflow\media\selfloop3.png)
+![PF_selfloop3](/staticfiles/processflow/media/selfloop3.png)
 
 2. Here you have to provide the value for the no. of times the Self Loop will be executed over the node.  
 (a) The input value of no. of times/occurence should be an integer number.  
@@ -80,7 +80,7 @@ screen appears.
 
 1) In the self loop node, Select and choose the option `For Time Out` radio button. The following 
 screen appears.
-![PF_selfloop4](\staticfiles\processflow\media\selfloop4.png)
+![PF_selfloop4](/staticfiles/processflow/media/selfloop4.png)
 
 2) Here you have to provide the value for the **Time Out**. Select the timespan of the loop from the drop. You will get these options : **Hours** , **Minutes** & **Seconds**.
 By default, you will be selected with HOURS.
@@ -99,17 +99,17 @@ _**(c)Data availability is the first condition for execution of the self-loop, i
 ### Execution flow for Self loop
 
 1. [Design the processflow](/getting%20started/create-your-first-processflow/) and self link the node where you want to implement the Self-loop.In this case, self-loop is applied on Mapper node.
-![PF_selfloop5](\staticfiles\processflow\media\selfloop5.png)  
+![PF_selfloop5](/staticfiles/processflow/media/selfloop5.png)  
 
 2. On linking the Mapper node with self loop, the self loop configuration window opens. Select the execution order of the Self-Loop as `Number of Occurences`.
-![PF_selfloop6](\staticfiles\processflow\media\selfloop6.png)
+![PF_selfloop6](/staticfiles/processflow/media/selfloop6.png)
 
 3. Save and [Deploy the processflow](/processflow/deploying-and-executing-processflow/) to deploy all the configurations to the environment.
 4. You need to execute the processflow after the deployment process.
 **Your processflow will automatically be executed if your sync type is set to Auto mode.**
 5. Navigate to `Manage > Environment`. Click on the **processflow tab** for the environment where you have deployed the processflow and check for the 
 [processflow Snapshot.](/processflow/snapshot-processflow/)  
-![PF_selfloop7](\staticfiles\processflow\media\selfloop7.png)  
+![PF_selfloop7](/staticfiles/processflow/media/selfloop7.png)  
 
 Following the process you can successfully execute a processflow with Self-Loop.
 

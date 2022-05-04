@@ -30,14 +30,14 @@ This document will enable you to view and install incoming packages from other o
 
 2) Expand the package library node to view the folder **Shared with me**. You will able to view the list of all the packages shared with your organisation.
 
-![Viewsharedpack1](\staticfiles\processflow\media\viewsharedpack1.PNG)
+![Viewsharedpack1](/staticfiles/processflow/media/viewsharedpack1.PNG)
 
 3)The following details will be availble in its listing page
 - **Name** - The package name will be displayed.
 - **Apps** - The apps used in the Processflows inside the packages will be listed in a corousel form. You can slide the corousel to view all the application used.
 - **Actions** - You can choose and perform the following functions when clicked on the ellipses. The following options will be available in its contextual menu : **View** , **Install** and **Delete**.
 
-![viewsharedpack2](\staticfiles\processflow\media\viewsharedpack2.PNG)
+![viewsharedpack2](/staticfiles/processflow/media/viewsharedpack2.PNG)
 
 4) Click on the Ellipses (three Horizontal dots) beside the package you need to view and click on the **VIEW** option in the contextual menu.
 
@@ -50,7 +50,7 @@ This document will enable you to view and install incoming packages from other o
 - **Processflows :** Clicking on the processflow tab, you will be listed with all the processflow bundled with the package.
 - **Install :** You will be having an INSTALL button in the top-right corner of the window for installing the package.
 
-![viewsharedpack4](\staticfiles\processflow\media\viewsharedpack4.PNG)
+![viewsharedpack4](/staticfiles/processflow/media/viewsharedpack4.PNG)
 
 6) Clicking on the **Description** tab, you can view the following details.
 - The brief description provided while the creating the package will be displayed in the description box
@@ -59,14 +59,14 @@ This document will enable you to view and install incoming packages from other o
 
 7) Clicking on the **Documentation** tab, you can view the documentation. The box will display the required documentation that was provided while creating the package.
 
-![viewsharedpack6](\staticfiles\processflow\media\viewsharedpack6.PNG)
+![viewsharedpack6](/staticfiles/processflow/media/viewsharedpack6.PNG)
 
 8) Clicking on the **Processflow** tab, you will be able to view the following details of the Processflows bundled with the package.
 - **Name** - You can view the names of the processflow bundled within the package.
 - **Description** - The description of the Processflows.
 - **Created On** - The creation date of the Processflows will be listed beside the processflow description.
 
-![viewsharedpack7](\staticfiles\processflow\media\viewsharedpack7.PNG)
+![viewsharedpack7](/staticfiles/processflow/media/viewsharedpack7.PNG)
 
 ## Installing Packages
 
@@ -79,23 +79,23 @@ This document will enable you to view and install incoming packages from other o
 #### Install from Actions column
 You can install the packages directly by clicking on the install button available in the contextual menu of actions column. You can view a **loader** that will denote you with the installation progress.
 
-![packageinstall2](\staticfiles\processflow\media\packageinstall2.PNG)
+![packageinstall2](/staticfiles/processflow/media/packageinstall2.PNG)
 
 #### Install from View Packages
 On clicking the `VIEW` button in the contextual menu of the actions column, it will navigate you to the `VIEW` window.
 Click on the **Install** button to install the package shared with you.
 
-![packageinstall3](\staticfiles\processflow\media\packageinstall3.PNG)
+![packageinstall3](/staticfiles/processflow/media/packageinstall3.PNG)
 
 4) The installation loader begins on clicking the Install Button. 
 
-![packageinstall4](\staticfiles\processflow\media\packageinstall4.PNG)
+![packageinstall4](/staticfiles/processflow/media/packageinstall4.PNG)
 
 5) The installed packages will be placed as a Sub-Folder, within the default folder named **Installed processflow** under the processflow node in the [processflow Listing page](/processflow/processflow-listing-page/).
 
 6) By default the sub folder will named as per the package name. By clicking on the sub folder, you view the list of all the Processflows that was bundled with the package.
 
-![packageinstall5](\staticfiles\processflow\media\packageinstall5.PNG)
+![packageinstall5](/staticfiles/processflow/media/packageinstall5.PNG)
 
 7) Once installed, you can successfully [deploy and execute](/processflow/deploying-and-executing-processfloww/) the shared Processflows on your organisation. 
 
@@ -121,13 +121,13 @@ This section will guide you with the reinstallation of the packages on your orga
 - Yes: Your package will be reinstalled.
 - No: The reinstallation process will be declined.
 
-![reinstall4](\staticfiles\processflow\media\reinstall4.PNG)
+![reinstall4](/staticfiles/processflow/media/reinstall4.PNG)
 
 4) On accepting the confirmation option, your package will be reinstalled. You can view the loaded screen of the installation process. 
 As reinstalling will create the sub-folder having the same name as that of the package, which is already available in prior.
 By default, you will be provided with the "Package Name (n)" where **n** stands for sequence number of the installation of the package is reinstalled. However you can anytime [rename](/processflow/processflow-package-installation/#renaming-the-installed-packages) the `Third Level Sub-Folders` inside **Installed Processflows** as per your choice.
 
-![reinstall41](\staticfiles\processflow\media\reinstall41.png)
+![reinstall41](/staticfiles/processflow/media/reinstall41.png)
 
 Following the above process you can successfully Reinstall your packages.
 
@@ -138,11 +138,11 @@ Following the above process you can successfully Reinstall your packages.
 2) On installing, you will be created with a **Sub Folder with the same name as that of the package** inside **[Installed Processflows](/processflow/processflow-listing-page/#installed-process-flows-folder)** folder. 
 Clicking on the Sub folder will provide you with the details of the number of Processflows available on that sub-folder.
 
-![reinstall1](\staticfiles\processflow\media\reinstall1.png)
+![reinstall1](/staticfiles/processflow/media/reinstall1.png)
 
 3) Expanding the created Sub folder, you can view multiple **sub-folders on a level below**. This folder will contain the Processflows that were packaged within.
 
-![reinstall5](\staticfiles\processflow\media\reinstall5.PNG)
+![reinstall5](/staticfiles/processflow/media/reinstall5.PNG)
 
 4) The multiple sub folders are the reinstalled packages that are available on that level of the tree. 
 
@@ -156,15 +156,15 @@ You will be able to rename you installed packages any time. This section will en
 
 2) Clicking on the Ellipses of the third level subfolders, you will be available with RENAME option. The Rename box appears.
 
-![Reinstall6](\staticfiles\processflow\media\reinstall6.png)
+![Reinstall6](/staticfiles/processflow/media/reinstall6.png)
 
 3) Provide the name and click on the SAVE button.
 
-![reinstall7](\staticfiles\processflow\media\reinstall7.png)
+![reinstall7](/staticfiles/processflow/media/reinstall7.png)
 
 4) On saving, you can view the changes inside the [Installed Processflows](/processflow/processflow-listing-page/#installed-process-flows-folder) tree.
 
-![reinstall8](\staticfiles\processflow\media\reinstall8.png)
+![reinstall8](/staticfiles/processflow/media/reinstall8.png)
 
 Following the above process you can successfully RENAME the installed package folders
 

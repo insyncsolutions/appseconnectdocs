@@ -33,7 +33,7 @@ This section of the document will help you to copy and store a backup of your de
 
 1) Navigate to **Designer > ProcessFlow** in the Portal.
 
-![copypf1](\staticfiles\processflow\media\copy1.png)
+![copypf1](/staticfiles/processflow/media/copy1.png)
 
 2) In the listing page that appears, navigate to the folder (either ProcessFlow Folder or Installed ProcessFlow Folder) where your designed flow is available.
 
@@ -44,7 +44,7 @@ This section of the document will help you to copy and store a backup of your de
 
 4) On the listing page of your chosen folder, click on the `Context Menu` under **ACTIONS tab** of your ProcessFlow. Select the **COPY** option.
 
-![copypf2](\staticfiles\processflow\media\copy2.png)
+![copypf2](/staticfiles/processflow/media/copy2.png)
 
 5) The Folder Path window opens upon clicking the COPY button. The window alters as per the Folder.
 
@@ -52,7 +52,7 @@ This section of the document will help you to copy and store a backup of your de
 
 5.1) You will be getting the following Folder Path window, if you are copying your processflow from the [PROCESSFLOW FOLDER](/processflow/processflow-listing-page/#process-flow-folder). You can expand the subfolders to view its Child Folders (all under ProcessFlow folder) if any. To know more about the sub and its child folders, [Click Here](/processflow/processflow-listing-page/#steps-to-create-child-folders-in-the-listing-page).
 
-![copypf3](\staticfiles\processflow\media\copy3.png)
+![copypf3](/staticfiles/processflow/media/copy3.png)
 
 5.2) The Folder path for this case will display only the **Sub folders** available under the **ProcessFlow Folder**. Select the subfolder or **ProcessFlow** folder, where you want your processflow to be copied. Click on the DONE button after the selection is over.
 
@@ -63,16 +63,16 @@ This section of the document will help you to copy and store a backup of your de
 
 5.4) The Folder path for this case will display only the **Sub folders** available under the **Installed ProcessFlow Folder**. Select the subfolder, where you want your processflow to be copied. Once you have selected your desired folder, Click on the Done button.
 
-![copy4](\staticfiles\processflow\media\copy4.png)
+![copy4](/staticfiles/processflow/media/copy4.png)
 
 6) If in-case your chosen folder has a processflow with same name, you will get an option to **rename** the processflow that is to be copied. On renaming, the copying process starts automatically.
 If not renamed, your copied ProcessFlow will be named as `processflow name (n)`, where `n` stands for the sequence of the same name. **For Ex : Business Partner Add (1)**.
 
-![copypf7](\staticfiles\processflow\media\copy5.png)
+![copypf7](/staticfiles/processflow/media/copy5.png)
 
 7) A toaster message will confirm the start of the copying process. You will be displayed with a loader that would give you a view of the copying process.
 
-![copypf6](\staticfiles\processflow\media\copy6.png)
+![copypf6](/staticfiles/processflow/media/copy6.png)
 
 8) Once the process of copying is over, you may navigate to the folder to view your copied processflow. All the mappings and along with the configurations will be copied during this process.
 

@@ -36,11 +36,11 @@ Below are the process that would help you implement Dynamic Runtime Filter on yo
 
 Select the option **Execute with Runtime Filter**.
 
-![customfilter2](\staticfiles\processflow\media\runtimefilter2.png)
+![customfilter2](/staticfiles/processflow/media/runtimefilter2.png)
 
 4) The Runtime filter Window opens that will allow you to provide the filter as per your need.
 
-![customfilter3](\staticfiles\processflow\media\runtimefilter3.png)
+![customfilter3](/staticfiles/processflow/media/runtimefilter3.png)
 
 
 **Note:**
@@ -61,13 +61,13 @@ This part of the document will allow you to create Runtime Filter on GET node fo
 
 2) You can also add conditions and conjuctions over the filters by clicking on the Ellipses over the HEADER and the BODY section.
 
-![customfilter4](\staticfiles\processflow\media\customfilter4.PNG)
+![customfilter4](/staticfiles/processflow/media/customfilter4.PNG)
 
 3) You can either click on the **Cancel** button or directly execute the process by clicking on the **Execute**  button. You can track the Execution details on the Tracker Window.
 
 4) You will be generated with [snapshots](/processflow/snapshot-processflow/) for every execution with the Runtime Filter. For every executions with Runtime Filter, snapshots be specifically indicated with a **`TAG`** icon.
 
-![Customfiltersnapshottag](\staticfiles\processflow\media\customfilter5.png)
+![Customfiltersnapshottag](/staticfiles/processflow/media/customfilter5.png)
 
 
 **Note:**
@@ -79,11 +79,11 @@ This part of the document will allow you to create Runtime Filter on GET node fo
 
 1) Click on the Node Configuration button for the GET Node. You get the Node Configuration window. Click on the **Configure Filter** button to get the Action Filter window.
 
-![customfilter10](\staticfiles\processflow\media\customfilter10.PNG)
+![customfilter10](/staticfiles/processflow/media/customfilter10.PNG)
 
 2) Expand the nodes to view the **Runtime Filter** option. Click on the Ellipses to view the **CREATE** option.
 
-![customfilter11](\staticfiles\processflow\media\customfilter11.PNG)
+![customfilter11](/staticfiles/processflow/media/customfilter11.PNG)
 
 3) Clicking on the CREATE button, you get the window for providing the filter. Input the filter as required and click on the **Save** button.
 
@@ -105,11 +105,11 @@ For more details on this section, [ClicK Here](/connectors/configurations/#under
 
 2) Click on the ellipses of the GET node, whose filter you would like to delete.
 
-![customfilter8](\staticfiles\processflow\media\customfilter8.PNG)
+![customfilter8](/staticfiles/processflow/media/customfilter8.PNG)
 
 3) You will get a confirmation message for proceeding with the delete process. Click on the `YES` button to proceed with the deletion process, otherwise click on `NO`.
 
-![customfilter9](\staticfiles\processflow\media\customfilter9.PNG)
+![customfilter9](/staticfiles/processflow/media/customfilter9.PNG)
 
 4) You can also delete the filter from the normal action filter UI. [Click Here](/connectors/configurations/) for more details.
 

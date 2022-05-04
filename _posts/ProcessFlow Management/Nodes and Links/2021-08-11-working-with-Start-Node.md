@@ -28,7 +28,7 @@ On dragging the Start node to the designer panel, the Start Node Configuration w
 
 1) Drag the **Start Node** to the designer panel. The Start Node configuration panel opens.
 
-![startnode1](\staticfiles\processflow\media\startnode1.PNG)
+![startnode1](/staticfiles/processflow/media/startnode1.PNG)
 
 2) You will get the following 2 Trigger Type :
 
@@ -55,7 +55,7 @@ a) On selecting the Trigger Type as **Event**, the following field would appear 
 
   **Enter Register URL** : You will have to provide your Organisation name as the sub-domain that would be merged with the APPseCONNECT Domain. 
 
-![startnode2](\staticfiles\processflow\media\startnode2.PNG)
+![startnode2](/staticfiles/processflow/media/startnode2.PNG)
 
 For Example: `MRFCorporation.appseconnectapi.com` where **MRFCorporation** is the sub-domain name of the organisation. The rest is the domain name.
 This field for registering URL will appear only when you haven't registered any URL for your organisation. The URL will be displayed in the Regsiter URL field in Read-Only mode, if its already registered on your organisation. 
@@ -64,7 +64,7 @@ b) Once you are done with the configurations, click on the **SAVE** button. On s
 
 You can also view your registered URL on your **APIs Section**. Navigate: Manage > APIs > Register URL.
 
-![startnode7](\staticfiles\processflow\media\startnode7.PNG)
+![startnode7](/staticfiles/processflow/media/startnode7.PNG)
 
 **Note : You cannot alter a registered URL for any processflow, once SAVED in your organisation.**
 
@@ -74,17 +74,17 @@ e) Deploy your designed processflow to your required environment. For Trigger Ty
 
 f) The deployed processflows with Trigger Type **EVENT** will represent with a Black Icon in the [ProcessFlow tab](/deployment/Environment-Management/#pre-requisites) in environment section.
 
-![startnode4](\staticfiles\processflow\media\startnode4.PNG)
+![startnode4](/staticfiles/processflow/media/startnode4.PNG)
 
 g) The ProcessFlows needs to be executed once the deployment is over. For **Event Type**, the execution will on REALTIME basis. The RUN button in the designer page will be disabled for **EVENT** Trigger.
 
 h) You can anytime check your snapshot for the execution status and data survey for both Trigger Types. For more details on Snapshot, [Click Here](/processflow/snapshot-processflow/).
 
-![startnode5](\staticfiles\processflow\media\startnode5.PNG)
+![startnode5](/staticfiles/processflow/media/startnode5.PNG)
 
 i) You can also view your Triggered **EVENT** URL, from Environment Section. Navigate: **Deploy > Environments > Processflow Tab > [Processflow URL](/deployment/Environment-Management/#on-premise-environment-details-page)** (in the context menu).
 
-![startnode8](\staticfiles\processflow\media\startnode8.PNG)
+![startnode8](/staticfiles/processflow/media/startnode8.PNG)
 
 Following the above process you can successfully configure and execute Start Nodes with both the Trigger Types.
 

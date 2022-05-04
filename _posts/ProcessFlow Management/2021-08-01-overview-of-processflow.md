@@ -45,7 +45,7 @@ By default, an organisation would have the following folders created `ProcessFlo
 
 **To know more about the functionalities of the processflow Home page, [Click Here](/processflow/processflow-listing-page/)**.
 
-![pfhomepage](\staticfiles\root\media\pfhomepage.png)
+![pfhomepage](/staticfiles/root/media/pfhomepage.png)
 
 
 ## Processflow Modules

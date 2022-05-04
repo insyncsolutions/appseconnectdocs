@@ -10,6 +10,7 @@ gem "jekyll-feed"
 gem "jekyll-menus"
 gem "jekyll-archives"
 gem "jemoji"
+gem "jekyll-spaceship"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 

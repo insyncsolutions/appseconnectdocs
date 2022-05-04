@@ -30,7 +30,7 @@ Merger Node Output file - can have one or more document as output. However, it m
 - **XPath** : Here user need to specify a XPath based on which data will be fetched from each data file for merging.
 - **Wait for no. of documents** : Here, you need to define the size of the batch as how many should be merged to form packets. 
 
-![mergerconfig1](\staticfiles\processflow\media\mergernode1.png)
+![mergerconfig1](/staticfiles/processflow/media/mergernode1.png)
 
 For example: You have **eighteen** records(Data) in EIGHTEEN different Documents where each **incoming document** contains ONE records.
 The `Wait for no. of documents` in the Merger node configuration window is configured as TWO. Therefore, merger node will combine the first TWO incoming documents set into ONE and will post it to the successor node.
@@ -55,7 +55,7 @@ The XPath provided for the MERGER Node is shown below:
    
 1) Go to Processflow section & [Design](/getting%20started/create-your-first-processflow/) a Processflow.  
 
-![mergerflow1](\staticfiles\processflow\media\mergeflow1.PNG)
+![mergerflow1](/staticfiles/processflow/media/mergeflow1.PNG)
 
 2) The Processflow is designed as shown in the above section of the screen.  Here, [splitter](/processflow/working-with-processflow-splitter/) is added to split the records in single document to multiple documents.
 
@@ -69,17 +69,17 @@ The XPath provided for the MERGER Node is shown below:
 to view the detailed node by node snapshot data of the processflow.    
 
 7) Click on the `Transaction files` of splitter node to view the incoming files for merger node.
-![mergeflow2](\staticfiles\processflow\media\mergeflow2.PNG)
+![mergeflow2](/staticfiles/processflow/media/mergeflow2.PNG)
 
 7) Click on the merger node to get the snapshot dataview of the merged files.      
-![mergeflow3](\staticfiles\processflow\media\mergeflow3.PNG)    
+![mergeflow3](/staticfiles/processflow/media/mergeflow3.PNG)    
 
 8) Now click on the **Transaction File** tab to view both the merged files for the merger node.  
- ![mergeflow4](\staticfiles\processflow\media\mergeflow4.PNG)      
+ ![mergeflow4](/staticfiles/processflow/media/mergeflow4.PNG)      
 Here you can view **TWO** transactional files, containing `two customer records` in file **ONE**. 
   
 9) Expand the destination node to view the sync result of the iteration.
-![mergeflow5](\staticfiles\processflow\media\mergeflow5.PNG)
+![mergeflow5](/staticfiles/processflow/media/mergeflow5.PNG)
 Here, the sync result is shown only for the iteration 1.
  
 Thus, the above processflow is executed with the Merger node and you can also 

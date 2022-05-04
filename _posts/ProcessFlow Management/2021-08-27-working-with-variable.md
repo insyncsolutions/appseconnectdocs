@@ -38,7 +38,7 @@ in the [designer section](/processflow/components-of-processflow/). You need to 
 
 2) Enter the required details in the [General Section](/getting%20started/create-your-first-processflow/) of the node configuration window. Click on **Properties section** and the screen for variable list appears, if you have created the variable previously. Or else, click on the `CREATE` button. 
 
-![var1](\staticfiles\processflow\media\var1.png)
+![var1](/staticfiles/processflow/media/var1.png)
 
 3) You need to provide the following details in the **Properties Tab** :
 
@@ -56,7 +56,7 @@ in the [designer section](/processflow/components-of-processflow/). You need to 
     - **Is Encrypted :** Enabling this toggle will encrypt the output of variable in the database.
   Once all the necessary details are provided. Click on the **SAVE** or **SAVE & CLOSE** button. 
 
-![var3](\staticfiles\processflow\media\var3.PNG)
+![var3](/staticfiles/processflow/media/var3.PNG)
 
 4) On clicking the `View List` button, you can view all the created variable for the node in a list view.
 
@@ -107,7 +107,7 @@ A. Open the Application Node Configuration Window where you have defined the var
 
 B. Clicking on the Properties Tab, the Variable listing page opens.
 
-![var5](\staticfiles\processflow\media\var5.png)
+![var5](/staticfiles/processflow/media/var5.png)
 
 C. Click on the ellipses icon (Three horizontal Dots) on the **Actions** column beside the variable. You'll get two options from the drop down.
 - Edit : Enables you to make any changes to the created variable.
@@ -125,11 +125,11 @@ A. Open the Application Node Configuration Window where you have defined the var
 
 B. Click on the Delete button available on the drop down window. 
 
-![var6](\staticfiles\processflow\media\var6.PNG)
+![var6](/staticfiles/processflow/media/var6.PNG)
 
 C. You'll be getting a confirmation message for the deletion process.
 
-![var7](\staticfiles\processflow\media\var7.PNG)
+![var7](/staticfiles/processflow/media/var7.PNG)
 
 D. Your variable gets deleted from the list.
 
@@ -141,23 +141,23 @@ _**Note :** You cannot delete a Variable that is currently in use for execution 
 
 2) Enter the required fields in the **General Tab** of the Node Configuration Window of the application implementing GET operation. Click on the **Properties** Tab.
 
-![var8](\staticfiles\processflow\media\var8.PNG)
+![var8](/staticfiles/processflow/media/var8.PNG)
 
 3) Click on the [**Create**](/processflow/working-with-variable/#creating-variable) Button in the Properties Window. The Variable creation page opens, enter the required details and click on the save button.
 
-![var9](\staticfiles\processflow\media\var9.png)
+![var9](/staticfiles/processflow/media/var9.png)
 
 4) Navigate to the General tab and click on the **Configure Filter** button. Expand the Action filer node, enter `created_at` in the key field and `variable name` in the value field. To know more about Actions & Action Filters, [Click Here](/transformation/working-with-schemas-action-filter/). Finally, click on the save button.
 
-![var11](\staticfiles\processflow\media\var11.png)
+![var11](/staticfiles/processflow/media/var11.png)
 
 5) You can now successfully [deploy and execute](/processflow/deploying-and-executing-processflow/) the processflow. You can also view the [snapshot](/processflow/snapshot-processflow/) of the processflow after successfully deployment and execution.
 
-![var12](\staticfiles\processflow\media\var12.png)
+![var12](/staticfiles/processflow/media/var12.png)
 
 6) Click on the [`File Tab` of GET node](/processflow/snapshot-processflow/#1-scenario-get-node) to view all the files fetched after the date that is provided in the variable.
 
-![var13](\staticfiles\processflow\media\var13.png)
+![var13](/staticfiles/processflow/media/var13.png)
 
 7) You can also view the Activity Logs of GET Node in the snapshot for viewing the variable implementation logs.
 

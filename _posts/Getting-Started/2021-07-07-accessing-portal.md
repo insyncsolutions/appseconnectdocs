@@ -130,7 +130,7 @@ Users can minimize and maximize the widget by click on the respective button ava
 This section will enable the user to design their business specific integration flows using their selected Apps. You can easily create and design your integration flows using 
 Workflows and Processflows. Below are the list that provides you with the informations of **processflows**.
 
-![Designer1](\staticfiles\root\media\designer1.PNG)
+![Designer1](/staticfiles/root/media/designer1.PNG)
 
 ### Workflows
 
@@ -153,7 +153,7 @@ To know more about Processflows, [Click Here](/processflow/overview-of-processfl
 
 This section will allow you to work with different **ENVIRONMENTS** either On-Premise or Hosted. You can perform multiple deployment functionalities that will help you setting up your environments. 
 
-![Deploy1](\staticfiles\root\media\deploy1.PNG)
+![Deploy1](/staticfiles/root/media/deploy1.PNG)
 
 ### Environment
 
@@ -164,7 +164,7 @@ This section will allow you to work with different **ENVIRONMENTS** either On-Pr
 This section will allow you to manage the applications, connections, rules and other modules of APPSeCONNECT. Below are the modules 
 that will be available to you under the **MANAGE** section in portal. 
 
-![manage3](\staticfiles\root\media\manage3.png)
+![manage3](/staticfiles/root/media/manage3.png)
 
 ### Users
 
@@ -205,13 +205,13 @@ b.	Organization Admin
 **Note : The tab Partners will not have any view unless an organization has any requirements for partners.**
 
 3)	For a fresh organisation, only the organisation owner will be displayed as the user in the user list. Click on the Add User button, to add more user to an organisation.
-![Useradd1](\staticfiles\root\media\useradd1.PNG)
+![Useradd1](/staticfiles/root/media/useradd1.PNG)
 
 4) On clicking the button Add User, a sliding window opens with a form for providing the details of new user to the organisation.
-![Useradd2](\staticfiles\root\media\useradd2.PNG)
+![Useradd2](/staticfiles/root/media/useradd2.PNG)
 
 5) Input the details and assign the role to the user that is being added. Specify the Role for the user that is being added. 
-![Useradd3](\staticfiles\root\media\useradd3.PNG)
+![Useradd3](/staticfiles/root/media/useradd3.PNG)
 
 6) Once all the mandatory fields are filled up, click on the Save button. The created user should be visible in the list of users along with a success message. The created user will have the following keys available for any modification. The list is provided below :
 
@@ -222,12 +222,12 @@ b.	Organization Admin
 - Resend Activation Mail : User can resend the activation mail, if required. This button will be available only until the user has activated the account. Once activated, this button will not be visible.
 
 - Change Role : Here, the default user can change the role for the created user.
-![Useradd4](\staticfiles\root\media\useradd4.PNG)
+![Useradd4](/staticfiles/root/media/useradd4.PNG)
 
 7) The created user gets an Activation Mail. You need to click on the Activation Link to activate your user account.
 
 8) Once activated, login to your account with the provided credential provided in the Activation Mail.
-![useradd6](\staticfiles\root\media\useradd6.png)
+![useradd6](/staticfiles/root/media/useradd6.png)
 
 **Note :** 
 
@@ -309,7 +309,7 @@ Traces of past activities of the user can be viewed in the feed section. To view
 3. Here you can only see your non- transactional activities in your logged in profile.
 4. You can filter your search on the Feeds Page only by using keywords like `workflow`, `Rule`, `Account` etc.
 5. For each feeds on the page, you'll be provided with a hashtag that will define the activity area.
-![feeds2](\staticfiles\root\media\feeds2.png)
+![feeds2](/staticfiles/root/media/feeds2.png)
 6. On clicking over the hashtags, you'll be listed with all the feeds whose activity was on that area.
 
 **Note: Whenever you schedule a workflow a message will get updated in the feeds after scheduling the time interval of workflow form the OP Agent.**
@@ -330,7 +330,7 @@ You can also define additional criteria for triggering the Rule and perform the 
 This section will assist and connect the user with APPSeCONNECT Docs and Community for reference and instant support. Users can anytime navigate to the [Documentation portal](https://docs.appseconnect.com/) for usability assists and reference. 
 Users can also connect with our [Community Portal](https://community.appseconnect.com/) for instant help and support for APPSeCONNECT. Having connected with our community portal enables you to stay in connect with latest discussions and solutions. 
 Common helps and reference support documents is also provided to the user when navigating to the HELP section.
-![Help1](\staticfiles\root\media\help1.PNG)
+![Help1](/staticfiles/root/media/help1.PNG)
 
 Users can also study and view the latest updates and hotfixes provided for APPSeCONNECT. You can anytime visit the latest Release Notes in the **What's New** section of the HELP page that keeps you updated with our every releases and updates.
 
@@ -339,7 +339,7 @@ Users can also study and view the latest updates and hotfixes provided for APPSe
 
 On every page, there is a small icon available at the bottom right corner of the page which allows you to chat with our executive. The chat functionality is open 24/7 throughout the year and you can quickly click on the icon to execute the step. 
 The chat functionality connects to our support executive who are available for you to help you as and when required. You can also upload file with your requirement, insert emoji, and rate the conservation about how much you are satisfied with the same. 
-![Chat](\staticfiles\root\media\chat.png)
+![Chat](/staticfiles/root/media/chat.png)
 
 **Feel free to chat with it whenever required**. 
 
