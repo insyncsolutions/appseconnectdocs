@@ -4,7 +4,7 @@ toc: true
 tag: developers
 category: "Processflow"
 description: "Processflow is the new generation advanced integration designer that helps you quickly drag and drop applications and orchestrator nodes into the canvas to generate an integration pipeline."
-keywords: "Benefits of using processflows,improve productivity,streamline and automate complex business process,data driven designer,integrated development environment,web based ipaas,processflow modules,navigating to processflows"
+keywords: "Benefits of using processflows,improve productivity,streamline and automate complex business process,data driven designer,integrated development environment,web based ipaas,processflow modules,navigating to processflows, nodes,links,applications, toolbar"
 menus: 
     header:
         title: "ProcessFlow"

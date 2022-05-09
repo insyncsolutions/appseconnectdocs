@@ -7,6 +7,36 @@ permalink: /
     <title>Home</title>
     {% include head.html %}
     {% include head/custom.html %}
+	<style>
+		.form-search{
+			position:relative;
+		}
+		#results
+		{
+			position: absolute;
+			top: 150px;
+			left: 0px;
+			background: white; 
+			z-index: 1;
+			text-align: left;
+			font-size: small;
+			overflow: scroll;
+			overflow-x: hidden;
+		}
+		.results__found{
+			display:none;
+		}
+		.archive__item-title{
+			margin-top:2px;
+		}
+		.archive__item-excerpt{
+			text-align:left;
+			color: #000 !important;
+			width:100% !important;
+			font-style: italic;
+			margin:0 auto 0px !important;
+		}
+	</style>
 </head>
 
 <body class="layout--{{ page.layout | inner: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | inner: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -26,7 +56,15 @@ permalink: /
             <h1>WELCOME TO <span>APPSeCONNECT</span> DOCS</h1>
             <div data-aos="fade-up">
                 <p>docs.appseconnect.com is the central hub of knowledge and information for APPSeCONNECT Documentation which is dedicated for end users, developers, partners and IT professionals. Feel free to check out our latest tutorials, e-Books, API references and code examples.</p>
-                <a href="/getting%20started/getting-started/" title="getting started" class="aecButton">Getting Started</a>
+                <div>
+					<form class="form-search">
+					  <input type="input" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
+					</form>
+
+					<div id="results" class="hideBox" style="height:150px;"></div>
+				</div>
+				<br/>
+				<a href="/getting%20started/getting-started/" title="getting started" class="aecButton">Getting Started</a>
             </div>
         </div>
     </div>

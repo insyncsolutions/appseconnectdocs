@@ -1,7 +1,7 @@
 ---
 title: "Getting an Account"
 description: "Accessing Account in APPSeCONNECT"
-keywords: "Free Trial, Paid Trial, Accessing Account, Enable Multi - Factor Authentication,two factor authentication"
+keywords: "Trial,Free Trial, Paid Trial, Accessing Account,steps to start, Multi-Factor Authentication,two factor authentication, security, login to appseconnect,password security,password expiry"
 toc: true
 tag: developers
 category: "Getting Started"

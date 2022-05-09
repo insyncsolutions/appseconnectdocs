@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Getting started with APPSeCONNECT"
-keywords: "APPSeCONNECT, Getting Started, Knowledge base"
+keywords: "APPSeCONNECT, Getting Started, various sections, overview, terminiology,things to remember,iPaaS"
 toc: false
 tag: developers
 category: "Getting Started"
@@ -48,4 +48,4 @@ In this section, we will talk about everything that you want to know to get star
 - Executing a ProcessFlow
 - Working with Generic Connectors
 - Implementing notifications
- 
+  
