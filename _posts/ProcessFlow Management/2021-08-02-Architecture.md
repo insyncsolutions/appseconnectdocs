@@ -2,7 +2,7 @@
 title: "Architecture"
 toc: false
 description: "ProcessFlow is a visual representation of a business process integration, which helps you as an user to orchestrate a business process in such a way so that you can modularize and control the complexity of business integration properly."
-keywords: "Advanced smart integration solution, micro-service architecture, trigger a processflow"
+keywords: "Advanced smart integration solution, micro-service architecture, trigger, command, polling"
 tag: developers
 category: "Processflow"
 menus: 

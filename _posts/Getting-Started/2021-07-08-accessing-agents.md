@@ -2,7 +2,7 @@
 title: "Agent"
 toc: false
 description: "Know about our Lightweight, Dynamic, Runtime Engine"
-keywords: "Agent Classification, On-Premise Agent, Hosted Agent, lightweight, active, dynamic, runtime"
+keywords: "Types of agent, On-Premise Agent, Hosted Agent, runtime, executer, cloud solution,run anywhere"
 tag: developers
 category: "Getting Started"
 menus: 

@@ -7,6 +7,7 @@ var idx = lunr(function () {
   this.field('excerpt')
   this.field('categories')
   this.field('tags')
+  this.field('keywords')
   this.ref('id')
 });
 
@@ -18,6 +19,7 @@ var idx = lunr(function () {
       title: {{ doc.title | jsonify }},
       excerpt: {{ doc.content | strip_html | truncatewords: 20 | jsonify }},
       categories: {{ doc.categories | jsonify }},
+      keywords: {{ doc.keywords | jsonify }},
       tags: {{ doc.tags | jsonify }},
       id: {{ count }}
     });
