@@ -5,7 +5,7 @@ category: "SDK"
 tag: developers
 menus:
     header: 
-        weight: 14
+        weight: 7
         icon: fa fa-gg
         title: "SDK"
         identifier: sdk            

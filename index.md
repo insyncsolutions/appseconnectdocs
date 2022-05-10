@@ -7,6 +7,45 @@ permalink: /
     <title>Home</title>
     {% include head.html %}
     {% include head/custom.html %}
+	<style>
+		.form-search{
+			position:relative;
+		}
+		#results
+		{
+			position: absolute;
+			top: 180px;
+			left: 0px;
+			background: white; 
+			z-index: 1;
+			text-align: left;
+			font-size: small;
+			overflow: scroll;
+			overflow-x: hidden;
+		}
+		.list__item:hover{
+			background-color: #eee;
+			cursor:pointer;
+		}
+		.header-question{
+			font-size: 24px !important;
+			font-weight: 600;
+		}
+		.results__found{
+			display:none;
+		}
+		.archive__item-title{
+			margin-top:2px;
+		}
+		.archive__item-excerpt{
+			text-align:left;
+			color: #000 !important;
+			width:100% !important;
+			font-style: italic;
+			margin:0 auto 0px !important;
+		} 
+	</style>
+	
 </head>
 
 <body class="layout--{{ page.layout | inner: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | inner: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -25,8 +64,16 @@ permalink: /
         <div class="aec-container">
             <h1>WELCOME TO <span>APPSeCONNECT</span> DOCS</h1>
             <div data-aos="fade-up">
-                <p>docs.appseconnect.com is the central hub of knowledge and information for APPSeCONNECT Documentation which is dedicated for end users, developers, partners and IT professionals. Feel free to check out our latest tutorials, e-Books, API references and code examples.</p>
-                <a href="/getting%20started/getting-started/" title="getting started" class="aecButton">Getting Started</a>
+                <p>docs.appseconnect.com is the central hub of knowledge and information for APPSeCONNECT Documentation which is dedicated for end users, developers, partners and IT professionals.</p>
+				<p class="header-question">What are you looking for?</p>
+                <div>
+					<form class="form-search">
+						<input type="input" id="search" class="search-input search-font" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Type to search from document repository...' }}" />
+					</form> 
+					<div id="results" class="hideBox" style="height:150px;"></div>
+				</div>
+				<br/>
+				<a href="/getting%20started/getting-started/" title="getting started" class="aecButton">Getting Started</a>
             </div>
         </div>
     </div>
@@ -94,14 +141,14 @@ permalink: /
 				{% endif %} 
             </div>
             <div class="questionBox" data-aos="fade-up">
-                <h2>Do you have any question ?</h2>
-                <a href="{{ site.community_baseurl }}questions/" target="_blank" title="Start Discussion" class="aecButton">Start Discussion </a>
+                <h2>Are you looking for solutions ?</h2>
+                <a href="{{ site.main_baseurl }}knowledgebase/" target="_blank" title="Visit Knowledgebase" class="aecButton">Visit Knowledgebase </a>
             </div>
         </div>
     </div>
     <!-- Main Body :: End -->
 	 <div class="footer">
-			<div class="copyrights"><a href="https://www.appseconnect.com/" title="APPSeCONNECT" target="_blank">APPSeCONNECT</a> is a product by InSync<br>&copy; 2021 <a href="https://insync.co.in/" title="InSync Tech-Fin Solutions Ltd" target="_blank">InSync Tech-Fin Solutions Ltd</a>. All rights reserved.</div>
+			<div class="copyrights"><a href="https://www.appseconnect.com/" title="APPSeCONNECT" target="_blank">APPSeCONNECT</a> is a product by InSync<br>&copy; 2022 <a href="https://insync.co.in/" title="InSync Tech-Fin Solutions Ltd" target="_blank">InSync Tech-Fin Solutions Ltd</a>. All rights reserved.</div>
 	 </div>
     {% if page.permalink <> "/" %}
 
@@ -111,6 +158,11 @@ permalink: /
 		
     {% endif %}
     {% include scripts.html %}
-
+	<script type="text/javascript">
+	  $(document).on('click', 'div[data-url]', function(){
+			var url = $(this).data('url');
+			location.href = url;
+	  });
+	</script>
 </body>
 </html>

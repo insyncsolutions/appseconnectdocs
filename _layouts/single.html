@@ -113,16 +113,19 @@ layout: inner
                 {% endif %}
                 {{ content }}
                 {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+                <div class="PageNavigation">
+                    {% if page.previous.url %}
+                    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+                    {% endif %}
+                </div>
             </section>
 
             <footer class="page__meta">
                 {% if site.data.ui-text[site.locale].meta_label %}
                 <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-                {% endif %}
-                {% if page.last_modified_at %}
-                <div class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></div>
-                {% elsif page.date %}
-                <div class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></div>
                 {% endif %}
                 {% include page__taxonomy.html %}
 

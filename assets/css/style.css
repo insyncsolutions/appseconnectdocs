@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
 * { margin: 0; padding: 0;}
 img {max-width: 100%; border:0;}
-body {background: #f7f7f7; color:#000; font-family: 'Montserrat', sans-serif;}
+body {background: #f7f7f7; color:#000; font-family: 'Nunito', 'Montserrat', sans-serif;}
 .spacer {font-size:0; line-height:0; clear:both;}
 /* ---------------- Start : Header ----------------------- */
 .headerPan {clear: both; background: #fff; position: relative; z-index: 100; background: #f1ecec;}
@@ -22,7 +22,7 @@ body {background: #f7f7f7; color:#000; font-family: 'Montserrat', sans-serif;}
 .headerRight li a i {padding-right: 10px; color: #a6b4bf;}
 /* ---------------- End : Header ----------------------- */
 /* ---------------- Start : Nav ----------------------- */
-#cssmenu {background: transparent; margin: 0; width: auto; padding: 0; line-height: 1; display: block; position: relative; font-family: 'Montserrat', sans-serif; float:left;}
+#cssmenu {background: transparent; margin: 0; width: auto; padding: 0; line-height: 1; display: block; position: relative; font-family: 'Nunito', 'Montserrat', sans-serif; float:left;}
 #cssmenu ul {list-style: none; margin: 0; padding: 0; display: block;}
 #cssmenu ul:after,  #cssmenu:after { content: " "; display: block; font-size: 0; height: 0; clear: both; visibility: hidden;}
 #cssmenu ul li {margin: 0;padding: 0;display: block;position: relative;}
@@ -71,7 +71,7 @@ body {background: #f7f7f7; color:#000; font-family: 'Montserrat', sans-serif;}
 #main {max-width: 1280px; clear: both; margin: 0 auto; padding:50px 0 30px;}
 /* ---------------- Start : Are you a ----------------------- */
 .block4Pan { position:relative; clear:both; overflow:hidden; padding:0 0 50px;}
-.block4Pan h2 { clear: both; margin: 0 0 20px; padding: 0; text-align: center; color: #405d71; position: relative; font-size: 32px; text-transform: uppercase;  font-family: 'Montserrat', sans-serif;}
+.block4Pan h2 { clear: both; margin: 0 0 20px; padding: 0; text-align: center; color: #405d71; position: relative; font-size: 32px; text-transform: uppercase;  font-family: 'Blinker', 'Montserrat', sans-serif;}
 .block4Pan h2:before {position: absolute; content: ""; width: 100%; height: 1px; left: 0; top:50%; background: #d2dee6; z-index:1;}
 .block4Pan h2 span {display: inline-block; background: #f7f7f7; padding: 0 10px; position: relative; z-index: 2;}
 .block4Inn { width:25%; float:left; box-sizing:border-box; padding:0 10px; margin-bottom: 20px;}
@@ -84,20 +84,20 @@ body {background: #f7f7f7; color:#000; font-family: 'Montserrat', sans-serif;}
 /* ---------------- End : Are you a ----------------------- */
 /* ---------------- Start : Video ----------------------- */
 .videoPan {clear: both; background: #d2dee6; padding: 5px 0 50px;}
-.videoPan h2 {clear: both; margin: 0 0 20px; padding: 0; text-align: center; color: #405d71; position: relative; font-size: 32px; text-transform: uppercase;  font-family: 'Montserrat', sans-serif;}
+.videoPan h2 {clear: both; margin: 0 0 20px; padding: 0; text-align: center; color: #405d71; position: relative; font-size: 32px; text-transform: uppercase;  font-family: 'Nunito', 'Montserrat', sans-serif;}
 .videoPan h2:before {position: absolute; content: ""; width: 100%; height: 1px; left: 0; top:50%; background: #fff; z-index:1;}
 .videoPan h2 span {display: inline-block; background: #d2dee6; padding: 0 10px; position: relative; z-index: 2;}
 .videoPan ul {list-style: none; margin: 0 0 40px; padding: 0; clear: both; overflow: hidden;}
 .videoPan ul li { list-style: none; margin: 0 1% 25px; padding: 15px 15px 20px; background: #fff; float: left; width: 23%; box-sizing: border-box;}
 .videoPan ul li img {width: 100%; display: block;}
 .videoPan ul li h3 {clear: both; margin: 10px 0 0; padding: 0; font-size: 19px; line-height: 26px; text-align: left; font-weight: 400; color: #124567;}
-.videoBtn {display: block; width: 100px; height: 36px; margin: 0 auto; text-align: center; text-decoration: none !important; background: #00aadc; border: 1px solid #377094; color: #fff !important; font-size: 16px; line-height: 34px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; font-family: 'Montserrat', sans-serif}
+.videoBtn {display: block; width: 100px; height: 36px; margin: 0 auto; text-align: center; text-decoration: none !important; background: #00aadc; border: 1px solid #377094; color: #fff !important; font-size: 16px; line-height: 34px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; font-family: 'Nunito', 'Montserrat', sans-serif}
 .videoBtn:hover {background: #3e555f; border: 1px solid #d2dee6; color: #fff;}
 .VideoTopPan {clear:both; background:#0d2933; padding:30px 0;}
 .VideoTopPan #main {overflow:hidden; clear:both; padding: 20px 0;}
 .VideoTopLeft {float:left; width:55%; box-sizing:border-box; padding:0 60px 0 0;}
 .VideoTopLeft img {width:100%; display:block;}
-.VideoTopLeft h3, .VideoTopRight ul li h3 {clear: both; margin: 0; font-size: 20px; padding: 10px 20px; text-align: left; font-weight: 400; color: #b4c0ce; font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif; background: rgba(255,255,255,0.1);}
+.VideoTopLeft h3, .VideoTopRight ul li h3 {clear: both; margin: 0; font-size: 20px; padding: 10px 20px; text-align: left; font-weight: 400; color: #b4c0ce; font-family: "Blinker","Nunito",-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif; background: rgba(255,255,255,0.1);}
 .VideoTopRight {float:left; width:45%;}
 .VideoTopRight ul {list-style:none; margin:0; padding:0}
 .VideoTopRight ul li {list-style:none; float:left; padding:0 10px 16px; box-sizing:border-box; width:50%;}
@@ -105,15 +105,15 @@ body {background: #f7f7f7; color:#000; font-family: 'Montserrat', sans-serif;}
 /* ---------------- End : Video ----------------------- */
 /* ---------------- Start : Course ----------------------- */
 .coursesPan {clear: both; background: #fff; padding: 5px 0 50px;}
-.coursesPan h2 {clear: both; margin: 0 0 20px; padding: 0; text-align: center; color: #405d71; position: relative; font-size: 32px; text-transform: uppercase;  font-family: 'Montserrat', sans-serif;}
+.coursesPan h2 {clear: both; margin: 0 0 20px; padding: 0; text-align: center; color: #405d71; position: relative; font-size: 32px; text-transform: uppercase;  font-family: 'Blinker', 'Montserrat', sans-serif;}
 .coursesPan h2:before {position: absolute; content: ""; width: 100%; height: 1px; left: 0; top:50%; background: #ddd; z-index:1;}
 .coursesPan h2 span {display: inline-block; background: #fff; padding: 0 10px; position: relative; z-index: 2;}
 .coursesPan ul {list-style: none; margin: 0 0 50px; padding: 0; clear: both; overflow: hidden;}
 .coursesPan ul li {list-style: none; margin: 0; padding: 0 15px; float: left; width: 33.3%; box-sizing: border-box;}
 .coursesPan ul li img {max-width: 100%; text-align: center; margin: 0 auto; display: block;}
-.coursesPan ul li h3 {padding: 10px 20px; margin: 0; font-size: 21px; color: #375163; text-align: center; font-family: "Open Sans", sans-serif;}
-.coursesPan ul li p {padding: 0 20px; font-size: 15px; font-weight: 400; line-height: 1.5; text-align: center; font-family: "Open Sans", sans-serif; color: #4b6673;}
-.coursesBtn {display: block; width: 100px; height: 36px; margin: 0 auto; text-align: center; text-decoration: none !important; background: #00aadc; border: 1px solid #377094; color: #fff !important; font-size: 16px; line-height: 34px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; font-family: 'Montserrat', sans-serif;}
+.coursesPan ul li h3 {padding: 10px 20px; margin: 0; font-size: 21px; color: #375163; text-align: center; font-family: "Blinker", "Open Sans", sans-serif;}
+.coursesPan ul li p {padding: 0 20px; font-size: 15px; font-weight: 400; line-height: 1.5; text-align: center; font-family: "Nunito", "Open Sans", sans-serif; color: #4b6673;}
+.coursesBtn {display: block; width: 100px; height: 36px; margin: 0 auto; text-align: center; text-decoration: none !important; background: #00aadc; border: 1px solid #377094; color: #fff !important; font-size: 16px; line-height: 34px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; font-family: 'Nunito', 'Montserrat', sans-serif;}
 .coursesBtn:hover {background: #3e555f; border: 1px solid #d2dee6; color: #fff;}
 /* ---------------- End : Course ----------------------- */
 /* ---------------- Start : Footer ----------------------- */
@@ -124,7 +124,7 @@ background: -moz-radial-gradient(center, ellipse cover, rgba(58,77,86,1) 21%, rg
 background: -webkit-radial-gradient(center, ellipse cover, rgba(58,77,86,1) 21%,rgba(37,51,57,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: radial-gradient(ellipse at center, rgba(58,77,86,1) 21%,rgba(37,51,57,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a4d56', endColorstr='#253339',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
-.footerInn { width: 30%; float: left; font-family: 'Montserrat', sans-serif;}
+.footerInn { width: 30%; float: left; font-family: 'Nunito', 'Montserrat', sans-serif;}
 .footerInn.footerInn2 {width: 40%;}
 .footerInn h3 {font-size: 16px; line-height: 24px; margin: 0 0 10px; padding: 0 10px 5px 0; color: #00aadc; border-bottom: 2px solid #bec9ce; clear: both; display: inline-block;}
 .footerInn ul {list-style: none; clear: both; margin: 0 0 20px; padding: 0;}
@@ -229,7 +229,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#214a73', end
 .headerLogo a {padding:0;}
 .layout--archive-taxonomy #main {max-width: 100%; padding: 0;}
 #cssmenu > ul > li > a span {padding: 6px 15px;}
-#cssmenu > ul > li:last-child > a span { padding: 6px 12px; background: #ec7940; color: #fff; border-radius: 18px; -moz-border-radius: 18px; -webkit-border-radius: 18px;}
+#cssmenu > ul > li:last-child > a span { padding: 6px 12px; background: #3030FF; color: #fff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
 
 .learningtrailpan {clear: both; background: #2970b7; color:#fff;}
 .learningtrailInn { max-width: 100%; clear: both; margin: 0 auto; padding: 50px 30px; overflow: hidden;}
@@ -309,11 +309,11 @@ body.layout--single .toc .nav__title i.fa {
 }
 #cssmenu > ul > li:last-child > a span {
     padding: 6px 12px;
-    background: #1779ba;
+    background: #3030FF;
     color: #fff;
-    border-radius: 18px;
-    -moz-border-radius: 18px;
-    -webkit-border-radius: 18px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 
 body.layout--single .sidebar__right.f-nav {
@@ -390,7 +390,7 @@ nav.toc ul.toc__menu li ul {
 .search__toggle {width: 100%; float: none; clear:both; margin: 0 0 20px;}
 .search__toggle {width: 100%; float: none; clear:both; }
 #cssmenu > ul > li:last-child > a {padding:0;}
-#cssmenu > ul > li:last-child > a span { padding: 6px 24px; background: #ec7940; color: #fff; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; width: 100%; float: none; display: block;}
+#cssmenu > ul > li:last-child > a span { padding: 6px 24px; background: #3030FF; color: #fff; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; width: 100%; float: none; display: block;}
 .learningTrailsBottomInn ul li h4 { white-space: nowrap; width: 100%; overflow: hidden; text-overflow: ellipsis;}
 .docFooterBottomInn {font-size: 11px; font-weight: 500;}
 .layout--archive-taxonomy .sidebar.sticky, .body.layout--single .sidebar.sticky, .sidebar {background:#f1ecec; padding:15px;}
@@ -477,7 +477,7 @@ body.layout--single .sticky {top: 0; padding: 24px 15px 15px; height: calc(120vh
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', 'Open Sans', sans-serif;
 }
 img {
     display: block;
@@ -560,12 +560,12 @@ a {
     color: #fff;
     padding: 80px 0;
     text-align: center;
-    border:0;
+    border: 0;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#25282a+1,000000+100 */
     background: #25282a; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #25282a 1%, #000000 100%); /* FF3.6-15 */
     background: -webkit-radial-gradient(center, ellipse cover, #25282a 1%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center, #25282a 1%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: radial-gradient(ellipse at center, #25282a 1%,#3b4972 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25282a', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     -webkit-box-shadow: inset 0px 0px 23px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 23px -7px rgba(0,0,0,0.75);
