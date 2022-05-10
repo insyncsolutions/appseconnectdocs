@@ -14,7 +14,7 @@ permalink: /
 		#results
 		{
 			position: absolute;
-			top: 150px;
+			top: 180px;
 			left: 0px;
 			background: white; 
 			z-index: 1;
@@ -22,6 +22,14 @@ permalink: /
 			font-size: small;
 			overflow: scroll;
 			overflow-x: hidden;
+		}
+		.list__item:hover{
+			background-color: #eee;
+			cursor:pointer;
+		}
+		.header-question{
+			font-size: 24px !important;
+			font-weight: 600;
 		}
 		.results__found{
 			display:none;
@@ -35,8 +43,9 @@ permalink: /
 			width:100% !important;
 			font-style: italic;
 			margin:0 auto 0px !important;
-		}
+		} 
 	</style>
+	
 </head>
 
 <body class="layout--{{ page.layout | inner: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | inner: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -55,12 +64,12 @@ permalink: /
         <div class="aec-container">
             <h1>WELCOME TO <span>APPSeCONNECT</span> DOCS</h1>
             <div data-aos="fade-up">
-                <p>docs.appseconnect.com is the central hub of knowledge and information for APPSeCONNECT Documentation which is dedicated for end users, developers, partners and IT professionals. Feel free to check out our latest tutorials, e-Books, API references and code examples.</p>
+                <p>docs.appseconnect.com is the central hub of knowledge and information for APPSeCONNECT Documentation which is dedicated for end users, developers, partners and IT professionals.</p>
+				<p class="header-question">What are you looking for?</p>
                 <div>
 					<form class="form-search">
-					  <input type="input" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-					</form>
-
+						<input type="input" id="search" class="search-input search-font" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Type to search from document repository...' }}" />
+					</form> 
 					<div id="results" class="hideBox" style="height:150px;"></div>
 				</div>
 				<br/>
@@ -149,6 +158,11 @@ permalink: /
 		
     {% endif %}
     {% include scripts.html %}
-
+	<script type="text/javascript">
+	  $(document).on('click', 'div[data-url]', function(){
+			var url = $(this).data('url');
+			location.href = url;
+	  });
+	</script>
 </body>
 </html>
