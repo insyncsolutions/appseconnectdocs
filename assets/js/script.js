@@ -85,7 +85,7 @@ $(document).ready(function () {
             menu.addClass('open');
         }
     });
-    $(window).scroll(onScrollCallback);
+    $(window).scroll(onScrollCallback); 
 });
 window.onpopstate = function (e) {
     if (e.srcElement.location.hash.startsWith('#')) {
