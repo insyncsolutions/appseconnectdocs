@@ -7,100 +7,94 @@ menus:
     environment:
         title: "Environment Management"
         icon: fa fa-cloud-download
-        weight: 7
-        
+        weight: 2
 ---
+
 ## Pre-requisites
 
 * To visit the ENVIRONMENT page in portal, navigate to **Deploy > Environments.**
-* It is recommended that user should upgrade/install the latest Agent from cloud. Even though we are backward compatible, and older Agents can still communicate with server, we still ask users to upgrade to get full flavour of new features. 
-* Users having On Premise agents upto **4.3.0.12** will be considered as Old Agents. Users having On Premise agent version **4.4.0.0 and more** will be considered as new agents. 
-* You must have Environment Management privilege to perform actions on the Environment Settings panel.
-* By default, on landing up on the environment page, you will be selected with the hosted section. Scroll below to view more details on the Hosted section.
-* Enviroments that are available on your organisation, will have the indicators that displays whether the agents are active or inactive for an On-Premise agent.
-    - RED indicator - Agent is either detached or inactive.
-    - BLUE indicator - Agent is up and Running.
-* The will be no colour indicators for an Hosted Agent.
-* You can group your On-Premise environments by creating Folders. The Folder names can have maximum of 100 letter counts.
-* The view for the **[Last Deployment Log](/deployment/Environment-Management/#last-deployment-log)** is same for both Hosted and On-Premise environment.
+* It is recommended that user should upgrade/install the latest Agent from cloud. Even though we are backward compatible, and older Agents can still communicate with server, we still ask users to upgrade to get full flavour of new features.    
+* Users having On-Premise agents upto **4.3.0.12** will be considered as Old Agents. Users having On-Premise agent version **4.4.0.0 and more** will be considered as new agents.    
+* You must have Environment Management privilege to perform actions on the Environment Settings panel.   
+* By default, on landing up on the environment page, you will be selected with the On-Premise section. Scroll below to view more details on the On-Premise section.       
+* Enviroments that are available on your organisation, will have the indicators that displays whether the agents are active or inactive for an On-Premise agent.       
+    - RED indicator - Agent is either detached or inactive.   
+    - BLUE indicator - Agent is up and running.   
+* The will be no colour indicators for an Hosted Agent.    
+* You can group your On-Premise environments by creating Folders. The Folder names can have maximum of 100 letter counts.    
+* The view for the **[Last Deployment Log](/deployment/Environment-Management/#last-deployment-log)** is same for both Hosted and On-Premise environment.   
 
 ## On-Premise
 
-By default, you will be on the On-Premise section, when landing in the environment page. This section will allow you to know about the On-Premise environments that will be installed on your local server for executing the sync processes.
+By default, you will be on the On-Premise section, when landing in the environment page. This section will allow you to know about the On-Premise environments that will be installed on your local server for executing the sync processes.   
 
-1) If you are a new user and if you do not have any On-Premise Environment installed, you would get the following view.
+1) If you are a new user and if you do not have any On-Premise Environment installed, you would get the following view.  
 
-![openv1](\staticfiles\deployment\media\EasyEnv\openv1.PNG)
+![openv1](/staticfiles/deployment/media/EasyEnv/openv1.png)
 
-However, clicking the **DOWNLOAD** button will start the download process the On-Premise environment. [Click Here](/deployment/Deployment-Configuration/#on-premise-agent-configuration) to know more about its installation process.
+However, clicking the **DOWNLOAD** button will start the download process of the On-Premise environment. [Click Here](/deployment/Deployment-Configuration/#on-premise-agent-configuration) to know more about its installation process.
 
 2) If you already have the On-Premise agents installed, you will be getting the following view. [Click Here](/deployment/Environment-Management/#on-premise-environment-details-page) to know more about the On-Premise environment details page.
 
-![openv2](\staticfiles\deployment\media\EasyEnv\openv2.PNG)
+![openv2](/staticfiles/deployment/media/EasyEnv/openv2.png)
 
-To upgrade the On-Premise agent to the latest version, you will be required to download the latest agent. For more details on upgrading to the latest agent, [Click Here](/deployment/upgradation-and-migration/).
-
-**Note: To upgrade the On-Premise agent to the latest version, you will be required to download the latest agent. For more details on upgrading to the latest agent, [Click Here](/deployment/upgradation-and-migration/).**
+**Note : To upgrade the On-Premise agent to the latest version, you will be required to download the latest agent. For more details on upgrading to the latest agent, [Click Here](/deployment/upgradation-and-migration/).**
 
 ### On-Premise Environment Details page
 
-This section of the document will allow you to view and understand the details of your On Premise environments.
+This section of the document will allow you to view and understand the details of your On Premise environments. Click on the On-Premise environment, you will be able to view the following tabs : **Process Flows**, **Properties**,  **Plugins**, **Settings**, **Rules**.   
 
-1) Click on the OP environment. You will be able to view the following tabs: **Properties** , **Process Flows**, **Plugins** , **Settings**. By default the properties tab will be displayed.
-
-![opdetails1](\staticfiles\deployment\media\EasyEnv\opdetails1.PNG)
-
-#### Properties Tab
-
-1) Click on the **Properties** tab, you will able to view the live architectural details of your On-Premise environment. The follwoing details will be displayed.
-
-* Architecture in use
-* The latest agent deployment version for the selected environment
-* Agent last restart time is default 03:49 for all organizations who are using OP Agent. On its restart, the Enable Environment(Autosync) should also restart automatically. However, you can view a dynamic time of agent restart if restarted manually. The time that would be displayed will be your browser time. 
-* APPSeCONNECT directory free space available
-* CPU and Memory Usage display the dynamic data depending on the consumption rate.
-* Agent Installation directory path
-* Date of Agent Installation
-* Agent Logs - These are the dynamic process logs and the notifications, from where one can keep track of Scheduler details, rule that are scheduled and are under execution, service status etc.  
-
-**Note: User can view the log files by double clicking on them.** 
-
-![prop1](\staticfiles\deployment\media\EasyEnv\prop1.PNG)
+![openvdetails1](/staticfiles/deployment/media/EasyEnv/openvdetails1.png)
 
 #### Process Flow Tab
 
-1) Click on the **Process Flows** tab in the Environment Details Page. You can view all the Process Flow those are deployed on that environment. The following are the details that will displayed for deployed Process Flows.
+By default the **Process Flows** tab will be displayed in the Environment Details Page. You can view all the Process Flow those are deployed on that environment. The following are the details that will displayed for deployed Process Flows.
 
-- **Process Flow Name:** The name of the process flow, deployed, will be displayed.
-- **Deployed At:** The last deployment of the process flow will be displayed. The time displayed here will be as per the UTC timezone settings in your organization.
-- **No. of tries:** You will be able to view the count of the number of retries performed.
-- **Status** The status of the attempt of the deployment process (Successful or Unsuccessful) will be displayed.
-- **Actions** The following actions can be formed for each process flows: 
-    - **[Last Deployment Log](/deployment/Environment-Management/#last-deployment-log)** - This will store and enble you to view the log details of the Process Flow Deployment process, deployed previously. If a new deployment is done, the last deployment log will now store the latest logs until any further deployment is done for that process flow.
-    - **[Undeploy](/processflow/deploying-and-executing-processfloww/#undeploy-process-flow-from-environment)** - This will enable you to undeploy a deployed process flow.
-    - **[View Snapshot](/processflow/snapshot-processflow/)**  - This will enable you view the snapshot for a process flow that is executed.
-    - **[Retry](/processflow/retry-processflow/)** - All failed data will be captured in Retry Bucket. You can anytime resync the failed data in **Auto or Manual** mode from this Retry Window.
+- **Process Flow Name :** The name of the process flow, deployed, will be displayed.
+- **Deployed At :** The last deployment of the process flow will be displayed. The time displayed here will be as per the UTC timezone settings in your organization.
+- **No. of tries :** You will be able to view the count of the number of retries performed.
+- **Status :** The status of the attempt of the deployment process (Successful or Unsuccessful) will be displayed.
+- **Actions :** The following actions can be formed for each process flow. 
+    - **[Edit](/processflow/components-of-processflow/)** - This will redirect you to the proccesflow designer page  where you can make any changes to the exsisting ones.   
+    - **[View Snapshot](/processflow/snapshot-processflow/)**  - This will enable you to view the snapshot for a process flow that is executed.   
+    - **[Sync Info](/processflow/retry-processflow/)** - This will provide you the status of the execution as Success or Error.
+    - **[Last Deployment Log](/deployment/Environment-Management/#last-deployment-log)** - This will store and enable you to view the log details of the Process Flow Deployment process, deployed previously. If a new deployment is done, the last deployment log will now store the latest logs until any further deployment is done for that process flow.   
+    - **[Undeploy](/processflow/deploying-and-executing-processflow/#undeploy-processflows-from-environment)** - This will enable you to undeploy a deployed process flow.   
+    - **[Variable](/processflow/working-with-variable/)** - The variables that are used in the node configuration of the processflow will be displayed.    
 
-![opdetails2](\staticfiles\deployment\media\EasyEnv\opdetails2.PNG)
+_**Note :** If your ProcessFlow triggered is of **EVENT** Type, the ACTIONS column will have the option of **ProcessFlow URL** that will display you the Triggered URL of your Organisation._
 
-_**Note:** If your ProcessFlow triggered is of **EVENT** Type, the ACTIONS column will have the Option of **ProcessFlow URL** that will display you the Triggered URL of your Organisation._
+![openvdetails2](/staticfiles/deployment/media/EasyEnv/openvdetails2.png)
 
-![opdetails2.1](\staticfiles\deployment\media\EasyEnv\opdetails2.1.PNG)
+#### Properties Tab
 
+Click on the **Properties** tab, you will able to view the live architectural details of your On-Premise environment. The follwoing details will be displayed.
 
+* Architecture in use.
+* The latest agent deployment version for the selected environment.
+* Last Date when the agent is restarted.
+* APPSeCONNECT directory free space available.
+* CPU and Memory Usage displays the dynamic data depending on the consumption rate.
+* Agent Installation directory path.
+* Date of Agent Installation.
+* Agent Logs - These are the dynamic process logs and the notifications, from where one can keep track of Scheduler details, rule that are scheduled and are under execution, service status etc.  
+
+**Note : User can view the log files by double clicking on them.** 
+
+![prop1](/staticfiles/deployment/media/EasyEnv/prop1.png)
 
 
 #### Plugins Tab
 
-1) Click on the **PLUGINS** tab. You will be able to view the all the plugins available on your On-Premise environment. The following plugins will be listed: **[MySQL](/deployment/MYSQL-plugin-installation/)** , **[OLEDB](/deployment/OLE-db-plugin-installation/)** , **[HANA](/deployment/hana-plugin-installation/)** and **SQLite**.
+On clicking, the **Plugins** tab, you will be able to view all the plugins available on your On-Premise environment. The following plugins will be listed : **[MySQL](/deployment/MYSQL-plugin-installation/)**, **[OLEDB](/deployment/OLE-db-plugin-installation/)** , **[HANA](/deployment/hana-plugin-installation/)** and **SQLite**.    
 
-![opdetails3](\staticfiles\deployment\media\EasyEnv\opdetails3.PNG)
+![opdetails3](/staticfiles/deployment/media/EasyEnv/plugin1.png)
 
 #### Setting Tab
 
-1) Clicking on the **Setting** tabs, you get the following view. This page is only accessible to users who has the privilege to control the settings of On Premise environment.
+Clicking on the **Settings** tab, you get the following view. This page is only accessible to users who has the privilege to control the settings of On-Premise environment.   
 
-**Settings have FIVE available sections for managing OP Agents:**
+**Settings have FIVE available sections for managing OP Agents :**
 
 - [**Retry Setting**](/deployment/Environment-Management/#retry-setting)
 - [**Log Settings**](/deployment/Environment-Management/#log-settings)
@@ -108,103 +102,106 @@ _**Note:** If your ProcessFlow triggered is of **EVENT** Type, the ACTIONS colum
 - [**Pending Timeout Settings**](/deployment/Environment-Management/#pending-timeout-settings) 
 - [**Diagnostic Settings**](/deployment/Environment-Management/#diagnostic-settings)   
 
-![opdetails4](\staticfiles\deployment\media\EasyEnv\opdetails4.PNG)
+![opdetails4](/staticfiles/deployment/media/EasyEnv/openvdetails4.png)
 
-**After saving the changes in settings, the updated information gets auto-reflected in OP Agent.** 
+After saving the changes in settings, the updated information gets auto-reflected in OP Agent.
 
-**Note:**
+**Note :**
 
 - **Any changes done and saved in the environment settings page of the portal, will get updated in the Settings section of the corresponding OP Agent and vice-versa.**
 
 - **The environment details page appears only when the autosync checkbox is enabled and activated in the settings of OP Agent as keeping autosync activated keeps the Agent and the Portal connected.**
 
+#### Rules
+
+If you want to perform **ACITONS** based on the type of the event encountered during agent execution such as 
+Execution Failure, Application Crash, Execution Start, Execution End that can be performed using **APPSeCONNECT** Rules. 
+During the occurrence of any event, the rule against that event if created and its action associated with the rule will be triggered 
+automatically. Click on **Rules** tab, select **Deploy/Undeploy** under the **ACTIONS** and your rule will be activated/de-activated as per your configuration.   
+
+![opdetails5](/staticfiles/deployment/media/EasyEnv/openvdetails5.png)
+
+
 ### Grouping of On-Premise Environments
+
 This section of the document will allow you to Group multiple OP environments in folders. Grouping is initiated to manage and the arrangement of multiple similar elements for distinguishing its exact purpose. In APPSeCONNECT, for On-Premise environments
 , you can group environments in folders as per your requirement. You can view all your created folders on expanding the On-Premise section.
 Follow the process below to create folders for grouping.
 
-1) Navigate to Manage > Environments. Click on the Ellipses (Three Horizontal Dots) beside the On-Premise Node to view the option **Create Folder**.
+1) Navigate to **Deploy > Environments**. Click on the Ellipses (Three Horizontal Dots) beside the On-Premise Node and click on **Add Folder**.    
 
-![opfolder1](\staticfiles\deployment\media\EasyEnv\opfolder1.PNG)
+![opfolder1](/staticfiles/deployment/media/EasyEnv/opfolder1.png)
 
-2) You get the window for providing the name of the folder. The folder would be created with the provided name under the On-Premise section.
+2) You get the window for providing the name of the folder. The folder would be created with the provided name under the On-Premise section.   
 
-![opfolder2](\staticfiles\deployment\media\EasyEnv\opfolder2.PNG)
+![opfolder2](/staticfiles/deployment/media/EasyEnv/opfolder2.png)
 
 3) Expand the On-Premise node, to view your created Folder. Clicking on the folder, you will view following page.
 
-![opfolder3](\staticfiles\deployment\media\EasyEnv\opfolder3.PNG)
+![opfolder3](/staticfiles/deployment/media/EasyEnv/opfolder3.png)
 
 4) You can Drag and drop the OP environments to the folders for easy arrangements.
 
-![opfolder4](\staticfiles\deployment\media\EasyEnv\opfolder4.PNG)
+![opfolder4](/staticfiles/deployment/media/EasyEnv/opfolder4.png)
 
-5) You can perform the following functionalities within a created folder. Click on the Ellipses beside the created folder to view these following option in the context menu.
+5) You can perform the following functionalities within a created folder. Click on the Ellipses beside the created folder to view these following option in the context menu.    
 
-- **Add Folder:** You can add a sub folder to your created folder for micro management of the On-Premise environments.
-- **Rename:** You can anytime RENAME your created folder as per the need of yours.
-- **Delete** In case the folder is not required, you will be able to delete the created folders anytime.
+- **Rename :** You can anytime RENAME your created folder as per the need of yours.
+- **Delete :** In case the folder is not required, you will be able to delete the created folders anytime.
 
-![opfolder5](\staticfiles\deployment\media\EasyEnv\opfolder5.PNG)
+![opfolder5](/staticfiles/deployment/media/EasyEnv/opfolder5.png)
 
-**You can delete your created folders anytime. On its deletion, all the  On-Premise Enviroments under that folder will be unparented and will shift under the main On-Premise folder. All the child folders under it will also get deleted.**
-
+**You can delete your created folders anytime. On its deletion, all the  On-Premise Enviroments under that folder will be unparented and will shift under the main On-Premise folder.** 
 Following the above process you can easily create and group your On Premise Environments.
 
-**Note:**
-
-- You can create to max upto any level when creating folders exculding the main **On-Premise**: On Premise > Folder 1 > Sub folder 1 > Sub folder 2 > Sub folder 3 .......
-- You cannot create Folders, Sub-Folders with same name in your organisation. Each name provided for any folders or sub-folders should be unique.
-- The folder name can have upto 100 letter counts.
+**Note :** The folder name can have upto 100 letter counts.   
 
 
 ## Hosted 
 
-This section will enable you to create an hosted (Cloud) environment. You can view all the related environment details in its [Environment Details page](/deployment/Environment-Management/#hosted-environment-details-page)
+This section will enable you to create a Hosted (Cloud) environment. You can view all the related environment details in its [Environment Details page](/deployment/Environment-Management/#hosted-environment-details-page).
 
-1) If you do not have the support of the Hosted (cloud) environment, you will get the following view. 
+1) If you do not have the support of the Hosted (Cloud) environment, you will get the following view.    
 
-![hostedenv1](\staticfiles\deployment\media\EasyEnv\hostedenv1.PNG)
+![hostedenv1](/staticfiles/deployment/media/EasyEnv/hostedenv1.png)
 
 To enable your organisation with cloud support, [Click here.](/deployment/Deployment-Configuration/#configuration-process-for-cloud)
 
-2) If you have the support of Hosted (cloud) environment on your organisation, yet, you don't have a Hosted environment created, you will get the following view. 
+2) If you have the support of Hosted (Cloud) environment on your organisation, yet, you don't have a Hosted environment created, you will get the following view.    
 
-![hostedenv2](\staticfiles\deployment\media\EasyEnv\hostedenv2.PNG)
+![hostedenv2](/staticfiles/deployment/media/EasyEnv/hostedenv2.png)
 
 [Click here](/deployment/Environment-Management/#create-hosted-environment) to know more about Hosted Environment creation. 
 
-**Note:** There can be scenarios where you may have an hosted environment present, yet clicking on the HOSTED section it displays **Your organisation is not cloud enabled** and
+**Note :** There can be scenarios where you may have an hosted environment present, yet clicking on the HOSTED section it displays **Your organisation is not cloud enabled** and
 your Hosted agent will be in **GREYED form** and clicking on the environment, will also display **Your organisation is not cloud enabled**. For such cases, you will have to enable
 your organisation with HOSTED Support.
 
 ### Create Hosted Environment
 
-This section of the document will help you to create the Hosted (cloud) environment on your organisation, provided your organisation has to be 
-Cloud supported. To enable your organisation with cloud support, [Click here.](/deployment/Deployment-Configuration/#configuration-process-for-cloud)
+This section of the document will help you to create the Hosted (Cloud) environment on your organisation, provided your organisation has to be 
+cloud supported. To enable your organisation with cloud support, [Click here.](/deployment/Deployment-Configuration/#configuration-process-for-cloud)
 
-1) Navigate to Manage > Environment. The Environment page opens.
+1) Navigate to **Deploy > Environments**. The Environment page opens.
 
 2) You will get the following view if you do not have the hosted (cloud) environment created. Click on the **Click Here** button.
 
-![hostedcreate1](\staticfiles\deployment\media\EasyEnv\hostedcreate1.PNG)
+![hostedcreate1](/staticfiles/deployment/media/EasyEnv/hostedcreate1.png)
 
-3) Your Hosted environment will be created automatically. You will be provided with a confirmation message on its successful creation.
+3) Your Hosted environment will be created automatically. You will be provided with a confirmation message on its successful creation. 
+You can also view the created environment in the listing, by expanding the Hosted Node. By default, the name of hosted environment will created as **My-Hosted-Environment**.   
 
-![hostedcreate2](\staticfiles\deployment\media\EasyEnv\hostedcreate2.png)
+![hostedcreate3](/staticfiles/deployment/media/EasyEnv/hostedcreate3.png)
 
-4) You can view the created environment in the listing, by expanding the Hosted Node. By default, the name of hosted environment will created as **My-Hosted-Environment**.
-
-![hostedcreate3](\staticfiles\deployment\media\EasyEnv\hostedcreate3.PNG)
-
-5) Clicking on the created environment, you will be able to view the details page consisting of the following tabs:
+4) Clicking on the created environment, you will be able to view the details page consisting of the following tabs :
 
 - Process Flow -> You will be able to view all the deployed process flows, related snapshots, retry, undeploy etc.
 - Settings -> You can modify and update the environment setting from this tab.
+- Rule -> You can activate/deactivate the rules that are available in your organisation so that the datas are synced can be tracked in any error occurs.  
 
-For more details on the Environment Details page, [Click Here](/deployment/Easy-Environment-Management/#hosted-environment-details-page)
+For more details on the Environment Details page, [Click Here](/deployment/Environment-Management/).  
 
-**Note:**
+**Note :**
 
 - **Every organisation can have only one Hosted environment created.**
 

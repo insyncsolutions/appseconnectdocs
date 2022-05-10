@@ -46,5 +46,5 @@ Steps 1 to 3 is similar to the enviornment setup for OP Agent.
 -	Here Deploying Configuration and Deploy Adapter is equivalent to Update configuration and Update Adapter operation of the agent.
 -	For Deploy Adapter one has to restart the Agent and Autosync in the deployed environment.
 -	Upon Unblocking an agent, one must restart the Agent and Autosync in the deployed environment.
--	Upon setting a new Agent as primary, You have to restart Agent and Autosync in the deployed environment.
+-	Upon setting a new Agent as primary, you have to restart Agent and Autosync in the deployed environment.
 -	Blocked Agents are considered as the Inactive agents. Agents which are not blocked are the Active Agents.

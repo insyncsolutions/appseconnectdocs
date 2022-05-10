@@ -1,7 +1,7 @@
 ﻿---
 title: "Marketplace"
 description: "Getting access to your one stop solution to packages"
-keywords: "Marketplace, Integration, Global"
+keywords: "Marketplace, Integration, Global, cache,pre-packaged solution,business process integration, business process automation, BPA, appseconnect, monitize, reusability, resunable"
 toc: true
 tag: developers
 category: "Getting Started"
@@ -17,7 +17,7 @@ Time is directly proportional to money. The more you save time, it means the mor
 developed resources, you save time, which means you save money. 
 
 APPSeCONNECT provides a marketplace which lists all the applications and packages, which are built grounds up for the customers to consume 
-readily. The marketplace allows the citizen integrators to present their creations which customers can consume easily to save moeny. 
+readily. The marketplace allows the citizen integrators to present their creations which customers can consume easily to save money. 
 
 ## MarketPlace Overview
 

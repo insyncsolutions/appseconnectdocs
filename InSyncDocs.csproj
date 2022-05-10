@@ -1649,6 +1649,8 @@
     <None Include="_pages\_listcourses\rules.md" />
     <None Include="_pages\_listcourses\touchpoint.md" />
     <None Include="_pages\_listcourses\workflow.md" />
+    <None Include="_posts\Connectors\Application Connectors\Bots\2022-05-04-configuring-teams-bot .md" />
+    <None Include="_posts\Connectors\Application Connectors\Bots\2022-05-03-bots.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-04-components-of-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-25-Working-with-functions.md" />
     <None Include="_posts\Release-Notes\2022\Q1\2022-04-23-2022.md" />
