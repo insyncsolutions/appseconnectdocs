@@ -7,7 +7,7 @@ menus:
     plugins:
         title: "MYSQL"
         icon: fa fa-deployment
-        weight: 7
+        weight: 9
         identifier: mysqlplugin
 ---
 Working with MySQL Database requires MySQL Plugin that needs to be installed in the agent. 

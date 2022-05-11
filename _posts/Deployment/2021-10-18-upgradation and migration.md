@@ -6,7 +6,7 @@ category: "Deployment"
 menus:
     deployment: 
         icon: fa fa-gg
-        weight: 16
+        weight: 11
         title: "Upgradation & Migration"
         identifier: upgradationmigration              
 ---

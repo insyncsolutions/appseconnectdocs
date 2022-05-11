@@ -7,7 +7,7 @@ menus:
     plugins:
         title: "OLE"
         icon: fa fa-deployment
-        weight: 9
+        weight: 10
         identifier: oleplugin
 ---
 Plugin for AEC Database of Agent to Support any DBMS at client side/client server such that AEC can support databases like MS SQL, Oracle, etc. for keeping the log 

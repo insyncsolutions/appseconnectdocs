@@ -496,7 +496,7 @@
     <Content Include="staticfiles\deployment\media\EasyEnv\hosteddetails3.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\hostedenv1.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\hostedenv2.PNG" />
-    <Content Include="staticfiles\deployment\media\EasyEnv\lastdeploylogs1.PNG" />
+    <Content Include="staticfiles\deployment\media\EasyEnv\lastdeploylogs.png" />
     <Content Include="staticfiles\deployment\media\EasyEnv\opdetails1.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\opdetails2.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\opdetails3.PNG" />
@@ -1911,11 +1911,11 @@
     <None Include="_posts\Deployment\2018-12-10- settings.md" />
     <None Include="_posts\Deployment\2021-10-01-overview-deployment.md" />
     <None Include="_posts\Deployment\gettingstarted-with-deployment.md" />
-    <None Include="_posts\Deployment\Transactional Stores\2018-11-21-hana-plugin-installation.md" />
-    <None Include="_posts\Deployment\Transactional Stores\2018-11-23-OLE-db-plugin-installation.md" />
-    <None Include="_posts\Deployment\Transactional Stores\2018-11-22-MYSQL-plugin-installation.md" />
-    <None Include="_posts\Deployment\Transactional Stores\2018-11-20-Overview of Plugin.md" />
-    <None Include="_posts\Deployment\2022-04-02-upgradation and migration.md" />
+    <None Include="_posts\Deployment\Transactional Stores\2021-10-20-hana-plugin-installation.md" />
+    <None Include="_posts\Deployment\Transactional Stores\2021-10-22-OLE-db-plugin-installation.md" />
+    <None Include="_posts\Deployment\Transactional Stores\2021-10-21-MYSQL-plugin-installation.md" />
+    <None Include="_posts\Deployment\Transactional Stores\2021-10-19-Overview of Plugin.md" />
+    <None Include="_posts\Deployment\2021-10-18-upgradation and migration.md" />
     <None Include="_posts\Integration\2019-04-11-overview.md" />
     <None Include="_posts\Integration\NAV-Magento2 Multiconnection\2019-01-11-simple-productadd.md" />
     <None Include="_posts\Integration\NAV-Magento2 Multiconnection\2019-02-11-simpleprdct-update.md" />

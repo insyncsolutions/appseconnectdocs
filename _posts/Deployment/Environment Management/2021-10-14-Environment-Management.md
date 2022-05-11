@@ -1,5 +1,7 @@
 ---
 title: "Environment Management"
+description: "Manage environments for your organization from APPSeCONNECT Web."
+keywords: "On-Premise, Grouping of On-Premise Environments, hosted, Create Hosted Environment, Hosted Environment Details page, SETTINGS tab, Manage Control of Environments, Detaching and Deleting the Environments, Attach and Detach of environments, Deleting Environments, Last Deployment Log, Environment View for old Agents"
 toc: true
 tag: developers
 category: "Deployment"
@@ -211,61 +213,63 @@ For more details on the Environment Details page, [Click Here](/deployment/Envir
 
 ### Hosted Environment Details page
 
-You will be able to view this page only when you have your hosted environment created. Clicking on the Hosted environment, you can view the details page. For **My Hosted Environment**, you will not have the **Properties Tab** as provided for an On-Premise Environment.
+You will be able to view this page only when you have your hosted environment created. Clicking on the Hosted environment, you can view the details page. For **My Hosted Environment**, you will not have the **Properties Tab** as provided for an On-Premise Environment.   
 
-![hosteddetails1](\staticfiles\deployment\media\EasyEnv\hosteddetails1.PNG)
+![hosteddetails1](/staticfiles/deployment/media/EasyEnv/hosteddetails1.png)
 
-1) Clicking on the Hosted environment, will provide you with TWO tabs: **Process Flows** and **Settings**.
+1) Clicking on the Hosted environment, you will be provided with THREE tabs : **Process Flows**, **Settings** and **Rules**.   
 
-2) Clicking on the **Process Flow Tab** You can view all the Process Flow those are deployed on that environment. 
-The following are the details that will displayed for deployed Process Flows. 
-- **Process Flow Name:** The name of the process flow, deployed, will be displayed.
-- **Deployed At:** The last deployment of the process flow will be displayed.
-- **No. of tries:** You will be able to view the count of the number of retries performed.
-- **Status** The status of the attempt of the deployment process (Successful or Unsuccessful) will be displayed.
-- **Actions** The following actions can be formed for each process flows: 
-    - **[Last Deployment Log](/deployment/Environment-Management/#last-deployment-log)** - This will store and enble you to view the log details of the Process Flow Deployment process, deployed previously. If a new deployment is done, the last deployment log will now store the latest logs until any further deployment is done for that process flow.
-    - **[Undeploy](/processflow/deploying-and-executing-processfloww/#undeploy-process-flow-from-environment)** - This will enable you to undeploy a deployed process flow.
-    - **[View Snapshot](/processflow/snapshot-processflow/)**  - This will enable you view the snapshot for a process flow that is executed.
-    - **[Retry](/processflow/retry-processflow/)** - All failed data will be captured in Retry Bucket. You can anytime resync the failed data in **Auto or Manual** mode from this Retry Window.
+2) Clicking on the **Process Flows Tab**. You can view all the Process Flow those are deployed on that environment. 
+The following are the details that will be displayed for deployed Process Flows. 
+- **Process Flow Name :** The name of the process flow, deployed, will be displayed.   
+- **Deployed At :** The last deployment of the process flow will be displayed.     
+- **No. of tries:** You will be able to view the count of the number of retries performed.    
+- **Status** : The status of the attempt of the deployment process (Successful or Unsuccessful) will be displayed.  
+- **Actions** : The following actions can be formed for each process flows. 
+    - **[Edit](/processflow/components-of-processflow/)** - This will redirect you to the proccesflow designer page  where you can make any changes to the exsisting ones. 
+    - **[View Snapshot](/processflow/snapshot-processflow/)**  - This will enable you to view the snapshot for a process flow that is executed.   
+    - **[Sync Info](/processflow/retry-processflow/)** - This will provide you the status of the execution as Success or Error.  
+    - **[Last Deployment Log](/deployment/Environment-Management/#last-deployment-log)** - This will store and enable you to view the log details of the Process Flow Deployment process, deployed previously. If a new deployment is done, the last deployment log will now store the latest logs until any further deployment is done for that process flow.
+    - **[Undeploy](/processflow/deploying-and-executing-processflow/#undeploy-processflows-from-environment)** - This will enable you to undeploy a deployed process flow. 
+    - **[Variable](/processflow/working-with-variable/)** - The variables that are used in the node configuration of the processflow will be displayed. 
 
-![hosteddetails3](\staticfiles\deployment\media\EasyEnv\hosteddetails3.PNG)  
+![hosteddetails3](/staticfiles/deployment/media/EasyEnv/hosteddetails3.png)  
 
 _**Note:** If your ProcessFlow triggered is of **EVENT** Type, the ACTIONS column will have the Option of **ProcessFlow URL** that will display you the Triggered URL of your Organisation._
 
-![hosteddetails3.1](\staticfiles\deployment\media\EasyEnv\hosteddetails3.1.PNG)
 
 3) You will be able to view the following section when clicked on the [**Settings**](/deployment/Environment-Management/#settings-tab-on-details-page-hosted--on-premise) tab. You can view the following settings panel in the page.
 
-- **[Retry Settings](/deployment/Environment-Management/#retry-setting):** - This will enable you to configure the retry/resync of the integration process if executed on this environment. The following configuration can be made in the retry section.
-- **[Log Settings](/deployment/Environment-Management/#log-settings):** You can control the way you want to view and store the logs for every execution on you hosted environment.
-- **[Pending Timeout Settings](/deployment/Environment-Management/#pending-timeout-settings)** - Users will be provided with the **Frequency of Pending Timeout** field in which users can provide with a timeout time period for a pending deployment process to suspend.
+- **[Retry Settings](/deployment/Environment-Management/#retry-setting)** - This will enable you to configure the retry/resync of the integration process if executed on this environment. The following configuration can be made in the retry section.  
+- **[Log Settings](/deployment/Environment-Management/#log-settings)** - You can control the way you want to view and store the logs for every execution on you hosted environment.    
+- **[Pending Timeout Settings](/deployment/Environment-Management/#pending-timeout-settings)** - Users will be provided with the **Frequency of Pending Timeout** field in which users can provide with a timeout time period for a pending deployment process to suspend.    
    
-![hosteddetails2](\staticfiles\deployment\media\EasyEnv\hosteddetails2.PNG)  
+![hosteddetails2](/staticfiles/deployment/media/EasyEnv/hosteddetails2.png)  
 
-Following the above process, you can easily view and update the details of the Hosted agent.
+Following the above process, you can easily view and update the details of the Hosted agent.  
 
-## SETTINGS tab on Details Page: Hosted & On-Premise
+## SETTINGS tab on Details Page for Hosted & On-Premise Agent
+
 Configurations for the **SETTINGS** tab remains same for both **[On-Premise](/deployment/Environment-Management/#on-premise-environment-details-page)** & **[Hosted](/deployment/Environment-Management/#hosted-environment-details-page)** Environment details page.
-The following configuration can be applied on the SETTINGS page for either of the chosen environment: On-Premise or Hosted.
+The following configuration can be applied on the SETTINGS page for either of the chosen environment : On-Premise or Hosted.
 
-**Note: For [Hosted Agents Settings](/deployment/Environment-Management/#hosted-environment-details-page), only Three Settings are available - Retry, Log & Prending Timeout Settings.** 
+**Note : For [Hosted Agents Settings](/deployment/Environment-Management/#hosted-environment-details-page), only Three Settings are available - Retry, Log & Prending Timeout Settings.** 
 
 ### Retry Setting 
 - One can schedule resync of failed integrations, where you can provide the start time, no. of iterations and batch size for each resync. Default frequency is daily. To make the resync schedule active,
-you must activate Retry transaction. The followign configuration can be made in the Retry Settings Panel.
-    - Frequency: This is a static field and is for the schedule period for the Resync to happen. By default, its configured as Daily.
-    - Start Time: This is a customizable field for the user. It defines the start time of the Resync Process.
-    - Execute For: This a time span as for how long the Resync process will occur. The span is processed in hours and users can customize it as per their requirement. By default, its configured as 0.
-    - Batch Size: This field states, the no of data in a batch to be resynced. The Default value is 10 but the users are open to customize as per their requirement.
+you must activate Retry transaction. The following configuration can be made in the Retry Settings Panel.
+    - Frequency : This is a static field and is for the schedule period for the Resync to happen. By default, its configured as Daily.
+    - Start Time : This is a customizable field for the user. It defines the start time of the Resync Process.
+    - Execute For : This a time span as for how long the Resync process will occur. The span is processed in hours and users can customize it as per their requirement. By default, its configured as 0.
+    - Batch Size : This field states, the no of data in a batch to be resynced. The Default value is 100 but the users are open to customize as per their requirement.
 
 ### Log Settings 
 
 * You can control the way you want to view and store the log in OP Agent from portal now. The following configurations can be performed in the Log Settings Panel. 
-    - Log in Detail: Detailed log would be fetched as per the sync is processed.
-    - Log in Database: The log fetched, would be stored in the database.
-    - Set target for: Users can filter the failed sync based on Error, Info and Status.
-    - Severity Level: Users can filter the error logs based on the severity level of the errors generated. The severity level is categorized into Medium, High & Critical. 
+    - Log in Detail : Detailed log would be fetched as per the sync is processed.
+    - Log in Database : The log fetched, would be stored in the database.
+    - Set target for : Users can filter the failed sync based on Error, Info and Status.
+    - Severity Level : Users can filter the error logs based on the severity level of the errors generated. The severity level is categorized into Medium, High & Critical. 
 
 ### Real Time Settings 
 - Users can provide the Realtime details when working with APPSeCONNECT API Management. Users need to provide the Hostname and the Port for the RealTime Execution.    
@@ -275,104 +279,104 @@ you must activate Retry transaction. The followign configuration can be made in 
 - Users will be provided with the **Frequency of Pending Timeout** field in which users can provide with a timeout time period for a pending deployment process to suspend.
 The default time period of the **Frequency of Pending Timeout** field is **5 mins**. Users can configure upto 60 mins. You cannot provide the Timeout time less than 5mins.
 
-![pendingtimeout1](\staticfiles\deployment\media\EasyEnv\pendingtimeout1.PNG)
+![pendingtimeout1](/staticfiles/deployment/media/EasyEnv/pendingtimeout1.png)
 
 
 ### Diagnostic Settings 
-- You can turn the Diagnostic mode on, from portal itself. Once the its active, all the transaction and process 
+
+- You can turn the Diagnostic mode on, from portal itself. Once its active, all the transaction and process 
 files will get available in Agent and service path as shown in the image.  
 
 Diagnostic Settings is provided with two output paths:
 
-a)	Agent Output Path: This path provides the details of the transformed files when triggered manually.         
-b)	Service Output Path: Service path provides the details of the transformed files when triggered through Autosync.       
+a)	Agent Output Path : This path provides the details of the transformed files when triggered manually.         
+b)	Service Output Path : Service path provides the details of the transformed files when triggered through Autosync.       
 
-![opdetails5](\staticfiles\deployment\media\EasyEnv\opdetails5.PNG)
+![opdetails5](/staticfiles/deployment/media/EasyEnv/diagsetting.png)
 
-**Note: For [Hosted Agents Settings](/deployment/Environment-Management/#hosted-environment-details-page), only Three Settings are available - Retry, Log & Prending Timeout Settings.** 
 
 ## Manage Control of Environments
 
-Managing Control over an Environment is an eesential requirement that depicts which environment is set as PRIMARY. As Workflow are deployed only to the environments which are set as PRIMARY.
-Therefore, users needs to manage control of their environment. This section of the document will allow you to manage the control of your environments be it the **HOSTED** or **On-Premise**
+Managing Control over an Environment is an esential requirement that depicts which environment is set as **PRIMARY**. As Processflow are deployed only to the environments which are set as **PRIMARY**. 
+Therefore, users needs to manage control of their environment. This section of the document will allow you to manage the control of your environments be it the **HOSTED** or **On-Premise**.  
 
-1) Navigate to Manage > Environments and click on the environment which you are required to control. 
+1) Navigate to **Deploy > Environments** and click on the environment which you are required to control. 
 
-2) You get to view the Environment Details Page of your selected environment (either [HOSTED](/deployment/Easy-Environment-Management/#hosted-environment-details-page) or [On-Premise](/deployment/Easy-Environment-Management/#on-premise-environment-details-page))
+2) You get to view the Environment Details Page of your selected environment (either [HOSTED](/deployment/Easy-Environment-Management/#hosted-environment-details-page) or [On-Premise](/deployment/Easy-Environment-Management/#on-premise-environment-details-page)). 
 In this case, On-Premise environment is selected.
 
-3) You are required to click on the checkbox available in the Top-Right corner of the details page. Enabling the checkbox will allow you to control the selected environment.
+3) You are required to click on the checkbox available in the top-right corner of the details page. Enabling the checkbox will allow you to control the selected environment.
 
-![controlenv1](\staticfiles\deployment\media\EasyEnv\controlenv1.PNG)
+![controlenv1](/staticfiles/deployment/media/EasyEnv/controlenv1.png)
 
 4) On enabling, you can confirm your current control status in the environment page itself.
 
-![controlenv2](\staticfiles\deployment\media\EasyEnv\controlenv2.PNG)
+![controlenv2](/staticfiles/deployment/media/EasyEnv/controlenv2.png)
 
 Following the above steps, you can successfully control environments for your organisation.
 
-**Note:**
+**Note :**
 
-- The steps to control an HOSTED environment is same as that mentioned in the above steps.
-- You cannot control multiple environments at the same time for an organisation.
+- The steps to control an HOSTED environment is same as that mentioned in the above steps.   
+- You cannot control multiple environments at the same time for an organisation.  
 
 
 ## Detaching & Deleting the Environments
 
 Environment detachment is a functionality that blocks the Agent from use in that specific environment. 
-This section of the document will allow to attach/detach your environments. You can also DELETE you environments. The processes are given below.
+This section of the document will allow to attach/detach your environments. You can also **DELETE** you environments. The processes are given below.  
 
 ### Attach/Detach of Environments
 
 1) To detach your environment, you need to click on the ellipses (Three horizontal dots) beside the environment name that needs to be detached. Click on the **DETACH** option in the available in the contextual menu.
 
-![detach1](\staticfiles\deployment\media\EasyEnv\detach1.PNG)
+![detach1](/staticfiles/deployment/media/EasyEnv/detach1.png)
 
 2) On detaching the selected environment from Portal, it remains in the list but will be displayed as **Agent is Disconnected** when clicked on it and the status symbol beside the environment would turn **RED**.
 
-![detach2](\staticfiles\deployment\media\EasyEnv\detach2.PNG)
+![detach2](/staticfiles/deployment/media/EasyEnv/detach2.png)
 
 3) Post detachment, if the user tries to re-login to the On-Premise environment, it will display the message, **Agent is Blocked.**
 
-![detach3](\staticfiles\deployment\media\EasyEnv\detach3.png)
+![detach3](/staticfiles/deployment/media/EasyEnv/detach3.png)
 
 4) You can anytime re-attach your On-Premise environment by clicking on the **ATTACH** button in the contextual menu.
 
-![detach4](\staticfiles\deployment\media\EasyEnv\detach4.PNG)
+![detach4](/staticfiles/deployment/media/EasyEnv/detach4.png)
 
-**Note:**
+**Note :**
 
 - **On detaching the Agent from portal, the On-Premise Agent automatically gets shut down.**
-- **Detached Agents, needs to be reattached from the portal for further logging in to it.**
+- **Detached Agents, needs to be re-attached from the portal for further logging in to it.**
 - **Users can anytime delete and detach/attach an inactive agent in the portal.** 
 
 ### Deleting Environments
 
-You can now directly delete environments that are no longer in use from the listing itself. As soon as you perform delete from portal, the OP Agent instance (active/inactive) gets auto-removed from the local environment and all the associated licenses will get removed.
+You can now directly delete environments that are no longer in use from the listing itself. As soon as you perform delete from portal, the OP Agent instance (active/inactive) gets auto-removed from the local environment and all the associated licenses will get removed. 
+All the services and sync operations will get stopped. If any new user or different project user logs in further to the same environment, a new license will be generated against it. Follow the below steps to delete an environment (On-Premise or HOSTED).   
 
-All the services and sync operations will get stopped. If any new user or different project user logs in further to the same environment, a new license will be generated against it. Follow the below steps to delete an environment (On-Premise or HOSTED).
+1) Navigate to **Deploy > Environments**.
 
-1) Navigate to Manage > Environments.
+2) Click on the ellipses of the environment (On-Premise or HOSTED) which you want to delete. Click on the **DELETE** button in the context menu that appears.  
 
-2) Click on the ellipses of the environment (On-Premise or HOSTED) which you want to delete. Click on the DELETE button in the context menu that appears.
-
-![delete1](\staticfiles\deployment\media\EasyEnv\delete1.png)
+![delete1](/staticfiles/deployment/media/EasyEnv/delete1.png)
 
 3) You will get a confirmation pop-up before the deletion process.
 
-![delete2](\staticfiles\deployment\media\EasyEnv\delete2.PNG)
+![delete2](/staticfiles/deployment/media/EasyEnv/delete2.png)
 
-4) Once deleted, user get a successful message for the deletion of the environment. The environment gets removed from the environment list after the deletion process.
+4) Once deleted, user get a successful message for the deletion of the environment. The environment gets removed from the environment list after the deletion process.  
 
-**Note: If a user has relogged in to a deleted Agent from the portal, 
+**Note : If a user has relogged in to a deleted Agent from the portal, 
 the deleted agent now will be visible in attached mode in the portal.**
+
 
 ## Last Deployment Log
 
 This feature will store and will enable the user to view the stored deployment logs of the Process Flows, which was previously deployed. Clicking on the **Last Deployment Log** button, you can view the following details.
 - **Process Flow Name** - The Process Flow name will be displayed whose **Last deployment log** window is opened. 
 
-- **Environment Name** - You will be displayed with the environment to which the process flow is deployed. The window of the **Last Deployment Log** will remain the same 
+- **Environment Name** - You will be displayed with the environment to which the process flow is deployed. The window of the **Last Deployment Log** will remain the same. 
 
 - **Deployment Status** - The status of the Deployment will be displayed to the user. The status can either **Successful**, **Unsuccessful** or **Pending**. For more details on unfinished deployments, [Click Here](/processflow/unfinished-deployment/) 
 
@@ -382,11 +386,11 @@ This feature will store and will enable the user to view the stored deployment l
 
 - **Last Deployment Log** - This section will display you the deployment logs, deployed previously.
 
-**Note: The view for the Last Deployment Log is same for both Hosted and On-Premise environment.**
+**Note : The view for the Last Deployment Log is same for both Hosted and On-Premise environment.**
 
-![lastdeploylogs](\staticfiles\deployment\media\EasyEnv\lastdeploylogs1.PNG)
+![lastdeploylogs](/staticfiles/deployment/media/EasyEnv/lastdeploylogs.png)
 
-**NOTE:The time displayed in last deployed log is similar to the UTC time set for the organization [timezone]()**
+**NOTE :The time displayed in last deployed log is similar to the UTC time set for the organization.**
 
 ## Environment View for Old Agents
 

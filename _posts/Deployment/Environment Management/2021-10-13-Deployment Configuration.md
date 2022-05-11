@@ -1,5 +1,7 @@
 ---
 title: "Deployment Configuration"
+description: "Get to know the hosted as well as On-Premise agent configuration."
+keywords: "Cloud Agent Configuration, On-Premise Agent Configuration, Agent Configuration"
 toc: true
 tag: developers
 category: "Deployment"
