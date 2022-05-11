@@ -32,13 +32,13 @@ By default, you will be on the On-Premise section, when landing in the environme
 
 1) If you are a new user and if you do not have any On-Premise Environment installed, you would get the following view.  
 
-![openv1](/staticfiles/deployment/media/EasyEnv/openv1.png)
+![openv1](/staticfiles/deployment/media/EasyEnv/openv1.PNG)
 
 However, clicking the **DOWNLOAD** button will start the download process of the On-Premise environment. [Click Here](/deployment/Deployment-Configuration/#on-premise-agent-configuration) to know more about its installation process.
 
 2) If you already have the On-Premise agents installed, you will be getting the following view. [Click Here](/deployment/Environment-Management/#on-premise-environment-details-page) to know more about the On-Premise environment details page.
 
-![openv2](/staticfiles/deployment/media/EasyEnv/openv2.png)
+![openv2](/staticfiles/deployment/media/EasyEnv/openv2.PNG)
 
 **Note : To upgrade the On-Premise agent to the latest version, you will be required to download the latest agent. For more details on upgrading to the latest agent, [Click Here](/deployment/upgradation-and-migration/).**
 
@@ -83,7 +83,7 @@ Click on the **Properties** tab, you will able to view the live architectural de
 
 **Note : User can view the log files by double clicking on them.** 
 
-![prop1](/staticfiles/deployment/media/EasyEnv/prop1.png)
+![prop1](/staticfiles/deployment/media/EasyEnv/prop1.PNG)
 
 
 #### Plugins Tab
@@ -132,26 +132,26 @@ Follow the process below to create folders for grouping.
 
 1) Navigate to **Deploy > Environments**. Click on the Ellipses (Three Horizontal Dots) beside the On-Premise Node and click on **Add Folder**.    
 
-![opfolder1](/staticfiles/deployment/media/EasyEnv/opfolder1.png)
+![opfolder1](/staticfiles/deployment/media/EasyEnv/opfolder1.PNG)
 
 2) You get the window for providing the name of the folder. The folder would be created with the provided name under the On-Premise section.   
 
-![opfolder2](/staticfiles/deployment/media/EasyEnv/opfolder2.png)
+![opfolder2](/staticfiles/deployment/media/EasyEnv/opfolder2.PNG)
 
 3) Expand the On-Premise node, to view your created Folder. Clicking on the folder, you will view following page.
 
-![opfolder3](/staticfiles/deployment/media/EasyEnv/opfolder3.png)
+![opfolder3](/staticfiles/deployment/media/EasyEnv/opfolder3.PNG)
 
 4) You can Drag and drop the OP environments to the folders for easy arrangements.
 
-![opfolder4](/staticfiles/deployment/media/EasyEnv/opfolder4.png)
+![opfolder4](/staticfiles/deployment/media/EasyEnv/opfolder4.PNG)
 
 5) You can perform the following functionalities within a created folder. Click on the Ellipses beside the created folder to view these following option in the context menu.    
 
 - **Rename :** You can anytime RENAME your created folder as per the need of yours.
 - **Delete :** In case the folder is not required, you will be able to delete the created folders anytime.
 
-![opfolder5](/staticfiles/deployment/media/EasyEnv/opfolder5.png)
+![opfolder5](/staticfiles/deployment/media/EasyEnv/opfolder5.PNG)
 
 **You can delete your created folders anytime. On its deletion, all the  On-Premise Enviroments under that folder will be unparented and will shift under the main On-Premise folder.** 
 Following the above process you can easily create and group your On Premise Environments.
@@ -165,13 +165,13 @@ This section will enable you to create a Hosted (Cloud) environment. You can vie
 
 1) If you do not have the support of the Hosted (Cloud) environment, you will get the following view.    
 
-![hostedenv1](/staticfiles/deployment/media/EasyEnv/hostedenv1.png)
+![hostedenv1](/staticfiles/deployment/media/EasyEnv/hostedenv1.PNG)
 
 To enable your organisation with cloud support, [Click here.](/deployment/Deployment-Configuration/#configuration-process-for-cloud)
 
 2) If you have the support of Hosted (Cloud) environment on your organisation, yet, you don't have a Hosted environment created, you will get the following view.    
 
-![hostedenv2](/staticfiles/deployment/media/EasyEnv/hostedenv2.png)
+![hostedenv2](/staticfiles/deployment/media/EasyEnv/hostedenv2.PNG)
 
 [Click here](/deployment/Environment-Management/#create-hosted-environment) to know more about Hosted Environment creation. 
 
@@ -188,12 +188,12 @@ cloud supported. To enable your organisation with cloud support, [Click here.](/
 
 2) You will get the following view if you do not have the hosted (cloud) environment created. Click on the **Click Here** button.
 
-![hostedcreate1](/staticfiles/deployment/media/EasyEnv/hostedcreate1.png)
+![hostedcreate1](/staticfiles/deployment/media/EasyEnv/hostedcreate1.PNG)
 
 3) Your Hosted environment will be created automatically. You will be provided with a confirmation message on its successful creation. 
 You can also view the created environment in the listing, by expanding the Hosted Node. By default, the name of hosted environment will created as **My-Hosted-Environment**.   
 
-![hostedcreate3](/staticfiles/deployment/media/EasyEnv/hostedcreate3.png)
+![hostedcreate3](/staticfiles/deployment/media/EasyEnv/hostedcreate3.PNG)
 
 4) Clicking on the created environment, you will be able to view the details page consisting of the following tabs :
 
@@ -215,7 +215,7 @@ For more details on the Environment Details page, [Click Here](/deployment/Envir
 
 You will be able to view this page only when you have your hosted environment created. Clicking on the Hosted environment, you can view the details page. For **My Hosted Environment**, you will not have the **Properties Tab** as provided for an On-Premise Environment.   
 
-![hosteddetails1](/staticfiles/deployment/media/EasyEnv/hosteddetails1.png)
+![hosteddetails1](/staticfiles/deployment/media/EasyEnv/hosteddetails1.PNG)
 
 1) Clicking on the Hosted environment, you will be provided with THREE tabs : **Process Flows**, **Settings** and **Rules**.   
 
@@ -233,7 +233,7 @@ The following are the details that will be displayed for deployed Process Flows.
     - **[Undeploy](/processflow/deploying-and-executing-processflow/#undeploy-processflows-from-environment)** - This will enable you to undeploy a deployed process flow. 
     - **[Variable](/processflow/working-with-variable/)** - The variables that are used in the node configuration of the processflow will be displayed. 
 
-![hosteddetails3](/staticfiles/deployment/media/EasyEnv/hosteddetails3.png)  
+![hosteddetails3](/staticfiles/deployment/media/EasyEnv/hosteddetails3.PNG)  
 
 _**Note:** If your ProcessFlow triggered is of **EVENT** Type, the ACTIONS column will have the Option of **ProcessFlow URL** that will display you the Triggered URL of your Organisation._
 
@@ -244,7 +244,7 @@ _**Note:** If your ProcessFlow triggered is of **EVENT** Type, the ACTIONS colum
 - **[Log Settings](/deployment/Environment-Management/#log-settings)** - You can control the way you want to view and store the logs for every execution on you hosted environment.    
 - **[Pending Timeout Settings](/deployment/Environment-Management/#pending-timeout-settings)** - Users will be provided with the **Frequency of Pending Timeout** field in which users can provide with a timeout time period for a pending deployment process to suspend.    
    
-![hosteddetails2](/staticfiles/deployment/media/EasyEnv/hosteddetails2.png)  
+![hosteddetails2](/staticfiles/deployment/media/EasyEnv/hosteddetails2.PNG)  
 
 Following the above process, you can easily view and update the details of the Hosted agent.  
 
@@ -279,7 +279,7 @@ you must activate Retry transaction. The following configuration can be made in 
 - Users will be provided with the **Frequency of Pending Timeout** field in which users can provide with a timeout time period for a pending deployment process to suspend.
 The default time period of the **Frequency of Pending Timeout** field is **5 mins**. Users can configure upto 60 mins. You cannot provide the Timeout time less than 5mins.
 
-![pendingtimeout1](/staticfiles/deployment/media/EasyEnv/pendingtimeout1.png)
+![pendingtimeout1](/staticfiles/deployment/media/EasyEnv/pendingtimeout1.PNG)
 
 
 ### Diagnostic Settings 
@@ -307,11 +307,11 @@ In this case, On-Premise environment is selected.
 
 3) You are required to click on the checkbox available in the top-right corner of the details page. Enabling the checkbox will allow you to control the selected environment.
 
-![controlenv1](/staticfiles/deployment/media/EasyEnv/controlenv1.png)
+![controlenv1](/staticfiles/deployment/media/EasyEnv/controlenv1.PNG)
 
 4) On enabling, you can confirm your current control status in the environment page itself.
 
-![controlenv2](/staticfiles/deployment/media/EasyEnv/controlenv2.png)
+![controlenv2](/staticfiles/deployment/media/EasyEnv/controlenv2.PNG)
 
 Following the above steps, you can successfully control environments for your organisation.
 
@@ -330,11 +330,11 @@ This section of the document will allow to attach/detach your environments. You 
 
 1) To detach your environment, you need to click on the ellipses (Three horizontal dots) beside the environment name that needs to be detached. Click on the **DETACH** option in the available in the contextual menu.
 
-![detach1](/staticfiles/deployment/media/EasyEnv/detach1.png)
+![detach1](/staticfiles/deployment/media/EasyEnv/detach1.PNG)
 
 2) On detaching the selected environment from Portal, it remains in the list but will be displayed as **Agent is Disconnected** when clicked on it and the status symbol beside the environment would turn **RED**.
 
-![detach2](/staticfiles/deployment/media/EasyEnv/detach2.png)
+![detach2](/staticfiles/deployment/media/EasyEnv/detach2.PNG)
 
 3) Post detachment, if the user tries to re-login to the On-Premise environment, it will display the message, **Agent is Blocked.**
 
@@ -342,7 +342,7 @@ This section of the document will allow to attach/detach your environments. You 
 
 4) You can anytime re-attach your On-Premise environment by clicking on the **ATTACH** button in the contextual menu.
 
-![detach4](/staticfiles/deployment/media/EasyEnv/detach4.png)
+![detach4](/staticfiles/deployment/media/EasyEnv/detach4.PNG)
 
 **Note :**
 
@@ -363,7 +363,7 @@ All the services and sync operations will get stopped. If any new user or differ
 
 3) You will get a confirmation pop-up before the deletion process.
 
-![delete2](/staticfiles/deployment/media/EasyEnv/delete2.png)
+![delete2](/staticfiles/deployment/media/EasyEnv/delete2.PNG)
 
 4) Once deleted, user get a successful message for the deletion of the environment. The environment gets removed from the environment list after the deletion process.  
 

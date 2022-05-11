@@ -488,9 +488,8 @@
     <Content Include="staticfiles\deployment\media\EasyEnv\detach2.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\detach3.png" />
     <Content Include="staticfiles\deployment\media\EasyEnv\detach4.PNG" />
-    <Content Include="staticfiles\deployment\media\EasyEnv\hostedcreate1.png" />
-    <Content Include="staticfiles\deployment\media\EasyEnv\hostedcreate2.png" />
-    <Content Include="staticfiles\deployment\media\EasyEnv\hostedcreate3.png" />
+    <Content Include="staticfiles\deployment\media\EasyEnv\hostedcreate1.PNG" />
+    <Content Include="staticfiles\deployment\media\EasyEnv\hostedcreate3.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\hosteddetails1.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\hosteddetails2.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\hosteddetails3.PNG" />
