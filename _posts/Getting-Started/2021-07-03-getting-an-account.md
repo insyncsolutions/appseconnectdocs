@@ -8,13 +8,15 @@ category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Getting an Account"
-        weight: 4
+        weight: 3
         icon: fa fa-wpexplorer
         identifier: gettinganaccount
 ---
 
 User registration is the first step to get started with APPSeCONNECT. To work with any of our tools, you need to sign up first and get registered to get the login credentials. 
 In this section, we will provide you details on how to get an account of APPSeCONNECT. There are a number of options you choose from to get an account in APPSeCONNECT. 
+
+![](https://www.youtube.com/watch?v=ZPlZBTkwEKU)
 
 ## Free Trial
 

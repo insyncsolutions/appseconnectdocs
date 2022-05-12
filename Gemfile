@@ -11,6 +11,7 @@ gem "jekyll-menus"
 gem "jekyll-archives"
 gem "jemoji"
 gem "jekyll-spaceship"
+gem 'jekyll-redirect-from'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 

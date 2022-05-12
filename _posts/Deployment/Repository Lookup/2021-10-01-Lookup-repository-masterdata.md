@@ -1,5 +1,5 @@
 ---
-title: "Lookup Repositories"
+title: "LookUp Repositories"
 description: "Create and manage lookups using reference tables and repository collection."
 keywords: "Repository collection, refernece tables, steps to create repository collection, steps to create reference tables"
 toc: true
@@ -7,7 +7,7 @@ tag: developers
 category: "Deployment"
 menus: 
     deployment:
-        title: "Creating Repository Collection & Reference Tables"
+        title: "Creating LookUp Repositories"
         weight: 1
         icon: fa fa-file-word-o
         identifier: lookuprepoprocessflow
