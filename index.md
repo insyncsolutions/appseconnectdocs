@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /indexhome
 ---
 <html lang="{{ site.locale | slice: 0,2 | inner: "en" }}">
 <head>
