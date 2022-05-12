@@ -5,6 +5,9 @@ keywords: "APPSeCONNECT, Getting Started, various sections, overview, terminiolo
 toc: false
 tag: developers
 category: "Getting Started"
+permalink: /
+redirect_from:
+  - /index
 menus: 
     header:
         title: "Getting Started"
