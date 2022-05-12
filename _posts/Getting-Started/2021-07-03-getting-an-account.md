@@ -8,7 +8,7 @@ category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Getting an Account"
-        weight: 4
+        weight: 3
         icon: fa fa-wpexplorer
         identifier: gettinganaccount
 ---
