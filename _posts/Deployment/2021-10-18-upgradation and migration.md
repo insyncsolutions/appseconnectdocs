@@ -1,54 +1,32 @@
 ---
-title: "Upgradation & Migration"
-toc: true
+title: "Upgradation & Migration of On-Premise Agent"
+description: "Upgrade and migrate to the latest version of the agent to get the latest features included."
+keywords: "upgradation, migration"
+toc: false
 tag: developers
 category: "Deployment"
 menus:
     deployment: 
         icon: fa fa-gg
         weight: 11
-        title: "Upgradation & Migration"
+        title: "Upgradation & Migration of Agent"
         identifier: upgradationmigration              
 ---
 
-With every update AEC Agent need upgradation to a higher version without losing any data in the agent. 
-This upgradation can be done conviniently by installing the updated agent without uninstalling the previous version. 
-The Procedure of the Upgradation and Migration of the Agent is provided in this document.
+With every update of the **APPSeCONNECT** Agent, you need to upgrade to a higher version of the agent to get the full flavour of the newly implemented features without losing any data in the agent. 
+This upgradation can be done conveniently by installing the latest agent on your local system without uninstalling the previous version of the agent. 
+The procedure of **Upgradation and Migration** of the Agent is provided in this document.
 
 ## Upgradation and Migration Process
 
-* Take back up of existing data in folder "C:\ProgramData\APPSeCONNECT"
-* Stop every running process for the APPSeCONNECT agent.
-* Run the latest version of APPSeCONNECT agent installation File without uninstalling the previous version.
-* Once installed, APPSeCONNECT agent will start running. Stop the Running Process.
-* Run "MigrateTo30" .exe file in "C:\Program Files (x86)\APPSeCONNECT" folder, in administrator mode. 
+* Take back up of existing data in folder "C:\ProgramData\APPSeCONNECT".   
+* Stop every running process of the **APPSeCONNECT** agent.  
+* Run the latest version of **APPSeCONNECT** agent installation file without uninstalling the previous version. While installing the latest version of the agent, the pre-requisite checking of the system requirement will [take place](/deployment/Deployment-Configuration/#on-premise-agent-configuration).
+* Once the installation is complete, a pop-up window will appear informing you that `Installation is Complete`. You will also able to view a message `Data needs to be migrated`. Click on the `Finish` button and the migration will be completed automatically.  
 
-The following window appears.
+![MIgrationTool-Snapshot](/staticfiles/deployment/media/Migration/migration1.png)    
 
-![MIgrationTool-Snapshot](/staticfiles/deployment/media/Migration/MIgrationTool-Snapshot.png)
+##### Points to Remember
 
-**NOTE: 
-        1) Select the checkbox of `Clear Connection` if you want to remove the existing connection credentials.  
-        2) `Migrate All TimeStamp` will migrate all the data's including the Success, Failure, unprocessed, skipped that was present
-            in the Resync Buckets.  
-        3) `Migrate Non-Success TimeStamp` will migrate only the data's that is Unprocessed, Skipped, Failure present in the
-                Resync Buckets.**
-            
-
-
-* Click **Upgrade Connection** button. The Following window appears
-
-![MIgrationTool-Window](/staticfiles/deployment/media/Migration/MIgrationTool-Window.png)
-
-* Click Yes button. The following window will open.
-
-![MIgration-Successful](/staticfiles/deployment/media/Migration/MIgration-Successful.png)
-
-* Click OK once the Migration process is successful.
-
-* Close the Migration Tool Window.
-
-* Follow **Update Configuration, Update Adapters,Update Value Map** from agent setting options.
-
-**Note: Doing this removes existing adapter data and configuration from your agent. Hence after Upgrading and opening Agent, you will see a blank page in the Agent.
-Update your adapters and configuration before proceeding with any other processes for an agent**
+- The pre-requisite checking will also take place during agent upgradation and migration. Upon fulfilling the minimum requirements set by **APPSeCONNECT**, the On-Premise agent will be migrated to the latest version. 
+- You can also manually execute the migration tool, by navigating to C:\Program Files (x86)\APPSeCONNECT and run the .exe file(MigrateTo40) in administrator mode.  

@@ -511,6 +511,7 @@
     <Content Include="staticfiles\deployment\media\EasyEnv\pendingtimeout1.PNG" />
     <Content Include="staticfiles\deployment\media\EasyEnv\prop1.PNG" />
     <Content Include="staticfiles\deployment\media\Migration\MIgration-Successful.png" />
+    <Content Include="staticfiles\deployment\media\Migration\migration1.png" />
     <Content Include="staticfiles\deployment\media\Migration\MIgrationTool-Snapshot.png" />
     <Content Include="staticfiles\deployment\media\Migration\MIgrationTool-Window.png" />
     <Content Include="staticfiles\deployment\media\RevampedEnv\agent-disconnected.png" />
@@ -539,9 +540,9 @@
     <Content Include="staticfiles\deployment\media\RevampedEnv\old-environment3.png" />
     <Content Include="staticfiles\deployment\media\RevampedEnv\old-environment4.png" />
     <Content Include="staticfiles\deployment\media\RevampedEnv\processflow_view.png" />
-    <Content Include="staticfiles\deployment\media\Setting\DiagnosticMode.png" />
+    <Content Include="staticfiles\deployment\media\Setting\DiagnosisMode.png" />
     <Content Include="staticfiles\deployment\media\Setting\LoggingSettings.png" />
-    <Content Include="staticfiles\deployment\media\Setting\Resync-Schedule.png" />
+    <Content Include="staticfiles\deployment\media\Setting\ResyncSchedule.png" />
     <Content Include="staticfiles\deployment\media\Setting\SettingPanel.png" />
     <Content Include="staticfiles\deployment\media\TransactionalStores\Agent_plugin-selection.png" />
     <Content Include="staticfiles\deployment\media\TransactionalStores\Connection2.png" />
