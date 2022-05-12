@@ -57,7 +57,7 @@ a.	Login to the portal. Download the Agent from the [Downloads menu](/accessing%
 
 b.	Execute the downloaded file (as administrator) by double clicking on it. The Setup wizard opens with a welcome message.
 
-![AgentWizard](/staticfiles/deployment/media/AgentConfig/Agentwizard.png)
+![AgentWizard](/staticfiles/deployment/media/AgentConfig/AgentWizard.png)
 
 c.  On clicking **Next**, a pop-up window will appear notifying you to start the Pre-Requisite Checking.
 
@@ -65,7 +65,8 @@ c.  On clicking **Next**, a pop-up window will appear notifying you to start the
 
 If you see all the checkboxes are checked, that means the system meets the [minimum requirements](/deployment/overview-deployment/#system-requirement-for-agent-installation) set by APPSeCONNECT.
 In case you see any cross mark on any of the links, please note the link and ask your system administrator to exempt the URLs or Ports. These URLs needs to be accessible directly 
-from the environment to ensure smooth execution of the processes.
+from the environment to ensure smooth execution of the processes.  
+
 d.  On clicking **Next**, setup will open a new window as pop-up. This window will show the [pre-requisite checklist](https://www.appseconnect.com/knowledgebase/hostnames-and-urls-for-appseconnect/). 
 If all prerequisite checks are successfully completed, setup would proceed further for installation of APPSeCONNECT Agent, else it will mark the URLs which are not accessible in Red. Please contact your 
 system admin to ensure all the URLs are accessible from the environment. 
