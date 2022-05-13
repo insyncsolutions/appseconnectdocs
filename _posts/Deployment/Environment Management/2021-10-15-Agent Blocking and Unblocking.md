@@ -1,5 +1,7 @@
 ---
 title: "Agent Blocking & Unblocking"
+description: "Get to know the hosted as well as On-Premise agent configuration."
+keywords: "Cloud Agent Configuration, On-Premise Agent Configuration, Agent Configuration"
 toc: true
 tag: developers
 category: "Deployment"
@@ -7,7 +9,7 @@ menus:
     environment:
         title: "Agent Blocking & Unblocking"
         icon: fa fa-cloud-download
-        weight: 8
+        weight: 3
         
 ---
 APPSeCONNECT is of Hybrid Architecture and the data can be integrated both from the CLOUD PORTAL 

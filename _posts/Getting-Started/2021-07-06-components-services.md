@@ -8,7 +8,7 @@ category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Components and Services"
-        weight: 5
+        weight: 6
         icon: fa fa-wpexplorer
         identifier: componentsandservices
 ---

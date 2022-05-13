@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     Connectors:
         title: "Working with Apps"
-        weight: 7
+        weight: 8
         icon: fa fa-wpexplorer
         identifier: configuringaec
 ---
