@@ -8,7 +8,7 @@ category: "Getting Started"
 menus: 
    gettingstarted:
         title: "Steps to Create a ProcessFlow"
-        weight: 11
+        weight: 5
         icon: fa fa-wpexplorer
         identifier: creatingprocessflow
 ---

@@ -8,7 +8,7 @@ category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Terminology"
-        weight: 3
+        weight: 4
         icon: fa fa-wpexplorer
         identifier: terminology
 ---

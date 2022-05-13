@@ -7,7 +7,7 @@ tag: developers
 category: "Deployment"
 menus: 
     deployment:
-        title: "Creating LookUp Repositories"
+        title: "LookUp Repositories"
         weight: 1
         icon: fa fa-file-word-o
         identifier: lookuprepoprocessflow

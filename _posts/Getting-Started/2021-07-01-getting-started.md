@@ -44,11 +44,11 @@ In this section, we will talk about everything that you want to know to get star
 
 ## Things to remember
 
-- Understanding the APIs
-- APPSeCONNECT Expression Language
-- How to choose Agents
-- Deploying a ProcessFlow
-- Executing a ProcessFlow
-- Working with Generic Connectors
-- Implementing notifications
+- [Understanding the XPATHs](/transformation/understanding-xml-and-xpath/)
+- [APPSeCONNECT Expression Language](/transformation/types-of-mapping/)
+- [How to choose Agents](/deployment/Environment-Overview/)
+- [Deploying a ProcessFlow](/processflow/deploying-and-executing-processflow/)
+- [Executing a ProcessFlow](/processflow/Runtime-Filter/)
+- [Working with Generic Connectors](/connectors/Overview-of-technology-connectors/) 
+- [Installing a package](/processflow/processflow-package-installation/)
   
