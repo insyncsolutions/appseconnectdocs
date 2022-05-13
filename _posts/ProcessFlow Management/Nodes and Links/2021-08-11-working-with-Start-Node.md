@@ -64,7 +64,7 @@ b) Once you are done with the configurations, click on the **SAVE** button. On s
 
 You can also view your registered URL on your **APIs Section**. Navigate: Manage > APIs > Register URL.
 
-![startnode7](/staticfiles/processflow/media/startnode7.PNG)
+![startnode7](/staticfiles/processflow/media/startnode7.png)
 
 **Note : You cannot alter a registered URL for any processflow, once SAVED in your organisation.**
 
@@ -74,7 +74,7 @@ e) Deploy your designed processflow to your required environment. For Trigger Ty
 
 f) The deployed processflows with Trigger Type **EVENT** will represent with a Black Icon in the [ProcessFlow tab](/deployment/Environment-Management/#pre-requisites) in environment section.
 
-![startnode4](/staticfiles/processflow/media/startnode4.PNG)
+![startnode4](/staticfiles/processflow/media/startnode4.png)
 
 g) The ProcessFlows needs to be executed once the deployment is over. For **Event Type**, the execution will on REALTIME basis. The RUN button in the designer page will be disabled for **EVENT** Trigger.
 

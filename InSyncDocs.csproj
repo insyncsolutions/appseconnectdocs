@@ -813,6 +813,7 @@
     <Content Include="staticfiles\processflow\media\mapper\cloudappresource-8.png" />
     <Content Include="staticfiles\processflow\media\mapper\cloudfunction1.png" />
     <Content Include="staticfiles\processflow\media\mapper\cloudfunction2.png" />
+    <Content Include="staticfiles\processflow\media\mapper\cloudfunction3.png" />
     <Content Include="staticfiles\processflow\media\mapper\create-basicprocessflow1.png" />
     <Content Include="staticfiles\processflow\media\mapper\getnode1.png" />
     <Content Include="staticfiles\processflow\media\mapper\getnode2.png" />
@@ -1083,10 +1084,10 @@
     <Content Include="staticfiles\processflow\media\splitternode5.png" />
     <Content Include="staticfiles\processflow\media\startnode1.PNG" />
     <Content Include="staticfiles\processflow\media\startnode2.PNG" />
-    <Content Include="staticfiles\processflow\media\startnode4.PNG" />
+    <Content Include="staticfiles\processflow\media\startnode4.png" />
     <Content Include="staticfiles\processflow\media\startnode5.PNG" />
     <Content Include="staticfiles\processflow\media\startnode6.PNG" />
-    <Content Include="staticfiles\processflow\media\startnode7.PNG" />
+    <Content Include="staticfiles\processflow\media\startnode7.png" />
     <Content Include="staticfiles\processflow\media\startnode8.PNG" />
     <Content Include="staticfiles\processflow\media\techapp1.png" />
     <Content Include="staticfiles\processflow\media\techapp2.png" />

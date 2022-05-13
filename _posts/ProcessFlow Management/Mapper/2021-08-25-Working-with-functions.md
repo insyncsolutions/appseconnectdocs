@@ -1,5 +1,7 @@
 ﻿---
 title: "Working with Functions"
+description: "Learn how to use our default and user defined functions."
+keywords: "generic function, native function, user-defined function, cloud function"
 toc: true
 tag: developers
 category: "Processflow"
@@ -70,20 +72,20 @@ The User - defined functions are used while creating or editing a processflow. T
 ###### Steps to Implement User-Defined Functions for ProcessFlow :
 
 a.	Create a new ProcessFlow or open an existing ProcessFlow for which you need to implement user-defined functions. 
-![cloud1](\staticfiles\processflow\media\mapper\cloudfunction1.png)    
+![cloud1](/staticfiles/processflow/media/mapper/cloudfunction1.png)    
 b. Click on the Node Configuration icon for the Mapper Node. The Mapper/Transformation window for that Process flow opens. Expand the [transformation node](/transformation/getting-started-with-mapping/#structure-of-mapping). 
 **Open** the attribute for which you need to implement and map the function. Expand the Function node to view **Cloud** sub node.
-![cloud2](\staticfiles\processflow\media\mapper\cloudfunction2.png)  
+![cloud2](/staticfiles/processflow/media/mapper/cloudfunction2.png)  
 c. Click on **Blue coloured ADD (Plus Symbol) icon**,the code editor window opens up where you can create/edit your own function.
 d. Provide the **Description** and **Example** to the user defined for easy user reference as why and how the function is needed to be implemented.
-![cloud5](\staticfiles\processflow\media\mapper\cloudfunction3.png)  
+![cloud5](/staticfiles/processflow/media/mapper/cloudfunction3.png)  
 e. The user can choose from the **Code snippet template** and **language fundamentals templates** also. The templates can be added in the code panel by drag and drop. 
-![cloud6](\staticfiles\processflow\media\mapper\cloudappresource-6.png)  
+![cloud6](/staticfiles/processflow/media/mapper/cloudappresource-6.png)  
 f.	Code the Appresource and click on **Validate**. In case of error, validator will provide the area of the cause in the error message as shown below. 
-![cloud7](\staticfiles\processflow\media\mapper\cloudappresource-7.png)  
+![cloud7](/staticfiles/processflow/media/mapper/cloudappresource-7.png)  
 g. Once validated successfully, close the Code validator screen & click on the **SAVE** button.
 h.	Expand the Cloud appresource Node for viewing the created function. Clicking on any of the function, will make it appear in the mapping Panel. You can also click on the **edit button** available beside the function name in the tree node, for making changes in the created Appresource function.
-![cloud8](\staticfiles\processflow\media\mapper\cloudappresource-8.png)  
+![cloud8](/staticfiles/processflow/media/mapper/cloudappresource-8.png)  
 i. Once the mapping is done, click on the **Save button** to save the mapping.
 Following the process, you can successfully create & define a Process Flow.  
 
