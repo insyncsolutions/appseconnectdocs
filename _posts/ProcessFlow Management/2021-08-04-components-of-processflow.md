@@ -54,17 +54,17 @@ Here you can provide ***name*** and ***description*** of the processflow which w
 
 Details of the list of executable buttons are given below :
 
-* **Play button** : The play button will allow you to execute the saved version of the processflow. **Execute with RunTime Filter** can be used to fetch and pull data from respective applications to and fro with specific scenerios.
+* **Play button** : The Play button will allow you to execute any of your created processflow. Click on the Play button, select **Execute** or [Execute with Runtime filter](/processflow/Runtime-Filter/) to execute your processflows as per your requirement.   
 * **Tracker button** : You can view the execution status and messages related to execution process in the Tracker Window. The deployment and execution logs will be displayed in the tracker window.
 * **Delete button** : The delete button will allow to delete the selected Nodes and Links from the processflow. You'll get a confirmation pop-up for the delete operation of the processflow. 
 * **Zoom in** : You can zoom in the processflows for better viewing purpose.
 * **Zoom out** : You can zoom out the processflow for better user experience. Users can also resize the screen accordingly. 
 * **Link Order** : You can sequence your execution order of your processflow. On clicking the [Link Order](/processflow/link-order-sequencing/) button, the order sequence window configuration window opens.
-* **User Defined Functions** : Here, you can implement multiple Cloud Appresource User Defined Functions for implementing Definite Tasks within your ProcessFlow. For more details on the Cloud Appresource User Defined Functions, [Click Here](/processflow/Working-with-functions/#user-defined-function).
+* **User Defined Functions** : Here, you can implement multiple User Defined Functions for implementing Definite Tasks within your ProcessFlow. For more details on User Defined Functions, [Click Here](/processflow/Working-with-functions/#user-defined-function).
 *  To view the screen in full screen mode, click the Button for Full Screen.
 *  You will have the option to adjust the screen resolution to 100%, 50% & 25% & Fit to Screen as per the need.
 * **Environment List** : You can see the environments where the Processflow is deployed. You can open the Processflow using the link too.
-*  **Save** : The save button allows you to save the following processflow for later use. You can edit the processflows anytime by clicking the edit button available in the processflow listing Page.
+*  **Save** : The save button allows you to save the following processflow for later use. You can edit the processflows anytime by clicking the edit button available in the [processflow listing page](/processflow/processflow-listing-page/).  
 * **Delete** : You can view this button beside the **SAVE** button that will allow you to [delete](/processflow/delete-processflow/) the processflow completely.
 * **Deploy** : You can select the type of environment where you want to deploy your processflow.
 
@@ -86,7 +86,7 @@ following tabs and menus in the left panel of the page.
  - **Pre-packaged Apps** : You will be able to view all the pre-packaged apps available for your organisation as per the plan. 
  - **My Apps** : You can view all the custom and the technology apps created in your organisation.
 
-***On dragging the applications to the designer panel, the node configuration window would appear***.     
+***On dragging the applications to the designer panel, the [node configuration window](/processflow/processflow-app/) would appear***.     
 
 6)	**Flow Connect** : You can view **FTP**, **Database**, **REST** connector nodes upon expanding.   
 7)	**Flow Logic** : You can view all the process property nodes namely halt, resume etc required to implement the customer business process.  
