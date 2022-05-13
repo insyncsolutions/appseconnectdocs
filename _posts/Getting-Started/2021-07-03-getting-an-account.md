@@ -40,7 +40,7 @@ The Free Trial selection option will only showcase the integration on vanilla sy
 
 Unlike free trial, we also give you an option to request for Paid trial. As you know integration is a complex topic, and your systems are not exactly 
 a vanilla system as you got it in first place. We generally do a lot of customizations and even we add more and more applications to the system. To adjust 
-the iPaaS platform tailored for your application, you need certain adjustments on the integration. The Paid trail gives you access to our 
+the iPaaS platform tailored for your application, you need certain adjustments on the integration. The Paid trial gives you access to our 
 integration experts who will develop and adjust the integration based on the scope of work, and give a demo of the solution in liew of a small payment. 
 
 

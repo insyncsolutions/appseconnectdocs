@@ -67,6 +67,7 @@ table { font-size:14px; }
 #cssmenu > ul > li.rightSideLink { float:right; width:auto;}
 #cssmenu ul li.homeLogo {width:200px; border-right: 1px solid #959aa2;}
 #cssmenu ul li:last-child > a span.freeTrail { }
+.fluid-width-video-wrapper { padding-top: 350px !important; }
 /* ---------------- End : Nav ----------------------- */
 .bannerPan {clear: both; border-bottom: 7px solid #36414a;}
 .bannerPan img {width: 100%; height: auto; display: block;}
@@ -231,7 +232,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#214a73', end
 .headerLogo a {padding:0px 0px 0px 5px; border-right: 1px }
 .layout--archive-taxonomy #main {max-width: 100%; padding: 0;}
 #cssmenu > ul li:last-child {margin-top: 6px;}
-#cssmenu > ul li:last-child a span { padding: 6px 12px; background: #3030FF; color: #fff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
+#cssmenu > ul li:last-child a span { padding: 6px 12px; background: #3030FF; color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
 
 .learningtrailpan {clear: both; background: #2970b7; color:#fff;}
 .learningtrailInn { max-width: 100%; clear: both; margin: 0 auto; padding: 50px 30px; overflow: hidden;}
