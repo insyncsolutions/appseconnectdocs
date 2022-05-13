@@ -67,6 +67,7 @@ table { font-size:14px; }
 #cssmenu > ul > li.rightSideLink { float:right; width:auto;}
 #cssmenu ul li.homeLogo {width:200px; border-right: 1px solid #959aa2;}
 #cssmenu ul li:last-child > a span.freeTrail { }
+.fluid-width-video-wrapper { padding-top: 350px !important; }
 /* ---------------- End : Nav ----------------------- */
 .bannerPan {clear: both; border-bottom: 7px solid #36414a;}
 .bannerPan img {width: 100%; height: auto; display: block;}
