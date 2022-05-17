@@ -346,7 +346,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\shipstation2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation4.png" />
-    <Content Include="staticfiles\connectors\media\application-connector\Shopify_Agent.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopify_agent.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Troubleshoot-Priority.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal2.png" />
@@ -1835,13 +1835,13 @@
     <None Include="_posts\Security\2020-03-06-GDPR.md" />
     <None Include="_posts\Security\License-Management\2020-03-17-license-generation.md" />
     <None Include="_posts\Security\License-Management\2020-03-17-license-management.md" />
-    <None Include="_posts\Connectors\Application Connectors\2018-12-01-Overview-of-Application-Connectors.md" />
-    <None Include="_posts\Connectors\Application Connectors\Bamboohr\2019-03-05-adding-employee-bamboohr .md" />
-    <None Include="_posts\Connectors\Application Connectors\Bamboohr\2019-03-05-bamboohr.md" />
+    <None Include="_posts\Connectors\Application Connectors\2021-12-03-Overview-of-Application-Connectors.md" />
+    <None Include="_posts\Connectors\Application Connectors\Bamboohr\2021-12-05-adding-employee-bamboohr .md" />
+    <None Include="_posts\Connectors\Application Connectors\Bamboohr\2021-12-04-bamboohr.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-06-generic-nav2009 R2-extension.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-08-generic-nav2016-extension.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics Business Central\2019-03-07-generic-nav2015-extension.md" />
-    <None Include="_posts\Connectors\Application Connectors\Magento2\2018-12-07-Magento2.md" />
+    <None Include="_posts\Connectors\Application Connectors\Magento2\2021-12-03-Magento2.md" />
     <None Include="_posts\Connectors\Application Connectors\Magento2\Troubleshooting\cannot-do-shipment.md" />
     <None Include="_posts\Connectors\Application Connectors\Magento2\Troubleshooting\empty-order.md" />
     <None Include="_posts\Connectors\Application Connectors\Magento2\Troubleshooting\failed-internal-error.md" />
