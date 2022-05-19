@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     bamboohrconnector :
         title: "Adding Employee in BambooHR"
-        weight: 13
+        weight: 2
         icon: fa fa-file-word-o
         identifier: bamboohrconnectoremployee
 ---
