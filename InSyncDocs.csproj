@@ -1102,6 +1102,7 @@
     <Content Include="staticfiles\processflow\media\techapp7.png" />
     <Content Include="staticfiles\processflow\media\trashfolder1.png" />
     <Content Include="staticfiles\processflow\media\trashfolder2.png" />
+    <Content Include="staticfiles\processflow\media\triggerpf1.png" />
     <Content Include="staticfiles\processflow\media\udfcreate1.png" />
     <Content Include="staticfiles\processflow\media\udfcreate2.PNG" />
     <Content Include="staticfiles\processflow\media\udfcreate4.PNG" />
@@ -1685,6 +1686,7 @@
     <None Include="_posts\Deployment\Troubleshooting.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-04-components-of-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-25-Working-with-functions.md" />
+    <None Include="_posts\ProcessFlow Management\Quickstart\2021-08-08-trigger-processflow.md" />
     <None Include="_posts\Release-Notes\2022\Q1\2022-04-23-2022.md" />
     <None Include="_posts\Workflow-Management\Advance-Workflow\2019-10-05-working-with-delay-node.md" />
     <None Include="_posts\Workflow-Management\Advance-Workflow\2019-10-04-working-with-decision-node.md" />
