@@ -11,16 +11,19 @@ menus:
         identifier: lightspeedconnector
 ---
 
-Application configuration is an integral activity prior to the process of integration. If your chosen application is Salesforce, 
-credentials need to be provided for validating the agent. Here you will find the detailed description on how to configure the agents 
-for the application of Lightspeed, Troubleshooting issues and the attributes and action.
+Lightspeed offers a cloud-based e-commerce solution that allows users to manage in-store and online inventory, 
+view all customer information, have a single view of customers and analyze multi-channel sales data 
+from one system. Lightspeed also provides functionality for customizable checkout, upsell and cross-sell features, related product recommendations, 
+promotions and custom pricing for single items or groups of items and customer product reviews. 
 
-Lightspeed, is a REST Application which supports [OAUTH 2.0 authentication](/connectors/OAuth2.0/). The Adapter of the application Lightspeed, provides the leverage 
-to communicate and adapt with the AEC Portal. This section provides you the detailed process of validating the credential of the 
+Application configuration is an integral activity prior to the process of integration. You need to configure the agent by providing the `API Path`, `Client ID`, `Client Secret`, `Redirect URL`, `Auth URL` and `Access Token URL`. 
+Here you will find the detailed description on how to configure the agents 
+for the application of Lightspeed, Troubleshooting issues and the attributes and action. This section provides you the detailed process of validating the credential of the 
 application Lightspeed.
 
 
 # Pre-requisites for Lightspeed Configuration  
+
 1.	You need to have valid credentials of the portal.
 2.	You need to [choose the Lightspeed](/getting%20started/configurations/#process-of-choosing-app) Application from the APP section. 
 3.	[Create a connection](/getting%20started/configurations-for-integration/#configuring-connector-while-creating-connection)with Lightspeed. 
@@ -31,9 +34,9 @@ If you are using Process Flow, you just need to [deploy](/deployment/Environment
 
 ## Steps to Configure Lightspeed Credential in OP Agent
 
-1.	In the App Configurational Panel of the agent, Click on the + button beside the app Lightspeed.
+1.	In the App Configurational Panel of the agent, Click on the + button beside the app Lightspeed.  
 2.	The Adapter configurations will get downloaded automatically (within a timespan). You can now proceed with credential authorization.  
-![Lightspeed Agentconfig1](../../../../staticfiles/connectors/media/application-connector/lightspeed-agentconfig1.png)
+![Lightspeed Agentconfig1](../../../../staticfiles/connectors/media/application-connector/lightspeed_1.png)
 3.	You can view the fields for validating the Lightspeed adapter, after the configurations setup is over. 
 The following are the fields available for validating the adapter.  
 * API Path - This is the Base URL of the Lightspeed application you are using.

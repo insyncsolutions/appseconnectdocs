@@ -218,6 +218,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig7.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig8.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig9.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\lightspeed_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat10.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat3.png" />
@@ -228,6 +229,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\magentoat9.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentoat1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magentocloud1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\magento_actionfilter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\MenuWebServices.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\nav-businesscentral2.png" />
