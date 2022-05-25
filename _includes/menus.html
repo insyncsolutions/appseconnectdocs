@@ -6,6 +6,7 @@
     {% else %}
     {% assign icon = "" %}
     {% endif %}
+    {% if !(item.visible or item.visible == false) %}
     <li class="menu-item-{{ loop.index }}" data-url="{{ item.url }}" data-jstree='{"icon":"{{icon}}"}'>
         <a href="{{ item.url }}" onclick="selectTab('{{ item.url }}', event);" title="Go to {{ item.title }}">{{ item.title }}</a>
         {% if item.children %}
@@ -13,6 +14,7 @@
         {% include menus.html %}
         {% endif %}
     </li>
+    {% endif %}
     {% endfor %}
 </ul>
 {% endif %}

@@ -38,20 +38,20 @@ This section of the documentation will guide you with the process of Creating & 
 1)	Login to the Portal and navigate to the **Designer > ProcessFlow** module. The Process Flow listing page appears.
 ![Create Basicprocessflow13](/staticfiles/processflow/media/create-basicprocessflow13.png)
 
-2)	By default, **Process Flow** folder is selected, where you can create new processflows as well as you can also view and edit already created processflows.
+2)	By default, **Process Flow** folder is selected, where you can create new processflows as well as you can also view and edit existing processflows.
 
-3)	Click on the new button for creating a new processflow.  
+3)	Click on the new button for creating a new processflow.      
 ![Create Basicprocessflow2](/staticfiles/processflow/media/create-basicprocessflow2.png)   
 **Note : If the Folder is empty, you can view the button Create a Process Flow, that navigates 
 you to the processflow Designer Page.** 
 
-4)	You will be navigated to the [processflow Designer Page](/processflow/components-of-processflow/).     
+4) A pop-up will appear where you need to put the **ProcessFlow name**. Select **Ok**, you will be navigated to the [processflow Designer Page](/processflow/components-of-processflow/) else you can abort the processflow creation by clicking on **Cancel**.        
 ![Create BasicProcessflow14](/staticfiles/processflow/media/create-basicprocessflow14.png)
 
 5)	Provide a Description for the processflow in the processflow header panel.        
 ![Create Basicprocessflow15](/staticfiles/processflow/media/create-basicprocessflow15.png)
 
-6)	Drag the Start node that signifies the start process of the processflow.    
+6)	Drag and [Configure the start node](/processflow/working-with-Start-Node/) that signifies the start process of the processflow as per your business needs.  
 ![Create Basicprocessflow16](/staticfiles/processflow/media/create-basicprocessflow16.png)     
 
 7)	Expand the [App](/processflow/processflow-app/) menu. You can view all the **Pre-packaged** application and **Custom** application.    
@@ -65,36 +65,38 @@ you to the processflow Designer Page.**
 * Node Description : This denotes the description of the node.  
 * Node Type : This denotes the type of action that the node needs to perform GET or POST.   
 * App Version : This denotes the version of the Application. You need to select the version of the application you need for the integration.  
-* Protocol : The protocols would be listed for the application that is selected.     
-* Schema : The schemas for the selected application and protocol would be listed in the drop-down.   
-* Action : All the actions based on the selected schema would be available. You can also modify Action filters by clicking on the [Configure Filter](/transformation/working-with-schemas-action-filter/) button.   
-* Credential : You need to click the button Add, beside Credential to add token in the list. Select the Credential Token added for storing the credential provided for the application in the OP Agent.    
+* Protocol : The [protocols](/processflow/processflow-app/#prerequisites-for-protocol-implementation-in-processflow) would be listed for the application that is selected.     
+* Schema : The schemas for the selected application and protocol would be listed in the drop-down. [Click here](/processflow/processflow-app/#listing-of-schemas-and-attributes) to know more about schemas.  
+* Action : All the actions based on the selected schema would be available. You can also modify Action filters by clicking on the [Configure Filter](/processflow/processflow-app/#adding-action-filters) button.   
+* Credential : You need to click the button Add, beside Credential to add token in the list. Select the Credential Token added for storing the credential provided for the application in the OP Agent and Cloud Agent.    
  ![Create Basicprocessflow18](/staticfiles/processflow/media/create-basicprocessflow18.png)    
-10)	Once all the details are the provided click **Save** button.       
+10)	Once all the details are the provided click **Save & Close** button.       
 11)	Drag the [mapper](/processflow/working-with-mapper/) node and the destination application in the design panel.     
-12)	Provide the node configuration details for the destination application and click **save** button. 
+12)	Provide the node configuration details for the destination application and click **Save & Close** button. Drag the End node in the designer panel. 
 ![Create Basicprocessflow19](/staticfiles/processflow/media/create-basicprocessflow19.png)     
 
 **Note : The Node type for the destination applications is selected as POST as data would be posted to the destination application from Source.** 
 
-13)	Join the dragged nodes from Start to End. On joining the mapper node & the destination application, the transformation window opens. The user can perform the mapping for the choosen applications.      
-![Create Basicprocessflow20](/staticfiles/processflow/media/create-basicprocessflow20.png)    
+13)	Join the dragged nodes from Start to End. Click on the [save button](processflow/components-of-processflow/#header-panel) in the header panel of processflow deisgner page to save the links and node configurations.   
+
+14) Click on the **Mapper Node Configuration**, the transformation window opens. The user can perform the mapping for the choosen applications.  
+    ![Create Basicprocessflow20](/staticfiles/processflow/media/create-basicprocessflow20.png)
+
 **Note : You need to save the fully created processflow for opening the Mapper Node Configuration Window, after linking all the nodes from START to END.**
 
-14)	You can edit the mapping anytime by clicking over the node configuration button, available on the [Mapper](/processflow/working-with-mapper/) Node. Clicking on the cross button will delete the node from the designer panel.      
+15)	You can edit the mapping anytime by clicking over the node configuration button, available on the [Mapper](/processflow/working-with-mapper/) Node. Clicking on the cross button will delete the node from the designer panel.      
 ![Create Basicprocessflow21](/staticfiles/processflow/media/create-basicprocessflow21.png)   
-**Note : Every node has a node configuration button except End, the configuration window opens when clicked on that button.**    
-15)	Once all the nodes are joined, the steps for creating a processflow ends. You can also add other nodes as per the business requirement.       
-16)	Click **save** button once the processflow is designed. The saved processflow would be listed under the folder you have created.         
+**Note : Every node has a node configuration button except End, the [configuration window](/processflow/processflow-nodes-and-links/) opens when clicked on that button.**    
+16)	Once all the nodes are joined, the steps for creating a processflow ends. You can also add any other nodes as per the business requirement. The saved processflow would be listed under the [folder](/processflow/processflow-listing-page/) you have created.         
 ![Create Basicprocessflow22](/staticfiles/processflow/media/create-basicprocessflow22.png)    
-17)	Click on the edit button against the created processflow, will redirect you to the [designer page](/processflow/components-of-processflow/).       
+17)	Clicking on the edit button against the created processflow, you will be redirected to the [designer page](/processflow/components-of-processflow/).       
 ![Create Basicprocessflow23](/staticfiles/processflow/media/create-basicprocessflow23.png)   
 
 Following the above steps, you can successfully create a basic processflow. However, business process will require other nodes for designing as per the requirement.  
 
 You can also create a Package out of your created processflows for sharing it to other organisations. [Click Here](/processflow/processflow-packaging-overview/) to know more about processflow Packaging.
 
-**Note : Unlinking of the nodes will now not erase the mapping made inside the mapper node. If a different application is dragged and linked with the existing GET or Destination node, it will remove the existing mapping when saving the processflow.  
-However, you will get a confirmation message when implementing the same. You will be able to view the message in the below screen.**
+**Note : Unlinking of the nodes will now not erase the mapping made inside the mapper node. If a different application is dragged and linked with the existing GET or Destination node, it will remove the existing mapping when saving the processflow.**   
+However, you will get a confirmation message when implementing the same. You will be able to view the message in the below screen.
 
 ![Create Basicprocessflow24](/staticfiles/processflow/media/create-basicprocessflow24.png)

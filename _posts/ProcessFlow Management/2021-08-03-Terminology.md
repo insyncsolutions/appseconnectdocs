@@ -33,8 +33,8 @@ This the Cloud Agent of APPSeCONNECT that will enable the user to execute Proces
 This button will allow the user view node specific execution messages while the processflow executes in Manual Mode. Tracker window automatically open when clicked on the execute button. 
 
 ### APPS 
-This menu will allow the user to add application nodes for GET and POST operation to the designer window. 
-You can view all the Pre-packaged, Custom and Technology applications that has been provided or created on your 
+This section will allow the user to view and add application nodes for GET and POST operation to the designer window. 
+You can view all the Pre-packaged and Technology applications that has been provided or created on your 
 organisation. 
 
 ### Manage Schema
@@ -60,15 +60,13 @@ To know more about the node available for ProcessFlow, [Click Here](/processflow
 
  
 ### Flow Connect
-The menu will enable you to add & create custom application nodes like Connector, FTP, File, Database, REST. You can anytime create your Technology Application with the [processflow Designer](/processflow/components-of-processflow/).
+This section will enable you to create & add custom application nodes like Connector, FTP, File, Database, REST. You can anytime create your Technology Application from the [processflow Designer](/processflow/components-of-processflow/) page.
 To know more about the Technology App Creation, [Click Here](/connectors/technology-app-creation-using-processflow/).
 
 ### Mapper Node
 For transforming data from one application to another, you need to add the mapper node for transforming 
 the Source file to Destination file. Mapper Node in ProcessFlow does this job for you by implement
- mapping and transformations. 
-
-For more details on the Mapper Node, [Click Here](/processflow/working-with-mapper/)
+ mapping and transformations. For more details on the Mapper Node, [Click Here](/processflow/working-with-mapper/)
 
  
 ### Redeploy
@@ -89,7 +87,7 @@ clear message on every data that are fetched, transformed and successfully synce
 
  
 
-### ProcessFlow Retry
+### ProcessFlow Resync
 In real-time execution, data might fail to sync to destination application for various reasons like 
 network connectivity, transformation error etc. These failed data will be available for Resync, 
 both in Auto and Manual mode, such that no data lost while executing. [Click Here](/processflow/retry-processflow/) to know more on ProcessFlow Retry.
