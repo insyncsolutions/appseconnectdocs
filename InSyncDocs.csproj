@@ -1103,6 +1103,7 @@
     <Content Include="staticfiles\processflow\media\trashfolder1.png" />
     <Content Include="staticfiles\processflow\media\trashfolder2.png" />
     <Content Include="staticfiles\processflow\media\triggerpf1.png" />
+    <Content Include="staticfiles\processflow\media\triggerpf2.png" />
     <Content Include="staticfiles\processflow\media\udfcreate1.png" />
     <Content Include="staticfiles\processflow\media\udfcreate2.PNG" />
     <Content Include="staticfiles\processflow\media\udfcreate4.PNG" />
@@ -1675,6 +1676,7 @@
     <None Include="_pages\_listcourses\workflow.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
+    <None Include="_posts\Connectors\Application Connectors\QuickBook\2021-12-21-quickbook.md" />
     <None Include="_posts\Deployment\2settings.md" />
     <None Include="_posts\Deployment\Environment Management\2021-10-12-Environment Overview.md" />
     <None Include="_posts\Deployment\Environment Management\2021-10-13-Deployment Configuration.md" />
