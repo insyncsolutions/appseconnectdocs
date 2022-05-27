@@ -59,8 +59,8 @@ workspace. Every node in ProcessFlow has a node configuration button that will e
 To know more about the node available for ProcessFlow, [Click Here](/processflow/processflow-nodes-and-links/).
 
  
-### Flow Connect
-This section will enable you to create & add custom application nodes like Connector, FTP, File, Database, REST. You can anytime create your Technology Application with the [processflow Designer](/processflow/components-of-processflow/).
+### Flow Connect 
+This section will enable you to create & add custom application nodes like Connector, FTP, File, Database, REST. You can anytime create your Technology Application from the [processflow Designer](/processflow/components-of-processflow/) page.
 To know more about the Technology App Creation, [Click Here](/connectors/technology-app-creation-using-processflow/).
 
 ### Mapper Node
