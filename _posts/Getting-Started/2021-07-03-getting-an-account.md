@@ -9,7 +9,7 @@ menus:
     gettingstarted:
         title: "Getting an Account"
         weight: 3
-        visible: false
+        visible: true
         icon: fa fa-wpexplorer
         identifier: gettinganaccount
 ---
