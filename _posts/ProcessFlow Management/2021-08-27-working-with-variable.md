@@ -1,7 +1,7 @@
 ---
 title: "Working with Variables"
 description: "Working with variables in a processflow"
-keywords: "Working with variables, creating variables, listing of variables, editing variables, deleting variables, utility of variables."
+keywords: "Working with variables, creating variables, listing of variables, editing variables, deleting variables, utility of variables,mapping variables,node variables"
 toc: true
 tag: developers
 category: "Processflow"
@@ -13,8 +13,8 @@ menus:
         identifier: variablesprocessflow
 ---
 
-APPSeCONNECT processflow allows you to create variables that stores certain values that can be reused in any part of the processflow or in any other processflows designed within your organisation.
-Variables are used to store data so that it can be used within a node or processflows. With variables you will not have to provide expressions and generic function multiple times, 
+APPSeCONNECT processflow allows you to create variables that stores values of data during execution of a ProcessFlow, such that they can be reused in any part of the processflow 
+or in any other processflows designed within your organisation. With variables you will not have to provide expressions and generic function multiple times, 
 instead you can define the variable with the required expression and deploy it anywhere within the processflow or any other processflow.
 
 For Example : You have created a variable having the name `XYZ` with data type `String` and have associated an XPATH expression `//items/item/customer_id`. 
@@ -28,7 +28,7 @@ Once defined, upon calling the variable, it will execute the expression associat
 - You need to provide the values for the mandatory fields in the **GENERAL** Tab of the Node Configuration Window before creating a Variable.
 
 ### Creating Variable
-
+ 
 Creating variables in Processflow is easier and can be done directly by dragging the app node
 in the [designer section](/processflow/components-of-processflow/). You need to follow the below steps so that you can create variables and take the advantage of them.
 
@@ -81,9 +81,7 @@ Following the above process you can successfully define & Save a Variable.
 Once you have defined and saved the Variable, you will be able to view the list of the variables created. Follow the steps to view the list of variables.
 
 A. Click on the `VIEW LIST` button in the **Create Variable** window after defining and saving the variable.
-
 B. You will be able to view the list of variables in Properties Tab. You can view all the variables that has been created on that node.
-
 C. You will be able to view these following details in the Variable List.
 
 - **Variable Name** - You can view the name provided while defining the variable.
