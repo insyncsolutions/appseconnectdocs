@@ -3,12 +3,13 @@ title: "Getting an Account"
 description: "Accessing Account in APPSeCONNECT"
 keywords: "Trial,Free Trial, Paid Trial, Accessing Account,steps to start, Multi-Factor Authentication,two factor authentication, security, login to appseconnect,password security,password expiry"
 toc: true
-tag: developers
+tag: developers 
 category: "Getting Started"
 menus: 
     gettingstarted:
         title: "Getting an Account"
         weight: 3
+        visible: true
         icon: fa fa-wpexplorer
         identifier: gettinganaccount
 ---
