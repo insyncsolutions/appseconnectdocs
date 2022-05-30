@@ -2,7 +2,6 @@
 title: "QuickBooks Enterprise"
 toc: true
 tag: developers
-published: false
 category: "Connectors"
 menus: 
     applicationconnector :
