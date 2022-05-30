@@ -16,12 +16,12 @@ menus:
 Integration depends on the way the application exposes data, which is generally done through APIs, 
 where one can communicate with the APIs, to create the list of data in the platform. Hence as an integration platform, 
 it occasionally needs to pull data from the application and sync only the data which is modified overtime. 
-We have a number of sync strategies to integrate data using `Polling` technique, which as an users/implementors 
+We have a [number of sync strategies](/processflow/working-with-Start-Node/#working-principle) to integrate data using `Polling` technique, which as an users/implementors 
 you need to follow to identify the latest data to be synced.    
 
 On the other hand, `Webhook` allows the application to generate a call back to the external application 
 whenever a new data is updated to the application. Such an integration which is initiated by the application 
-itself is called Triggered Integration. To perform the aforesaid integration, you need to need design a trigger 
+itself is called Triggered Integration. To perform the aforesaid integration, you need to design a trigger 
 processflow, which receives the data from outside world and executes various steps in the pipeline.   
 
 This section of the documentation will guide you with the process of Creating & Saving **trigger processflows**. The steps for implementing the same is provided below :

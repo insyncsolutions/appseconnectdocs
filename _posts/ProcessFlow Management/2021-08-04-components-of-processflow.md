@@ -7,7 +7,7 @@ tag: developers
 category: "Processflow"
 menus: 
     processflow:
-        title: "Components of ProcessFlow"
+        title: "Designer of ProcessFlow"
         weight: 4
         icon: fa fa-file-word-o
         identifier: componentsofprocessflow
