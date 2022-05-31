@@ -833,6 +833,14 @@
     <Content Include="staticfiles\processflow\media\mapper\mappernode1.png" />
     <Content Include="staticfiles\processflow\media\mapper\mappernode2.png" />
     <Content Include="staticfiles\processflow\media\mapper\mappernode3.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_1.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_2.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_3.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_4.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_5.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_6.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_7.png" />
+    <Content Include="staticfiles\processflow\media\mapper\mappingvariable_8.png" />
     <Content Include="staticfiles\processflow\media\mapper\namespace1.png" />
     <Content Include="staticfiles\processflow\media\mapper\namespace2.png" />
     <Content Include="staticfiles\processflow\media\mapper\namespace3.png" />
