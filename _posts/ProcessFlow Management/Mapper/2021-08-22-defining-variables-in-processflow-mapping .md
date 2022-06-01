@@ -37,7 +37,7 @@ Click on the Node Configuration button of the Mapper node. The Mapping Configura
 ![mapping_variable1](../../staticfiles/processflow/media/mapper/mappingvariable_1.png)
 
 3. Input the following details Variable Name, Data Type, Scope, Default Value, Is Persistant and Is Encrypted.                
-![[mapping_variable2](../../staticfiles/processflow/media/mapper/mappingvariable_2.png) 
+![mapping_variable2](../../staticfiles/processflow/media/mapper/mappingvariable_2.png) 
 
 (a) In this case, Variable Name is `CardCode` whose Data Type provided as `String`. The flow remains same for the 
 Data type -  Bool, Datetime, Number and Double.  
