@@ -7,7 +7,7 @@ tag: developers
 category: "Processflow"
 menus: 
     processflow:
-        title: "Working with Variables"
+        title: "Using Variables"
         weight: 8
         icon: fa fa-file-word-o
         identifier: variablesprocessflow
@@ -184,3 +184,6 @@ This part of the document will list few scenarios that will help you understand 
 |FirstData| DateTime | `{//items/item/` <br/> `created_at}`|2020-07-06 04:45:35 |processflow or Node|Here, the expression and value used will fetch a specific data that matches the given value, when the variable is used in the action filter.|
 |ZipCode|Number|`~{gen:FirstOf(` <br/> `//customers/` <br/> `/customer//` <br/> `addresses/zip)}~`|10001|processflow or Node|Here, the variable is created with a generic function is provided  as an expression. The variable is implemented on the action filter of Shopify GET node that will fetch all the customers who zip code contains 10001.|
 |GrpCode|Number|`~{gen:FirstOf(` <br/> `//items//item/` <br> `group_code)}~`| 1 |processflow or Node| Here, the variable is created with a generic function as an expression. The variable is implemented on the action filter of Magento2 GET node that will fetch all the data whose Group Code matches the value provided in the variable.|
+
+>You can also create, edit and delete variables during [mapping](/processflow/defining-variables-in-processflow-mapping/) along with variable mapping in a processflow. 
+

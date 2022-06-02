@@ -8,7 +8,7 @@ category: "Connectors"
 menus:
     applicationconnector :
         title: "SAP Business One"
-        weight: 11
+        weight: 12
         icon: fa fa-file-word-o
         identifier: sapb1connector
 ---

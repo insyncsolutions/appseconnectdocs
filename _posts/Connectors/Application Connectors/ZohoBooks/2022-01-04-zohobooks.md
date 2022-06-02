@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     applicationconnector : 
         icon: fa fa-gg
-        weight: 17 
+        weight: 18
         title: "ZohoBooks"
         identifier: zohobooksconnector
 ---

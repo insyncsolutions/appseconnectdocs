@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     sapb1connector:
         title: "SAP B1 Add-on 3.1.x Installation OR Upgrade"
-        weight: 11
+        weight: 12
         icon: fa fa-file-word-o
         identifier: sapb1addon
 ---

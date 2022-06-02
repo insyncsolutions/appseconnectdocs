@@ -6,7 +6,7 @@ category: "Connectors"
 menus:
     applicationconnector :
         title: "SAP Business One Service Layer"
-        weight: 10
+        weight: 11
         icon: fa fa-file-word-o
         identifier: sapb1slconnector
 ---
