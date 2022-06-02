@@ -2016,7 +2016,7 @@
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-getting-started-with-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-types-of-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-types-of-variable.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-understanding-attribute-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\understanding-attribute-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-understanding-xml-and xpath.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-basic-of-source-destination-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-define-logic-over-destination-mapping.md" />
