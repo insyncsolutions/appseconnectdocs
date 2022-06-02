@@ -20,7 +20,7 @@ Here you will understand the process of defining [Variables](/transformation/typ
 the process of transformation) and then mapping of variables during transformation phase. 
 
 Here The flow is explained using `Root Variable` for a processflow.   
-**NOTE- The process of defining the variables remain same for any type of variable.**
+**NOTE - The process of defining the variables remain same for any type of variable.**
 
 ## Prerequisites for using Variables in Processflow Mapping
 
@@ -87,4 +87,4 @@ the mapping variables in attribute mapping by following the below mentioned step
 You will observe the mapping variable in the transformation window corrosponding to the selected attribute.
 ![mapping_variable8](../../staticfiles/processflow/media/mapper/mappingvariable_8.png)
 
-
+>[Click here](/processflow/working-with-variable/) to know the procedures of creating, editing and deleting variables in a processflow. 
