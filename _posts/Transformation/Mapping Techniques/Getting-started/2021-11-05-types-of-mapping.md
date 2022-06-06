@@ -8,7 +8,7 @@ category: "Transformation"
 menus: 
     mappinggettingstarted:        
         title: "Types of Mapping"
-        weight: 1
+        weight: 3
         icon: fa fa-wpexplorer
         identifier: typesofmapping
 ---
@@ -24,7 +24,7 @@ Before going deep into different types of mapping, you need to know the followin
 
 * [Types of Variable](/transformation/types-of-variable/)
 
-* [Undertanding XML & XPATH](/transformation/understanding-xml-and-xpath/)
+* [Understanding XML & XPATH](/transformation/understanding-xml-and-xpath/)
 
 * [Working with Schema Attribute & Action](/transformation/working-with-schemas-action-filter/)
 
@@ -82,7 +82,7 @@ Prerequisite : Knowledge about [AppResource functions](/transformation/using-lib
 * AppResource functions can be deployed for facilitating the required data transformation between the source and destination application.
 * To use AppResource functions you only require to know the fields/variable you desire to map along with the name of the function.
 * To understand the utility of these functions let us look at the example below.
-Suppose when developing a particular processflow, you come to learn that, destination application accepts date time in a different from 
+Suppose when developing a particular processflow, you come to learn that, destination application accepts date time in a different format 
 what is sent by the source application. Let the accepted date time format be like "yyyy/MM/dd HH:mm:ss" and received format be like "dd-MM-yyyy". To get around this dilemma, we use AppResource functions.
 
 Refer this [link](https://www.youtube.com/watch?v=mwcLjXwu6fQ&t=0s&index=5&list=PLSZUUcH5fP9_msXnLwdGp0Mb4Bu0i0g-y) to know in details about functional mapping. 
@@ -99,7 +99,7 @@ We provide the name of the desired field, the schema and the parameters in the q
 
 The native AppResource function that we use for this purpose is 'sourcelib' or 'destinationlib' depending on from where we wish to receive the data.
 `Structure of a query in mapping is`
-destinationlib:GetUniqueId(",",",") where we provide the required field the schema and the parameters in order.
+destinationlib:GetUniqueId(",",",") where we provide the required field, the schema and the parameters in order.
 
 ### 6. Variable Mapping 
 
