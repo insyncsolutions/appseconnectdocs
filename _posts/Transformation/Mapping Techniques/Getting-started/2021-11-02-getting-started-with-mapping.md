@@ -14,7 +14,7 @@ menus:
 ---
 
 Getting started section of mapping will help you to understand the main areas, you should be familiar with 
-before starting doing the transformation process. `Mapping` triggers the transformation process between the Source and the Destination Applications. 
+before start doing the transformation process. `Mapping` triggers the transformation process between the Source and the Destination Applications. 
 Source and destination schemas are mapped in the transform section of the processflow. 
 
 It is important to note that a processflow caters to a particular schema or an entity. A processflow maps the source schema 
@@ -22,7 +22,7 @@ for a particular action with the destination schema, thus facilitating the trans
 attributes of the schema may vary for different applications. Also, the data arriving from the source application may have a 
 different format than the destination application. To resolve the issues that may arise, you can use Mapping. 
 
-Mapping in a processflow is required to define which attributes of the target schema correspond to those of the source schema.  
+Mapping in a processflow is required to define which attributes of the target schema correspond to those of the source schema. 
 In this effort, you write the logic that facilitates this transformation. Attribute mapping thus forms the main part of 
 transforming data from one format to another. 
 
