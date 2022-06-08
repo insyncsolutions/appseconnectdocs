@@ -159,7 +159,7 @@ XPATH Result Screen :
 ### Scenario 2  
 ![xapth3](/staticfiles/Transformation/media/xapth3.png)
 
-In the above xml provided for this scenario, the parent node Bookstore, has multiple nodes with multiple elements with same node name. 
+In the above XML provided for this scenario, the parent node Bookstore, has multiple nodes with multiple elements with same node name. 
 
 - To access the elements of the book category = cooking, the syntax should be :
 
