@@ -51,7 +51,7 @@ You can use this syntax during transformation to implement the business logics i
 ### Single Squared Bracket Syntax 
 
 Single Squared Bracket is used to call external functions as well as expression synatxes. While using [generic function](/processflow/Working-with-functions/#generic-function), source functions 
-destination function and [choose-when mapping](), you need to use `Single Squared Bracket`. `APPSeCONNECT` also provides the usage of **case statement**. In order to case statement, 
+destination function and choose-when mapping, you need to use `Single Squared Bracket`. `APPSeCONNECT` also provides the usage of **case statement**. In order to case statement, 
 you need to use this syntax as well. Single Squared Bracket is denoted by `[]`. During transformation, you can use this syntax to implement the business logics in the following ways.
 
 ![singlesquraedbraces](/staticfiles/Transformation/media/singlesquraedbraces.png)
