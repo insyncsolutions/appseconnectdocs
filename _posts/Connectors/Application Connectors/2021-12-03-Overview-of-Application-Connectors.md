@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     Connectors :
         title: "Application"
-        weight: 5
+        weight: 6
         icon: fa fa-file-word-o
         identifier: applicationconnector
 ---
