@@ -7,6 +7,7 @@ menus:
     transformation:
         title: "Understanding Mapping & Syntax"
         weight: 16
+        visible: false
         icon: fa fa-file-word-o
         identifier: transformunderstandingsyntax
 ---

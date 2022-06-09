@@ -33,7 +33,6 @@
     <Folder Include="Properties\" />
     <Folder Include="staticfiles\best-practices\" />
     <Folder Include="staticfiles\partner-management\" />
-    <Folder Include="_posts\Best-practices\" />
     <Folder Include="_posts\Connectors\Technology Connectors\File System\" />
   </ItemGroup>
   <ItemGroup>
@@ -1394,6 +1393,7 @@
     <Content Include="staticfiles\Transformation\media\defining_variable.png" />
     <Content Include="staticfiles\Transformation\media\delete-variable.png" />
     <Content Include="staticfiles\Transformation\media\DifferentObject-Attributes.png" />
+    <Content Include="staticfiles\Transformation\media\doublecurlybraces.png" />
     <Content Include="staticfiles\Transformation\media\edit-variable.png" />
     <Content Include="staticfiles\Transformation\media\example-attributemapping1.png" />
     <Content Include="staticfiles\Transformation\media\example-attributemapping2.png" />
@@ -1440,8 +1440,10 @@
     <Content Include="staticfiles\Transformation\media\Scenario2-GroupingCondition2.png" />
     <Content Include="staticfiles\Transformation\media\Scenario2-GroupingCondition3.png" />
     <Content Include="staticfiles\Transformation\media\schema1-schema2mapping.png" />
+    <Content Include="staticfiles\Transformation\media\singlesquraedbraces.png" />
     <Content Include="staticfiles\Transformation\media\sourcedestination-mapping.png" />
-    <Content Include="staticfiles\Transformation\media\structure-of-mapping.png" />
+    <Content Include="staticfiles\Transformation\media\speciallanguagesyntax.png" />
+    <Content Include="staticfiles\Transformation\media\structure_of_mapping.png" />
     <Content Include="staticfiles\Transformation\media\touchpoint-dependency1.png" />
     <Content Include="staticfiles\Transformation\media\touchpoint-dependency2.png" />
     <Content Include="staticfiles\Transformation\media\touchpoint-dependency3.png" />
@@ -1685,6 +1687,8 @@
     <None Include="_pages\_listcourses\rules.md" />
     <None Include="_pages\_listcourses\touchpoint.md" />
     <None Include="_pages\_listcourses\workflow.md" />
+    <None Include="_posts\Best-practices\2018-09-14-overview.md" />
+    <None Include="_posts\Best-practices\Sync-strategies\2018-09-14-one-way-sync.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\QuickBook\2021-12-21-quickbook.md" />
@@ -2010,14 +2014,14 @@
     <None Include="_posts\SDK\Troubleshooting\Debugging.md" />
     <None Include="_posts\SDK\Troubleshooting\Logs and File Structure.md" />
     <None Include="_posts\Security\2020-03-05-security.md" />
-    <None Include="_posts\Transformation\2018-09-17-overview.md" />
+    <None Include="_posts\Transformation\2021-11-01-overview.md" />
     <None Include="_posts\Transformation\Mapping Techniques\2019-02-25-troubleshooting.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\2019-02-28-understanding-mapping-syntax.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-getting-started-with-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-types-of-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-types-of-variable.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\understanding-mapping-syntax.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-02-getting-started-with-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-05-appseconnect_expresssion_syntax.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-04-types-of-variable.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\understanding-attribute-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2019-02-25-understanding-xml-and xpath.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-03-understanding-xml-and xpath.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-basic-of-source-destination-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-define-logic-over-destination-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-02-25-understanding-components-of-mapping.md" />
