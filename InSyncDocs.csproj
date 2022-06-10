@@ -1687,8 +1687,8 @@
     <None Include="_pages\_listcourses\rules.md" />
     <None Include="_pages\_listcourses\touchpoint.md" />
     <None Include="_pages\_listcourses\workflow.md" />
-    <None Include="_posts\Best-practices\2018-09-14-overview.md" />
-    <None Include="_posts\Best-practices\Sync-strategies\2018-09-14-one-way-sync.md" />
+    <None Include="_posts\Best-practices\2022-02-01-overview.md" />
+    <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\QuickBook\2021-12-21-quickbook.md" />
