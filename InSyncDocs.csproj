@@ -1342,6 +1342,7 @@
     <Content Include="staticfiles\teamsapp\appteams7.png" />
     <Content Include="staticfiles\teamsapp\appteams8.png" />
     <Content Include="staticfiles\teamsapp\appteams9.png" />
+    <Content Include="staticfiles\Transformation\mapping_defaultscreen.png" />
     <Content Include="staticfiles\Transformation\media\actionfilter-example1.png" />
     <Content Include="staticfiles\Transformation\media\actionfilter-example2.png" />
     <Content Include="staticfiles\Transformation\media\actionfilter-example3.png" />
@@ -1772,7 +1773,7 @@
     <None Include="_posts\ProcessFlow Management\adding-schema-actionss.md" />
     <None Include="_posts\ProcessFlow Management\enable-tracking-fields.md" />
     <None Include="_posts\ProcessFlow Management\mapper-processflow.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-19-steps-to-define-logic-over-destination-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-08-19-steps-to-define-logic-over-destination-mapping.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-20-customising-attribute-mapping.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-22-defining-variables-in-processflow-mapping .md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-21-xpath-in-processflow-mapping.md" />
@@ -2023,10 +2024,9 @@
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\understanding-attribute-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-03-understanding-xml-and xpath.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-basic-of-source-destination-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-define-logic-over-destination-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-02-25-understanding-components-of-mapping.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-02-27-steps-to-cutomize-prebuilt-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-03-01-working-with-schemas-action-filter.md" />
+    <None Include="_posts\Workflow-Management\2019-03-01-working-with-schemas-action-filter.md" />
     <None Include="_posts\Transformation\Mapping Techniques\tips-and-tricks\2019-02-28-handling-incremental-data.md" />
     <None Include="_posts\Transformation\Mapping Techniques\tips-and-tricks\2019-02-28-using-tips-and-tricks.md" />
     <None Include="_posts\Transformation\Mapping Techniques\tips-and-tricks\2019-02-28-handling-dependent-data.md" />

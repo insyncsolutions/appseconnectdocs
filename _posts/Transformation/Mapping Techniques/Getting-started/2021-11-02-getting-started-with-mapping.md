@@ -2,7 +2,7 @@
 title: "Getting Started"
 toc: true
 description: "Mapping provides a visual interface where one can map data coming from an API to another using our platform."
-keywords: "Structure of Mapping, Attribute of Mapping"
+keywords: "Structure of Mapping, Attribute Mapping"
 tag: developers
 category: "Transformation"
 menus: 
@@ -79,7 +79,7 @@ process. This section will also elaborate on the APPSeCONNECT Mapping types.
 
 * [Working with Schema Attribute & Action](/processflow/processflow-app/)
 
-* [Types of Mapping](/transformation/types-of-mapping/)
+* [APPSeCONNECT Expression Syntax](/transformation/appseconnect_expresssion_syntax/)
 
 
 
