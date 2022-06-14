@@ -1786,7 +1786,7 @@
     <None Include="_posts\ProcessFlow Management\enable-tracking-fields.md" />
     <None Include="_posts\ProcessFlow Management\mapper-processflow.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-08-19-steps-to-define-logic-over-destination-mapping.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-20-customising-attribute-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-08-20-customising-attribute-mapping.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-22-defining-variables-in-processflow-mapping .md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-21-xpath-in-processflow-mapping.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-23-namespace-mapper.md" />

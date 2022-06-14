@@ -1,12 +1,14 @@
 ---
 title: "Attribute Mapping of Processflows"
 toc: true
+description: "Mapping provides a visual interface where one can map data coming from an API to another using our platform."
+keywords: "Structure of Mapping, Attribute Mapping"
 tag: developers
-category: "Processflow"
+category: "Transformation"
 menus: 
-    mapperprocessflow:
+    transformationbasic:
         title: "Attribute Mapping of Processflows"
-        weight: 4
+        weight: 1
         icon: fa fa-file-word-o
         identifier: attributemappingprocessflow
 ---
@@ -14,25 +16,24 @@ menus:
 The data coming from the source schema requires to be transformed individually such that it matches the format 
 of the destination schema every time the processflow is synced.
 
-E.g: Suppose the user is executing Invoice Add Process Flow in this case the records of all 
+E.g : Suppose the user is executing Invoice Add Process Flow in this case the records of all 
 the Invoices are drawn from the source app and for this case the similar execution process
-of transformation is deployed multiple times
+of transformation is deployed multiple times.
 
-## Prerequisites for Working with Mapping
+## Pre-requisites for Working with Mapping
 
 * You need to have valid credentials of the portal.
-* You need to navigate to the [Process Flow listing page](/processflow/processflow-listing-page/) for creating or editing a Process Flow
-* You need [create a Process Flow](/processflow/creating-processflow/) or Edit an existing process flow for implementing Namespace in Mapper node. 
+* You need to navigate to the [Process Flow listing page](/processflow/processflow-listing-page/) for creating or editing a Process Flow.
 
-**Protip:** In case of Custom Apps, Transformation or Mapping can be executed or implemented while creating processflow
+**Protip :** In case of Custom Apps, Transformation or Mapping can be executed or implemented while creating processflow.
 {: .notice--info}
 
 ## Steps to create Attribute in Processflow Mapper node
 
-1.	[Create a New Process Flow](/processflow/creating-processflow/) or Edit an existing Process Flow for implementing Namespaces. You can view the [Process Flow Designer Page](/processflow/designer-processflow/). 
+1.	[Create a New Process Flow](/getting%20started/create-your-first-processflow/) or Edit an existing Process Flow for adding attribute. 
 Click on the Node Configuration Button of the Mapper node.       
 ![Attributemapping Processflow1](../../staticfiles/processflow/media/mapper/attributemapping-processflow1.png)
-2. You can view the Transformation screen of the Process Flow. Expand the transformation 
+2. You can view the Transformation window of the Process Flow. Expand the transformation 
 node for viewing the `Schema Object, Complex Object collections, the Complex Object and the Attributes`.
 ![Attributemapping Processflow2](../../staticfiles/processflow/media/mapper/attributemapping-processflow2.png)
 3. Expanding the `For-each loop` the user gets the view of the node oInvoices. `oInvoices` is a schema
@@ -40,14 +41,14 @@ node for viewing the `Schema Object, Complex Object collections, the Complex Obj
   this undergoes execution whenever the processflow is synced in the For-Each Loop Node.  
 ![Attributemapping Processflow3](../../staticfiles/processflow/media/mapper/attributemapping-processflow3.png)
 4. You can create custom attributes, which is defined in Complex Object & Complex Object Collection level. 
-Click on the Add Attribute button available in the context menu.  
+Click on the context menu and select Add Attribute option.  
 ![Attributemapping Processflow4](../../staticfiles/processflow/media/mapper/attributemapping-processflow4.png)
 5. You will be able to view the window for creating a new attribute. Following are the fields that would be available for creating the Attribute.
-* Attribute Type (Optional) - Defines the Active/inactive behaviour of the Attribute.
+* Attribute Type (Optional) - Defines the Active/Inactive behaviour of the Attribute.
 * Attribute property (Optional) - Here, you can define the nature of the attribute by selecting the checkboxes. You can select multiple checkboxes at a time.
 * Attribute Name (Required) - You need to define the name of the attribute.
 * Data Type (Required) - You need to select the datatype of the attribute from the drop-down list.
-* Reference API (Optional) - This field gets activated when the datatype of the attribute is selected either as Complex Object or Complex Object Collection. Since, the mentioned datatypes are reference entity, therefore you need specify the Reference Schema from the drop-down list.
+* Reference API (Optional) - This field gets activated when the datatype of the attribute is selected either as Complex Object or Complex Object Collection. Since, the mentioned datatypes are reference entity, therefore you need to specify the Reference Schema from the drop-down list.
 * Tags (Optional) - You can specify special tags for the created attribute.
 * Namespace Prefix (Optional) - You can also specify Namespace Prefix for defining its unique nature.
 ![Attributemapping Processflow5](../../staticfiles/processflow/media/mapper/attributemapping-processflow5.png)
@@ -55,13 +56,15 @@ Click on the Add Attribute button available in the context menu.
 ![Attributemapping Processflow6](../../staticfiles/processflow/media/mapper/attributemapping-processflow6.png)
 7. You can successfully view the attribute under the complex object or Complex Object Collection that you have chosen while creating.
 ![Attributemapping Processflow7](../../staticfiles/processflow/media/mapper/attributemapping-processflow7.png)
-8.	Click on the Ellipses (...) of the created Attribute you view the following options in the context menu. 
-For the attributes which are not mapped, options available is:
-a.  OPEN
-b.	Delete Attribute
-c.	Edit Attribute
-d.	Add If 
-For the attributes which are mapped, options available is:
+8.	Click on the Ellipses (...) of the created Attribute you can view the following options in the context menu. 
+
+For the attributes which are not mapped, options available is :
+
+- Do Mapping - This will enable you to provide the source application attributes, any functions or variables.  
+- Delete Attribute - Enables you to delete the attribute, provided the mapping is not present. 
+- Edit Attribute - You can edit the attribute
+
+On the other hand, for the attributes which are mapped, options available is:
 * Disable - This option is for disabling the mapping, if not required.
 * Open - The mapping window will open, if clicked on Open. Here, you can either map or edit an existing mapping.
 * Clear - This option clears out the existing mapping.
