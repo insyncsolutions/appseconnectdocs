@@ -1226,6 +1226,8 @@
     <Content Include="staticfiles\root\media\designer1.PNG" />
     <Content Include="staticfiles\root\media\dwonload.png" />
     <Content Include="staticfiles\root\media\edit-connection-tp.png" />
+    <Content Include="staticfiles\root\media\enablepasswordsecurity.png" />
+    <Content Include="staticfiles\root\media\enabletwofactor.png" />
     <Content Include="staticfiles\root\media\ExecutionCount_Dashboard.png" />
     <Content Include="staticfiles\root\media\ExecutionLog_Dashboard.png" />
     <Content Include="staticfiles\root\media\ExecutionStatus_Dashboard.png" />
@@ -1233,6 +1235,7 @@
     <Content Include="staticfiles\root\media\feeds2.png" />
     <Content Include="staticfiles\root\media\ForgotLogin _Password.png" />
     <Content Include="staticfiles\root\media\FreeTrial.png" />
+    <Content Include="staticfiles\root\media\FreeTrial_1.PNG" />
     <Content Include="staticfiles\root\media\FunctionalMenus.png" />
     <Content Include="staticfiles\root\media\help1.png" />
     <Content Include="staticfiles\root\media\help2.PNG" />
@@ -1252,6 +1255,13 @@
     <Content Include="staticfiles\root\media\newcustomer_registration2.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration3.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration4.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration41.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration42.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration43.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration44.PNG" />
+    <Content Include="staticfiles\root\media\newcustomer_registration45.PNG" />
+    <Content Include="staticfiles\root\media\newcustomer_registration46.PNG" />
+    <Content Include="staticfiles\root\media\newcustomer_registration48.PNG" />
     <Content Include="staticfiles\root\media\newcustomer_registration5.png" />
     <Content Include="staticfiles\root\media\NewProject-Added.png" />
     <Content Include="staticfiles\root\media\notification.png" />
@@ -1284,6 +1294,7 @@
     <Content Include="staticfiles\root\media\TechnologyApp-Creation.png" />
     <Content Include="staticfiles\root\media\Touchpoint-List.png" />
     <Content Include="staticfiles\root\media\TrialForm.png" />
+    <Content Include="staticfiles\root\media\TrialForm_2.PNG" />
     <Content Include="staticfiles\root\media\twofactorauthentication.png" />
     <Content Include="staticfiles\root\media\twofactorauthentication1.png" />
     <Content Include="staticfiles\root\media\Updatesubscription.png" />
@@ -1702,6 +1713,7 @@
     <None Include="_posts\Deployment\ProcessFlow Deployment and Execution\2021-10-07-snapshot-processflow.md" />
     <None Include="_posts\Deployment\ProcessFlow Deployment and Execution\2021-10-08-retry-processflow.md" />
     <None Include="_posts\Deployment\Troubleshooting.md" />
+    <None Include="_posts\OnBoarding\2022-06-14-getting-an-account_onboard.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-04-components-of-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-25-Working-with-functions.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2021-08-08-trigger-processflow.md" />
