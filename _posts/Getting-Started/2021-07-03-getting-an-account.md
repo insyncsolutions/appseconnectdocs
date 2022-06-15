@@ -79,7 +79,7 @@ temporary password generated, which you can use to login to the account.
 10. If you select the deployment environment as `On Cloud`, provide the credentials of the selected applications. `Save` the credentials and click on `Proceed`. 
 However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. Click on `Done`.
 11. After successful validation and saving of the credentials in the agent, the applications will be listed in the `UI`. 
-![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.png)
+![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.PNG)
 
 12. Finally, click on `Done` and you are ready to create, deploy and execute any processflow, install or share packages and create the same as well. 
 
