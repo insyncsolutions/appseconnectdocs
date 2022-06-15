@@ -2,9 +2,9 @@
 title: "Working with Schema, Action & Filter"
 toc: true
 tag: developers
-category: "Transformation"
+category: "Workflow"
 menus: 
-    transformationbasic:
+    workflow:
         title: "Working with Schema, Action and Filter"
         weight: 3
         icon: fa fa-file-word-o

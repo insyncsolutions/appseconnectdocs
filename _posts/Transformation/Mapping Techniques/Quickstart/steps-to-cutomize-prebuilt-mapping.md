@@ -1,6 +1,7 @@
 ---
 title: "Steps to Customize Prebuilt Mapping/Attribute mapping"
 toc: true
+published: false
 tag: developers
 category: "Transformation"
 menus: 

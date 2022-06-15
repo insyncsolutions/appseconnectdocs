@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Getting an Account"
 description: "Accessing Account in APPSeCONNECT"
 keywords: "Trial,Free Trial, Paid Trial, Accessing Account,steps to start, Multi-Factor Authentication,two factor authentication, security, login to appseconnect,password security,password expiry"
@@ -27,12 +27,12 @@ or even one single penny of expense. We give you the full fledged version of all
 The Free Trial selection option will only showcase the integration on vanilla systems.
 
 1. The Landing page of the APPSeCONNECT Portal gives the option to request for a [FREE TRIAL](https://www.appseconnect.com/free-trial/).
-![FreeTrial_1](/staticfiles/root/media/FreeTrial_1.png) 
+![FreeTrial](/staticfiles/root/media/FreeTrial.png) 
 
 2. Click the option Free Trial and a vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
-![Trial_Form_1](/staticfiles/root/media/TrialForm_2.png)
+![Trial_Form](/staticfiles/root/media/TrialForm.png)
 3. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
-4. The visitors will complete the form Fill up and click on **Get Started Now!** button given at the end of the form.
+4. The visitors will complete the form Fill up and click on **Start Free Trial** button given at the end of the form.
 5. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
 6. Our Consultant will connect back to the vistors and help them with their request for integration within our trial period of 30 days.
 
@@ -62,36 +62,31 @@ temporary password generated, which you can use to login to the account.
 - Link for APPSeCONNECT Documentations will help you with the usability aspect throughout APPSeCONNECT.
 - Link for APPSeCONNECT Community will enable you to stay connect with the APPSeCONNECT Community for quick support and discussions.
 ![newcustomer_registration3](/staticfiles/root/media/newcustomer_registration3.png)  
-2.	Clicking on `Activation link` will activate the created account. User will now be directed to a new window where you need to create your password meeting our password generation criteria. 
-3.	You need to accept the `terms and conditions` along with the `Privacy Policy` to login to APPSeCONNECT portal. Once you click on [Getting Started](/getting%20started/overview/), you will be directed to `APPSeCONNECT` documentation portal.   
-![newcustomer_registration41](/staticfiles/root/media/newcustomer_registration41.png)  
-4.	Once the necessary details are filled up, click on `Change and Proceed`.  
-5.	A message will be displayed notifying you that the password has been set successfully. Click on `Continue to APPSeCONNECT`.  
-![newcustomer_registration42](/staticfiles/root/media/newcustomer_registration42.png)  
-6. Once you click on `Continue to APPSeCONNECT`, you will be directed to `Account details` page. Select the `Job Role` and industry related information from the drop-down. Click on `Get Started` to move to the next step. 
-![newcustomer_registration43](/staticfiles/root/media/newcustomer_registration43.png)    
-7. Select the desired applications from the `Apps` section to integrate your business and click on `Save and Proceed`. A green coloured line will be visible under `Apps` that you have selected for integration. 
-![newcustomer_registration44](/staticfiles/root/media/newcustomer_registration44.PNG) 
-8. Either you can install any packages that suits your business the best such that you could utilize the pre-built processflows for easy, smooth and free-flowing integration or click on `Create custom Process Flow!` to build a new processflow. 
-![newcustomer_registration45](/staticfiles/root/media/newcustomer_registration45.PNG)
-9. Select your integration deployment environment as `On Cloud` or `On Premise`. Click on `Proceed`. 
-![newcustomer_registration46](/staticfiles/root/media/newcustomer_registration46.PNG)
-10. If you select the deployment environment as `On Cloud`, provide the credentials of the selected applications. `Save` the credentials and click on `Proceed`. 
-However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. Click on `Done`.
-11. After successful validation and saving of the credentials in the agent, the applications will be listed in the `UI`. 
-![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.png)
-
-12. Finally, click on `Done` and you are ready to create, deploy and execute any processflow, install or share packages and create the same as well. 
+2.	Clicking on `Activation link` will activate the created account. User will now be able to login to the portal with the password provided in the activation mail.  
+3.	Once logged, APPSeCONNECT portal would ask the user to change the password for security purpose.    
+![newcustomer_registration4](/staticfiles/root/media/newcustomer_registration4.png)  
+4.	Once the changes are saved, user needs to re-login to the portal with the new password.  
+5.	Once logged in, APPSeCONNECT would ask to accept the License Agreement. Users can opt for reading the details by clicking on the provided links.  
+![newcustomer_registration5](/staticfiles/root/media/newcustomer_registration5.png)  
+6. Now you will be directed to the `PhoneNumber`setting screen. Select Country/Region
+from the drop down list & Input your phone number. Click on Add Button to Add the phone number
+or skip button to skip the section. 
+![addphone_number](/staticfiles/root/media/addphone_number.png)   
+(a) Incase of erroneous phone number you will get an error message on screen.    
+(b) You can also Enable Two Factor Authentication by clicking on the check box. This will
+send a verification code to your registered number.    
+7.	Once accepted, the user would be able to view the account profile details. Click on organisation tab, and this will navigate the user to the [Organisation Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/#a-accessing-organization-dashboard).   
+8.	Here you can view the other [Organisation modules](https://docs.appseconnect.com/accessing%20portal/accessing-portal/) available for every organisation.  
 
 **Note : The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
-### Accessing an account
+### Accessing an activated account
 
 Once your account is activated, you can access your resources in our cloud portal by logging in to your account using valid username and password. Your account will be secured with us through authentication system, and we encourage
 you to logout after using it. 
 
-Click on portal and this will take you to the login page of  APPSeCONNECT Portal.
+Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
 ![Customer_Login](/staticfiles/root/media/CustomerLogin.png)
 
@@ -114,7 +109,7 @@ To enable mutli factor authentication system, you need to perform the following 
     * You can check the `Two Factor Authentication`. It will verify your phone number and you are done.
     * Save Changes to take this effect.
 
-    ![Twofactorauthentication](/staticfiles/root/media/enabletwofactor.png)
+    ![Twofactorauthentication](/staticfiles/root/media/twofactorauthentication.png)
 
     After Two Factor is Authenticated, the login will prompt for an extra passcode to log in.
 
@@ -127,6 +122,6 @@ To enable mutli factor authentication system, you need to perform the following 
     * You can check the `Enable Password Expiry`. It will show a dropdown to set up an expiry of either One month, two months or three months.
     * Save Changes to take this effect.
 
-    ![Twofactorauthentication1](/staticfiles/root/media/enablepasswordsecurity.png)
+    ![Twofactorauthentication1](/staticfiles/root/media/twofactorauthentication1.png)
 
 After enabling password expiry, it will ask to change the password after every 1 to 3 months depending on the setup.

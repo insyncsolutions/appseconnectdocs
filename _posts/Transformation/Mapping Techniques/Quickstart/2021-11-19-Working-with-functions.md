@@ -4,9 +4,9 @@ description: "Learn how to use our default and user defined functions."
 keywords: "generic function, native function, user-defined function, cloud function"
 toc: true
 tag: developers
-category: "Processflow"
+category: "Transformation"
 menus: 
-    mapperprocessflow:
+    transformationbasic:
         title: "Working with Functions"
         weight: 8
         icon: fa fa-file-word-o

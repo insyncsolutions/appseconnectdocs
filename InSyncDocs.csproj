@@ -34,6 +34,7 @@
     <Folder Include="staticfiles\best-practices\" />
     <Folder Include="staticfiles\partner-management\" />
     <Folder Include="_posts\Connectors\Technology Connectors\File System\" />
+    <Folder Include="_posts\OnBoarding\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -821,6 +822,8 @@
     <Content Include="staticfiles\processflow\media\mapper\cloudfunction2.png" />
     <Content Include="staticfiles\processflow\media\mapper\cloudfunction3.png" />
     <Content Include="staticfiles\processflow\media\mapper\create-basicprocessflow1.png" />
+    <Content Include="staticfiles\processflow\media\mapper\customrenderer1.png" />
+    <Content Include="staticfiles\processflow\media\mapper\customrenderer2.png" />
     <Content Include="staticfiles\processflow\media\mapper\getnode1.png" />
     <Content Include="staticfiles\processflow\media\mapper\getnode2.png" />
     <Content Include="staticfiles\processflow\media\mapper\hierarchial-rendering-processflow.PNG" />
@@ -1226,6 +1229,8 @@
     <Content Include="staticfiles\root\media\designer1.PNG" />
     <Content Include="staticfiles\root\media\dwonload.png" />
     <Content Include="staticfiles\root\media\edit-connection-tp.png" />
+    <Content Include="staticfiles\root\media\enablepasswordsecurity.png" />
+    <Content Include="staticfiles\root\media\enabletwofactor.png" />
     <Content Include="staticfiles\root\media\ExecutionCount_Dashboard.png" />
     <Content Include="staticfiles\root\media\ExecutionLog_Dashboard.png" />
     <Content Include="staticfiles\root\media\ExecutionStatus_Dashboard.png" />
@@ -1233,6 +1238,7 @@
     <Content Include="staticfiles\root\media\feeds2.png" />
     <Content Include="staticfiles\root\media\ForgotLogin _Password.png" />
     <Content Include="staticfiles\root\media\FreeTrial.png" />
+    <Content Include="staticfiles\root\media\FreeTrial_1.PNG" />
     <Content Include="staticfiles\root\media\FunctionalMenus.png" />
     <Content Include="staticfiles\root\media\help1.png" />
     <Content Include="staticfiles\root\media\help2.PNG" />
@@ -1252,6 +1258,13 @@
     <Content Include="staticfiles\root\media\newcustomer_registration2.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration3.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration4.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration41.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration42.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration43.png" />
+    <Content Include="staticfiles\root\media\newcustomer_registration44.PNG" />
+    <Content Include="staticfiles\root\media\newcustomer_registration45.PNG" />
+    <Content Include="staticfiles\root\media\newcustomer_registration46.PNG" />
+    <Content Include="staticfiles\root\media\newcustomer_registration48.PNG" />
     <Content Include="staticfiles\root\media\newcustomer_registration5.png" />
     <Content Include="staticfiles\root\media\NewProject-Added.png" />
     <Content Include="staticfiles\root\media\notification.png" />
@@ -1284,6 +1297,7 @@
     <Content Include="staticfiles\root\media\TechnologyApp-Creation.png" />
     <Content Include="staticfiles\root\media\Touchpoint-List.png" />
     <Content Include="staticfiles\root\media\TrialForm.png" />
+    <Content Include="staticfiles\root\media\TrialForm_2.PNG" />
     <Content Include="staticfiles\root\media\twofactorauthentication.png" />
     <Content Include="staticfiles\root\media\twofactorauthentication1.png" />
     <Content Include="staticfiles\root\media\Updatesubscription.png" />
@@ -1342,6 +1356,7 @@
     <Content Include="staticfiles\teamsapp\appteams7.png" />
     <Content Include="staticfiles\teamsapp\appteams8.png" />
     <Content Include="staticfiles\teamsapp\appteams9.png" />
+    <Content Include="staticfiles\Transformation\mapping_defaultscreen.png" />
     <Content Include="staticfiles\Transformation\media\actionfilter-example1.png" />
     <Content Include="staticfiles\Transformation\media\actionfilter-example2.png" />
     <Content Include="staticfiles\Transformation\media\actionfilter-example3.png" />
@@ -1701,8 +1716,9 @@
     <None Include="_posts\Deployment\ProcessFlow Deployment and Execution\2021-10-07-snapshot-processflow.md" />
     <None Include="_posts\Deployment\ProcessFlow Deployment and Execution\2021-10-08-retry-processflow.md" />
     <None Include="_posts\Deployment\Troubleshooting.md" />
+    <None Include="_posts\Getting-Started\2021-07-03-getting-an-account.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-04-components-of-processflow.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-25-Working-with-functions.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-19-Working-with-functions.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2021-08-08-trigger-processflow.md" />
     <None Include="_posts\Release-Notes\2022\Q2\2022-05-24-2022-Q2-V3-Hotfix.md" />
     <None Include="_posts\Release-Notes\2022\Q2\2022-05-10-2022-Q2-V1-HotFix.md" />
@@ -1731,9 +1747,9 @@
     <None Include="_posts\Getting-Started\2021-07-06-components-services.md" />
     <None Include="_posts\Getting-Started\2021-07-10-sdk.md" />
     <None Include="_posts\Integration\2018-09-22-configurations-for-integration.md" />
-    <None Include="_posts\Connectors\2021-11-06-configurations.md" />
+    <None Include="_posts\Connectors\2022-06-06-configurations.md" />
     <None Include="_posts\Getting-Started\2021-07-07-accessing-portal.md" />
-    <None Include="_posts\Getting-Started\2021-07-03-getting-an-account.md" />
+    <None Include="_posts\Getting-Started\getting-an-account.md" />
     <None Include="_posts\Getting-Started\2021-07-04-terminology.md" />
     <None Include="_posts\Getting-Started\2021-07-01-getting-started.md" />
     <None Include="_posts\Getting-Started\2021-07-08-accessing-agents.md" />
@@ -1772,12 +1788,12 @@
     <None Include="_posts\ProcessFlow Management\adding-schema-actionss.md" />
     <None Include="_posts\ProcessFlow Management\enable-tracking-fields.md" />
     <None Include="_posts\ProcessFlow Management\mapper-processflow.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-19-steps-to-define-logic-over-destination-mapping.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-20-customising-attribute-mapping.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-22-defining-variables-in-processflow-mapping .md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-21-xpath-in-processflow-mapping.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-23-namespace-mapper.md" />
-    <None Include="_posts\ProcessFlow Management\Mapper\2021-08-24-advance-mapping-render-processflow.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-14-steps-to-define-logic-over-destination-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-10-customising-attribute-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-16-defining-variables-in-processflow-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-13-xpath-in-processflow-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-15-namespace-mapper.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-18-advance-mapping-render-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Mapper\2021-08-18-working-with-mapper.md" />
     <None Include="_posts\ProcessFlow Management\migration-of-processflow.md" />
     <None Include="_posts\ProcessFlow Management\Nodes and Links\2021-08-26-working-with-decision.md" />
@@ -2017,16 +2033,15 @@
     <None Include="_posts\Transformation\2021-11-01-overview.md" />
     <None Include="_posts\Transformation\Mapping Techniques\2019-02-25-troubleshooting.md" />
     <None Include="_posts\Transformation\Mapping Techniques\understanding-mapping-syntax.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-02-getting-started-with-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-05-appseconnect_expresssion_syntax.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-04-types-of-variable.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-03-getting-started-with-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-06-appseconnect_expresssion_syntax.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-05-types-of-variable.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Getting-started\understanding-attribute-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-03-understanding-xml-and xpath.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-basic-of-source-destination-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2018-09-17-define-logic-over-destination-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-02-25-understanding-components-of-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-02-27-steps-to-cutomize-prebuilt-mapping.md" />
-    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2019-03-01-working-with-schemas-action-filter.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Getting-started\2021-11-04-understanding-xml-and xpath.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-08-basic-of-source-destination-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-09-understanding-components-of-mapping.md" />
+    <None Include="_posts\Transformation\Mapping Techniques\Quickstart\steps-to-cutomize-prebuilt-mapping.md" />
+    <None Include="_posts\Workflow-Management\2019-03-01-working-with-schemas-action-filter.md" />
     <None Include="_posts\Transformation\Mapping Techniques\tips-and-tricks\2019-02-28-handling-incremental-data.md" />
     <None Include="_posts\Transformation\Mapping Techniques\tips-and-tricks\2019-02-28-using-tips-and-tricks.md" />
     <None Include="_posts\Transformation\Mapping Techniques\tips-and-tricks\2019-02-28-handling-dependent-data.md" />
