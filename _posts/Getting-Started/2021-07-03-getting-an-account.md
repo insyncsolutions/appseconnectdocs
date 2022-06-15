@@ -63,7 +63,7 @@ temporary password generated, which you can use to login to the account.
 - Link for APPSeCONNECT Community will enable you to stay connect with the APPSeCONNECT Community for quick support and discussions.
 ![newcustomer_registration3](/staticfiles/root/media/newcustomer_registration3.png)  
 2.	Clicking on `Activation link` will activate the created account. User will now be directed to a new window where you need to create your password meeting our password generation criteria. 
-3.	You need to accept the `terms and conditions` along with the `Privacy Policy` to login to APPSeCONNECT portal. Once you click on **Getting Started**, you will be directed to `APPSeCONNECT` documentation portal.   
+3.	You need to accept the `terms and conditions` along with the `Privacy Policy` to login to APPSeCONNECT portal. Once you click on [Getting Started](/getting%20started/overview/), you will be directed to `APPSeCONNECT` documentation portal.   
 ![newcustomer_registration41](/staticfiles/root/media/newcustomer_registration41.png)  
 4.	Once the necessary details are filled up, click on `Change and Proceed`.  
 5.	A message will be displayed notifying you that the password has been set successfully. Click on `Continue to APPSeCONNECT`.  

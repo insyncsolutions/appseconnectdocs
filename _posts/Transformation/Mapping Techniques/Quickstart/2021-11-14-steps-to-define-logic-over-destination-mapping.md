@@ -8,7 +8,7 @@ category: "Transformation"
 menus: 
     transformationbasic:
         title: "Steps to Define logic over Destination Mapping"
-        weight: 2
+        weight: 4
         icon: fa fa-file-word-o
         identifier: definelogicdestinationmapping
 ---

@@ -8,7 +8,7 @@ category: "Transformation"
 menus: 
     transformationbasic:
         title: "Attribute Mapping of Processflows"
-        weight: 1
+        weight: 2
         icon: fa fa-file-word-o
         identifier: attributemappingprocessflow
 ---
@@ -64,47 +64,52 @@ For the attributes which are not mapped, options available is :
 - Delete Attribute - Enables you to delete the attribute, provided the mapping is not present. 
 - Edit Attribute - You can edit the attribute
 
-On the other hand, for the attributes which are mapped, options available is:
-* Disable - This option is for disabling the mapping, if not required.
-* Open - The mapping window will open, if clicked on Open. Here, you can either map or edit an existing mapping.
-* Clear - This option clears out the existing mapping.
-* Delete Attribute - Deletes the created Attribute.
-* Edit Attribute - Enables you to edit the attribute
+On the other hand, for the attributes which are mapped, options available is :
+
+* Disable - This option is for disabling the mapping, if not required. 
+* Do Mapping - The mapping window will open, if clicked on Do Mapping. Here, you can either map or edit an existing mapping. 
+* Clear - This option clears out the existing mapping. 
+* Delete Attribute - Deletes the created Attribute. 
+* Edit Attribute - Enables you to edit the attribute.
 * Add If - If-Else conditional mapping can be implemented, if clicked on this option. 
-**Note: Pre-packaged attributes will not have the option for Delete and Edit.**
+**Note : Pre-packaged attributes will not have the option for Delete and Edit.** 
 9.	Click on the Edit Attribute button, you will get the following window.
 ![Attributemapping Processflow8](../../staticfiles/processflow/media/mapper/attributemapping-processflow8.png)
 10. Edit the fields as per your requirement and click on the SAVE button.
 Following the above process, you can successfully create and edit an attribute.
 
 ## Implementing Attribute Mapping
+
 1.	Click on the Node Configuration Button of the Mapper node.
 ![Attributemapping Processflow9](../../staticfiles/processflow/media/mapper/attributemapping-processflow9.png) 
-2.	You can view the Transformation screen of the Process Flow. Expand the transformation node for viewing the Schema Object, Complex Object collections, the Complex Object and the Attributes.
+2.	You can view the Transformation window of the Process Flow. Expand the transformation node for viewing the Schema Object, Complex Object collections, the Complex Object and the Attributes.
 ![Attributemapping Processflow10](../../staticfiles/processflow/media/mapper/attributemapping-processflow10.png) 
-3.	Expanding the For-each loop the you will get the view of the node oInvoices.
+3.	Expanding the For-each loop, you will get the view of the node oInvoices.
  ![Attributemapping Processflow11](../../staticfiles/processflow/media/mapper/attributemapping-processflow11.png)
-4.	On expanding oInvoices (Schema Object) you will get the view of the several complex object collections and the attributes that are listed under it. 
+4.	On expanding oInvoices (Schema Object) you will get the view of several complex object collections and the attributes that are listed under it. 
 ![Attributemapping Processflow12](../../staticfiles/processflow/media/mapper/attributemapping-processflow12.png) 
-**Note: Document_Lines will contain the details of the Product in terms of Quantity 
+**Note : Document_Lines will contain the details of the Product in terms of Quantity 
 and Unit Price etc., DocumentsAdditionalExpenses contains the Freight, Tax information etc.** of the product.
 5.	Expand the row to view the destination attributes. 
 ![Attributemapping Processflow13](../../staticfiles/processflow/media/mapper/attributemapping-processflow13.png) 
 6.	Click on the Ellipses (...) button beside the attribute , you can view the following option in the context menu. 
-For the attributes which are not mapped, options available is:
-a.	 OPEN
-b.	 ADD IF
-For the attributes which are mapped, options available is:
-*	Disable -This option is for disabling the mapping, if not required.
-*	Open - The mapping window will open, if clicked on Open. Here, you can either map or edit an existing mapping.
-*	Clear - This option clears out the existing mapping.
-*	Add If - If-Else conditional mapping can be implemented, if clicked on this option. Click here to know more
-Note: Custom Attributes create by you will have extra options in the context menu. Click Here (Attribute Creation) to know more about Custom Attributes.
-7.	Click on the Ellipses (...) button beside the attribute and select the option OPEN button from the Context menu. You will be able to view the Mapping window.
+For the attributes which are not mapped, options available is :
+
+-	Do Mapping - The mapping window will open, if clicked on Do Mapping. Here, you can either map or edit an existing mapping.
+-	Add If - If-Else conditional mapping can be implemented, if clicked on this option.
+
+For the attributes which are mapped, options available is :
+
+*	Disable - This option is for disabling the mapping, if not required. 
+*	Do Mapping - The mapping window will open, if clicked on Do Mapping. Here, you can either map or edit an existing mapping. 
+*	Clear - This option clears out the existing mapping. 
+*	Add If - If-Else conditional mapping can be implemented, if clicked on this option. 
+Note : Custom Attributes create by you will have extra options in the context menu. Click Here (Attribute Creation) to know more about Custom Attributes.
+7.	Click on the Ellipses (...) button beside the attribute and select the option Do Mapping button from the Context menu. You will be able to view the Mapping window.
  ![Attributemapping Processflow14](../../staticfiles/processflow/media/mapper/attributemapping-processflow14.png)
 8.	 The mapping window has multiple sections and fields. Expanding the nodes in the Source Field section displays the appresource functions and the source attributes that is required for the mapping. On expanding the Source Schema Object node (in this case invoice) displays all the source attributes.
  ![Attributemapping Processflow15](../../staticfiles/processflow/media/mapper/attributemapping-processflow15.png)
-9.	Expanding the node FUNCTION, you can view all the functions listed under Generic Source, Destination and Cloud Appresources.
+9.	Expanding the node FUNCTION, you can view all the functions listed under Generic, Source, Destination and Cloud Appresources.
 ![Attributemapping Processflow16](../../staticfiles/processflow/media/mapper/attributemapping-processflow16.png) 
 10.	Clicking on any of the functions, will display it in the mapping panel. Once the mapping is done, Click Save button for Enabling and Saving the mapping.
 
@@ -116,6 +121,7 @@ of the XML standardisation.**
 Following the above process, you can successfully map attributes in Process Flow Mapper Node.
 
 ## Implementing Attribute Sorting in Mapper Node
+
 1.	For any attributes that needs to be enabled for sorting, you at least need to save a blank mapping.
 2.	Attributes and variables with no mapping will neither be allowed to sort in the mapping tree, nor will it be displayed in the XSLT preview.
 3.	You can sort the order of attributes and variables in the mapping page by dragging and dropping the same under its parent only if the mapping for the attribute has been done or if it is blank.
