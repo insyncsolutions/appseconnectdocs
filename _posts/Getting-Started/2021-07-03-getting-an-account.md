@@ -27,10 +27,10 @@ or even one single penny of expense. We give you the full fledged version of all
 The Free Trial selection option will only showcase the integration on vanilla systems.
 
 1. The Landing page of the APPSeCONNECT Portal gives the option to request for a [FREE TRIAL](https://www.appseconnect.com/free-trial/).
-![FreeTrial_1](/staticfiles/root/media/FreeTrial_1.png) 
+![FreeTrial_1](/staticfiles/root/media/FreeTrial_1.PNG) 
 
 2. Click the option Free Trial and a vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
-![Trial_Form_1](/staticfiles/root/media/TrialForm_2.png)
+![Trial_Form_1](/staticfiles/root/media/TrialForm_2.PNG)
 3. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
 4. The visitors will complete the form Fill up and click on **Get Started Now!** button given at the end of the form.
 5. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
@@ -79,7 +79,7 @@ temporary password generated, which you can use to login to the account.
 10. If you select the deployment environment as `On Cloud`, provide the credentials of the selected applications. `Save` the credentials and click on `Proceed`. 
 However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. Click on `Done`.
 11. After successful validation and saving of the credentials in the agent, the applications will be listed in the `UI`. 
-![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.png)
+![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.PNG)
 
 12. Finally, click on `Done` and you are ready to create, deploy and execute any processflow, install or share packages and create the same as well. 
 
