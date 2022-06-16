@@ -2,7 +2,7 @@
 title: "Generic NAV 2015 Extension"
 toc: true
 description: "Get to know about the extension of Generic NAV 2015"
-keywords: "Installation of INS2.01 Extension for NAV2016, Importing of .fob files and web services XML file, Manual changes in Base Pages, Changes in Customer Card Page, Changes in Item Card Page, Changes in Sales Order Page, Changes in Ship-to Address Page, Changes in Contact Card Page, Changes in Contact Alt. Address Card Page""
+keywords: "Installation of INS2.01 Extension for NAV2016, Importing of .fob files and web services XML file, Manual changes in Base Pages, Changes in Customer Card Page, Changes in Item Card Page, Changes in Sales Order Page, Changes in Ship-to Address Page, Changes in Contact Card Page, Changes in Contact Alt. Address Card Page"
 toc: true
 tag: developers
 category: "Connectors"
@@ -22,7 +22,7 @@ in the data integration business scenario.
 
 ## Installation of INS2.05 Extension for NAV2015
 
-Installation of INS2.05 has been divided into two tasks as given below:
+Installation of INS2.05 has been divided into two tasks as given below :
 
 **1. Importing of .fob files and web services XML file**
 
@@ -37,15 +37,15 @@ Installation of INS2.05 has been divided into two tasks as given below:
 * codeunit
 * xmlport
 
-2) There is two option to import extension WebServices from XML file and they are provided below:
+2) There is two option to import extension WebServices from XML file and they are provided below :
 
 a) Run `AEC WebServices Import` xmlport. An import popup will appear. Specify a direction value import and click OK button. 
    Another popup will be shown where you need to select the Webservices of the XML file.
 
 b) Run-`ins import codeunit` where we have called `AECWebServiceImport function` with a `parameter datafilepath`. 
   This datafilepath is webservices of XML file path. You will be provided with XML file in extension build. 
-  You need to be changed function parameter path value as per your webservice XML file location. 
-  This will insert data in Dynamics NAV `Web Service` table.
+  You need to change function parameter path value as per your webservice XML file location. 
+  This will insert data in Dynamics NAV `Web Service` table. 
 
 ## Manual changes in Base Pages
 
