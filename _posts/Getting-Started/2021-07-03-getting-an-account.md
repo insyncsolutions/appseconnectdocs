@@ -27,10 +27,9 @@ or even one single penny of expense. We give you the full fledged version of all
 The Free Trial selection option will only showcase the integration on vanilla systems.
 
 1. The Landing page of the APPSeCONNECT Portal gives the option to request for a [FREE TRIAL](https://www.appseconnect.com/free-trial/).
-![FreeTrial_1](/staticfiles/root/media/FreeTrial_1.PNG) 
-
+![FreeTrial_1](/staticfiles/processflow/media/register_2.png) 
 2. Click the option Free Trial and a vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
-![Trial_Form_1](/staticfiles/root/media/TrialForm_2.PNG)
+![Trial_Form_1](/staticfiles/processflow/media/register_1.png)
 3. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
 4. The visitors will complete the form Fill up and click on **Get Started Now!** button given at the end of the form.
 5. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
