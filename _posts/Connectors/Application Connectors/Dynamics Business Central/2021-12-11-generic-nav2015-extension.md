@@ -1,6 +1,9 @@
 ---
 title: "Generic NAV 2015 Extension"
 toc: true
+description: "Get to know about the extension of Generic NAV 2015"
+keywords: "Installation of INS2.01 Extension for NAV2016, Importing of .fob files and web services XML file, Manual changes in Base Pages, Changes in Customer Card Page, Changes in Item Card Page, Changes in Sales Order Page, Changes in Ship-to Address Page, Changes in Contact Card Page, Changes in Contact Alt. Address Card Page""
+toc: true
 tag: developers
 category: "Connectors"
 menus: 
@@ -10,6 +13,7 @@ menus:
         icon: fa fa-file-word-o
         identifier: navbusinesscentralconnector2015
 ---
+
 Here you will get the step by step process to use NAV 2015 Extension as and when required
 in the data integration business scenario.
 
