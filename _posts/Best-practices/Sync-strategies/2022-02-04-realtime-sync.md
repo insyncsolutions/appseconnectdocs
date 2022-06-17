@@ -26,6 +26,19 @@ There are two patterns that one can follow while developing real-time sync :
 - Synchronous Pattern 
 - Asynchronous Pattern
 
+```plantuml!
+"Source App" -> APPSeCONNECT: Pushes data
+activate APPSeCONNECT
+APPSeCONNECT-> "Source App" : Waits for the processing to complete and then Return response
+deactivate APPSeCONNECT
+==Asynchronous==
+"Source App" -> APPSeCONNECT: Pushes data
+activate APPSeCONNECT
+APPSeCONNECT--> "Source App": Returns acknoledgement before executing.
+APPSeCONNECT-> "Source App": Finishes execution
+deactivate APPSeCONNECT
+```
+
 ## Synchronous Pattern 
 
 This pattern is based on the `Request/Reply` model. When an end-user creates or modifies any records on the source application, the data is pushed to a URL immediately. 
@@ -33,6 +46,7 @@ Source application then sends a message containing the record data to the integr
 The integration after receiving the message, performs any transformations, and sends to the destination application. 
 The integration handles the response from destination application and returns a confirmation message to the source application. 
 Once the source application receives the response, it continues with any post-processing tasks. 
+
 
 **Pros and Cons**
 
