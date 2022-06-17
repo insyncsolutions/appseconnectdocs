@@ -19,7 +19,7 @@ menus:
 APPSeCONNECT is a Business Process Automation tool which enables the users and citizen integrators to create and deploy Process Flows which
 lets the developers configure seamless integration between the line of business applications. Every business is different from one another
 and software programmes are incapable of solving complex business problems. Thus, it is advisable to employ best of breed applications and 
-services to solve a problem. 
+services to solve a problem.  
 
 APPSeCONNECT lets the developers and citizen integrators freely connect to application silos, thereby making the data flow between application
 and services such that all the applications are updated with most current business data.

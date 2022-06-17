@@ -54,6 +54,19 @@ This method enhances the flag based approach and stores some additional data tha
 modified or added through the integration platform. In such a case the platform knows the context and does additional 
 stuff that ensures the flag is unset only when the data operation is performed from user interfaces. 
 
+```plantuml!
+==APPSeCONNECT== 
+APPSeCONNECT->"Source App": Request all which is modified by user and Flag is Y
+"Source App" -> APPSeCONNECT: Returns data where modified = user
+APPSeCONNECT -> "Source App": Request update for all Flag to N and track as APPSeCONNECT
+"Source App" --> APPSeCONNECT: Acknowledge
+==USER Interation==
+actor user
+user->"Source App": Update always to N and modified as user
+"Source App" -> user: Acknowledge
+```
+
+
 **Pros and Cons**
 
 - The approach is best suited for Two-way sync and addresses all the challenges. It enhances the Flag based approach to ensure it identifies the user context. 
@@ -65,7 +78,15 @@ stuff that ensures the flag is unset only when the data operation is performed f
 Sometimes it is important for the integration platform to decide which data to update and which not. In merging the cells, 
 the integration platform allows to choose the right value based on the record update or based on the `Master-Slave` relationship 
 mentioned beforehand. It is important to note, this kind of approach also produces conflict and the conflict is being put into 
-the data bucket for a manual fix. 
+the data bucket for a manual fix.
+
+```plantuml!
+==APPSeCONNECT== 
+APPSeCONNECT->"Source App": Request all which is modified
+"Source App" -> APPSeCONNECT: Returns data
+APPSeCONNECT -> "Source App": Merge conflict / take only changes in master
+"Source App" --> APPSeCONNECT: Acknowledge 
+```
 
 **Pros and Cons**
 
