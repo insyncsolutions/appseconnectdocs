@@ -2,7 +2,7 @@
 title: "Generic NAV 2015 Extension"
 toc: true
 description: "Get to know about the extension of Generic NAV 2015"
-keywords: "Installation of INS2.01 Extension for NAV2016, Importing of .fob files and web services XML file, Manual changes in Base Pages, Changes in Customer Card Page, Changes in Item Card Page, Changes in Sales Order Page, Changes in Ship-to Address Page, Changes in Contact Card Page, Changes in Contact Alt. Address Card Page"
+keywords: "Generic NAV 2015 Extension, Installation of INS2.05 Extension for NAV2015, Importing of .fob files and web services XML file, Manual changes in Base Pages, Changes in Customer Card Page, Changes in Item Card Page, Changes in Sales Order Page, Changes in Ship-to Address Page, Changes in Contact Card Page, Changes in Contact Alt. Address Card Page, Log table setup information, Item variant, Sales Price For The Item Variant, Quantity For The Item Variant, "
 toc: true
 tag: developers
 category: "Connectors"
@@ -17,8 +17,7 @@ menus:
 Here you will get the step by step process to use NAV 2015 Extension as and when required
 in the data integration business scenario.
 
-**ProTip:** Before installation of INS2.05 Extension please keep a backup of the NAV Database.
-{: .notice--info}
+>Before installation of INS2.05 Extension please keep a backup of the NAV Database.
 
 ## Installation of INS2.05 Extension for NAV2015
 
@@ -51,7 +50,7 @@ b) Run-`ins import codeunit` where we have called `AECWebServiceImport function`
 
 We have added some base table field and our extension page in base Page:
 
-**NOTE: After inserting the 1st part in each of the base pages, click on the left shift-arrow to make it distinguishable from the previous group**
+**NOTE : After inserting the 1st part in each of the base pages, click on the left shift-arrow to make it distinguishable from the previous group**
 
 
 ![manualchange-basepage1](/staticfiles/connectors/media/application-connector/navextension/manualchange-basepage1.png)
@@ -60,7 +59,7 @@ We have added some base table field and our extension page in base Page:
 
 a)  We have added our Extension page `AEC Customer Page` (33064472) as a part type with the name `WebCustomer Details`. 
     After the creation of the WebCustomerDetails, click on the property button. The WebCustomerDetails property window opens.
-   `AEC Customer Page` SubpageLink field is `No.` and base page SubPageLink field is `No.`
+   `AEC Customer Page` lists SubpageLink field as `No.` and base page SubPageLink field as `No.`
 
 ![manualchange-customercard](/staticfiles/connectors/media/application-connector/navextension/manualchange-customercard.png)
 
@@ -80,7 +79,7 @@ a)  We have added our Extension page `AEC Customer Page` (33064472) as a part ty
 |PagePartID|AEC Customer Page|
 
 b) We have added our Extension page `AEC Application Customer List` (33064474) as a part type with the name `AEC Application Customer List`. 
- Click on Property button and Application Customer Detail page appears. Page AEC Application Customer List SubPage Link field is `CustomerNo` 
+ Click on Property button and Application Customer Detail page appears. Page AEC Application Customer lists SubPage Link field is `CustomerNo` 
  and base page SubPageLink field is `No.`
 
 ![manualchange-customercard2](/staticfiles/connectors/media/application-connector/navextension/manualchange-customercard2.png)
@@ -102,7 +101,7 @@ b) We have added our Extension page `AEC Application Customer List` (33064474) a
 ### Changes in Item Card Page
 
 a) We have added our Extension page `Web Product Details Page` (33064469) as a part type with name `WebProductDetails`. Click on Property button and Web Product Details window appears.
-   Page Web Product Details Page SubPageLink field is `ItemNo.` and base page SubPageLink field is `No.`
+   Web Product Details Page lists SubPageLink field as `ItemNo.` and base page SubPageLink field as `No.`
 
 ![manualchange-itemcard](/staticfiles/connectors/media/application-connector/navextension/manualchange-itemcard.png)
 
@@ -120,8 +119,8 @@ a) We have added our Extension page `Web Product Details Page` (33064469) as a p
 |PartType|Page|
 |PagePartID|Web Product Details CP Page|
 
-b) We have added our Extension page `Web ProductWebsites Page` (33064466) as a part type with name `ProductWebSites`. Click on Property button and the ProductWebSites window appears.  
-   Page Web ProductWebsites Page SubPageLink field is `ItemNo.` and base page SubPageLink field is `No.`
+b) We have added our Extension page `Web ProductWebsites Page` (33064466) as a part type with name `ProductWebSites`. Click on Property button and the ProductWebSites window appears. 
+   Web ProductWebsites Page lists SubPageLink field as `ItemNo.` and base page SubPageLink field as `No.`
 
 ![manualchange-itemcard2](/staticfiles/connectors/media/application-connector/navextension/manualchange-itemcard2.png)
 
@@ -140,8 +139,8 @@ b) We have added our Extension page `Web ProductWebsites Page` (33064466) as a p
 |PagePartID|Web ProductWebsites Page|
 
 c) We have added our Extension page `Web ProductAttribute Page` (33064467) as a part type with name `ProductAttributes`. 
-   Click on Property button and the ProductAttribute window appears. Page Web ProductAttribute Page SubPageLink field is `ItemNo` 
-   and base page SubPageLink field is `No.`
+   Click on Property button and the ProductAttribute window appears. Web ProductAttribute Page lists SubPageLink field as `ItemNo` 
+   and base page SubPageLink field as `No.`
 
 ![manualchange-itemcard3](/staticfiles/connectors/media/application-connector/navextension/manualchange-itemcard3.png)
 
@@ -160,8 +159,8 @@ c) We have added our Extension page `Web ProductAttribute Page` (33064467) as a 
 |PagePartID|Web ProductAttribute Page|
 
 d) We have added our Extension page `Web ProductCategory Page` (33064468) as a part type with name `ProductCategories`. 
-   Click on Property button and the ProductCategory window appears. Page Web ProductCategory Page SubPageLink field is `ItemNo` 
-   and base page SubPageLink field is `No.`
+   Click on Property button and the ProductCategory window appears. Web ProductCategory Page lists SubPageLink field as `ItemNo` 
+   and base page SubPageLink field as `No.`
 
 ![manualchange-itemcard4](/staticfiles/connectors/media/application-connector/navextension/manualchange-itemcard4.png)
 
@@ -180,7 +179,7 @@ d) We have added our Extension page `Web ProductCategory Page` (33064468) as a p
 |PagePartID|Web ProductCategory Page|
 
 e) We have added our Extension page `Web Product Child Details` (33064471) as a part type with name `ProductChild`. Click on Property button and the Product Child window appears.
-   Page Web Product Child Details SubPageLink field is `ItemNo` and base page SubPageLink field is `No.`
+   Web Product Child Details lists SubPageLink field as `ItemNo` and base page SubPageLink field as `No.`
 
 ![manualchange-itemcard5](/staticfiles/connectors/media/application-connector/navextension/manualchange-itemcard5.png)
 
@@ -199,8 +198,8 @@ e) We have added our Extension page `Web Product Child Details` (33064471) as a 
 |PagePartID|Web Product Child Details|
 
 f) We have added our Extension page `AEC Application Item List` (33064475) as a part type with the name `ProductApplicationData`.
-     Click on Property button and the Product application data window appears. Page AEC Application Item List SubPageLink field is `ItemNo` 
-     and base page SubPageLink field is `No.`
+     Click on Property button and the Product application data window appears. AEC Application Item lists SubPageLink field as `ItemNo` 
+     and base page SubPageLink field as `No.`
 
 ![manualchange-itemcard6](/staticfiles/connectors/media/application-connector/navextension/manualchange-itemcard6.png)
 
@@ -222,8 +221,8 @@ f) We have added our Extension page `AEC Application Item List` (33064475) as a 
 ## Changes in Sales Order Page
 
 a) We have added our Extension page `AEC Order Header Details` (33064476) as a part type with name `WebOrder Header Details`. 
-   Click on Property button and the weborder header details window appears. Page AEC Order Header Details SubPageLink field is `OrderNo` 
-   and base page SubPageLink field is `No.`
+   Click on Property button and the weborder header details window appears. Page AEC Order Header Details lists SubPageLink field as `OrderNo` 
+   and base page SubPageLink field as `No.`
 
 ![manualchange-salesorder](/staticfiles/connectors/media/application-connector/navextension/manualchange-salesorder.png)
 
@@ -242,8 +241,8 @@ a) We have added our Extension page `AEC Order Header Details` (33064476) as a p
 |PagePartID|AEC Order Header Details|
 
 b) We have added our Extension page `AEC Order Line Details` (33064477) as a part type with name `WebOrder Line Details`. 
-   Click on Property button and the weborder line details window appears. Page AEC Order Line Details SubPageLink field is `OrderNo` 
-   and base page SubPageLink field is `No.`
+   Click on Property button and the weborder line details window appears. Page AEC Order Line Details lists SubPageLink field as `OrderNo` 
+   and base page SubPageLink field as `No.`
 
 ![manualchange-salesorder2](/staticfiles/connectors/media/application-connector/navextension/manualchange-salesorder2.png)
 
@@ -262,8 +261,8 @@ b) We have added our Extension page `AEC Order Line Details` (33064477) as a par
 ## Changes in Ship-to Address Page
 
 a) We have added our Extension page `AEC Ship-To Address Cart Part` (33064478) as a part type with name `WebDetails`. 
-Click on Property button and the webdetail window appears. Page AEC Ship-To Address  SubPageLink field is `CustomerNo and `Code` 
-and base page SubPageLink field is `CustomerNo and `Code` 
+Click on Property button and the webdetail window appears. Page AEC Ship-To Address lists SubPageLink field is `CustomerNo and `Code` 
+and base page SubPageLink field is `CustomerNo and `Code`. 
 
 ![manualchange-shiptoaddress](/staticfiles/connectors/media/application-connector/navextension/manualchange-shiptoaddress.png)
 
@@ -282,8 +281,8 @@ and base page SubPageLink field is `CustomerNo and `Code`
 ## Changes in Contact Card Page
 
 a) We have added our Extension page `AEC Contact Details CardPart` (33064481) as a part type with name `AEC Contact Details CardPart`. 
- Click on Property button and the AEC Contact Details CardPart window appears.Page AEC Contact Details CardPart SubPageLink field is 
-`No` and base page SubPageLink field is `No.`
+ Click on Property button and the AEC Contact Details CardPart window appears. Page AEC Contact Details CardPart lists SubPageLink field as 
+`No` and base page SubPageLink field as `No.`.
 
 ![manualchange-contactcard](/staticfiles/connectors/media/application-connector/navextension/manualchange-contactcard.png)
 
@@ -300,8 +299,8 @@ a) We have added our Extension page `AEC Contact Details CardPart` (33064481) as
 |PagePartID|AEC Contact Details CardPart|
 
 b) We have added our Extension page `AEC Application Contact LP` (33064482) as a part type with the name `AEC Application Contact List`. 
-   Click on Property button and the AEC Application Contact List window appears. Page AEC Application Contact LP 
-   SubPageLink field is `CustomerNo` and base page SubPageLink field is `No.`
+   Click on Property button and the AEC Application Contact List window appears. Page AEC Application Contact LP lists
+   SubPageLink field as `CustomerNo` and base page SubPageLink field as `No.`.
 
 ![manualchange-contactcard2](/staticfiles/connectors/media/application-connector/navextension/manualchange-contactcard2.png)
 
@@ -347,7 +346,7 @@ b) Add a base table (Contact Alt. Address) field `Contact No.` with the name `Co
 
 ## Log table setup information
 
-In order to edit fields in the extension pages, we need to change the log table set up in NAV 2015 generic extension. For this we need to check the following steps:
+In order to edit fields in the extension pages, we need to change the log table set up in NAV 2015 generic extension. For this we need to check the following steps :
 
 1.  Goto NAV client environment.
 
@@ -359,7 +358,7 @@ In order to edit fields in the extension pages, we need to change the log table 
 
 5. A Change Log Setup (Table) List window appears.
 
-Now we can set the log table according to the following details: 
+Now we can set the log table according to the following details : 
 
 |ID|Name|Log Insertion|Log Modification|Log Deletion|
 |---|---|---|---|------|
@@ -402,17 +401,17 @@ Now we can set the log table according to the following details:
 
   a. Goto View > C/AL Globals 
 
-  b. Name: `AECManager, Datatype: Codeunit, Structure: AEC Manager`
+  b. Name : AECManager, Datatype : Codeunit, Structure : AEC Manager
 
 For Modify and Rename we need to define two local variables (RecRef and xRecRef) while for Insert and Delete we need only one (RecRef)
 
 a. Goto View > C/AL Locals
 
-Under Parameters:
+Under Parameters :
 
-b.  Name: RecRef     Datatype: RecordRef
+b.  Name : RecRef     Datatype : RecordRef
 
-Name: xRecRef   Datatype: RecordRef
+Name : xRecRef   Datatype : RecordRef
 
 4.  Under the OnDatabaseInsert, OnDatabaseModify, OnDatabaseDelete and OnDatabaseRename define methods as follows: 
 
@@ -445,7 +444,8 @@ OnItemVariantModify() with the help of the `varCUAECItem` variable for executing
 
 ![itemvariant-modify](/staticfiles/connectors/media/application-connector/navextension/itemvariant-modify.png)
 
-**c. Deleting Item Variant:**
+**c. Deleting Item Variant**
+
 For Deleting the item variant from the web Product Child Details page, we have to use the same variable `varCUAECItem`. 
 
 Then on the `OnDelete` function of the `Item Variant` table we have to call the delete function() :
@@ -496,7 +496,7 @@ For inserting the Item Variant quantity in the `Web Product Child Details` we ha
 `varAECParentItemNo`, `varAECVariantNo`, `varAECCurrentQty` on the `Item Jnl.-Post Batch` CodeUnit 
 for calling the function.
 
-At first we have to go to the C/AL globals of the `Item Jnl.-Post Batch` Codeunit to create the variable `CUAECItem`. The data type of the variable is `CodeUnit` & subtype `AEC Item`,(The variable is linked with the `AEC Item` Codeunit), `varAECParentItemNo`  
+At first we have to go to the C/AL globals of the `Item Jnl.-Post Batch` Codeunit to create the variable `CUAECItem`. The data type of the variable is `CodeUnit` & subtype `AEC Item`,(The variable is linked with the `AEC Item` Codeunit), `varAECParentItemNo` 
 the data type of the variable is `Text` & length `100`, `varAECVariantNo` the data type of the variable is `Text` & length `100`, `varAECCurrentQty` 
 the data type of the variable is `Decimal`.
 
@@ -509,11 +509,10 @@ We have to write the code on the `Code` function after `//Post lines`
 
 ![quantity-codefunction](/staticfiles/connectors/media/application-connector/navextension/quantity-codefunction.png)
 
-**ProTip:** While performing the sync process we need to set the `web item flag` as `YES` in the `action filter` option of admin.appseconnect.com 
+>While performing the sync process we need to set the `web item flag` as `YES` in the `action filter` option of admin.appseconnect.com 
 after installing NAV2015 generic extension.
-{: .notice--info}
 
-5. Compile the code.
+Finally, Compile the code.
 
 ## Troubleshoot
 
