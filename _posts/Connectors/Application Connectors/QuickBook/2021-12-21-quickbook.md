@@ -1,6 +1,8 @@
 ﻿---
 title: "QuickBooks Enterprise"
 toc: true
+description: "Steps to configure QuickBook Enterprise Application in APPSeCONNECT"
+keywords: "Configuring the QuickBook Enterprise Application, quickBook enterprise application"
 tag: developers
 category: "Connectors"
 menus: 
@@ -87,3 +89,27 @@ for you which you can easily plug and play while doing your integrations.
 |Invoice|InvoiceQueryRq|GET||Retrieves the details of an Invoice that has already been created.|[Fetch Invoice](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice#read-an-invoice)|
 
 > You can [visit](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account) to know more about different APIs and their endpoint configuration.
+
+### Action Filter implementation for Data Fetch/Push
+
+API hits can be tamed using action filters on its actions. You will be able to fetch/push specific and limited data as per your filter. 
+With `APPSeCONNECT`, you will have the option to implement Action Filters that will enable you to fetch/push specific data 
+as required. You need to implement your filter on the basis of following criterias. 
+
+- To fetch a specific customer from `QuickBook Enterprise Application`. 
+
+**ActionName – CustomerQueryRq**
+![quickbook5](/staticfiles/connectors/media/application-connector/quickbook5.png)
+![quickbook6](/staticfiles/connectors/media/application-connector/quickbook6.png)
+- To fetch a invoices from `QuickBook Enterprise Application`. While you fetch invoices from the aforesaid application, depending on the data packet returned, you need to provide your action filter(s). 
+![quickbook8](/staticfiles/connectors/media/application-connector/quickbook8.png)
+**ActionName – InvoiceQueryRq**
+![quickbook7](/staticfiles/connectors/media/application-connector/quickbook7.png)
+- You should use the following `Schemas` and `Actions` to insert a customer record in `QuickBook Enterprise Application`.  
+
+Schema – CustomerAdd 
+Action Name – CustomerAddRq
+
+Mapping will be as
+![quickbook9](/staticfiles/connectors/media/application-connector/quickbook9.png)
+

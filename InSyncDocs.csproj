@@ -314,6 +314,11 @@
     <Content Include="staticfiles\connectors\media\application-connector\quickbook2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\quickbook3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\quickbook4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\quickbook5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\quickbook6.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\quickbook7.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\quickbook8.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\quickbook9.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent3.png" />
@@ -1200,6 +1205,10 @@
     <Content Include="staticfiles\teamsapp\appteams13.png" />
     <Content Include="staticfiles\teamsapp\appteams14.png" />
     <Content Include="staticfiles\teamsapp\appteams15.png" />
+    <Content Include="staticfiles\teamsapp\appteams16.png" />
+    <Content Include="staticfiles\teamsapp\appteams17.png" />
+    <Content Include="staticfiles\teamsapp\appteams18.png" />
+    <Content Include="staticfiles\teamsapp\appteams19.png" />
     <Content Include="staticfiles\teamsapp\appteams2.png" />
     <Content Include="staticfiles\teamsapp\appteams3.png" />
     <Content Include="staticfiles\teamsapp\appteams4.png" />
