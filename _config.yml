@@ -82,6 +82,8 @@ analytics:
     tracking_id          : UA-106094300-15
   crazyegg:
     url                  : 0089/9312.js
+  clarity:
+    tracking_id          : cf6h53bgaz
 
 footer_scripts           :
   - /assets/js/plugins/jquery.fitvids.js
