@@ -2,9 +2,12 @@
 title: "Using Tips & Tricks"
 toc: true
 tag: developers
-category: "Transformation"
+category: "Workflow"
+deprecated: 
+    url: "/processflow/overview-of-processflow"
+    title: "Overview of ProcessFlow"
 menus: 
-    transformation:
+    workflow:
         title: "Using Tips & Tricks"
         weight: 15
         icon: fa fa-file-word-o

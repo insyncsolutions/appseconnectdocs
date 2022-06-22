@@ -141,7 +141,7 @@ destinationlib:GetUniqueId(",",",") where we provide the required field, the sch
 
 ### Variable Mapping 
 
-Click [Variable Mapping](/processflow/defining-variables-in-processflow-mapping/) to know in details.
+Click [Variable Mapping](/transformation/defining-variables-in-processflow-mapping/) to know in details.
 
 ### LookUp Mapping 
 
