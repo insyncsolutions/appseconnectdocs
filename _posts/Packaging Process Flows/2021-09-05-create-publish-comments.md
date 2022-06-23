@@ -76,29 +76,7 @@ b) Click on the **Save** button to the create the package. Following the abo
 
 Once you have created your Processflow Packages, you can successfully view the packages in the **My Packages** listing page of your organisation. But if you want to make it available to the external users, you need to go through the publishing procedure which will validate your creation and list your package to APPSeCONNECT marketplace. 
 
-```plantuml!
-skinparam actorStyle awesome
-usecase Approved #palegreen;line:green;line.bold;text:green
-usecase Responded #yellow;line:gold;line.dashed;text:gold
-usecase Rejected #pink;line:red;line.bold;text:red
-usecase (Create a Package) #cyan;line:blue;line.bold;text:blue
-usecase (Select a New Package) #cyan;line:blue;line.bold;text:blue
-usecase (Publish the package) #cyan;line:darkblue;line.bold;text:darkblue
-usecase (Select a Responded Package) #orange;line:orangered;line.dashed;text:orangered
-usecase (Package ready for Republishing) #orange;line:orangered;line.dashed;text:orangered
-
-:User_1: --> (Create a Package) #blue;line.bold;text:blue : Unable to find\n your desired package 
-:User_2: --> (Select a New Package) #blue;line.bold;text:blue : Choose a package that\n have its Status as New 
-(Create a Package) -> (Select a New Package) #blue;line.bold;text:blue : Navigate to MyPackges Folder
-(Select a New Package) --> (Publish the package) #darkblue;line.bold;text:darkblue : Click on Publish to Marketplace 
-(Publish the package) ---> (Approved) #green;line.bold;text:green : Approver installs and\n tests the package\n for its successful\n implementation
-(Publish the package) ---> (Responded) #gold;line.dashed;text:gold : Comments has been\n given by Approver
-(Publish the package) ---> (Rejected) #red;line.bold;text:red : Action mentioned in\n the package documentation\n has been violated.
-(Responded) --> (Select a Responded Package) #orangered;line.dashed;text:orangered : Naviagte to My Packages folder\nFind a package that bears\n its Status as Responded
-(Select a Responded Package) -> (Package ready for Republishing) #orangered;line.dashed;text:orangered : View and Resolve\n the comments suggested\n by Approver
-(Package ready for Republishing) -> (Publish the package) #darkblue;line.bold;text:darkblue : Click on Re-Publish\n to Marketplace
-```
-
+![package_publish](/staticfiles/umldiagram/media/package_publish.svg)
 
 1. Navigate to the **Designer** > **ProcessFlow** module. This loads the ProcessFlow tree which gives access to your **Package Library**. 
 2. Expand the **Package Library** node in ProcessFlow listing page and click on **My Packages** folder. 

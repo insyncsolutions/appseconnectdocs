@@ -359,6 +359,9 @@
     <Content Include="staticfiles\connectors\media\application-connector\shipstation2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_agent.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Troubleshoot-Priority.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal1.png" />
@@ -1373,6 +1376,7 @@
     <Content Include="staticfiles\Transformation\media\UIgrouping-discount.png" />
     <Content Include="staticfiles\Transformation\media\view-connection-transformation.png" />
     <Content Include="staticfiles\Transformation\media\viewconnection-sourcedestination.png" />
+    <Content Include="staticfiles\umldiagram\media\package_publish.svg" />
     <Content Include="staticfiles\workflow-management\media\Acknowldegementdata-workflow.png" />
     <Content Include="staticfiles\workflow-management\media\ActivateWorkflow-Connectionlist.png" />
     <Content Include="staticfiles\workflow-management\media\Adding-Touchpoint.png" />
