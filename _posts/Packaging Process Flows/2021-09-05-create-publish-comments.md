@@ -76,6 +76,8 @@ b) Click on the **Save** button to the create the package. Following the abo
 
 Once you have created your Processflow Packages, you can successfully view the packages in the **My Packages** listing page of your organisation. But if you want to make it available to the external users, you need to go through the publishing procedure which will validate your creation and list your package to APPSeCONNECT marketplace. 
 
+![package_publish](/staticfiles/umldiagram/media/package_publish.svg)
+
 1. Navigate to the **Designer** > **ProcessFlow** module. This loads the ProcessFlow tree which gives access to your **Package Library**. 
 2. Expand the **Package Library** node in ProcessFlow listing page and click on **My Packages** folder. 
 3. On **My Packages** folder,you can view the created packages on your organisation. 

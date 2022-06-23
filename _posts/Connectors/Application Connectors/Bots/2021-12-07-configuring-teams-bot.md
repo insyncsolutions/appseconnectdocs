@@ -54,13 +54,24 @@ which are required to correctly work with APPSeCONNECT BOT.
 
 1. Open APPSeCONNECT Portal, create a ProcessFlow. 
 2. Drag the Teams App and any other App of your choice. Remember, we are creating this ProcessFlow just to show you how to configure Teams in APPSeCONNECT. 
-3. Create a schema to send messages from Teams. Either choose from existing Schema, or Create a new Schema. 
+3. [Create a schema](/connectors/configuring-teams-bot/#create-a-proper-schema-based-on-the-data-you-want-to-send) to send messages from Teams. Either choose from existing Schema, or Create a new Schema. 
 4. Your schema need to follow the Adaptive Card schema defined in [Microsoft Documentation](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-reference#adaptive-card)
 **Note : To send an adaptive card - you can design your card in [Adaptive card designer](https://adaptivecards.io/designer/), then copy the Json payload and 
 upload the Json as import schema. This step will auto-create your Schema, where you can specify the data in Adaptive card.**
-5. Finaly create the Action to send the notification. We use **conversations** action endpoint to send notification to an existing conversation.
+5. Create the Action to send the notification. We use **conversations** action endpoint to send notification to an existing conversation to send a notification using `APPSeCONNECT Teams App`. 
 ![appteams8.png](/staticfiles/teamsapp/appteams8.png)
-6. Once you create the ProcessFlow, Deploy and execute the processflow in On-Premise or hosted environment. But before you do, you need to validate credentials in APPSeCONNECT.
+6. To receive the Message or Adaptive card, you need to mention the receiver information properly in 
+Microsoft Teams APP action filter. Navigate to Microsoft Teams APP Node Configuration Window -> Configure 
+Filter. Define the Receiver information in the Microsoft Teams App Action Filter properly as mentioned in the following scenerios. 
+- To send information to a Specific Group Channel 
+![appteams16.png](/staticfiles/teamsapp/appteams16.png)
+- To send information to Multiple channels for a specific group 
+![appteams17.png](/staticfiles/teamsapp/appteams17.png)
+- To send information to specific user or multiple users
+![appteams18.png](/staticfiles/teamsapp/appteams18.png)
+- To send information to Multiple Groups and users at the same time 
+![appteams19.png](/staticfiles/teamsapp/appteams19.png)  
+7. Once you create the ProcessFlow, Deploy and execute the processflow in On-Premise or hosted environment. But before you do, you need to validate credentials in APPSeCONNECT.
 
 
 ### Credential Validation in On Premise Agent
@@ -81,3 +92,23 @@ your tenancy in Teams.
 
 
 When your setup is ready, you can create or install packages to add or enhance your integration between APPSeCONNECT and Teams.
+
+### Create a Proper schema based on the data you want to send
+
+1. If you want to send a normal text message 
+   ![appteams2.png](/staticfiles/teamsapp/appteams2.png) 
+   then the schema structure will be 
+   ![appteams3.png](/staticfiles/teamsapp/appteams3.png) 
+   The Mapping to send a normal message will be
+   ![appteams4.png](/staticfiles/teamsapp/appteams4.png) 
+
+2. If you want to Send a Proper adaptive card 
+   ![appteams5.png](/staticfiles/teamsapp/appteams5.png)
+   Then the schema structure will be 
+   ![appteams6.png](/staticfiles/teamsapp/appteams6.png)
+   The Mapping to send an adaptive card will be
+   ![appteams7.png](/staticfiles/teamsapp/appteams7.png)
+
+   >To send an adaptive card, you can design your card in Adaptive card designer, then copy the Json payload and 
+   upload the Json as import schema and do the proper mapping. Based on the notification you want.        
+

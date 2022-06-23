@@ -53,6 +53,9 @@ e.	In the Environment section of the cloud portal, click on the **HOSTED** node.
 
 ### Installing Process of an On Premise Agent
 
+
+![](https://www.youtube.com/watch?v=lbUZkDrM_4M)
+
 a.	Login to the portal. Download the Agent from the [Downloads menu](/accessing%20portal/accessing-portal/#downloads-section) as shown below.
 
 b.	Execute the downloaded file (as administrator) by double clicking on it. The Setup wizard opens with a welcome message.
@@ -92,7 +95,7 @@ g.	Once logged in, the *Agent provides four set of tabs*  as shown below :
 1. The **home icon** shows the applications used in APPSeCONNECT. A dropdown icon is provided corresponding to each Apps, which lets you manage Credentials for the apps.  
 Clicking on the + beside any application, opens the application credential window, where you can put the necessary information and save the credential. Once a credential is saved, you can assign it to various implementations. 
 ![Agent-Home](/staticfiles/deployment/media/AgentConfig/AgentHome.png)
-**Ponits to Remember : **
+**Points to Remember : **
          - If you see, the `Plus` icon is disabled corresponding to your application, this means, your subscription does not have adequate permission to add more credentials.
          - The number shown corresponding to each app provides the information about how many credential for a particular app is allowed in current subscription.**    
 

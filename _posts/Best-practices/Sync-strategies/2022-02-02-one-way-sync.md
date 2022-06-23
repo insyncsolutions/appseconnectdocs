@@ -32,6 +32,14 @@ Upon completion of successful record sync to the destination application, we con
 again so as to ensure that the synchronization does not re-capture the same data again. This strategy provides a lot of flexibility 
 and end users can easily control the sync behavior by modifying values within the end application. 
 
+```plantuml!
+APPSeCONNECT->"Source App": Request all where Flag = Y 
+"Source App" -> APPSeCONNECT: Return data where Flag = Y
+APPSeCONNECT -> "Source App": Request update for all Flag to N
+"Source App" --> APPSeCONNECT: Acknowledge
+```
+
+
 The `flag` field can take on different forms and will depend on the application. It could be an actual 
 `status` field (integration-specific or business-related), field containing `true` or `false` value, 
 the existence of an `external ID` etc. It could also be a combination of fields and values. 
@@ -57,6 +65,27 @@ and stores it in persistent storage such that the filters execute again based on
 approach is best suited when the `API` provides a filter criterion for record retrieval and storing the time from 
 the retrieved data eliminates any calculation regarding the server time differences.
 
+```plantuml!
+== First Execution ==
+APPSeCONNECT->"Source App": Request data
+activate "Source App"
+database local
+"Source App" -> local: Get last stored date
+local --> "Source App": No data, use default
+"Source App" -> local : Store local / server time
+deactivate "Source App"
+"Source App" --> APPSeCONNECT: Return data using default date
+== Repeat Execution ==
+APPSeCONNECT->"Source App" : Request data
+activate "Source App"
+"Source App" -> local: Get last stored date
+local -> "Source App" : Data found
+"Source App" -> local : Store local/server time
+deactivate "Source App"
+"Source App"--> APPSeCONNECT: Return data
+```
+
+
 This approach captures the timestamp to ensure the integration works best without major duplicate values. You can even 
 choose the current system time or your server time or even store the current time in GMT, but if there is an option to 
 choose the time from the retrieved record, the data should not be missed out. In this approach, the most critical thing 
@@ -76,6 +105,26 @@ only option that you have in such scenario is to record some kind of checksum or
 integration platform to ensure the duplicate checks could be easily identified even though duplicate data 
 is retrieved each time. In addition to store the unique hash generated on the record, it is also important 
 to store the record id, such that one can easily identify data modifications.
+
+```plantuml!
+== First Execution ==
+APPSeCONNECT->"Source App": Request data
+activate "Source App"
+database local
+"Source App" -> local: Get stored hash
+local --> "Source App": No data, use default
+"Source App" -> local : Store hashes of all data retrieved
+deactivate "Source App"
+"Source App" --> APPSeCONNECT: Return data
+== Repeat Execution ==
+APPSeCONNECT->"Source App" : Request data
+activate "Source App"
+"Source App" -> local: Get last stored hash
+local -> "Source App" : Data found
+"Source App" -> local : Store hash of all data retrieved
+deactivate "Source App"
+"Source App"--> APPSeCONNECT: Filter data not present in database
+```
 
 Generally, this is a rare scenario in modern-day applications, but for legacy application when there is file system 
 or FTP based integration involved or in case of stock or product catalog updates, you might go with this scenario. 
