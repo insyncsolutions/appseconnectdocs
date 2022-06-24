@@ -125,7 +125,7 @@ for you which you can easily plug and play while doing your integrations.
 this one.
 {: .notice--info}
 
-## Action Filter implementation for Data fetch from WooCommerce Application
+## Action Filter Implementation 
 
 Data is fetched from source application using APIs, and as you are aware of, API provides filters which will allow you to specify a subset of data from the whole bunch of data created in the server, 
 the same can be specified through Actions and Action filters. The Action is generally defined as the endpoint of the application which is being fetched, while the filters define 
