@@ -389,6 +389,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-pluginupload2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-pluginupload3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-pluginupload4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommercecloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommerce_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommerce_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommerce_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks2.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks4.PNG" />
