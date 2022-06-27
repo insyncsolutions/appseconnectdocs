@@ -300,6 +300,11 @@
     <Content Include="staticfiles\connectors\media\application-connector\prestashop2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_cloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\priority-adapter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\priority-adapter2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\priority-adapter3.png" />
@@ -389,6 +394,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-pluginupload2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-pluginupload3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-pluginupload4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommercecloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommerce_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommerce_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\woocommerce_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks2.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks4.PNG" />
