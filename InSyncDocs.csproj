@@ -300,6 +300,11 @@
     <Content Include="staticfiles\connectors\media\application-connector\prestashop2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\prestashop_cloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\priority-adapter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\priority-adapter2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\priority-adapter3.png" />

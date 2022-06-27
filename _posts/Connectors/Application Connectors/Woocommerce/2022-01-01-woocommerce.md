@@ -2,7 +2,7 @@
 title: "WooCommerce"
 toc: true
 description: "Get to know how you can configure the agent for woocommerce"
-keywords: "WooCommerce Configuration, Configuring the WooCommerce Adapter, Action Filter implementation for Data fetch from WooCommerce Application, "
+keywords: "WooCommerce Configuration, Configuring the WooCommerce Adapter, Action Filter implementation for Data fetch from WooCommerce Application"
 tag: developers
 category: "Connectors"
 menus: 
