@@ -105,21 +105,50 @@ Data is fetched from source application using APIs, and as you are aware of, API
 which will allow you to specify a subset of data from the whole bunch of data created in the server, 
 the same can be specified through Actions and Action filters. The Action generally defines the 
 endpoint of the application which is being fetched, while the filters define the search criteria 
-of the data. 
+of the data. You can add these parameters in the `action filter` to define the search criteria. 
+
+- The `display` parameter can be used to return all fields when used with the `full` value. 
+You need to put the `display` parameter in the key field and `full` in the value field of the action filter as `display=full`. 
+This will return all the fields of an endpoint that have been requested by you.  
+
+- `display` parameter enables you to specify selected fields as per your requirement. 
+Mention a list of field names in brackets as : `display=[id,lastname,firstname,phone_mobile]`. 
+You need to mention the `display` parameter in the key field and `id,lastname,firstname` or any other field name in the value field of the action filter. 
+
+- The `filter` parameter controls which items to be returned. You need to specify the field name in `[]`. 
+
+  - The `EQUAL` operator is used when you need to get specific items. For example, if you want the addresses for customer #1, you can filter your GET request 
+  with the filter parameter as `filter[id_customer]=1` where id_customer is a field of the addresses endpoint. This will fetch the addresses of 
+  those customers who have 1 as their id_customer. Similarly, you can use any other field and its corresponding value. 
+
+  - The `LIKE` operator is used when you need to search for items. For example, if you want the addresses with 
+  cities starting with **SAINT**, use the filter as `filter[city]=[saint]%` where city is a field of the addresses endpoint. This will return 
+  the addresses of those customers who have their city starting with `saint`.
+
+  - The `OR` operator is used when you need to get items matching several criteria. Use the filter as `filter[city]=[paris|lyon]` 
+  where city is a field of the addresses endpoint. This filtering condition will provide you with those addresses where the city belongs to 
+  `paris` or `lyon`.
+
+  - You can also use `filter` in combination with the `display` parameter. Let say you want to get the mobile phone numbers 
+  of customers #1, #7 and #42. You need to use the filtering condition as `filter[id_customer]=[1|7|42]` and `display=[phone_mobile]`. Write the 
+  conditions seperately as key-vaule pair in the action filter and join them using `&&` operator.
+
+  - If you need to filter the entries in the input packet according to their date, then you should always 
+  specify `date=1` parameter to allow date filtering.  
 
 1) You can retrieve Customers from `Prestashop` by creating a variable at processflow level 
 ![prestashop_1](/staticfiles/connectors/media/application-connector/prestashop_1.png) 
 
 and using it in the action filter.
 ![prestashop_2](/staticfiles/connectors/media/application-connector/prestashop_2.png)
-
+  
 2) Fetch the updated customer information from `Prestashop` using a variable at processflow level
 ![prestashop_3](/staticfiles/connectors/media/application-connector/prestashop_3.png)
 
 and using it in the action filter.
 ![prestashop_4](/staticfiles/connectors/media/application-connector/prestashop_4.png)
 
-
+> [Click here](https://devdocs.prestashop.com/1.7/webservice/getting-started/#available-parameters) to know the usage of filters other than the mentioned above. 
 
 
 
