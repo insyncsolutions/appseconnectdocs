@@ -1285,6 +1285,8 @@
     <Content Include="staticfiles\root\media\newcustomer_register47.png" />
     <Content Include="staticfiles\root\media\newcustomer_register48.png" />
     <Content Include="staticfiles\root\media\newcustomer_register49.png" />
+    <Content Include="staticfiles\root\media\newcustomer_register50.png" />
+    <Content Include="staticfiles\root\media\newcustomer_register51.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration1.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration2.png" />
     <Content Include="staticfiles\root\media\newcustomer_registration3.png" />

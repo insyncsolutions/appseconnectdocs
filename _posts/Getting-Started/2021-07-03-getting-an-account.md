@@ -67,22 +67,28 @@ After you successfully register with us, you will get a welcome message for its 
 ![newcustomer_register43](/staticfiles/root/media/newcustomer_register43.png)    
 7. Select the desired applications from the `Apps` section to integrate your business and click on `Save and Proceed`. The selected `Apps` will be enclosed in green coloured square box that you need for integration.
 ![newcustomer_register44](/staticfiles/root/media/newcustomer_register44.png) 
-8. Either you can install any packages that suits your business the best such that you could utilize the pre-built processflows for easy, smooth and free-flowing integration or click on `Create custom Process Flow!` to build a new processflow. 
-![newcustomer_register45](/staticfiles/root/media/newcustomer_registration45.png)
+8. Either you can install any packages that suits your business the best such that you could utilize the pre-built processflows for easy, smooth and free-flowing integration or click on `Create custom Process Flow!` to build a new processflow. [Click here](/getting%20started/create-your-first-processflow/) to know the steps to create a processflow. 
+![newcustomer_register45](/staticfiles/root/media/newcustomer_register45.png)
+However, depending on the application choosen in the `Select Apps` section, if there are no pre-built packages in portal, then you will be prompted with a message to create a new processflow.
+![newcustomer_register50](/staticfiles/root/media/newcustomer_register50.png)
 9. Select your integration deployment environment as `On Cloud` or `On Premise`. Click on `Proceed`. 
 ![newcustomer_register46](/staticfiles/root/media/newcustomer_register46.png)
 10. If you select the deployment environment as `On Cloud`, provide the credentials of all the selected applications. `Save` the credentials and click on `Proceed`. 
+![newcustomer_register51](/staticfiles/root/media/newcustomer_register51.png)
+ After giving the credentials of all the applications successfully, click on **Done**. 
 ![newcustomer_register47](/staticfiles/root/media/newcustomer_register47.png)
 11. However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. 
 ![newcustomer_register48](/staticfiles/root/media/newcustomer_register48.png)
 12. After dwonloading and installing the agent in your local system, Click on `Next`. In the subsequent step, you can also watch the environmemt set up procedure visually and then click on `Done`. 
 >Unless and until you provide and validate the credentials of all the choosen application, you cannot proceed to next step. 
-13. After successful validation and saving of the credentials in the agent, both in case of `On-Premise` and `Cloud` the applications will be listed in the `App Verification` page.  
+13. The applications will be listed in the `Credentials Verification` page after validation and saving the credentials in the OP agent.  
 ![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.PNG)
-14. In the `App Verification` page, click on `Done` and a welcome screen will be displayed to you such that you can use the pre-packaged processflow. At the same time you can also create, deploy and execute any processflow in your environment. 
+14. In the `Credentials Verification` page, click on `Done` and a welcome screen will be displayed to you such that you can use the pre-packaged processflow.  
+From the welcome screen, you will be re-directed to `Installed Process Flow` folder, if you have installed any packages from `Recommended Packages` section
+during the on-boarding process. On the other hand, processflow designer page will be displayed, if you have choosen `Create custom ProcessFlow` in the `Recommended Packages` section.
 ![newcustomer_register49](/staticfiles/root/media/newcustomer_register49.png)
 
-**Note : The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
+**Note : The newly created organisation will be a Trial Account by default, available only for 31 days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
 ### Accessing an account
