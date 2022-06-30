@@ -49,40 +49,46 @@ integration experts who will develop and adjust the integration based on the sco
 
 ## Accessing your account
 
-After you successfully registered with us, you will get activation link to verify your email address. The email will also show your user id and 
-temporary password generated, which you can use to login to the account. 
+After you successfully register with us, you will get a welcome message for its successful creation along with an activation button to verify your email address. The email will also show your user id which you can use to login to the account. 
 
 ### Steps to access your account
 
 1. Once you receive an activation link over an email, you will receive few more resources in addition, such as
-- Link for Customer Stories that will allow you to know the product efficiency in Market.
-- Link for the On-Demand Webinars that will provide you informations regarding APPSeCONNECT.
-- Link Technical & Conceptual Details will provide you with the opportunity to learn technical built up and concept of APPSeCONNECT.
-- Link for APPSeCONNECT Documentations will help you with the usability aspect throughout APPSeCONNECT.
-- Link for APPSeCONNECT Community will enable you to stay connect with the APPSeCONNECT Community for quick support and discussions.
-![newcustomer_registration3](/staticfiles/root/media/newcustomer_registration3.png)  
-2.	Clicking on `Activation link` will activate the created account. User will now be directed to a new window where you need to create your password meeting our password generation criteria. 
-3.	You need to accept the `terms and conditions` along with the `Privacy Policy` to login to APPSeCONNECT portal. Once you click on [Getting Started](/getting%20started/overview/), you will be directed to `APPSeCONNECT` documentation portal.   
-![newcustomer_registration41](/staticfiles/root/media/newcustomer_registration41.png)  
+- An email id for contacting with us, if you need any help from our end. 
+- **View Help Center** will re-direct you to our documentation portal for letting you know about `APPSeCONNECT` in details. 
+![newcustomer_email](/staticfiles/root/media/newcustomer_email.png)  
+2.	Clicking on `Get Started` will activate the created account. User will now be directed to a new window where you need to create your password meeting our password generation criteria. 
+3.	You need to accept the `terms and conditions` along with the `Privacy Policy` to login to APPSeCONNECT portal. Once you click on [Help Center](/getting%20started/overview/), you will be directed to `APPSeCONNECT` documentation portal.   
+![newcustomer_register41](/staticfiles/root/media/newcustomer_register41.png)  
 4.	Once the necessary details are filled up, click on `Change and Proceed`.  
 5.	A message will be displayed notifying you that the password has been set successfully. Click on `Continue to APPSeCONNECT`.  
-![newcustomer_registration42](/staticfiles/root/media/newcustomer_registration42.png)  
+![newcustomer_register42](/staticfiles/root/media/newcustomer_register42.png)  
 6. Once you click on `Continue to APPSeCONNECT`, you will be directed to `Account details` page. Select the `Job Role` and industry related information from the drop-down. Click on `Get Started` to move to the next step. 
-![newcustomer_registration43](/staticfiles/root/media/newcustomer_registration43.png)    
-7. Select the desired applications from the `Apps` section to integrate your business and click on `Save and Proceed`. A green coloured line will be visible under `Apps` that you have selected for integration. 
-![newcustomer_registration44](/staticfiles/root/media/newcustomer_registration44.PNG) 
-8. Either you can install any packages that suits your business the best such that you could utilize the pre-built processflows for easy, smooth and free-flowing integration or click on `Create custom Process Flow!` to build a new processflow. 
-![newcustomer_registration45](/staticfiles/root/media/newcustomer_registration45.PNG)
+![newcustomer_register43](/staticfiles/root/media/newcustomer_register43.png)    
+7. Select the desired applications from the `Apps` section to integrate your business and click on `Save and Proceed`. The selected `Apps` will be enclosed in green coloured square box that you need for integration.
+![newcustomer_register44](/staticfiles/root/media/newcustomer_register44.png) 
+8. Either you can install any packages that suits your business the best such that you could utilize the pre-built processflows for easy, smooth and free-flowing integration or click on `Create custom Process Flow!` to build a new processflow. [Click here](/getting%20started/create-your-first-processflow/) to know the steps to create a processflow. 
+![newcustomer_register45](/staticfiles/root/media/newcustomer_register45.png)
+However, depending on the application choosen in the `Select Apps` section, if there are no pre-built packages in portal, then you will be prompted with a message to create a new processflow.
+![newcustomer_register50](/staticfiles/root/media/newcustomer_register50.png)
 9. Select your integration deployment environment as `On Cloud` or `On Premise`. Click on `Proceed`. 
-![newcustomer_registration46](/staticfiles/root/media/newcustomer_registration46.PNG)
-10. If you select the deployment environment as `On Cloud`, provide the credentials of the selected applications. `Save` the credentials and click on `Proceed`. 
-However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. Click on `Done`.
-11. After successful validation and saving of the credentials in the agent, the applications will be listed in the `UI`. 
+![newcustomer_register46](/staticfiles/root/media/newcustomer_register46.png)
+10. If you select the deployment environment as `On Cloud`, provide the credentials of all the selected applications. `Save` the credentials and click on `Proceed`. 
+![newcustomer_register51](/staticfiles/root/media/newcustomer_register51.png)
+ After giving the credentials of all the applications successfully, click on **Done**. 
+![newcustomer_register47](/staticfiles/root/media/newcustomer_register47.png)
+11. However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. 
+![newcustomer_register48](/staticfiles/root/media/newcustomer_register48.png)
+12. After dwonloading and installing the agent in your local system, Click on `Next`. In the subsequent step, you can also watch the environmemt set up procedure visually and then click on `Done`. 
+>Unless and until you provide and validate the credentials of all the choosen application, you cannot proceed to next step. 
+13. The applications will be listed in the `Credentials Verification` page after validation and saving the credentials in the OP agent.  
 ![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.PNG)
+14. In the `Credentials Verification` page, click on `Done` and a welcome screen will be displayed to you such that you can use the pre-packaged processflow.  
+From the welcome screen, you will be re-directed to `Installed Process Flow` folder, if you have installed any packages from `Recommended Packages` section
+during the on-boarding process. On the other hand, processflow designer page will be displayed, if you have choosen `Create custom ProcessFlow` in the `Recommended Packages` section.
+![newcustomer_register49](/staticfiles/root/media/newcustomer_register49.png)
 
-12. Finally, click on `Done` and you are ready to create, deploy and execute any processflow, install or share packages and create the same as well. 
-
-**Note : The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
+**Note : The newly created organisation will be a Trial Account by default, available only for 31 days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
 ### Accessing an account
