@@ -16,8 +16,11 @@ menus:
 Time is directly proportional to money. The more you save time, it means the more you are saving money. When you can increase reusability of 
 developed resources, you save time, which means you save money. 
 
-APPSeCONNECT provides a marketplace which lists all the applications and packages, which are built grounds up for the customers to consume 
-readily. The marketplace allows the citizen integrators to present their creations which customers can consume easily to save money. 
+The `APPSeCONNECT` Marketplace establishes a perfect platform for showcasing the pre-built and time-tested packages giving the 3rd party 
+developers a way to establish trust with their customers. The term marketplace is self-explanatory but in terms of our portal it provides 
+the customer with a set of prepackaged process flows targeting a specific business problem. All the applications and packages are listed 
+in the marketplace such that the packages become readily consumable by the customers. The marketplace also allows the citizen integrators 
+to present their creations which customers can consume easily to save money. 
 
 ## MarketPlace Overview
 
@@ -26,7 +29,7 @@ exceptional multi-vendor platform - sellers have a place to gain visibility and 
 promoting their marketplace brand with a view to driving traffic to the platform and converting site views into sales. 
 
 Marketplace of an iPaaS is a place which advertises the pre-packaged integration such that people who are looking for 
-similar kind of integrations can get access to them readily. In APPSeCONNECT, Marketplace contains all your public 
+similar kind of integrations can get access to them readily. In APPSeCONNECT, marketplace contains all your public 
 packages which provides you with an advantage of re-usability. Any citizen integrator or developer can share/publish 
 processflows in form of packages for performing free-flowing, smooth and seamless integration between various business 
 applications. An approver after reviewing can approve or reject the packages. Moreover, marketplace also provides you with 
