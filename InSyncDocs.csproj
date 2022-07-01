@@ -34,7 +34,6 @@
     <Folder Include="staticfiles\best-practices\" />
     <Folder Include="staticfiles\partner-management\" />
     <Folder Include="_posts\Connectors\Technology Connectors\File System\" />
-    <Folder Include="_posts\OnBoarding\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -366,7 +365,11 @@
     <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopify_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopify_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopify_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_agent.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopify_cloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Troubleshoot-Priority.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal2.png" />
@@ -1767,6 +1770,7 @@
     <None Include="_posts\Deployment\ProcessFlow Deployment and Execution\2021-10-08-retry-processflow.md" />
     <None Include="_posts\Deployment\Troubleshooting.md" />
     <None Include="_posts\Getting-Started\2021-07-03-getting-an-account.md" />
+    <None Include="_posts\OnBoarding\getting-an-account.md" />
     <None Include="_posts\ProcessFlow Management\2021-08-04-components-of-processflow.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-19-Working-with-functions.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2021-08-08-trigger-processflow.md" />
