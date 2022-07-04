@@ -365,6 +365,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifyapp_5.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_3.png" />
