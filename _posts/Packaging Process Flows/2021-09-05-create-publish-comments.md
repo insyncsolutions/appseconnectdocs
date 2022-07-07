@@ -69,7 +69,7 @@ a) You’ll be navigated to the Preview section. You’ll be able to view al
 
 b) Click on the **Save** button to the create the package. Following the above process, you can successfully create a Processflow package. 
 
-**Note: Any changes made to the original Processflow, the modifications will not reflect in the packaged versions. You need to create a new package for packaging the modified ProcessFlows.** 
+**Note : Any changes made to the original Processflow, the modifications will not reflect in the packaged versions. You need to create a new package for packaging the modified ProcessFlows.** 
 
 
 ## Publishing Package
@@ -115,6 +115,11 @@ usecase (Package Available in Marketplace) #palegreen;line:green;line.bold;text:
 6. After you submit your request for publishing, you'll see your package Status is changed from **New** to **Waiting for Approval**, which means, the approver is looking into it. 
 
 ![publishtomarketplace3](/staticfiles/processflow/media/publishtomarketplace3.png)
+
+
+
+![](https://www.youtube.com/watch?v=ZWvvph6dOgk)
+
 
 
 ## Accessing Comments,Re-Versioning and Re-Publishing
