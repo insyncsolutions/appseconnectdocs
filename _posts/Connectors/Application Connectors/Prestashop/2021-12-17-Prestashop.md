@@ -25,7 +25,7 @@ application Prestashop.
 
 1. Create an account in Prestashop and Login into it. 
 2. **Username** and **Password** to access the application.  
-3. [Click here](https://devdocs.prestashop.com/1.7/webservice/getting-started/) to know the Api endpoints of the application.
+3. [Click here](https://devdocs.prestashop.com/1.7/webservice/getting-started/) to know the APIs of the application.
 
 ## On-Premise Agent Configuration 
 
@@ -33,7 +33,7 @@ application Prestashop.
 
 You need to install the agent on your local server. To Know about On-Premise Agent Configuration, [Click here](/deployment/Deployment-Configuration/#on-premise-agent-configuration).   
 
-## Configure the Prestashop Application in the Agent
+### Configure the Prestashop Application in the Agent
 
 1. [Create](/getting%20started/create-your-first-processflow/) and [Deploy](/processflow/deploying-and-executing-processflow/#deploying-processflows-to-environment) ProcessFlows in the cloud portal. 
 2. Open the agent and click the checkbox in Settings Panel.  
@@ -83,9 +83,9 @@ Once validated, re-deploy and execute the processflow for its successful executi
 
 ## Attributes and Actions
 
-While defining a connection to an API endpoint in Prestashop, you require clear understanding about the data requirements and endpoint configurations. 
+While defining a connection to an API in Prestashop, you require clear understanding about the data requirements and endpoint configurations. 
 You can refer to this document to find all the endpoint details of your Prestashop installation. To define the endpoint in APPSeCONNECT, you need 
-to define Actions and Entities. Actions are specifically targeted for an endpoint while schema is the data needed to execute the API. Here is the 
+to define Schemas and Actions. Actions are specifically targeted for an endpoint while schema is the data needed to execute the API. Here is the 
 list of some of the pre-packaged API actions defined for you which you can easily plug and play while doing your integration.
 
 Prestashop has a generic [API Document](https://devdocs.prestashop.com/1.7/development/webservice/) and [Authentication](https://www.postman.com/binshops/workspace/binshops-public-workspace/folder/1491681-d7d64c08-e5dc-4b93-8f01-61fa88d6096d?ctx=documentation) following the CRUD type REST API protocols. 

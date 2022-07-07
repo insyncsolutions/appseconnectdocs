@@ -327,6 +327,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent4.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\salesforce16.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce4.png" />
@@ -335,6 +336,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\salesforce7.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce8.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce9.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\salesforce_actionfilter.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\salesforce_agent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\salesforce_agent2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\salesforce_cloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sapb1-addon1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sapb1-addon2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sapb1-addon3.png" />
