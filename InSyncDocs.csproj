@@ -363,6 +363,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\sapsl2.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\sapsl3.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\sapsl4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sap_actionfilter.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation3.png" />

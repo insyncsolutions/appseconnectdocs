@@ -1,6 +1,6 @@
 ﻿---
 title: "SAP Business One"
-description: ""
+description: "Get to know how you can configure the agent for SAP Business One"
 keywords: ""
 toc: true
 tag: developers
@@ -15,18 +15,36 @@ menus:
 
 Application configuration is an integral activity prior to the process of integration. 
 If your chosen application is SAP Business One, credentials need to be provided for 
-validating the agent.
-Here you will find the detailed description on how to configure the agents for the 
-application of SAP Business One, attributes and action, and the Troubleshooting issues.
+validating the agent. Here you will find the detailed description on how to configure the agents for the 
+application of SAP Business One, attributes, action and the Troubleshooting issues.
+
+SAP Business One is an ERP software platform specifically intended for small and medium-size businesses. 
+SAP Business One (also known as SAP B1) was designed with the idea that smaller companies need ERP software 
+to help manage their business, but not the kind of ERP that large and complex organizations need. 
+It has functional modules for finance, customer relationship management, warehousing and production management, 
+purchasing and procurement, and reporting and analytics. 
 
 **Note : This document is for the SAP Business One version >=8.8**
 
-## Prerequisites for SAP Business One Configuration
+## Pre-requisites for SAP Business One  Configuration 
 
-1.	Select the application SAP Business One from the [APPS](/processflow/components-of-processflow/#left-panel) section of the APPSeCONNECT Portal in ProcessFlow Designer Page.  
-2.	Create and [deploy](/processflow/deploying-and-executing-processflow/) a processflow in the cloud portal with SAP Business One as source or destination application.   
+1. Create an account in SAP Business One and Login into it. 
+2. **Username** and **Password** to access the application.  
+3. You need to know the APIs of the application.
 
-## Configure the SAP Business One Application in the Agent
+## On-Premise Agent Configuration 
+
+### Installation of On-Premise Agent
+
+You need to install the agent on your local server. To Know about On-Premise Agent Configuration, [Click here](/deployment/Deployment-Configuration/#on-premise-agent-configuration). 
+
+### Configure the SAP Business One Application in the Agent
+
+1. [Create a processflow](/getting%20started/create-your-first-processflow/) with SAP Business One as source or destination application, and [deploy](/processflow/deploying-and-executing-processflow/) the processflow in On-Premise agent.  
+2. Open the agent and click the checkbox in Settings Panel.  
+3. Move into the  App Configurational Panel of the agent and configure the details of the respective application.  
+
+### Steps to Configure the credentials in the Agent
 
 1) Open APPSeCONNECT Agent by providing correct credentials.
 
@@ -62,7 +80,7 @@ In this way, you can configure the credentials of SAP B1.
 
 ### Custom Database Type Selection:
 
-By default, the field for `Database Type` list the following types in its drop-down and they are:
+By default, the field for `Database Type` list the following types in its drop-down and they are :
 - Hana Database
 - Microsoft SQL Server 2000
 - Microsoft SQL Server 2005
@@ -102,16 +120,14 @@ Following the above process, you can successfully add your custom database type 
 
 ## Troubleshooting
 
-**Issue 1 : Source Application Data Not Found**
-
-"Source Application Data Not Found" even if Data is present is the Source Application.
+**Issue 1 : Source Application Data Not Found even if Data is present is the Source Application**
 
 Some of the basic troubleshooting issue happens due to improper validations or even if it is 
-accurately validated and if touchpoints do not sync. This basic issue resolves after removing 
+accurately validated, the processflows do not sync. This basic issue resolves after removing 
 the `Temp and Cache files` from the `portal` and from your `system`. Therefore after clearing all
-this, you need to publish the touchpoints again along with **Update Configuration** on the agent.
+this, you need to re-deploy and execute the processflow again.
 
-For E.g. If the "Source Application Data Not Found" in the log file appears, the probable cause is due 
+For Example, if the "Source Application Data Not Found" in the log file appears, the probable cause is due 
 to the presence of the Temp and Cache Files.
 
 **Issue 2 : Syncing issues**
@@ -121,9 +137,9 @@ syncing else data will not sync to SAP.
 
 ## Attributes and Actions
 
-While defining a connection to an API endpoint in SAP Business One, you require clear understanding about the
+While defining a connection to an API in SAP Business One, you require clear understanding about the 
 data requirements and endpoint configurations. You can refer to this document to find all the endpoint 
-details of your SAP Business One installation. To define the endpoint in APPSeCONNECT, you need Actions and Entities. 
+details of your SAP Business One installation. To define the endpoint in APPSeCONNECT, you need Schemas and Actions. 
 Actions are specifically targeted for an endpoint while schema is the data needed to execute the API. 
 Here, is the list of some of the pre-packaged API actions defined for you which you can easily plug and play 
 while doing your integrations.
@@ -133,6 +149,36 @@ SAP Business One being a SOAP based application, it has objects that are used fo
 
 |Endpoint|Action|Action Type|Schema|UI Path|API Path|
 |---|---|---|---|------|---|
-|ExecuteSQL|ExecuteSQL|GET|oEmployeesInfo|[Fetch employee from SAP Business One to destination Application](https://help.sap.com/doc/saphelp_sbo91/9.1/en-US/44/ac2bd0d8545af0e10000000a11466f/content.htm?no_cache=true)|---|
-|ExecuteSQL|ExecuteSQL|GET|oItems|[Fetch Products from SAP Business One to destination Application](https://help.sap.com/saphelp_sbo900/helpdata/en/45/2365ca9e152b31e10000000a1553f7/content.htm?no_cache=true)|---|
-|AddObject|AddObject|POST|oEmployeesInfo|Post employees from Source Application to SAP Business One|---|
+|ExecuteSQL|ExecuteSQL|GET|oBusinessPartners|[Fetch business partners from SAP Business One](https://help.sap.com/docs/SAP_BUSINESS_ONE/68a2e87fb29941b5bf959a184d9c6727/44f3e8afc4b80486e10000000a155369.html)|-|
+|ExecuteSQL|ExecuteSQL|GET|oItems|[Fetch Products from SAP Business One to destination Application](https://help.sap.com/saphelp_sbo900/helpdata/en/45/2365ca9e152b31e10000000a1553f7/content.htm?no_cache=true)|-|
+|AddObject|AddObject|POST|oBusinessPartners|Post employees from Source Application to SAP Business One|-|
+|AddObject|AddObject|POST|oorders|Post order from any other application to destination application|-|
+
+### Action Filter Implementation 
+
+
+Data is fetched from source application using APIs, and as you are aware of, API provides filters 
+which will allow you to specify a subset of data from the whole bunch of data created in the server, 
+the same can be specified through Actions and Action filters. The Action generally defines the 
+endpoint of the application which is being fetched, while the filters define the search criteria 
+of the data. You can add these parameters in the `action filter` to define the search criteria. 
+
+In SAP Business One, a database is maintained containing various tables. Each such table contains information regarding Business Partners, Products, Orders, 
+Quotations and many more. To know the details regarding the database tables, [click here](https://blogs.sap.com/2017/04/27/list-of-object-types/).
+
+- General filters : It represents the overall filter criteria of the API. To define such filters, you do not need to 
+specify anything special, just putting `DoQuery` in the key field and the query to fetch the data in the value field is fine. 
+
+- In SAP Business One, Product created from the `UI` of the application are stored in the `OITM` table in the database. Suppose you need to retrieve 
+50 products from SAP Business One. `OITM` table in SAP Business One contains various such as ItemCode, ItemName etc. You need to provide `DoQuery` in the key field and 
+`Select Top 50 ItemCode,ItemName,UserText,U_WebID,OnHand from OITM  where ISNULL(U_WitmFlag,'')='F' and isnull(U_WebID,'')=''` in the key field. 
+In the select query,
+
+                    - ItemCode, ItemName, UserText, U_WebID and OnHand are the fields that you need to fetch from the application. 
+                    - 50 is the quantity that you need to fetch.
+                    - `where` is mentioned as filtering condition. Products having `U_WebID` as empty and if `U_WitmFlag` has some value, those products will be fetched.
+                    
+
+![sap_actionfilter](/staticfiles/connectors/media/application-connector/sap_actionfilter.png)
+
+
