@@ -27,10 +27,9 @@ or even one single penny of expense. We give you the full fledged version of all
 The Free Trial selection option will only showcase the integration on vanilla systems.
 
 1. The Landing page of the APPSeCONNECT Portal gives the option to request for a [FREE TRIAL](https://www.appseconnect.com/free-trial/).
-![FreeTrial](/staticfiles/root/media/FreeTrial.png) 
-
+![FreeTrial_1](/staticfiles/processflow/media/register_2.png) 
 2. Click the option Free Trial and a vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
-![Trial_Form](/staticfiles/root/media/TrialForm.png)
+![Trial_Form_1](/staticfiles/processflow/media/register_1.png)
 3. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
 4. The visitors will complete the form Fill up and click on **Start Free Trial** button given at the end of the form.
 5. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
@@ -50,35 +49,46 @@ integration experts who will develop and adjust the integration based on the sco
 
 ## Accessing your account
 
-After you successfully registered with us, you will get activation link to verify your email address. The email will also show your user id and 
-temporary password generated, which you can use to login to the account. 
+After you successfully register with us, you will get a welcome message for its successful creation along with an activation button to verify your email address. The email will also show your user id which you can use to login to the account. 
 
 ### Steps to access your account
 
 1. Once you receive an activation link over an email, you will receive few more resources in addition, such as
-- Link for Customer Stories that will allow you to know the product efficiency in Market.
-- Link for the On-Demand Webinars that will provide you informations regarding APPSeCONNECT.
-- Link Technical & Conceptual Details will provide you with the opportunity to learn technical built up and concept of APPSeCONNECT.
-- Link for APPSeCONNECT Documentations will help you with the usability aspect throughout APPSeCONNECT.
-- Link for APPSeCONNECT Community will enable you to stay connect with the APPSeCONNECT Community for quick support and discussions.
-![newcustomer_registration3](/staticfiles/root/media/newcustomer_registration3.png)  
-2.	Clicking on `Activation link` will activate the created account. User will now be able to login to the portal with the password provided in the activation mail.  
-3.	Once logged, APPSeCONNECT portal would ask the user to change the password for security purpose.    
-![newcustomer_registration4](/staticfiles/root/media/newcustomer_registration4.png)  
-4.	Once the changes are saved, user needs to re-login to the portal with the new password.  
-5.	Once logged in, APPSeCONNECT would ask to accept the License Agreement. Users can opt for reading the details by clicking on the provided links.  
-![newcustomer_registration5](/staticfiles/root/media/newcustomer_registration5.png)  
-6. Now you will be directed to the `PhoneNumber`setting screen. Select Country/Region
-from the drop down list & Input your phone number. Click on Add Button to Add the phone number
-or skip button to skip the section. 
-![addphone_number](/staticfiles/root/media/addphone_number.png)   
-(a) Incase of erroneous phone number you will get an error message on screen.    
-(b) You can also Enable Two Factor Authentication by clicking on the check box. This will
-send a verification code to your registered number.    
-7.	Once accepted, the user would be able to view the account profile details. Click on organisation tab, and this will navigate the user to the [Organisation Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/#a-accessing-organization-dashboard).   
-8.	Here you can view the other [Organisation modules](https://docs.appseconnect.com/accessing%20portal/accessing-portal/) available for every organisation.  
+- An email id for contacting with us, if you need any help from our end. 
+- **View Help Center** will re-direct you to our documentation portal for letting you know about `APPSeCONNECT` in details. 
+![newcustomer_email](/staticfiles/root/media/newcustomer_email.png)  
+2.	Clicking on `Get Started` will activate the created account. User will now be directed to a new window where you need to create your password meeting our password generation criteria. 
+3.	You need to accept the `terms and conditions` along with the `Privacy Policy` to login to APPSeCONNECT portal. Once you click on [Help Center](/getting%20started/overview/), you will be directed to `APPSeCONNECT` documentation portal.   
+![newcustomer_register41](/staticfiles/root/media/newcustomer_register41.png)  
+4.	Once the necessary details are filled up, click on `Change and Proceed`.  
+5.	A message will be displayed notifying you that the password has been set successfully. Click on `Continue to APPSeCONNECT`.  
+![newcustomer_register42](/staticfiles/root/media/newcustomer_register42.png)  
+6. Once you click on `Continue to APPSeCONNECT`, you will be directed to `Account details` page. Select the `Job Role` and industry related information from the drop-down. Click on `Get Started` to move to the next step. 
+![newcustomer_register43](/staticfiles/root/media/newcustomer_register43.png)    
+7. Select the desired applications from the `Apps` section to integrate your business and click on `Save and Proceed`. The selected `Apps` will be enclosed in green coloured square box that you need for integration.
+![newcustomer_register44](/staticfiles/root/media/newcustomer_register44.png) 
+8. Either you can install any packages that suits your business the best such that you could utilize the pre-built processflows for easy, smooth and free-flowing integration or click on `Create custom Process Flow!` to build a new processflow. [Click here](/getting%20started/create-your-first-processflow/) to know the steps to create a processflow. 
+![newcustomer_register45](/staticfiles/root/media/newcustomer_register45.png)
+However, depending on the application choosen in the `Select Apps` section, if there are no pre-built packages in portal, then you will be prompted with a message to create a new processflow.
+![newcustomer_register50](/staticfiles/root/media/newcustomer_register50.png)
+9. Select your integration deployment environment as `On Cloud` or `On Premise`. Click on `Proceed`. 
+![newcustomer_register46](/staticfiles/root/media/newcustomer_register46.png)
+10. If you select the deployment environment as `On Cloud`, provide the credentials of all the selected applications. `Save` the credentials and click on `Proceed`. 
+![newcustomer_register51](/staticfiles/root/media/newcustomer_register51.png)
+ After giving the credentials of all the applications successfully, click on **Done**. 
+![newcustomer_register47](/staticfiles/root/media/newcustomer_register47.png)
+11. However, in case of `On-Premise` agent, [dwonload and install](/deployment/Deployment-Configuration/#on-premise-agent-configuration) the agent from the same `UI`. 
+![newcustomer_register48](/staticfiles/root/media/newcustomer_register48.png)
+12. After dwonloading and installing the agent in your local system, Click on `Next`. In the subsequent step, you can also watch the environmemt set up procedure visually and then click on `Done`. 
+>Unless and until you provide and validate the credentials of all the choosen application, you cannot proceed to next step. 
+13. The applications will be listed in the `Credentials Verification` page after validation and saving the credentials in the OP agent.  
+![newcustomer_registration48](/staticfiles/root/media/newcustomer_registration48.PNG)
+14. In the `Credentials Verification` page, click on `Done` and a welcome screen will be displayed to you such that you can use the pre-packaged processflow.  
+From the welcome screen, you will be re-directed to `Installed Process Flow` folder, if you have installed any packages from `Recommended Packages` section
+during the on-boarding process. On the other hand, processflow designer page will be displayed, if you have choosen `Create custom ProcessFlow` in the `Recommended Packages` section.
+![newcustomer_register49](/staticfiles/root/media/newcustomer_register49.png)
 
-**Note : The newly created organisation will be a Trial Account by default, available only for 31days. Please make sure you follow your emails, as our 
+**Note : The newly created organisation will be a Trial Account by default, available only for 31 days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
 ### Accessing an activated account

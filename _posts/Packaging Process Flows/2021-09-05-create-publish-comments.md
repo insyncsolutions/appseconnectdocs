@@ -69,16 +69,43 @@ a) You’ll be navigated to the Preview section. You’ll be able to view al
 
 b) Click on the **Save** button to the create the package. Following the above process, you can successfully create a Processflow package. 
 
-**Note: Any changes made to the original Processflow, the modifications will not reflect in the packaged versions. You need to create a new package for packaging the modified ProcessFlows.** 
+**Note : Any changes made to the original Processflow, the modifications will not reflect in the packaged versions. You need to create a new package for packaging the modified ProcessFlows.** 
 
 
 ## Publishing Package
 
 Once you have created your Processflow Packages, you can successfully view the packages in the **My Packages** listing page of your organisation. But if you want to make it available to the external users, you need to go through the publishing procedure which will validate your creation and list your package to APPSeCONNECT marketplace. 
+{::comment}
+```plantuml!
+skinparam actorStyle awesome
+usecase Approved #palegreen;line:green;line.bold;text:green
+usecase Responded #yellow;line:gold;line.dashed;text:gold
+usecase Rejected #pink;line:red;line.bold;text:red
+usecase (Create a Package) #cyan;line:blue;line.bold;text:blue
+usecase (Select a New Package) #cyan;line:blue;line.bold;text:blue
+usecase (Publish the package) #cyan;line:darkblue;line.bold;text:darkblue
+usecase (Select a Responded Package) #orange;line:orangered;line.dashed;text:orangered
+usecase (Package ready for Republishing) #orange;line:orangered;line.dashed;text:orangered
+usecase (Package Available in Marketplace) #palegreen;line:green;line.bold;text:green
+:User_1: --> (Create a Package) #blue;line.bold;text:blue : Unable to find\n your desired package 
+:User_2: --> (Select a New Package) #blue;line.bold;text:blue : Choose a package that\n have its Status as New 
+(Create a Package) -> (Select a New Package) #blue;line.bold;text:blue : Navigate to MyPackges Folder
+(Select a New Package) --> :Approver: #darkblue;line.bold;text:darkblue : Click on Publish to Marketplace 
+:Approver: ---> (Approved) #green;line.bold;text:green : Approver installs and\n tests the package\n for its successful\n implementation
+:Approver: ---> (Responded) #gold;line.dashed;text:gold : Comments has been\n given by Approver
+:Approver: ---> (Rejected) #red;line.bold;text:red : Action mentioned in\n the package documentation\n has been violated.
+(Responded) --> (Select a Responded Package) #orangered;line.dashed;text:orangered : Naviagte to My Packages folder\nFind a package that bears\n its Status as Responded
+(Select a Responded Package) -> (Package ready for Republishing) #orangered;line.dashed;text:orangered : View and Resolve\n the comments suggested\n by Approver
+(Package ready for Republishing) -> :Approver: #darkblue;line.bold;text:darkblue : Click on Re-Publish\n to Marketplace
+:User_2: --> (Package Available in Marketplace) #green;line.bold;text:green : User can search for any packages
+(Approved) --> (Package Available in Marketplace) #green;line.bold;text:green : Approver publishes the package to Marketplace
+```
+{:/comment}
+![package_publish](/staticfiles/umldiagram/media/package_publish.svg)
 
 1. Navigate to the **Designer** > **ProcessFlow** module. This loads the ProcessFlow tree which gives access to your **Package Library**. 
 2. Expand the **Package Library** node in ProcessFlow listing page and click on **My Packages** folder. 
-3. On **My Packages** folder,you can view the created packages on your organisation. 
+3. On **My Packages** folder, you can view the created packages on your organisation. 
 ![publishtomarketplace1](/staticfiles/processflow/media/publishtomarketplace1.png)
 
 4. Select a package from **My Packages** folder that have its status displayed as **New**. Click on the contextual menu available in the Actions column which will display **Publish To Marketplace**. 
@@ -88,6 +115,11 @@ Once you have created your Processflow Packages, you can successfully view the p
 6. After you submit your request for publishing, you'll see your package Status is changed from **New** to **Waiting for Approval**, which means, the approver is looking into it. 
 
 ![publishtomarketplace3](/staticfiles/processflow/media/publishtomarketplace3.png)
+
+
+
+![](https://www.youtube.com/watch?v=ZWvvph6dOgk)
+
 
 
 ## Accessing Comments,Re-Versioning and Re-Publishing

@@ -63,7 +63,7 @@ They are defined and delivered by APPSeCONNECT product team and are accessible t
 |getMapping(ObjectType,Value)|Gets value mapping for a particular type from either source or destination|[genericlib:getMapping("Currency" ,"$")]|
 |GetUpperString(data)|Converts the data to an upper string case|[genericlib:GetUpperString(data)]|
 
-**Note : Click [here](/transformation/using-library-methods/) to know how to use generic functions in your processflow.
+**Note :** Click [here](/transformation/using-library-methods/) to know how to use generic functions in your processflow.
 
 ## User Defined Function
 

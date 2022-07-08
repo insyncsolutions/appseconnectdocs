@@ -15,7 +15,7 @@ menus:
 
 Getting started section of mapping will help you to understand the main areas, you should be familiar with 
 before start doing the transformation process. `Mapping` triggers the transformation process between the Source and the Destination Applications. 
-Source and destination schemas are mapped in the transform section of the processflow. 
+Source and Destination schemas are mapped in the transformation section of the processflow. 
 
 It is important to note that a processflow caters to a particular schema or an entity. A processflow maps the source schema 
 for a particular action with the destination schema, thus facilitating the transfer of information between the schemas. The 

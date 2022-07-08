@@ -17,6 +17,8 @@ you as an end user require very small effort to configure the connector to work 
 maintained by the InSync team which consists of a number of highly skilled developers who work with the platform
 to provide Actions and Schemas specific to the Application.
 
+![](https://www.youtube.com/watch?v=aYOhkVw9J2E)
+
 For application connectors, we have pre-built templates as well which connects two or more application together
 where all the business logic to transform data from one application to another is pre-baked and devleoped and tested. 
 Hence as an user, you can readily use those connectors just by adding them to your project and execute them on the platform.
