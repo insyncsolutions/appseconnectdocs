@@ -30,7 +30,7 @@ purchasing and procurement, and reporting and analytics.
 
 1. Create an account in SAP Business One and Login into it. 
 2. **Username** and **Password** to access the application.  
-3. You need to know the APIs of the application.
+3. You need to know the Authentication and APIs of the application.
 
 ## On-Premise Agent Configuration 
 
@@ -78,7 +78,7 @@ A message "Connection Data Saved" will appear if all the credentials provided by
 A message "Test Connection Successful" will appear if all the credentials provided by you for SAP B1 is valid. 
 In this way, you can configure the credentials of SAP B1.
 
-### Custom Database Type Selection:
+### Custom Database Type Selection
 
 By default, the field for `Database Type` list the following types in its drop-down and they are :
 - Hana Database
@@ -170,15 +170,14 @@ Quotations and many more. To know the details regarding the database tables, [cl
 specify anything special, just putting `DoQuery` in the key field and the query to fetch the data in the value field is fine. 
 
 - In SAP Business One, Product created from the `UI` of the application are stored in the `OITM` table in the database. Suppose you need to retrieve 
-50 products from SAP Business One. `OITM` table in SAP Business One contains various such as ItemCode, ItemName etc. You need to provide `DoQuery` in the key field and 
-`Select Top 50 ItemCode,ItemName,UserText,U_WebID,OnHand from OITM  where ISNULL(U_WitmFlag,'')='F' and isnull(U_WebID,'')=''` in the key field. 
-In the select query,
-
-                    - ItemCode, ItemName, UserText, U_WebID and OnHand are the fields that you need to fetch from the application. 
-                    - 50 is the quantity that you need to fetch.
-                    - `where` is mentioned as filtering condition. Products having `U_WebID` as empty and if `U_WitmFlag` has some value, those products will be fetched.
+50 products from SAP Business One. `OITM` table in SAP Business One contains various columns such as ItemCode, ItemName etc. You need to provide `DoQuery` in the key field and 
+`Select Top 50 ItemCode,ItemName,UserText,U_WebID,OnHand from OITM where ISNULL(U_WitmFlag,'')='F' and isnull(U_WebID,'')=''` in the key field. In the select query,
+    - ItemCode, ItemName, UserText, U_WebID and OnHand are the fields that you need to fetch from the application. 
+    - 50 is the quantity that you need to fetch.
+    - `where` is mentioned as filtering condition. Products having `U_WebID` as empty and if `U_WitmFlag` has some value, those products will be fetched.
                     
 
 ![sap_actionfilter](/staticfiles/connectors/media/application-connector/sap_actionfilter.png)
 
 
+ 
