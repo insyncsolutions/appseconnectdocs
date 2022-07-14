@@ -359,6 +359,8 @@
     <Content Include="staticfiles\connectors\media\application-connector\sapdbtype2.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\sapdbtype3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sapdbtype4.PNG" />
+    <Content Include="staticfiles\connectors\media\application-connector\sapoutputtype_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sapoutputtype_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sapsl1.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\sapsl2.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\sapsl3.PNG" />

@@ -1,7 +1,7 @@
 ﻿---
 title: "SAP Business One"
 description: "Get to know how you can configure the agent for SAP Business One"
-keywords: ""
+keywords: "SAP Business One  Configuration, Custom Database Type Selection"
 toc: true
 tag: developers
 category: "Connectors"
