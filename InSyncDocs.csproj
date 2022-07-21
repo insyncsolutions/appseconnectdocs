@@ -326,6 +326,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sage300-agent4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sage_actionfilter.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce16.png" />
     <Content Include="staticfiles\connectors\media\application-connector\salesforce2.png" />
