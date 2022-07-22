@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector:
         title: "Dynamic GP"
-        weight: 20
+        weight: 22
         icon: fa fa-file-word-o
         identifier: sage300connector
 ---
@@ -25,8 +25,8 @@ credential of the application Dynamic GP.
 
 ## Pre-requisites for Dynamic GP Configuration 
 
-1. The server should be available where Dynamic GP is installed along with the User ID and Password to access the same. 
-2. **Username** and **Password** to access the application.  
+1. Dynamic GP should be installed in your server with all admin previlages. 
+2. The server should be available where Dynamic GP is installed along with the User ID and Password to access the same.  
 3. You need to know the Authentication and APIs of the application.  
 
 ## On-Premise Agent Configuration 
@@ -35,8 +35,19 @@ credential of the application Dynamic GP.
 
 You need to install the agent on your local server. To Know about On-Premise Agent Configuration, [Click here](/deployment/Deployment-Configuration/#on-premise-agent-configuration). 
 
-### Configure the Sage 300 Application in the Agent
+### Configure the Dynamic GP Application in the Agent
 
-1. [Create a processflow](/getting%20started/create-your-first-processflow/) with Sage 300 as source or destination application, and [deploy](/processflow/deploying-and-executing-processflow/) the processflow in On-Premise agent.  
+1. [Create a processflow](/getting%20started/create-your-first-processflow/) with Dynamic GP as source or destination application, and [deploy](/processflow/deploying-and-executing-processflow/) the processflow in On-Premise agent.  
 2. Open the agent and click the checkbox in Settings Panel.  
 3. Move into the  App Configurational Panel of the agent and configure the details of the respective application.  
+
+### Steps to Configure the credentials in the Agent
+
+1) Open APPSeCONNECT Agent by providing correct credentials. 
+
+2) In the **Apps Configurational panel** of the agent, you will be able to view the Dynamic GP application. Click on the `+` icon to add the credential.    
+![sapb1_agent](/staticfiles/connectors/media/application-connector/sapb1_agent.png)
+
+3) Provide the credentials of Dynamic GP application.
+![sapb2_agent](/staticfiles/connectors/media/application-connector/sapb2_agent.png)
+
