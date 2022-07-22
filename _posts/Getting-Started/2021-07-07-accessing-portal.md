@@ -15,6 +15,7 @@ menus:
 
 The APPSeCONNECT portal is the web based interface where you can access APPSeCONNECT application for integration, with the set of Functional modules. The [APPSeCONNECT portal page](https://portal.appseconnect.com/Account/Login?ReturnUrl=%2f#!) is easily accessible. 
 Once you have logged in, some elements of the APPSeCONNECT portal are common to all apps, accessible via the left side panel of the page. Of note, these also includes accessing your account, where you can update your information as well as change your password. 
+![](https://www.youtube.com/watch?v=CBH1XcC9fgQ)
 
 The set of functional modules are easy to navigate and ease the method of integration via our Portal. 
 The view of functional module(s) is given below :
@@ -243,7 +244,7 @@ b.	Organization Admin
 2. Now Search/find the appropriate organization you want to change details for. 
 3. Click on Users menu.
 4. Click on Edit link for an existing user.    
-![Usernode](/staticfiles/root/media/usernode.PNG)
+![Usernode](/staticfiles/root/media/Usernode.png)
 
 In the edit user screen, you can change all the deatils except Email Address for that particular user.
 
