@@ -1782,6 +1782,7 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
+    <None Include="_posts\Connectors\Application Connectors\Dynamic GP\2022-07-22-dynamic-gp.md" />
     <None Include="_posts\Connectors\Application Connectors\QuickBook\2021-12-21-quickbook.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP ECC\2022-07-11-sap-ecc.md" />
     <None Include="_posts\Deployment\2settings.md" />
