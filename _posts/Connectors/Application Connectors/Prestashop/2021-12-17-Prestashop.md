@@ -17,7 +17,7 @@ Application configuration is an integral activity prior to the process of integr
 need to be provided for validating the agent.  Here you will find the detailed description on how to configure the agents for the application
 Prestashop, Troubleshooting issues, the attributes and its action.
 
-Prestashop is a REST (CRUD type) application which supports the Webservices authentication. The Adapter of the application Prestashop provides 
+Prestashop is a REST (CRUD type) application which supports the Webservices authentication. The adapter of the application Prestashop provides 
 the leverage to communicate and adapt with the AEC Portal. This section provides you the detailed process of validating the credential of the 
 application Prestashop.
 
@@ -25,7 +25,7 @@ application Prestashop.
 
 1. Create an account in Prestashop and Login into it. 
 2. **Username** and **Password** to access the application.  
-3. [Click here](https://devdocs.prestashop.com/1.7/webservice/getting-started/) to know the Api endpoints of the application.
+3. [Click here](https://devdocs.prestashop.com/1.7/webservice/getting-started/) to know the APIs of the application.
 
 ## On-Premise Agent Configuration 
 
@@ -33,7 +33,7 @@ application Prestashop.
 
 You need to install the agent on your local server. To Know about On-Premise Agent Configuration, [Click here](/deployment/Deployment-Configuration/#on-premise-agent-configuration).   
 
-## Configure the Prestashop Application in the Agent
+### Configure the Prestashop Application in the Agent
 
 1. [Create](/getting%20started/create-your-first-processflow/) and [Deploy](/processflow/deploying-and-executing-processflow/#deploying-processflows-to-environment) ProcessFlows in the cloud portal. 
 2. Open the agent and click the checkbox in Settings Panel.  
@@ -54,7 +54,7 @@ You need to install the agent on your local server. To Know about On-Premise Age
 5. After providing the credentials, click on `Validate` button followed by `SAVE`.  
 ![prestashop4](/staticfiles/connectors/media/application-connector/prestashop4.png)    
 
-Following this process, the Prestashop application can be configured in the OP agent.
+Following the above process, the Prestashop application can be configured in the OP agent.
 
 ## Cloud Agent Configuration 
 
@@ -83,9 +83,9 @@ Once validated, re-deploy and execute the processflow for its successful executi
 
 ## Attributes and Actions
 
-While defining a connection to an API endpoint in Prestashop, you require clear understanding about the data requirements and endpoint configurations. 
+While defining a connection to an API in Prestashop, you require clear understanding about the data requirements and endpoint configurations. 
 You can refer to this document to find all the endpoint details of your Prestashop installation. To define the endpoint in APPSeCONNECT, you need 
-to define Actions and Entities. Actions are specifically targeted for an endpoint while schema is the data needed to execute the API. Here is the 
+to define Schemas and Actions. Actions are specifically targeted for an endpoint while schema is the data needed to execute the API. Here is the 
 list of some of the pre-packaged API actions defined for you which you can easily plug and play while doing your integration.
 
 Prestashop has a generic [API Document](https://devdocs.prestashop.com/1.7/development/webservice/) and [Authentication](https://www.postman.com/binshops/workspace/binshops-public-workspace/folder/1491681-d7d64c08-e5dc-4b93-8f01-61fa88d6096d?ctx=documentation) following the CRUD type REST API protocols. 
@@ -101,7 +101,7 @@ Prestashop has a generic [API Document](https://devdocs.prestashop.com/1.7/devel
 
 ### Action Filter implementation 
 
-Data is fetched from source application using APIs, and as you are aware of, API provides filters 
+Data is fetched from source application using [APIs](https://devdocs.prestashop.com/1.7/webservice/resources/), and as you are aware of, API provides filters 
 which will allow you to specify a subset of data from the whole bunch of data created in the server, 
 the same can be specified through Actions and Action filters. The Action generally defines the 
 endpoint of the application which is being fetched, while the filters define the search criteria 
@@ -136,13 +136,64 @@ You need to mention the `display` parameter in the key field and `id,lastname,fi
   - If you need to filter the entries in the input packet according to their date, then you should always 
   specify `date=1` parameter to allow date filtering.  
 
-1) You can retrieve Customers from `Prestashop` by creating a variable at processflow level 
+Let us consider the API structure of `customer` schema in Prestashop application. If you need to fetch a group of customers from the application, 
+you can specify the condition in the action filter by taking any field from the xml structure of the respective APIs. For instance, to fetch customer with id as 1 
+use `filter[id_customer]` in the key field and `1` in the value field. To display specific fields from customer schema, such as firstname, 
+lastname and email, use `display` in the key field and `firstname,lastname,email` in the value field.
+
+```
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+  <customer>
+    <id><![CDATA[]]></id>
+    <id_default_group><![CDATA[]]></id_default_group>
+    <id_lang><![CDATA[]]></id_lang>
+    <newsletter_date_add><![CDATA[]]></newsletter_date_add>
+    <ip_registration_newsletter><![CDATA[]]></ip_registration_newsletter>
+    <last_passwd_gen><![CDATA[]]></last_passwd_gen>
+    <secure_key><![CDATA[]]></secure_key>
+    <deleted><![CDATA[]]></deleted>
+    <passwd><![CDATA[]]></passwd>
+    <lastname><![CDATA[]]></lastname>
+    <firstname><![CDATA[]]></firstname>
+    <email><![CDATA[]]></email>
+    <id_gender><![CDATA[]]></id_gender>
+    <birthday><![CDATA[]]></birthday>
+    <newsletter><![CDATA[]]></newsletter>
+    <optin><![CDATA[]]></optin>
+    <website><![CDATA[]]></website>
+    <company><![CDATA[]]></company>
+    <siret><![CDATA[]]></siret>
+    <ape><![CDATA[]]></ape>
+    <outstanding_allow_amount><![CDATA[]]></outstanding_allow_amount>
+    <show_public_prices><![CDATA[]]></show_public_prices>
+    <id_risk><![CDATA[]]></id_risk>
+    <max_payment_days><![CDATA[]]></max_payment_days>
+    <active><![CDATA[]]></active>
+    <note><![CDATA[]]></note>
+    <is_guest><![CDATA[]]></is_guest>
+    <id_shop><![CDATA[]]></id_shop>
+    <id_shop_group><![CDATA[]]></id_shop_group>
+    <date_add><![CDATA[]]></date_add>
+    <date_upd><![CDATA[]]></date_upd>
+    <reset_password_token><![CDATA[]]></reset_password_token>
+    <reset_password_validity><![CDATA[]]></reset_password_validity>
+    <associations>
+      <groups>
+        <group>
+          <id><![CDATA[]]></id>
+        </group>
+      </groups>
+    </associations>
+  </customer>
+</prestashop>
+```
+- You can retrieve Customers from `Prestashop` by creating a variable at processflow level 
 ![prestashop_1](/staticfiles/connectors/media/application-connector/prestashop_1.png) 
 
 and using it in the action filter.
 ![prestashop_2](/staticfiles/connectors/media/application-connector/prestashop_2.png)
   
-2) Fetch the updated customer information from `Prestashop` using a variable at processflow level
+- Fetch the updated customer information from `Prestashop` using a variable at processflow level
 ![prestashop_3](/staticfiles/connectors/media/application-connector/prestashop_3.png)
 
 and using it in the action filter.

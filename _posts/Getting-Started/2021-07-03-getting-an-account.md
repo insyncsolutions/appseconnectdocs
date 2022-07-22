@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Getting an Account"
 description: "Accessing Account in APPSeCONNECT"
 keywords: "Trial,Free Trial, Paid Trial, Accessing Account,steps to start, Multi-Factor Authentication,two factor authentication, security, login to appseconnect,password security,password expiry"
@@ -31,7 +31,7 @@ The Free Trial selection option will only showcase the integration on vanilla sy
 2. Click the option Free Trial and a vistors request form for availing trial version opens up as shown below. Here the vistor can put their requirement details.  
 ![Trial_Form_1](/staticfiles/processflow/media/register_1.png)
 3. The form requires the visitors to fill the basic contact details along with the application(s) selection criteria to choose from and the time required to buy the services.
-4. The visitors will complete the form Fill up and click on **Get Started Now!** button given at the end of the form.
+4. The visitors will complete the form Fill up and click on **Start Free Trial** button given at the end of the form.
 5. An automatic email will be send to both the visitors and APPSeCONNECT Consultant regarding the request.
 6. Our Consultant will connect back to the vistors and help them with their request for integration within our trial period of 30 days.
 
@@ -91,12 +91,12 @@ during the on-boarding process. On the other hand, processflow designer page wil
 **Note : The newly created organisation will be a Trial Account by default, available only for 31 days. Please make sure you follow your emails, as our 
 sales team will connect you to convert your account to a subscription before it expires.** 
 
-### Accessing an account
+### Accessing an activated account
 
 Once your account is activated, you can access your resources in our cloud portal by logging in to your account using valid username and password. Your account will be secured with us through authentication system, and we encourage
 you to logout after using it. 
 
-Click on portal and this will take you to the login page of  APPSeCONNECT Portal.
+Click on portal and this will take you the login page of  APPSeCONNECT Portal.
 
 ![Customer_Login](/staticfiles/root/media/CustomerLogin.png)
 
@@ -119,7 +119,7 @@ To enable mutli factor authentication system, you need to perform the following 
     * You can check the `Two Factor Authentication`. It will verify your phone number and you are done.
     * Save Changes to take this effect.
 
-    ![Twofactorauthentication](/staticfiles/root/media/enabletwofactor.png)
+    ![Twofactorauthentication](/staticfiles/root/media/twofactorauthentication.png)
 
     After Two Factor is Authenticated, the login will prompt for an extra passcode to log in.
 
@@ -132,6 +132,6 @@ To enable mutli factor authentication system, you need to perform the following 
     * You can check the `Enable Password Expiry`. It will show a dropdown to set up an expiry of either One month, two months or three months.
     * Save Changes to take this effect.
 
-    ![Twofactorauthentication1](/staticfiles/root/media/enablepasswordsecurity.png)
+    ![Twofactorauthentication1](/staticfiles/root/media/twofactorauthentication1.png)
 
 After enabling password expiry, it will ask to change the password after every 1 to 3 months depending on the setup.
