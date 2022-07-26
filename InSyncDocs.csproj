@@ -192,6 +192,9 @@
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamic_action1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamic_action2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamic_agentconfig.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr3.png" />
