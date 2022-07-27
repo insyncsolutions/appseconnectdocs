@@ -1,7 +1,7 @@
 ﻿---
 title: "Dynamic GP"
 description: "Get to know how you can configure the agent for Dynamic GP"
-keywords: "Sage 300  Configuration, Configure the Sage 300 Application"
+keywords: "Dynamic GP Configuration, Configure the Dynamic GP Application"
 toc: true
 tag: developers
 category: "Connectors"
@@ -140,7 +140,9 @@ Under `eConnectOut`, use the following as child conditions
 |REMOVE|0|
 |WhereClause|CREATDDT BETWEEN '~{CreatedDate}~' and '~{MaxDateLimit}~'|
 
-
+**Note :** Similarly, for other APIs `Product`, `Orders`, `Shipment` etc. you should follow 
+the above mentioned action filters and procedures to design, deploy and execute processflow such
+that the data could be synced properly. 
 
 
 
