@@ -53,7 +53,18 @@ You need to install the agent on your local server. To Know about On-Premise Age
 
 3) Provide the credentials for `Server Name`, `Database Name` and `CustomerNo`. 
 `SQL Server UserId` and `SQL Server Password` are optional ones, if available you can provide them. 
-![dynamic_agentconfig](/staticfiles/connectors/media/application-connector/dynamic_agentconfig.png)
+`Server Name` and `Database Name` will be provided to you by your client at the being of the configuration process. 
+You can find a valid CustomerNo following either of the below procedures. 
+
+- Open `SQL Server` with correct login credentials that have been provided to you. In the left panel under 
+`Object Explorer`, expand `Databases` node and find out the database that you are looking for. Click on `New Query` in the toolbar. 
+To find a valid CustomerNo you need to write the query `select * FROM RM00101` and  execute it. The query will return 
+you a list of customers that are present in DynamiC GP. Select any `CustomerNo` from `CUSTNMBR` column and put it in the agent. 
+
+- Open `Dynamics GP` with valid `Company Name`, `UserId` and `Password`. From the dashboard navigate to `Sales -> Cards -> Customer`. 
+As the Customer Maintenance dialog box opens up, click on the lookup icon beside the Customer Id text box. 
+The `Customers and Prospects` opens up, showing you all the customers that are currently available in the application along with the Customer Id. 
+Click on any `Customer Id` and the details will be available. You can select any customer Id from here.
 
 4) After providing all the credentials. Click "Save" button. 
 A message "Connection Data Saved" will appear if all the credentials provided by you for Dynamic GP is valid.
@@ -88,7 +99,7 @@ valid CustomerNo you need to write the query `select * FROM RM00101` and  execut
 customers that are present in DynamiC GP. Select any `CustomerNo` from `CUSTNMBR` column and put it in the agent. 
 
 - Open `Dynamics GP` with valid `Company Name`, `UserId` and `Password`. From the dashboard navigate to `Sales -> Cards -> Customer`. 
-As the Customer Maintenance dialog box opens up, click on the lookup icon beside the Customet Id text box. 
+As the Customer Maintenance dialog box opens up, click on the lookup icon beside the Customer Id text box. 
 The `Customers and Prospects` opens up, showing you all the customers that are currently available in the application along with the Customer Id. 
 Click on any `Customer Id` and the details will be available. 
 
@@ -106,7 +117,8 @@ in the `Return Information`. According to the respone, you can identify the issu
 While defining a connection to an API in `Dynamics GP`, you require clear understanding about the 
 data requirements and endpoint configurations. To define the endpoint in APPSeCONNECT, you need Schemas and Actions. 
 Actions are specifically targeted for an endpoint while schema is the data needed to execute the API. 
-Here, you should use `RQeConnectOutType` as action for all endpoints. 
+Here, you can use `RQeConnectOutType` as action if you are using `eConnect service ` to send 
+the request to respective application or several others approaches are also there to perform the same. 
 ![dynamic_action1](/staticfiles/connectors/media/application-connector/dynamic_action1.png)
 
 Data is fetched from source application using APIs, and as you are aware of, API provides filters 

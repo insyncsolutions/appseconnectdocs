@@ -185,6 +185,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\AddProduct-Priority3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\AddProduct-Priority4.png" />
     <Content Include="staticfiles\connectors\media\application-connector\AddProduct-Priority5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_actionfilter.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_agentconfig.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_agentconfig1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_cloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent3.png" />
@@ -1783,6 +1787,7 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
+    <None Include="_posts\Connectors\Application Connectors\Amazon Seller Central\2022-07-03-amazon-seller-central.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamic GP\2022-07-02-dynamic-gp.md" />
