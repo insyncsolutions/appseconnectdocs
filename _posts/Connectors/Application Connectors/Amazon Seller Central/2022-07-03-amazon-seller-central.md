@@ -34,9 +34,9 @@ how to configure the agents for the application `Amazon Seller Central`, Trouble
 
 ## Pre-requisites for Amazon Seller Central Configuration 
 
-1. Create an account in Amazon with necessary credentials. `Email Id` and `Password` are the manadatory details for logging in to the application. 
-2. **Marketplace Website Url**, **Auth Url**, **Access Token Url**, **Aws Region** and **Aws MerchantId** to configure the application in the agent.  
-3. [Click here](https://developer-docs.amazon.com/sp-api/docs/what-is-the-selling-partner-api) to know the Aws Region and APIs of the application. 
+1) Create an account in Amazon with necessary credentials. `Email Id` and `Password` are the manadatory details for logging in to the application.    
+2) **Marketplace Website Url**, **Auth Url**, **Access Token Url**, **Aws Region** and **Aws MerchantId** to configure the application in the agent.    
+3) [Click here](https://developer-docs.amazon.com/sp-api/docs/what-is-the-selling-partner-api) to know the Aws Region and APIs of the application. 
 
 ## On-Premise Agent Configuration 
 
@@ -46,13 +46,13 @@ You need to install the agent on your local server. To Know about On-Premise Age
 
 ### Configure the Amazon Seller Central  Application in OP Agent
 
-1. [Create a processflow](/getting%20started/create-your-first-processflow/) with Amazon Seller Central as source or destination application, and [deploy](/processflow/deploying-and-executing-processflow/) the processflow in On-Premise agent.  
-2. Open the agent and click the checkbox in Settings Panel.  
-3. Move into the App Configurational Panel of the agent and configure the details of the respective application.  
+1) [Create a processflow](/getting%20started/create-your-first-processflow/) with Amazon Seller Central as source or destination application, and [deploy](/processflow/deploying-and-executing-processflow/) the processflow in On-Premise agent.  
+2) Open the agent and click the checkbox in Settings Panel.  
+3) Move into the App Configurational Panel of the agent and configure the details of the respective application.  
 
 ### Steps to Configure the credentials in OP Agent
 
-1) Open the OP Agent by providing correct credentials. 
+1) Open the OP Agent by providing correct credentials.   
 2) In the App Configurations panel of the agent, click on the `+` button, beside the application amazon seller central. 
 The credential panel opens for the application amazon seller central. 
 ![amazonsellercentral_agentconfig](/staticfiles/connectors/media/application-connector/amazonsellercentral_agentconfig.png) 
