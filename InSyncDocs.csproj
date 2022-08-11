@@ -417,6 +417,12 @@
     <Content Include="staticfiles\connectors\media\application-connector\UpdateInventory-Priority3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\UpdateInventory-Priority4.png" />
     <Content Include="staticfiles\connectors\media\application-connector\UpdateInventory-Priority5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\wayfair_actionfilter1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\wayfair_actionfilter2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\wayfair_actionfilter3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\wayfair_cloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\wayfair_opagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\wayfair_opagent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-adapter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-adapter2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\woocommerce-adapter3.png" />
@@ -1802,6 +1808,7 @@
     <None Include="_posts\Connectors\Application Connectors\Monday\2022-08-01-monday.md" />
     <None Include="_posts\Connectors\Application Connectors\QuickBook\2021-12-21-quickbook.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP ECC\2022-07-11-sap-ecc.md" />
+    <None Include="_posts\Connectors\Application Connectors\Wayfair\2022-08-08-wayfair.md" />
     <None Include="_posts\Deployment\2settings.md" />
     <None Include="_posts\Deployment\Environment Management\2021-10-12-Environment Overview.md" />
     <None Include="_posts\Deployment\Environment Management\2021-10-13-Deployment Configuration.md" />
