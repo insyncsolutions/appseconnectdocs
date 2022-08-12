@@ -3,6 +3,8 @@ title: "Best practices"
 toc: true
 tag: developers
 category: "SDK"
+redirect_from: 
+     - /sdk/Best-practices/
 menus: 
     sdkprerequisite:
         title: "Best-practices"

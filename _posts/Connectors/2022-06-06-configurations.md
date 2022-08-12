@@ -3,6 +3,9 @@ title: "Working with Apps"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /getting%20started/configurations/
+     - /configuring%20appseconnect/configurations/
 menus: 
     Connectors:
         title: "Working with Apps"
