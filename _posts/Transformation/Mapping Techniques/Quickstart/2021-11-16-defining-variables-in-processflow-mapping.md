@@ -5,6 +5,8 @@ description: "Get to know about mapping variables and its implementation."
 keywords: "mapping variable"
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /processflow/defining-variables-in-processflow-mapping/
 menus: 
     transformationbasic:
         title: "Defining Variables in Mapping"

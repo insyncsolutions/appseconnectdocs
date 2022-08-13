@@ -5,6 +5,9 @@ description: "Components of ProcessFlow Designer to create,design and develop yo
 keywords: "Constituent of ProcessFlow, Components of ProcessFlow, Header panel, Left panel, Right panel, Designer view"
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/deploying-and-executing-processfloww/
+     - /processflow/designer-processflow/
 menus: 
     processflow:
         title: "Designer of ProcessFlow"

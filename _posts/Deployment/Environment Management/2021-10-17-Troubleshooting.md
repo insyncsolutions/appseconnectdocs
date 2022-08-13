@@ -5,6 +5,8 @@ keywords: "Cloud Agent Configuration, On-Premise Agent Configuration, Agent Conf
 toc: true
 tag: developers
 category: "Deployment"
+redirect_from: 
+     - /transformation/troubleshooting/
 menus:
     environment: 
         icon: fa fa-gg

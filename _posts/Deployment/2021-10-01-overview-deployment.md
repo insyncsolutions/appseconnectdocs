@@ -5,6 +5,8 @@ keywords: "Overview of deployment, deployment, getting started of deployment, Sy
 toc: true
 tag: developers
 category: "Deployment"
+redirect_from: 
+     - /deployment/overview/
 menus: 
     header:
         weight: 4

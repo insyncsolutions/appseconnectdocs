@@ -5,6 +5,8 @@ description: "Know about our Lightweight, Dynamic, Runtime Engine"
 keywords: "Types of agent, On-Premise Agent, Hosted Agent, runtime, executer, cloud solution,run anywhere"
 tag: developers
 category: "Getting Started"
+redirect_from: 
+     - /accessing%20portal/accessing-agents/
 menus: 
     gettingstarted:
         title: "Agent"

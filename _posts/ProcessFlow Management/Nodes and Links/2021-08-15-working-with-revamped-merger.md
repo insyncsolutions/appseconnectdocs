@@ -5,6 +5,8 @@ keywords: "merger node, merger node configuration, merge"
 toc: true
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/working-with-processflow-merger/
 menus: 
     processnodeandlinks:
         icon: fa fa-gg

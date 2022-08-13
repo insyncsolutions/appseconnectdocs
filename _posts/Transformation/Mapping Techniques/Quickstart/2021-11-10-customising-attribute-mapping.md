@@ -5,6 +5,9 @@ description: "Mapping provides a visual interface where one can map data coming 
 keywords: "Structure of Mapping, Attribute Mapping"
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /transformation/understanding-attribute-mapping/
+     - /processflow/customising-attribute-mapping/
 menus: 
     transformationbasic:
         title: "Attribute Mapping of Processflows"

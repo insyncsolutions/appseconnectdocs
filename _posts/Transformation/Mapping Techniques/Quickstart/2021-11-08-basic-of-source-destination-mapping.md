@@ -5,6 +5,8 @@ description: "Get to know about the different mapping techniques and its functio
 keywords: "Source-Destination Mapping"
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /transformation/steps-to-cutomize-prebuilt-mapping/
 menus: 
     transformation:
         title: "Quickstart"

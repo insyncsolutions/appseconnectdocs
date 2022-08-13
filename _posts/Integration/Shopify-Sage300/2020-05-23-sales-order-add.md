@@ -3,6 +3,8 @@ title: "Sales Order Add from Shopify to SAGE 300"
 toc: true
 tag: developers
 category: "Integration/Sage-Shopify"
+redirect_from: 
+     - /Integration/Sage-Shopify/sales-order-add/
 deprecated: 
     url: "/processflow/overview-of-processflow"
     title: "Overview of ProcessFlow"

@@ -5,6 +5,8 @@ keywords: "Runtime filter, dynamic runtime filter"
 toc: true
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/User-Defined-Dynamic-Filter/
 menus: 
     deployment:
         title: "Runtime Filter"
