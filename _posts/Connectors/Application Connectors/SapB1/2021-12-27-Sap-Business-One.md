@@ -5,6 +5,8 @@ keywords: "SAP Business One  Configuration, Custom Database Type Selection"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /connectors/sap-business-one/
 menus:
     applicationconnector :
         title: "SAP Business One"

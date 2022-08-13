@@ -5,6 +5,8 @@ keywords: "deploy, execute, undeploy, deploying processflows to hosted environme
 toc: true
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/deploying-and-executing-processfloww/
 menus: 
    deployment:
         title: "Deploy, Execute & Undeploy"

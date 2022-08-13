@@ -3,6 +3,8 @@ title: "Overview of Application Connectors"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /connectors/overview-of-application-connectors/
 menus: 
     Connectors :
         title: "Application"

@@ -3,6 +3,8 @@ title: "Updating Inventory in Priority"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /connectors/Updating-Inventory-in-Priority/
 menus: 
     priorityconnector :
         title: "Updating Inventory in Priority"

@@ -5,6 +5,8 @@ keywords: "Repository collection, refernece tables, steps to create repository c
 toc: true
 tag: developers
 category: "Deployment"
+redirect_from: 
+     - /processflow/Lookup-repository-masterdata/
 menus: 
     deployment:
         title: "LookUp Repositories"

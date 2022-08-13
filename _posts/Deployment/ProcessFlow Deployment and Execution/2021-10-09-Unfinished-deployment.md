@@ -5,6 +5,8 @@ keywords: "unfinished deployment"
 toc: true
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/unfinished-deployment/
 menus: 
     deployment:
         title: "Unfinished Deployment"

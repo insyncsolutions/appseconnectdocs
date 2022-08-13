@@ -3,6 +3,8 @@ title: "Adding Product in Priority"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /connectors/Adding-Product-in-Priority/
 menus: 
     priorityconnector :
         title: "Adding Product in Priority"
