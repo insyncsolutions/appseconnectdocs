@@ -198,6 +198,9 @@
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicop1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicop2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamicsaction1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamicsaction2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamicsaction3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamic_action1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamic_action2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamic_agentconfig.png" />
