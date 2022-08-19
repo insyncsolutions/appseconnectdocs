@@ -193,6 +193,12 @@
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\BusinessCentralUploadExtension.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\calendly_actionfilter.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\calendly_actionfilter1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\calendly_cloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\calendly_nodeconfig.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\calendly_opagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\calendly_opagent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
@@ -1809,6 +1815,7 @@
     <None Include="_posts\Connectors\Application Connectors\Amazon Seller Central\2022-07-03-amazon-seller-central.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
+    <None Include="_posts\Connectors\Application Connectors\Calendly\2022-08-18-calendly.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamic GP\2022-07-02-dynamic-gp.md" />
     <None Include="_posts\Connectors\Application Connectors\Monday\2022-08-01-monday.md" />
     <None Include="_posts\Connectors\Application Connectors\QuickBook\2021-12-21-quickbook.md" />
