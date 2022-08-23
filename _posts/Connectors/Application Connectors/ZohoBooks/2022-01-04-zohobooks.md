@@ -31,11 +31,11 @@ credential of the application ZOHOBOOKS.
 
 1) Go to App Configuration panel of the agent click on the + button, beside the app ZOHOBOOKS.  
 
-![zohobooks1](\staticfiles\connectors\media\application-connector\zohobooks1.png)
+![zohobooks1](/staticfiles/connectors/media/application-connector/zohobooks1.png)
 
 2) The Adapter configurations will get downloaded automatically (within a timespan), and then you can proceed with credential authorization.
 
-![zohobooks2](\staticfiles\connectors\media\application-connector\zohobooks2.PNG)
+![zohobooks2](/staticfiles/connectors/media/application-connector/zohobooks2.PNG)
 
 3) The configurational fields for the credential templates get downoaded. You can now provide the credentials for your applications. The following fields are required for validating the your credentials. The Authentication fields for OAUTH 2.0 are:
 
@@ -48,23 +48,23 @@ credential of the application ZOHOBOOKS.
 - Scope - Scopes defines the specific actions applications can be allowed to do on a user behalf.
 - Organisation Id - This is an optional field. However if your application supports organisation id, you can anytime provide your applications org id. For more details on Organisation Id, [click here](https://www.zoho.com/books/api/v3/#organization-id).
 
-![zohobooks4](\staticfiles\connectors\media\application-connector\zohobooks4.PNG)
+![zohobooks4](/staticfiles/connectors/media/application-connector/zohobooks4.PNG)
 
 5) Provide your credentials as per the fields given.
 
-![zohobooks5](\staticfiles\connectors\media\application-connector\zohobooks5.PNG)
+![zohobooks5](/staticfiles/connectors/media/application-connector/zohobooks5.PNG)
 
 6) Here, we need to generate token which can be done by clicking the **AUTHORIZE** button. A custom browser opens for validating and generating token for your chosen application.
 
-![Zohobooks6](\staticfiles\connectors\media\technology-connector\custombrowser1.png)
+![Zohobooks6](/staticfiles/connectors/media/technology-connector/custombrowser1.png)
 
 7) Provide your application credentials until the login page of portal.appseconnect.com opens.
 
-![zohobooks7](\staticfiles\connectors\media\technology-connector\custombrowser2.png)
+![zohobooks7](/staticfiles/connectors/media/technology-connector/custombrowser2.png)
 
 8) Keeping the browser opened, validate your credentials on your On-Premise Agent by clicking on the VALIDATE button. Your adapter will get validated successfully.
 
-![zohobooks8](\staticfiles\connectors\media\application-connector\zohobooks8.PNG)
+![zohobooks8](/staticfiles/connectors/media/application-connector/zohobooks8.PNG)
 
 Following the above process you can sucessfully validate the adapter of zohobooks.
 

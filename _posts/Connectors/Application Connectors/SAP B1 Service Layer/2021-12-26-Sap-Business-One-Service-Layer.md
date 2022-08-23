@@ -33,24 +33,24 @@ Here you will find the detailed description on how to configure the agents for t
 
 3) In the App Configurational Panel of the agent, Click on the + button beside the app SAP Business One (app version - SAP B1 S/L 9.0).
 
-![sapsl1](\staticfiles\connectors\media\application-connector\sapsl1.PNG)
+![sapsl1](/staticfiles/connectors/media/application-connector/sapsl1.PNG)
 
 4) The credential page for SAP Business One Service Layer opens. Provide you Application Base URL and Select the Authetication type as **No Auth**
 
 5) On selection of **No Auth** select the action as POST from the drop down.
 
-![sapsl2](\staticfiles\connectors\media\application-connector\sapsl2.PNG)
+![sapsl2](/staticfiles/connectors/media/application-connector/sapsl2.PNG)
 
 **Note:** As SAP Business S/L requires to POST the credential for generating validation session, therefore the action is set as POST. 
 
 6) Click on the **HEADERS** tab to configure API Limit for the sync process. By default, the API limit will be 20. However, you can provide your custom API Limit in HEADERS tab.
 The HEADER tab has two fields:  `KEY` & `VALUE`. You need to provide the **PREFER** as KEY and the limit syntax in value **odata.maxpagesize= Your Value**.
 
-![sapsl3](\staticfiles\connectors\media\application-connector\sapsl3.PNG)
+![sapsl3](/staticfiles/connectors/media/application-connector/sapsl3.PNG)
 
 7) Navigate to the tab **BODY**. You will have to provide your login credentials here. Follow the image below to provide the details.
 
-![sapsl4](\staticfiles\connectors\media\application-connector\sapsl4.png)
+![sapsl4](/staticfiles/connectors/media/application-connector/sapsl4.png)
 
 The login details needs to be provided as per the below syntax:
 
