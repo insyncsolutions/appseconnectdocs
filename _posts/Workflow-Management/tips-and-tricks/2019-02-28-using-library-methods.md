@@ -3,6 +3,8 @@ title: "Using library methods/AppResource Function"
 toc: true
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /processflow/Working-with-functions/
 menus: 
     transformtipsandtricks:
         title: "Using library methods/AppResource Function"

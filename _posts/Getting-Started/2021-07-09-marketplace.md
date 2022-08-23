@@ -5,6 +5,8 @@ keywords: "Marketplace, Integration, Global, cache,pre-packaged solution,busines
 toc: true
 tag: developers
 category: "Getting Started"
+redirect_from: 
+     - /accessing%20portal/marketplace/
 menus: 
     gettingstarted:
         title: "Marketplace"

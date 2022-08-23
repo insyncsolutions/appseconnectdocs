@@ -3,6 +3,8 @@ title: "Generating Temporary License for Organization"
 toc: true
 tag: developers
 category: "License Management"
+redirect_from: 
+     - /getting%20started/user-registration-license/
 menus: 
    security:
         weight: 12

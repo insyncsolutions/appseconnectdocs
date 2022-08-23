@@ -5,13 +5,18 @@ keywords: "GET node, POST node,managing schemas and attributes, listing of schem
 toc: true
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/working-with-GET/
+     - /processflow/working-with-POST/
+     - /transformation/working-with-schemas-action-filter/
+     - /processflow/adding-schema-actions/
+     - /processflow/manage-actions-actionfilters-errorfilters/
 menus: 
     processnodeandlinks:
         icon: fa fa-gg
         weight: 5
         title: "APP Node" 
         identifier: appprocessflow 
-
 ---
 
 A node is a small execution unit that provides a way to specify the configuration for the respective application along with its execution logic. For transforming data from one application to another you need to drag Application

@@ -3,6 +3,8 @@ title: "Technology App creation Within processflow"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /processflow/technology-app-creation-using-processflow/
 menus: 
    Connectors:
         title: "Technology App creation"

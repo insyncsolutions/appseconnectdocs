@@ -3,6 +3,8 @@ title: "Adding Account in Zoho"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /connectors/Adding-Account-in-Zoho/
 menus: 
     zohocrmv2connector :
         title: "Adding Account in Zoho"

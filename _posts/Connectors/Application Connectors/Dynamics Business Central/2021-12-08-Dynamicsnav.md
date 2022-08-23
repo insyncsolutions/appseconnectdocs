@@ -3,6 +3,8 @@ title: "Dynamics NAV"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /connectors/dynamicsnav-business-central/
 menus: 
     applicationconnector:
         title: "Dynamics NAV"

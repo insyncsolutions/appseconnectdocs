@@ -5,6 +5,8 @@ keywords: "Environment Overview, hybrid integration, cloud integration"
 toc: false
 tag: developers
 category: "Deployment"
+redirect_from: 
+     - /deployment/Easy-Environment-Management/
 menus: 
     deployment :
         title: "Environment"

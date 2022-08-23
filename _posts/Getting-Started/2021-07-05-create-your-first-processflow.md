@@ -5,6 +5,9 @@ description: "Steps to Create a ProcessFlow"
 keywords: "ProcessFlow, Create, Build, Design, drag - drop user interface, designer,execute,schedule"
 tag: developers
 category: "Getting Started"
+redirect_from: 
+     - /processflow/creating-processflow/
+     - /getting%20started/create-your-first-processflow/processflow/components-of-processflow/
 menus: 
    gettingstarted:
         title: "Steps to Create a ProcessFlow"
