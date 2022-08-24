@@ -214,6 +214,13 @@
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_actionfilter1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_actionfilter2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_actionfilter3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_actionfilter4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_cloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_opagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\hubspot_opagent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\inventoryupdate-sage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\inventoryupdate-sage10.png" />
     <Content Include="staticfiles\connectors\media\application-connector\inventoryupdate-sage2.png" />
