@@ -6,9 +6,9 @@ toc: true
 tag: developers
 category: "Connectors"
 menus: 
-    applicationconnector:
+    dynamicssolution:
         title: "Dynamics AX"
-        weight: 26
+        weight: 3
         icon: fa fa-file-word-o
         identifier: dynamicsaxconnector
 ---

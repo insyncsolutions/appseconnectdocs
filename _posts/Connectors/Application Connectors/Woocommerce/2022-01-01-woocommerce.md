@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector:
         title: "WooCommerce"
-        weight: 16
+        weight: 7
         icon: fa fa-file-word-o
         identifier: woocommerceconnector
 ---

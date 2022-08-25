@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     applicationconnector : 
         icon: fa fa-gg
-        weight: 13
+        weight: 22
         title: "Shipstation"
         identifier: shipstationconnector
 ---

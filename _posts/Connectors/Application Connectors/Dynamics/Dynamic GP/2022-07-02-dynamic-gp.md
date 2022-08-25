@@ -6,9 +6,9 @@ toc: true
 tag: developers
 category: "Connectors"
 menus: 
-    applicationconnector:
+    dynamicssolution:
         title: "Dynamic GP"
-        weight: 22
+        weight: 2
         icon: fa fa-file-word-o
         identifier: dynamicgpconnector
 ---

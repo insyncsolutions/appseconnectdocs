@@ -54,6 +54,7 @@ This method enhances the flag based approach and stores some additional data tha
 modified or added through the integration platform. In such a case the platform knows the context and does additional 
 stuff that ensures the flag is unset only when the data operation is performed from user interfaces. 
 
+{::comment}
 ```plantuml!
 ==APPSeCONNECT== 
 APPSeCONNECT->"Source App": Request all which is modified by user and Flag is Y
@@ -65,6 +66,8 @@ actor user
 user->"Source App": Update always to N and modified as user
 "Source App" -> user: Acknowledge
 ```
+{:/comment}
+![twowaysync_steps](/staticfiles/umldiagram/media/twowaysync_steps.png)
 
 
 **Pros and Cons**
@@ -80,6 +83,7 @@ the integration platform allows to choose the right value based on the record up
 mentioned beforehand. It is important to note, this kind of approach also produces conflict and the conflict is being put into 
 the data bucket for a manual fix.
 
+{::comment}
 ```plantuml!
 ==APPSeCONNECT== 
 APPSeCONNECT->"Source App": Request all which is modified
@@ -87,6 +91,8 @@ APPSeCONNECT->"Source App": Request all which is modified
 APPSeCONNECT -> "Source App": Merge conflict / take only changes in master
 "Source App" --> APPSeCONNECT: Acknowledge 
 ```
+{:/comment}
+![twowaysync_conflict](/staticfiles/umldiagram/media/twowaysync_conflict.png)
 
 **Pros and Cons**
 

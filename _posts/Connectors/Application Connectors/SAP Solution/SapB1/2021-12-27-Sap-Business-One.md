@@ -8,9 +8,9 @@ category: "Connectors"
 redirect_from: 
      - /connectors/sap-business-one/
 menus:
-    applicationconnector :
+    sapsolution :
         title: "SAP Business One"
-        weight: 12
+        weight: 1
         icon: fa fa-file-word-o
         identifier: sapb1connector
 ---

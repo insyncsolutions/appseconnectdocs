@@ -4,9 +4,9 @@ toc: true
 tag: developers
 category: "Connectors"
 menus: 
-    applicationconnector : 
+    crmsolution : 
         icon: fa fa-gg
-        weight: 18
+        weight: 2
         title: "ZohoBooks"
         identifier: zohobooksconnector
 ---

@@ -6,9 +6,9 @@ category: "Connectors"
 redirect_from: 
      - /connectors/dynamicsnav-business-central/
 menus: 
-    applicationconnector:
+    dynamicssolution:
         title: "Dynamics NAV"
-        weight: 3
+        weight: 1
         icon: fa fa-file-word-o
         identifier: navbusinesscentralconnector
 ---
