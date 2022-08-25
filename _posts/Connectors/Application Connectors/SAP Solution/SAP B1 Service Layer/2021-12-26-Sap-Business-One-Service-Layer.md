@@ -4,9 +4,9 @@ toc: true
 tag: developers
 category: "Connectors"
 menus:
-    applicationconnector :
+    sapsolution :
         title: "SAP Business One Service Layer"
-        weight: 11
+        weight: 2
         icon: fa fa-file-word-o
         identifier: sapb1slconnector
 ---

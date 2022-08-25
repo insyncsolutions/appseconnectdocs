@@ -32,13 +32,15 @@ Upon completion of successful record sync to the destination application, we con
 again so as to ensure that the synchronization does not re-capture the same data again. This strategy provides a lot of flexibility 
 and end users can easily control the sync behavior by modifying values within the end application. 
 
+{::comment}
 ```plantuml!
 APPSeCONNECT->"Source App": Request all where Flag = Y 
 "Source App" -> APPSeCONNECT: Return data where Flag = Y
 APPSeCONNECT -> "Source App": Request update for all Flag to N
 "Source App" --> APPSeCONNECT: Acknowledge
 ```
-
+{:/comment}
+![onewaysync](/staticfiles/umldiagram/media/onewaysync.png)
 
 The `flag` field can take on different forms and will depend on the application. It could be an actual 
 `status` field (integration-specific or business-related), field containing `true` or `false` value, 
@@ -65,6 +67,7 @@ and stores it in persistent storage such that the filters execute again based on
 approach is best suited when the `API` provides a filter criterion for record retrieval and storing the time from 
 the retrieved data eliminates any calculation regarding the server time differences.
 
+{::comment}
 ```plantuml!
 == First Execution ==
 APPSeCONNECT->"Source App": Request data
@@ -84,7 +87,8 @@ local -> "Source App" : Data found
 deactivate "Source App"
 "Source App"--> APPSeCONNECT: Return data
 ```
-
+{:/comment}
+![onewaysync_lastmodified](/staticfiles/umldiagram/media/onewaysync_lastmodified.png)
 
 This approach captures the timestamp to ensure the integration works best without major duplicate values. You can even 
 choose the current system time or your server time or even store the current time in GMT, but if there is an option to 
@@ -106,6 +110,7 @@ integration platform to ensure the duplicate checks could be easily identified e
 is retrieved each time. In addition to store the unique hash generated on the record, it is also important 
 to store the record id, such that one can easily identify data modifications.
 
+{::comment}
 ```plantuml!
 == First Execution ==
 APPSeCONNECT->"Source App": Request data
@@ -125,6 +130,8 @@ local -> "Source App" : Data found
 deactivate "Source App"
 "Source App"--> APPSeCONNECT: Filter data not present in database
 ```
+{:/comment}
+![onewaysync_capturedata](/staticfiles/umldiagram/media/onewaysync_capturedata.png)
 
 Generally, this is a rare scenario in modern-day applications, but for legacy application when there is file system 
 or FTP based integration involved or in case of stock or product catalog updates, you might go with this scenario. 

@@ -26,6 +26,7 @@ There are two patterns that one can follow while developing real-time sync :
 - Synchronous Pattern 
 - Asynchronous Pattern
 
+{::comment}
 ```plantuml!
 "Source App" -> APPSeCONNECT: Pushes data
 activate APPSeCONNECT
@@ -38,6 +39,8 @@ APPSeCONNECT--> "Source App": Returns acknoledgement before executing.
 APPSeCONNECT-> "Source App": Finishes execution
 deactivate APPSeCONNECT
 ```
+{:/comment}
+![realtime_sync](/staticfiles/umldiagram/media/realtime_sync.png)
 
 ## Synchronous Pattern 
 

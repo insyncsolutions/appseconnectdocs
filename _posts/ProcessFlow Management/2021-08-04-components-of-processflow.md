@@ -47,6 +47,7 @@ here comes the canvas where you can design, deploy and execute all from the sing
 3. **Designer View** - This is the actual canvas where you shall design your processflows.
 4. **Right Panel** - This section lists the ProcessFlow node suggestions and real-time view of the ProcessFlow.
 
+![](https://www.youtube.com/watch?v=FWyPANdwdDM)
 
 ### Header Panel
 

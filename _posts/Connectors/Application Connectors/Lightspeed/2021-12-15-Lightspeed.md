@@ -6,7 +6,7 @@ category: "Connectors"
 menus: 
     applicationconnector : 
         icon: fa fa-gg
-        weight: 4
+        weight: 21
         title: "Lightspeed"
         identifier: lightspeedconnector
 ---
