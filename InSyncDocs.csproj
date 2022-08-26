@@ -204,6 +204,9 @@
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicop1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicop2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamics365crm1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamics365crm2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\dynamics365crmcloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicsaction1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicsaction2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamicsaction3.png" />
@@ -1826,12 +1829,13 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
+    <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\2022-08-25-sap-group.md" />
     <None Include="_posts\Connectors\Application Connectors\Amazon Seller Central\2022-07-03-amazon-seller-central.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\Calendly\2022-08-18-calendly.md" />
-    <None Include="_posts\Connectors\Application Connectors\CRM\2022-08-23-crm.md" />
+    <None Include="_posts\Connectors\Application Connectors\Zoho\2022-08-23-zoho.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\2022-08-24-dynamics.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamic GP\2022-07-02-dynamic-gp.md" />
     <None Include="_posts\Connectors\Application Connectors\Hubspot\2022-08-23-hubspot.md" />
@@ -1879,7 +1883,7 @@
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\SAP B1 Service Layer\2021-12-26-Sap-Business-One-Service-Layer.md" />
     <None Include="_posts\Connectors\Application Connectors\Shipstation\2021-12-28-Shipstation.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\SapB1\2021-12-27-Sap-Business-Addon.md" />
-    <None Include="_posts\Connectors\Application Connectors\CRM\ZohoBooks\2022-01-04-zohobooks.md" />
+    <None Include="_posts\Connectors\Application Connectors\Zoho\ZohoBooks\2022-01-04-zohobooks.md" />
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-09-20-OAuth1.0.md" />
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-10-22-Troubleshooting-Rest.md" />
     <None Include="_posts\Getting-Started\2021-07-09-marketplace.md" />
@@ -2064,8 +2068,8 @@
     <None Include="_posts\Connectors\Application Connectors\Uniconta\2021-12-30-Uniconta.md" />
     <None Include="_posts\Connectors\Application Connectors\Woocommerce\2021-12-31-woocommerce-pluginextension-upload.md" />
     <None Include="_posts\Connectors\Application Connectors\Woocommerce\2022-01-01-woocommerce.md" />
-    <None Include="_posts\Connectors\Application Connectors\CRM\Zoho\2022-01-03-Zohocrmv2.md" />
-    <None Include="_posts\Connectors\Application Connectors\CRM\Zoho\2022-01-02-adding-account-in-zoho.md" />
+    <None Include="_posts\Connectors\Application Connectors\Zoho\Zoho\2022-01-03-Zohocrmv2.md" />
+    <None Include="_posts\Connectors\Application Connectors\Zoho\Zoho\2022-01-02-adding-account-in-zoho.md" />
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-09-18-Authentication and Authorization.md" />
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-09-20-BasicAuthentication.md" />
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-09-20-OAuth2.0.md" />
