@@ -44,7 +44,7 @@ Here, in this case the Shipment generated for the SAGE Order ID is `350465`.
 
 For posting newly added quantity to Shopify from SAGE 300, you need to add Lookup for `Inventory Location`. For this integration, mapping lookups for inventory location is mandatory.
 
-![shipadd3](\staticfiles\integration\SAGE300-Shopify\invupdate3.PNG)
+![shipadd3](/staticfiles/integration/SAGE300-Shopify/invupdate3.PNG)
 
 **_Note:_** _After mapping changes is done, Reset Generate and Reset Publish the Touchpoint from the workflow panel. Refresh the Page and [Publish the workflow](/workflow/deploying-and-executing/#publishing-a-workflow). After Republishing, click on the `Update Configuration` button followed by `Update Lookup Tables` in the Agent._
 

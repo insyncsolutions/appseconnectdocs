@@ -49,14 +49,14 @@ Not Required but every business processes are unique may require lookup mapping.
 
 You can survey the data by viewing the [Processed Snapshot](/workflow/list-of-snapshot/)  from the node level of the workflow.
 
-![productadd5](\staticfiles\integration\SAGE300-Shopify\productadd5.PNG)
+![productadd5](/staticfiles/integration/SAGE300-Shopify/productadd5.PNG)
 
 Here, you can view the product `A2ST12` got successfully synced to Shopify.
 
 ## Post Conditions:
 You can view the data sync in Shopify by navigating to `Products > All Products` page.
 
-![productadd6](\staticfiles\integration\SAGE300-Shopify\productadd6.PNG)
+![productadd6](/staticfiles/integration/SAGE300-Shopify/productadd6.PNG)
 
 ## Frequency of Use:
 

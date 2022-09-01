@@ -1685,10 +1685,16 @@
     <Content Include="staticfiles\workflow-management\media\ProcessNode\ProcessNode.png" />
     <Content Include="staticfiles\workflow-management\media\ProductUpload_StockSync.png" />
     <Content Include="staticfiles\workflow-management\media\ruleprocess-snapshot.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decision-xml.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decisionproperty.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decisionproperty1.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decisionworkflow.png" />
     <Content Include="staticfiles\workflow-management\media\Rule\RuleNode.png" />
     <Content Include="staticfiles\workflow-management\media\Rule\RuleWorkFlow.png" />
     <Content Include="staticfiles\workflow-management\media\Schedule button-workflow.png" />
     <Content Include="staticfiles\workflow-management\media\Selfloop\No_ofTime.png" />
+    <Content Include="staticfiles\workflow-management\media\Selfloop\selfloop_case1.png" />
+    <Content Include="staticfiles\workflow-management\media\Selfloop\selfloop_case2.png" />
     <Content Include="staticfiles\workflow-management\media\Selfloop\UntilData.png" />
     <Content Include="staticfiles\workflow-management\media\Sequencer\sequencer.png" />
     <Content Include="staticfiles\workflow-management\media\snapshot-button.PNG" />
