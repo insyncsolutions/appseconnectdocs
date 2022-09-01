@@ -84,7 +84,7 @@ The procedures for deploying workflow as per the chosen environment is given bel
 
 1) After successfully [publishing](/workflow/deploying-and-executing/#publishing-a-workflow) the workflow, you need to click on the **Update Configuration** button, to deploy the changes in the OP AGENT. As a prerequisite, the required environment needs to be set as primary from the [environment](/deployment/Environment-Management/) section.
 
-![deployop1](\staticfiles\workflow-management\media\deployop1.PNG)
+![deployop1](/staticfiles/workflow-management/media/deployop1.PNG)
 
 2) Once the configuration are updated, you can view your workflow deployed in the [Workflow Panel](/deployment/Deployment-Configuration/#configuration-process-for-op)
 

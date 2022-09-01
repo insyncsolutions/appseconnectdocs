@@ -55,7 +55,7 @@ You can survey the data by viewing the [Processed Snapshot](/workflow/list-of-sn
 ## Post Conditions:
 You can view the data synced in Magento by navigating to `Order Invoices tab` available in the `Order Details Page` of the customer.
 
-![invadd8](\staticfiles\integration\Sage300-Magento\invadd8.PNG)
+![invadd8](/staticfiles/integration/Sage300-Magento/invadd8.PNG)
 
 ## Frequency of Use:
 

@@ -698,6 +698,7 @@
     <Content Include="staticfiles\integration\media\contactemployees-new.png" />
     <Content Include="staticfiles\integration\media\contactemployees.png" />
     <Content Include="staticfiles\integration\media\contactperson-bpaddress.png" />
+    <Content Include="staticfiles\integration\media\contactperson-nav-mage2_workflow.PNG" />
     <Content Include="staticfiles\integration\media\cpupdate-contactemployees.png" />
     <Content Include="staticfiles\integration\media\integration-data-survey.png" />
     <Content Include="staticfiles\integration\media\inventoryupdate.png" />
@@ -1684,10 +1685,16 @@
     <Content Include="staticfiles\workflow-management\media\ProcessNode\ProcessNode.png" />
     <Content Include="staticfiles\workflow-management\media\ProductUpload_StockSync.png" />
     <Content Include="staticfiles\workflow-management\media\ruleprocess-snapshot.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decision-xml.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decisionproperty.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decisionproperty1.png" />
+    <Content Include="staticfiles\workflow-management\media\Rule\decisionworkflow.png" />
     <Content Include="staticfiles\workflow-management\media\Rule\RuleNode.png" />
     <Content Include="staticfiles\workflow-management\media\Rule\RuleWorkFlow.png" />
     <Content Include="staticfiles\workflow-management\media\Schedule button-workflow.png" />
     <Content Include="staticfiles\workflow-management\media\Selfloop\No_ofTime.png" />
+    <Content Include="staticfiles\workflow-management\media\Selfloop\selfloop_case1.png" />
+    <Content Include="staticfiles\workflow-management\media\Selfloop\selfloop_case2.png" />
     <Content Include="staticfiles\workflow-management\media\Selfloop\UntilData.png" />
     <Content Include="staticfiles\workflow-management\media\Sequencer\sequencer.png" />
     <Content Include="staticfiles\workflow-management\media\snapshot-button.PNG" />
@@ -1844,6 +1851,7 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
+    <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics Business Central\2021-12-10-generic-nav2013 R2-extension.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\2022-08-25-sap-group.md" />
     <None Include="_posts\Connectors\Application Connectors\Amazon Seller Central\2022-07-03-amazon-seller-central.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />

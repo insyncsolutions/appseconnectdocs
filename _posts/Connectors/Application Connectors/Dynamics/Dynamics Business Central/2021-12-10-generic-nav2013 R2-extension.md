@@ -51,14 +51,14 @@ We have added some base table field and our extension page in base Page:
 
 **Note:** After inserting the 1st part in each of the base pages we need to click on the left shift-arrow to make it distinguishable from the previous group
 
-![nav2013ext1](\staticfiles\connectors\media\application-connector\navextension\nav2013ext1.png)
+![nav2013ext1](/staticfiles/connectors/media/application-connector/navextension/nav2013ext1.png)
 
 ## Changes in "Customer Card" Page:
 
 a)  We have added our Extension page 'AEC Customer Page' (33064472) as a part type with the name 'WebCustomer Details'. 
 Page 'AEC Customer Page' SubpageLink field is 'No' and base page SubPageLink field is 'No.'
 
-![nav2013ext2](\staticfiles\connectors\media\application-connector\navextension\nav2013ext2.png)
+![nav2013ext2](/staticfiles/connectors/media/application-connector/navextension/nav2013ext2.png)
 
 **Child Link Page Details**
 
@@ -78,7 +78,7 @@ Page 'AEC Customer Page' SubpageLink field is 'No' and base page SubPageLink fie
 b) We have added our Extension page 'AEC Application Customer List' (33064474) as a part type with the name 'AEC Application Customer List'. 
 Page 'AEC Application Customer List' SubPageLink field is 'CustomerNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext3](\staticfiles\connectors\media\application-connector\navextension\nav2013ext3.png)
+![nav2013ext3](/staticfiles/connectors/media/application-connector/navextension/nav2013ext3.png)
 
 **Child Link Page Details**
 
@@ -99,7 +99,7 @@ Page 'AEC Application Customer List' SubPageLink field is 'CustomerNo' and base 
 a) We have added our Extension page 'Web Product Details Page' (33064469) as a part type with name 'WebProductDetails'. 
 Page 'Web Product Details Page' SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext4](\staticfiles\connectors\media\application-connector\navextension\nav2013ext4.png)
+![nav2013ext4](/staticfiles/connectors/media/application-connector/navextension/nav2013ext4.png)
 
 **Child Link Page Details**
 
@@ -118,7 +118,7 @@ Page 'Web Product Details Page' SubPageLink field is 'ItemNo' and base page SubP
 b) We have added our Extension page 'Web ProductWebsites Page' (33064466) as a part type with name 'ProductWebSites'. 
 Page 'Web ProductWebsites Page' SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'  
 
-![nav2013ext5](\staticfiles\connectors\media\application-connector\navextension\nav2013ext5.png)
+![nav2013ext5](/staticfiles/connectors/media/application-connector/navextension/nav2013ext5.png)
 
 **Child Link Page Details**
 
@@ -137,7 +137,7 @@ Page 'Web ProductWebsites Page' SubPageLink field is 'ItemNo' and base page SubP
 c) We have added our Extension page 'Web ProductAttribute Page' (33064467) as a part type with name 'ProductAttributes'. 
 Page 'Web ProductAttribute Page' SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext6](\staticfiles\connectors\media\application-connector\navextension\nav2013ext6.png)
+![nav2013ext6](/staticfiles/connectors/media/application-connector/navextension/nav2013ext6.png)
 
 **Child Link Page Details**
 
@@ -155,7 +155,7 @@ Page 'Web ProductAttribute Page' SubPageLink field is 'ItemNo' and base page Sub
 
 d) We have added our Extension page 'Web ProductCategory Page' (33064468) as a part type with name  page 'Web ProductCategory Page' SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext7](\staticfiles\connectors\media\application-connector\navextension\nav2013ext7.png)
+![nav2013ext7](/staticfiles/connectors/media/application-connector/navextension/nav2013ext7.png)
 
 **Child Link Page Details**
 
@@ -174,7 +174,7 @@ d) We have added our Extension page 'Web ProductCategory Page' (33064468) as a p
 e) We have added our Extension page 'Web Product Child Details' (33064471) as a part type with name 'ProductChild'. 
 Page 'Web Product Child  Details' SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext8](\staticfiles\connectors\media\application-connector\navextension\nav2013ext8.png)
+![nav2013ext8](/staticfiles/connectors/media/application-connector/navextension/nav2013ext8.png)
 
 **Child Link Page Details**
 
@@ -193,7 +193,7 @@ Page 'Web Product Child  Details' SubPageLink field is 'ItemNo' and base page Su
 f) We have added our Extension page 'AEC Application Item List' (33064475) as a part type with the name 'AEC Application Item List'. 
 SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext9](\staticfiles\connectors\media\application-connector\navextension\nav2013ext9.png)
+![nav2013ext9](/staticfiles/connectors/media/application-connector/navextension/nav2013ext9.png)
 
 **Child Link Page Details**
 
@@ -214,7 +214,7 @@ SubPageLink field is 'ItemNo' and base page SubPageLink field is 'No.'
 a) We have added our Extension page 'AEC Order Header Details' (33064476) as a part type with name 'WebOrder Header Details'. 
 Page 'AEC Order Header Details' SubPageLink field is 'OrderNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext10](\staticfiles\connectors\media\application-connector\navextension\nav2013ext10.png)
+![nav2013ext10](/staticfiles/connectors/media/application-connector/navextension/nav2013ext10.png)
 
 **Child Link Page Details**
 
@@ -233,7 +233,7 @@ Page 'AEC Order Header Details' SubPageLink field is 'OrderNo' and base page Sub
 b) We have added our Extension page 'AEC Order Line Details' (33064478) as a part type with name 'WebOrder Line Details'. 
 Page 'AEC Order Line Details' SubPageLink field is 'OrderNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext11](\staticfiles\connectors\media\application-connector\navextension\nav2013ext11.png)
+![nav2013ext11](/staticfiles/connectors/media/application-connector/navextension/nav2013ext11.png)
 
 |ID|Name|Type|SubType|
 |---|---|---|---|
@@ -252,7 +252,7 @@ Page 'AEC Order Line Details' SubPageLink field is 'OrderNo' and base page SubPa
 a) We have added our Extension page 'AEC Ship-To Address Cart Part' (33064478) as a part type with name 'WebDetails'. 
 Page 'AEC Ship-To Address'  SubPageLink field is 'CustomerNo' and 'Code'.Base page SubPageLink field is 'Customer No.' and 'Code'.
 
-![nav2013ext12](\staticfiles\connectors\media\application-connector\navextension\nav2013ext12.png)
+![nav2013ext12](/staticfiles/connectors/media/application-connector/navextension/nav2013ext12.png)
 
 |ID|Name|Type|SubType|
 |---|---|---|---|
@@ -268,7 +268,7 @@ Page 'AEC Ship-To Address'  SubPageLink field is 'CustomerNo' and 'Code'.Base pa
 
 b) Add a base table (Ship-to Address) field "Customer No." with the name "Customer_No".
 
-![nav2013ext13](\staticfiles\connectors\media\application-connector\navextension\nav2013ext13.png)
+![nav2013ext13](/staticfiles/connectors/media/application-connector/navextension/nav2013ext13.png)
 
 **Field Details**
 
@@ -281,7 +281,7 @@ b) Add a base table (Ship-to Address) field "Customer No." with the name "Custom
 a) We have added our Extension page 'AEC Contact Details CardPart' (33064481) as a part type with the name 'AEC Contact Details CardPart'. 
 Page 'AEC Contact Details CardPart' SubPageLink field is 'No' and base page SubPageLink field is 'No.'
 
-![nav2013ext14](\staticfiles\connectors\media\application-connector\navextension\nav2013ext14.png)
+![nav2013ext14](/staticfiles/connectors/media/application-connector/navextension/nav2013ext14.png)
 
 |ID|Name|Type|SubType|
 |---|---|---|---|
@@ -298,7 +298,7 @@ Page 'AEC Contact Details CardPart' SubPageLink field is 'No' and base page SubP
 b) We have added our Extension page 'AEC Application Contact LP' (33064482) as a part type with the name  'AEC Application Contact List'. 
 Page 'AEC Application Contact LP' SubPageLink field is 'CustomerNo' and base page SubPageLink field is 'No.'
 
-![nav2013ext15](\staticfiles\connectors\media\application-connector\navextension\nav2013ext15.png)
+![nav2013ext15](/staticfiles/connectors/media/application-connector/navextension/nav2013ext15.png)
 
 |ID|Name|Type|SubType|
 |---|---|---|---|
@@ -317,7 +317,7 @@ Page 'AEC Application Contact LP' SubPageLink field is 'CustomerNo' and base pag
 a) We have added our Extension page 'AEC Contact Address CardPart' (33064483) as a part type with the name 'AEC Contact Address CardPart'. Page 'AEC Contact Address CardPart' SubPageLink field is 'ContactNo' and 'Code'. 
 Base page SubPageLink field is 'Contact No.' and 'Code'.
 
-![nav2013ext16](\staticfiles\connectors\media\application-connector\navextension\nav2013ext16.png)
+![nav2013ext16](/staticfiles/connectors/media/application-connector/navextension/nav2013ext16.png)
 
 |ID|Name|Type|SubType|
 |---|---|---|---|
@@ -333,7 +333,7 @@ Base page SubPageLink field is 'Contact No.' and 'Code'.
 
 b) Add a base table (Contact Alt. Address) field "Contact No." with the name "Contact_No".
 
-![nav2013ext17](\staticfiles\connectors\media\application-connector\navextension\nav2013ext17.png)
+![nav2013ext17](/staticfiles/connectors/media/application-connector/navextension/nav2013ext17.png)
 
 **Field Details**
 
@@ -347,7 +347,7 @@ b) Add a base table (Contact Alt. Address) field "Contact No." with the name "Co
 
 Add a variable (varAECInvoice) for **AEC Invoice** in Sales Post (80) code unit.
 
-![nav2013ext19](\staticfiles\connectors\media\application-connector\navextension\nav2013ext19.png)
+![nav2013ext19](/staticfiles/connectors/media/application-connector/navextension/nav2013ext19.png)
 
 **Added below line after : SalesInvHeader.INSERT;**
 
@@ -376,7 +376,7 @@ varAECInvoice.WebInvoiceLineInsert(SalesInvLine);
 
 Add a variable (varAECShipment) for **AEC Shipment** in Sales Post (80) code unit.
 
-![nav2013ext18](\staticfiles\connectors\media\application-connector\navextension\nav2013ext18.png)
+![nav2013ext18](/staticfiles/connectors/media/application-connector/navextension/nav2013ext18.png)
 
 **Add below line after  : SalesShptHeader.INSERT;**
 

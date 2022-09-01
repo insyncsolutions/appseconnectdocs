@@ -114,7 +114,7 @@ While Adding make sure, the On-Premise Agent is closed & and Enable Environment 
 
 7) Restart your On-Premise Agent and check for the database type drop-down list. You should have the the added database type in the list.
 
-![sapdbtype4](/staticfiles/connectors/media/application-connector\sapdbtype4.PNG)
+![sapdbtype4](/staticfiles/connectors/media/application-connector/sapdbtype4.PNG)
 
 Following the above process, you can successfully add your custom database type for your application SAP DIS.
 

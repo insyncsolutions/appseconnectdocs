@@ -29,7 +29,7 @@ Inventory update is used to integrate the quantity of products synced to Shopify
 
 For posting newly added quantity to Shopify from SAGE 300, you need to add Lookup for `Inventory Location`. For this integration, mapping lookups for inventory location is mandatory.
 
-![Invupdate3](\staticfiles\integration\SAGE300-Shopify\invupdate3.PNG)
+![Invupdate3](/staticfiles/integration/SAGE300-Shopify/invupdate3.PNG)
 
 **_Note:_** _After mapping changes is done, Reset Generate and Reset Publish the Touchpoint from the workflow panel. Refresh the Page and [Publish the workflow](/workflow/deploying-and-executing/#publishing-a-workflow). After Republishing, click on the `Update Configuration` button followed by `Update Lookup Tables` in the Agent._
 

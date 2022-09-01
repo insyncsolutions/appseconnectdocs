@@ -30,7 +30,7 @@ Login to your Shopify platform and [add customers](https://help.shopify.com/en/m
 
 For posting newly added customer to SAGE 300 from Shopify, you need to add Lookup for `Customer Group`, `Tax` & `Website`. For this integration of Customer, mapping lookups for the group code of Customer, Tax & website is mandatory.
 
-![custadd2](\staticfiles\integration\SAGE300-Shopify\custadd2.PNG)
+![custadd2](/staticfiles/integration/SAGE300-Shopify/custadd2.PNG)
 
 ## Executing the Integration using Workflow:
 

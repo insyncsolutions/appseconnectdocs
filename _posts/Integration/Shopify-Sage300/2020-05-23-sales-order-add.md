@@ -30,7 +30,7 @@ Here, an Order is placed for the customer Lonnie K Croker, against the product S
 
 For integrating, Sales Orders from Shopify to Sage 300, you need to add lookups for Frieght & Tax Code.
 
-![orderadd3](\staticfiles\integration\SAGE300-Shopify\orderadd3.PNG)
+![orderadd3](/staticfiles/integration/SAGE300-Shopify/orderadd3.PNG)
 
 **Note: After mapping changes is done, Reset Generate and Reset Publish the Touchpoint from the workflow panel. Refresh the Page and [Publish the workflow.](/workflow/deploying-and-executing/#publishing-a-workflow) After Republishing, click on the Update Configuration button followed by Update Lookup Tables in the On-Premise Agent.**
 

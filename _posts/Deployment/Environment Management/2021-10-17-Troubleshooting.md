@@ -84,7 +84,7 @@ Updating Adapters will not fetch this file back.**
 
 The sync bucket is showing blank, although data has been synced.  
 
-![Troublshooting Syncdata](../../staticfiles/deployment/media/Troubleshooting/troublshooting-syncdata.PNG)
+![Troublshooting Syncdata](/staticfiles/deployment/media/Troubleshooting/troublshooting-syncdata.PNG)
 
 **Steps to Troubleshooting :**
 * Upgrade the Agent Version (In case of both Cloud & OP)  

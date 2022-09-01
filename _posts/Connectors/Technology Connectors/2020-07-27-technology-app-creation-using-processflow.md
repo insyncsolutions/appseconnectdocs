@@ -33,7 +33,7 @@ The steps to create a **Technology Application** is provided below.
 
 1) Navigate to the [processflow designer page](/processflow/designer-processflow/) and expand the **Flow Connect** menu, in the [Left panel](/processflow/designer-processflow/#process-flow-left-panel) of the designer page.
 
-![techapp1](\staticfiles\processflow\media\techapp1.png)
+![techapp1](/staticfiles/processflow/media/techapp1.png)
 
 
 2) Drag any desired technology protocols to the designer panel for creating the application. The technology should be selected based on the protocol, your application supports. For REST based, you need to drag the REST config template, for SOAP based you need to select SOAP config template.
@@ -53,15 +53,15 @@ The steps to create a **Technology Application** is provided below.
 
 4) Enter the details for the above mentioned fields and click on the **Save & Continue** button.
 
-![techapp3](\staticfiles\processflow\media\techapp3.PNG)  
+![techapp3](/staticfiles/processflow/media/techapp3.PNG)  
 
 5) The Node Configuration Window opens automatically for the created technology application.
 
-![techapp4](\staticfiles\processflow\media\techapp4.PNG)    
+![techapp4](/staticfiles/processflow/media/techapp4.PNG)    
 
 6) Enter the details of the Node Configuration Window for the created application, for specifying the node configuration. Click on the SAVE button.
 
-![techapp5](\staticfiles\processflow\media\techapp5.PNG)  
+![techapp5](/staticfiles/processflow/media/techapp5.PNG)  
 
 **Note:**
     - You cannot edit the created app from the processflow section. However you can anytime edit your application by navigating to APPS > Search your App. Click on the View button for editing your created app.
@@ -79,11 +79,11 @@ You may require to reuse the same created techology app in the same processflow 
 
 2) Expand the APPS menu in the [left panel of the designer page](/processflow/designer-processflow/#process-flow-left-panel). You can view two tabs upon its expansion: `Pre-Packaged App` & `My APPS`.
 
-![techapp6](\staticfiles\processflow\media\techapp6.png)
+![techapp6](/staticfiles/processflow/media/techapp6.png)
 
 3) Click on the **My Apps** tab. You can view all the custom and the technology apps, you have created for your organisation.
 
-![techapp7](\staticfiles\processflow\media\techapp7.PNG)
+![techapp7](/staticfiles/processflow/media/techapp7.PNG)
 
 4) Select the app from the **My Apps** list and drag it on the [designer panel](/processflow/designer-processflow/#process-flow-designer-view). The node configuration window opens for the dragged app.
 
