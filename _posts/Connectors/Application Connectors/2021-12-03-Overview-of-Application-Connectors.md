@@ -27,6 +27,100 @@ Hence as an user, you can readily use those connectors just by adding them to yo
 Sometimes, these connectors requires some trivial adjustments because may be your applications are highly customized, and these 
 adjustments can be implemented easily in the portal with zero code requirements.
 
+## Type of Applications
+
+Applications are broadly categorized into multiple types. They define the functions that the application is going to perform. 
+Here are some of the application categories which cater to certain business proceses. 
+
+### ERP(Enterprise Resource Planning) 
+
+`Enterprise Resource Planning` (ERP) refers to a type of software that organization uses to manage day-to-day business activities 
+such as accounting, procurement, project management, risk management and compliance, and supply chain operations. 
+A complete ERP suite also includes enterprise performance management, software that helps plan, budget, predict, and report on an 
+organization’s financial results.   
+
+#### What are the key business benefits of ERP software?
+
+**Information Integration** 
+
+The most important benefit is promotion of integration. It is because it has the ability to update data between related business 
+functions and components. Also the people involved in a project are interlinked to each other, thus it helps in improvement of productivity. 
+
+**Reduction of Lead-Time** 
+
+By reducing `Lead-Time` organization should have an efficient inventory management system, which is integrated with the purchasing, 
+production planning and production departments.  
+
+**On Time Shipment** 
+
+`ERP` system are designed to help your company to reduce data transfer time, reduce errors and increase design productivity. 
+
+**Better Customer Satisfaction** 
+
+`ERP` system is capable of producing goods in a flexible way with consideration of time and cost management. 
+It means will get individual attention and get services without spending more money or waiting for long period.   
+
+**Increased Flexibility**  
+
+Product flexibility is type of ability of the operation to efficiently produce highly customized and unique products. 
+`ERP` system not only improve flexibility of manufacturing operations, but also improves flexibility of organization.  
+
+#### Examples of SAP 
+
+- SAP Business One
+- SAP Servie Layer
+- SAP ECC
+
+### eCommerce 
+
+`Electronic commerce`(ecommerce) refers to companies and individuals that buy and sell goods and services over the web. 
+Ecommerce operates in different types of market segments and can be conducted over computers, tablets, smartphones, and other smart devices.  
+
+#### Examples of E-Commerce
+
+- Magento
+- Shopify
+- Amazon Seller Central
+
+### CRM(Customer Relationship Management)
+
+`CRM` stands for `Customer Relationship Management` and refers to all strategies, software and technologies 
+used by organizations for engaging, acquiring and retaining customers. `CRM` is a combination of business strategies, 
+software and processes that enables companies to build long lasting relationships with their customers.  
+
+CRM software allows companies to automate customer-related workflows and ensure that all interactions 
+with customers and prospects happen smoothly and efficiently across the entire customer journey. 
+CRM software enables organizations to increase close rates, boost loyalty, and drive profits. 
+With CRM software, companies can easily collect and manage customer data from multiple channels 
+to build more precise customer profiles, provide personalized customer engagements and ensure 
+maximum productivity of customer-facing teams.  
+
+#### How a CRM helps your business?
+
+- **IDENTIFY AND CATEGORISE LEADS** - A `CRM` system can help you identify, add new leads easily 
+and quickly, and categorise them accurately. By focusing on the right leads, sales can prioritise 
+the opportunities that will close deals, and marketing can identify leads that need more nurturing 
+and prime them to become quality leads. 
+
+- **INCREASE REFERRALS FROM EXISTING CUSTOMERS** - By understanding your customers better, cross-selling 
+and upselling opportunities become clear — giving you the chance to win new business from existing customers.  
+
+- **OFFER BETTER CUSTOMER SUPPORT** - A `CRM` system can help you provide the high-quality service 
+that customers are looking for. Your agents can quickly see what products customers have ordered, 
+and they can get a record of every interaction so they can give customers the answers they need quickly. 
+
+- **IMPROVE PRODUCTS AND SERVICES** - A good CRM system will gather information from a huge variety of 
+sources across your business and beyond. This gives you unprecedented insights into how your customers feel 
+and what they are saying about your organisation such that you can improve what you offer, spot problems early, 
+and identify gaps.  
+
+#### Examples of CRM 
+
+- Salesforce
+- Zoho CRM
+- Dynamics CRM
+- Hubspot
+
 ## List of Pre-packaged Application Connectors
 
 APPSeCONNECT as a platform supports a wide range of [pre-packaged connectors](/getting%20started/configurations/#process-of-choosing-app), which can be easily plugged and played 

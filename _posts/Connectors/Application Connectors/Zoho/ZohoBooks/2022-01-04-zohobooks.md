@@ -4,11 +4,11 @@ toc: true
 tag: developers
 category: "Connectors"
 menus: 
-    crmsolution : 
+    zohosolution : 
         icon: fa fa-gg
         weight: 2
         title: "ZohoBooks"
-        identifier: zohobooksconnector
+        identifier: zohobooks
 ---
 
 Application configuration is an integral activity prior to the process of integration. If your chosen application 

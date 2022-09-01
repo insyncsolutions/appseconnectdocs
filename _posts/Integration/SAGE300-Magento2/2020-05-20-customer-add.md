@@ -30,7 +30,7 @@ Login to Magento 2 Application and [add customers](https://docs.magento.com/m2/c
 
 For posting newly added customer to SAGE 300 from Magento, you need to add Lookup for Customer Group & Tax. For this integration of Customer, mapping lookups for the group code of Customer & Tax is mandatory.
 
-![custadd2](\staticfiles\integration\Sage300-Magento\custadd2.png)
+![custadd2](/staticfiles/integration/Sage300-Magento/custadd2.png)
 
 **Note**: After mapping changes is done, `Reset Generate` and `Reset Publish` the Touchpoint from the workflow design panel. Refresh the Page and [Publish the workflow](/workflow/deploying-and-executing/#publishing-a-workflow). After Republishing, click on the Update Configuration followed by the Update Lookup Tables button in the Agent.
 

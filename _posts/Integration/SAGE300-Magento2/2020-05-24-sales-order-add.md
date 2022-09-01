@@ -27,7 +27,7 @@ A sales cycle is incomplete without placing orders for any products. Sales Order
 
 For integrating, Sales Orders from Magento 2 to Sage 300, you need to add lookups for Frieght & Tax Code.
 
-![orderadd3](\staticfiles\integration\Sage300-Magento\orderadd3.png)
+![orderadd3](/staticfiles/integration/Sage300-Magento/orderadd3.png)
 
 After placing the lookups for the connections, Publish the Connection, Update Lookup Tables in Agent followed by Update Configuration.
 
