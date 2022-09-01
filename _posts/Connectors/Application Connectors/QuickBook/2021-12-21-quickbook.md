@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector :
         title: "QuickBooks Enterprise"
-        weight: 8
+        weight: 10
         icon: fa fa-file-word-o
         identifier: quickbookconnector
 ---

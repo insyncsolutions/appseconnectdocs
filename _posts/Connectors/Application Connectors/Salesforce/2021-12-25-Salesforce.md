@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector : 
         icon: fa fa-gg
-        weight: 10
+        weight: 12
         title: "Salesforce"
         identifier: salesforceconnector
 ---

@@ -39,6 +39,7 @@ in folder structure such that user can maintain an easy usability as per their r
 
 5. The **FILTER** button is available beside the **NEW** button. Click on the button, you can filter processflows using search functionality, from the list.   
 
+![](https://www.youtube.com/watch?v=_AczkDoQAY4)
 
 ## ProcessFlow Folder
 
