@@ -344,6 +344,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\navextension\webproduct-websitepage-nav2016.png" />
     <Content Include="staticfiles\connectors\media\application-connector\navextension\webservice-multiconnection.png" />
     <Content Include="staticfiles\connectors\media\application-connector\navextension\webservice-multiconnection2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\opagent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\prestashop3.png" />
@@ -1857,6 +1858,7 @@
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\Calendly\2022-08-18-calendly.md" />
+    <None Include="_posts\Connectors\Application Connectors\SplitIt\2022-09-02-splitIt.md" />
     <None Include="_posts\Connectors\Application Connectors\Zoho\2022-08-23-zoho.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\2022-08-24-dynamics.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamic GP\2022-07-02-dynamic-gp.md" />
