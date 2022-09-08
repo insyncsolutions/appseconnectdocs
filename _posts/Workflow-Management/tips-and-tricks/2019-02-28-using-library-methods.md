@@ -1,5 +1,7 @@
 ﻿---
 title: "Using library methods/AppResource Function"
+description: "Get to know how to use different functions in APPSeCONNECT."
+keywords: "cloud appresource function, source function, destination function"
 toc: true
 tag: developers
 category: "Transformation"
