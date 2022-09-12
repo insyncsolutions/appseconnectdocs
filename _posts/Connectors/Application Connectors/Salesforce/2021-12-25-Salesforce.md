@@ -21,6 +21,8 @@ Salesforce is a REST Application which supports OAUTH 2.0 authentication. The ad
 to communicate and adapt with the AEC Portal. This section provides you the detailed process of validating the credential of the 
 application Salesforce.
 
+![](https://www.youtube.com/watch?v=bnmTFHNdbSI)
+
 ## Pre-requisites for Salesforce Configuration 
 
 1. Create an account in Salesforce and Login into it. 
