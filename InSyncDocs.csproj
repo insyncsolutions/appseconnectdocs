@@ -189,6 +189,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_agentconfig.png" />
     <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_agentconfig1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\amazonsellercentral_cloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazonvendorcentral_actionfilter.PNG" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazonvendorcentral_variable.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazon_opgent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\amazon_opgent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\appregister1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\appregister2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\appregister3.png" />
@@ -206,6 +210,9 @@
     <Content Include="staticfiles\connectors\media\application-connector\calendly_nodeconfig.png" />
     <Content Include="staticfiles\connectors\media\application-connector\calendly_opagent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\calendly_opagent2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\config_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\config_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\config_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\customfiltermage3.png" />
@@ -454,6 +461,8 @@
     <Content Include="staticfiles\connectors\media\application-connector\UpdateInventory-Priority3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\UpdateInventory-Priority4.png" />
     <Content Include="staticfiles\connectors\media\application-connector\UpdateInventory-Priority5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\walmart_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\walmart_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\wayfair_actionfilter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\wayfair_actionfilter2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\wayfair_actionfilter3.png" />
@@ -1851,6 +1860,7 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
+    <None Include="_posts\Connectors\Application Connectors\Amazon Vendor Central\2022-09-09-amazon-vendor.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics Business Central\2021-12-10-generic-nav2013 R2-extension.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\2022-08-25-sap-group.md" />
@@ -1859,6 +1869,7 @@
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\Calendly\2022-08-18-calendly.md" />
     <None Include="_posts\Connectors\Application Connectors\SplitIt\2022-09-02-splitIt.md" />
+    <None Include="_posts\Connectors\Application Connectors\Walmart\2022-09-07-walmart.md" />
     <None Include="_posts\Connectors\Application Connectors\Zoho\2022-08-23-zoho.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\2022-08-24-dynamics.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamic GP\2022-07-02-dynamic-gp.md" />
