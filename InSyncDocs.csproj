@@ -452,6 +452,16 @@
     <Content Include="staticfiles\connectors\media\application-connector\shopify_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_agent.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_cloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_cloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_mappermessage.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_mappermessage1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_mappermessage2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_mappernode.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_opagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_opagent2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_opagent3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_opagent4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\slack_opagent5.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Troubleshoot-Priority.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Uniconta-AdapterVal2.png" />
@@ -1868,6 +1878,7 @@
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\Calendly\2022-08-18-calendly.md" />
+    <None Include="_posts\Connectors\Application Connectors\Slack\2022-09-14-slack.md" />
     <None Include="_posts\Connectors\Application Connectors\SplitIt\2022-09-02-splitIt.md" />
     <None Include="_posts\Connectors\Application Connectors\Walmart\2022-09-07-walmart.md" />
     <None Include="_posts\Connectors\Application Connectors\Zoho\2022-08-23-zoho.md" />
