@@ -279,6 +279,12 @@
     <Content Include="staticfiles\connectors\media\application-connector\magentocloud1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\magento_actionfilter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\MenuWebServices.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\mivaactionfilter_1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\mivaactionfilter_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\miva_accesstoken.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\miva_opagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\miva_opagent2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\miva_storecode.png" />
     <Content Include="staticfiles\connectors\media\application-connector\mondayactionfilter_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\mondayactionfilter_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\mondaycloud.png" />
@@ -1873,6 +1879,7 @@
     <None Include="_posts\Connectors\Application Connectors\Amazon Vendor Central\2022-09-09-amazon-vendor.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics Business Central\2021-12-10-generic-nav2013 R2-extension.md" />
+    <None Include="_posts\Connectors\Application Connectors\Miva\2022-09-19-miva.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\2022-08-25-sap-group.md" />
     <None Include="_posts\Connectors\Application Connectors\Amazon Seller Central\2022-07-03-amazon-seller-central.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
