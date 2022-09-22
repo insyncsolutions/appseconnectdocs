@@ -203,6 +203,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\bamboo-agent3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\bigcommerce_actionfilter.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\bigcommerce_createaccount.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\bigcommerce_opagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\bigcommerce_opagent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\BusinessCentralUploadExtension.png" />
     <Content Include="staticfiles\connectors\media\application-connector\calendly_actionfilter.png" />
     <Content Include="staticfiles\connectors\media\application-connector\calendly_actionfilter1.png" />
@@ -1876,6 +1880,7 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
+    <None Include="_posts\Connectors\Application Connectors\2022-09-22-bigcommerce.md" />
     <None Include="_posts\Connectors\Application Connectors\Amazon Vendor Central\2022-09-09-amazon-vendor.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics Business Central\2021-12-10-generic-nav2013 R2-extension.md" />
