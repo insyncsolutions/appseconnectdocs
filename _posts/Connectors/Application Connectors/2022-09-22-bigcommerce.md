@@ -1,7 +1,7 @@
 ﻿---
 title: "Big Commerce"
 description: "Get to know how you can configure the agent for Big Commerce"
-keywords: "Big Commerce Configuration, Configure the Big Commerce Application"
+keywords: "Big Commerce Configuration, Configure the Big Commerce Application, BigCommerce OP agent"
 toc: true
 tag: developers
 category: "Connectors"
