@@ -5,6 +5,8 @@ description: "APPSeCONNECT enables you to perform various types of mapping durin
 keywords: "types of mapping,mapping types"
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /transformation/types-of-mapping/
 menus: 
     mappinggettingstarted:        
         title: "APPSeCONNECT Expression Language"

@@ -3,6 +3,8 @@ title: "Logging and Tracing"
 toc: true
 tag: developers
 category: "SDK"
+redirect_from: 
+     - /sdk/logging-and-tracing/
 menus:
     overviewsdkadapter: 
         icon: fa fa-gg

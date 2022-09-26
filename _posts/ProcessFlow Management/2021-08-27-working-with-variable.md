@@ -133,6 +133,8 @@ D. Your variable gets deleted from the list.
 
 _**Note :** You cannot delete a Variable that is currently in use for execution and will be provided with an error while doing so._
 
+![](https://www.youtube.com/watch?v=hh-Qy9dnmgs)
+
 ### Execution Flow of Variable
 
 1) [Design the processflow](/getting%20started/create-your-first-processflow/) and Open the **Node Configuration Window** for the application implementing [GET operation](/processflow/processflow-app/#working-principle-for-getpost-node). The node configuration window opens.

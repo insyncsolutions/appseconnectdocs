@@ -255,6 +255,7 @@ whitelist:
   - jekyll-archives
   - jekyll-spaceship
   - jemoji
+  - jekyll-redirect-from
 
 
 # Archives

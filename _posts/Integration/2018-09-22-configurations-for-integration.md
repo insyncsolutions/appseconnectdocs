@@ -3,6 +3,8 @@ title: "Configuring Connectors"
 toc: true
 tag: developers
 category: "Integration"
+redirect_from: 
+     - /getting%20started/configurations-for-integration/
 deprecated: 
     url: "/processflow/overview-of-processflow"
     title: "Overview of ProcessFlow"

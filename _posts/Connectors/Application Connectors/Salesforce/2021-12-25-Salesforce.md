@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector : 
         icon: fa fa-gg
-        weight: 10
+        weight: 12
         title: "Salesforce"
         identifier: salesforceconnector
 ---
@@ -20,6 +20,8 @@ for the application Salesforce, Troubleshooting issues along with attributes and
 Salesforce is a REST Application which supports OAUTH 2.0 authentication. The adapter of the application Salesforce provides the leverage 
 to communicate and adapt with the AEC Portal. This section provides you the detailed process of validating the credential of the 
 application Salesforce.
+
+![](https://www.youtube.com/watch?v=bnmTFHNdbSI)
 
 ## Pre-requisites for Salesforce Configuration 
 

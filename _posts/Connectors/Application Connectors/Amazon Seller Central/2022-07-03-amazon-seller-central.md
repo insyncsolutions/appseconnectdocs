@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector:
         title: "Amazon Seller Central"
-        weight: 23
+        weight: 5
         icon: fa fa-file-word-o
         identifier: amazonsellercentralconnector
 ---

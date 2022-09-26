@@ -95,7 +95,7 @@ Users cannot modify any configuration to the rule. This rule triggers the tokens
 Users would receive the hourly report in the email id provided for the Organisation. The email would consist 
 of the sync report (for failed during the execution process) for the previous hour. 
 
-![errormailnotification1](\staticfiles\rules\media\appseconnect-status-report.jpg)
+![errormailnotification1](/staticfiles/rules/media/appseconnect-status-report.jpg)
 
 **Note:**
         * In-case of no error, there wont be any mail sent.           

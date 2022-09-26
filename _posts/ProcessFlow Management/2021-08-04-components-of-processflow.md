@@ -5,6 +5,9 @@ description: "Components of ProcessFlow Designer to create,design and develop yo
 keywords: "Constituent of ProcessFlow, Components of ProcessFlow, Header panel, Left panel, Right panel, Designer view"
 tag: developers
 category: "Processflow"
+redirect_from: 
+     - /processflow/deploying-and-executing-processfloww/
+     - /processflow/designer-processflow/
 menus: 
     processflow:
         title: "Designer of ProcessFlow"
@@ -44,6 +47,7 @@ here comes the canvas where you can design, deploy and execute all from the sing
 3. **Designer View** - This is the actual canvas where you shall design your processflows.
 4. **Right Panel** - This section lists the ProcessFlow node suggestions and real-time view of the ProcessFlow.
 
+![](https://www.youtube.com/watch?v=FWyPANdwdDM)
 
 ### Header Panel
 

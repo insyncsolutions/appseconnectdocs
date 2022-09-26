@@ -5,6 +5,9 @@ description: "Get to know, how you can if- else mapping during transformation."
 keywords: "Mapping Levels, Mapping at Attribute Level, Mapping at Loop Level, Mapping at Complex Object Level, Mapping at Complex Object Collection  Level, Respect Hierarchical Rendering on Mapping state"
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /transformation/define-logic-over-destination-mapping/
+     - /processflow/steps-to-define-logic-over-destination-mapping/
 menus: 
     transformationbasic:
         title: "Steps to Define logic over Destination Mapping"

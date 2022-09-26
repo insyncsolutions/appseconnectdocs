@@ -22,7 +22,7 @@ Create and sync the customer for which the contact person needs to be added.
 
 ## Brief Description
 
-![contactperson-nav-mage2_workflow](/staticfiles/integration/media/contactperson-nav-mage2_workflow.png)
+![contactperson-nav-mage2_workflow](/staticfiles/integration/media/contactperson-nav-mage2_workflow.PNG)
 
 In this integration scenario, you can see multiple connections have been configured to make the sync process. Here Contact person are added in NAV (multi-webstore) and is synced with MS Dynamics NAV per connection wise.
 [Click here](/integration/customeradd-mage2tonav/) to know more about the sync process of adding customers to Ms Dynamics NAV.

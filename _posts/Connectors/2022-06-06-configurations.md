@@ -3,6 +3,9 @@ title: "Working with Apps"
 toc: true
 tag: developers
 category: "Connectors"
+redirect_from: 
+     - /getting%20started/configurations/
+     - /configuring%20appseconnect/configurations/
 menus: 
     Connectors:
         title: "Working with Apps"
@@ -35,7 +38,7 @@ You can eaily filter all your added applications by the SEARCH functionality. Yo
 - Search by Name : You can search your applications by typing its name on the search box.
 - Search by Category : You can also search your application by selecting the category of your application. For Eg: Marketing, ERP, POS, Human Resource etc.
 
-![Appsearch](\staticfiles\root\media\appsearch.png)
+![Appsearch](/staticfiles/root/media/appsearch.png)
 
 ##  Process of Choosing App 
 
@@ -138,10 +141,10 @@ View [Technology Apps](/connectors/Overview-of-technology-connectors/) section f
 ### Viewing & Editing Custom & Technology Applications
 
 1. Once your application is created, you can view the following interface of your Custom/Technology App. You can view a `VIEW` button beside your created application.
-![customview1](\staticfiles\root\media\customview1.png)
+![customview1](/staticfiles/root/media/customview1.png)
 
 2. Click on the view button, you will able to edit the following details as provided in the screen below.
-![customview2](\staticfiles\root\media\customview2.png)
+![customview2](/staticfiles/root/media/customview2.png)
 
 3. You can also delete the created application if required by click on the delete button available under the drop-down of the `VIEW` button.
 
@@ -254,8 +257,8 @@ The APPSeCONNECT expression methods are special transformation block used during
 * Generic
 * Native
 * Cloud App Resource
-
-![Appfunctions](\staticfiles\root\media\appfunctions.png)
+cust
+![Appfunctions](/staticfiles/root/media/appfunctions.png)
 
 Here you will get the details of [Appresource Functions](/transformation/using-library-methods/) of APPSeCONNECT.
 
@@ -274,26 +277,26 @@ Protocol Add screen is for creating or updating the existing protocol. An user w
 
 1) Navigate to the app section and expand the node of the created custom or tech app to view the `Protocol` button.
 
-![Protocoladd1](\staticfiles\root\media\protocoladd1.png)
+![Protocoladd1](/staticfiles/root/media/protocoladd1.png)
 
 2) You can view the window that lists the prepackaged protocols if any. Click on the **Add Protocol** button.
 
-![Protocoladd2](\staticfiles\root\media\protocoladd2.png)
+![Protocoladd2](/staticfiles/root/media/protocoladd2.png)
 
 3) The Protocol add window opens. You will get the following fields in the window. Click on the SAVE button after providing the inputs.
     - Protocol Name (Mandatory Field).
     - Checkbox for parallel execution
     - Checkbox for default execution
 
-![Protocoladd3](\staticfiles\root\media\protocoladd3.png)
+![Protocoladd3](/staticfiles/root/media/protocoladd3.png)
 
 4) You can successfully view the created protocol in your window. Expand the node and click on the `Add Method` button.
 
-![Protocoladd4](\staticfiles\root\media\protocoladd4.png)
+![Protocoladd4](/staticfiles/root/media/protocoladd4.png)
 
 5) On the method window, you need to provide the name of the protocol `method` and the token from the drop down. Once selected click on the SAVE button.
 
-![Protocoladd5](\staticfiles\root\media\protocoladd5.png)
+![Protocoladd5](/staticfiles/root/media/protocoladd5.png)
 
 Following the above process, you can successfully create a protocol for an Technology or a Custom app.
 

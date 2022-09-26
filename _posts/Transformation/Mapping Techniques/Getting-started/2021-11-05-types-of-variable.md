@@ -5,6 +5,8 @@ description: "Get to know about different types of variables used during mapping
 keywords: "Variables, Working with Variables"
 tag: developers
 category: "Transformation"
+redirect_from: 
+     - /transformation/handling-variables-and-functions/
 menus: 
     mappinggettingstarted:        
         title: "Types of Variable"

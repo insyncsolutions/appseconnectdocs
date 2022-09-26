@@ -5,6 +5,8 @@ keywords: "Cloud Agent Configuration, On-Premise Agent Configuration, Agent Conf
 toc: true
 tag: developers
 category: "Deployment"
+redirect_from: 
+     - /transformation/troubleshooting/
 menus:
     environment: 
         icon: fa fa-gg
@@ -82,7 +84,7 @@ Updating Adapters will not fetch this file back.**
 
 The sync bucket is showing blank, although data has been synced.  
 
-![Troublshooting Syncdata](../../staticfiles/deployment/media/Troubleshooting/troublshooting-syncdata.PNG)
+![Troublshooting Syncdata](/staticfiles/deployment/media/Troubleshooting/troublshooting-syncdata.PNG)
 
 **Steps to Troubleshooting :**
 * Upgrade the Agent Version (In case of both Cloud & OP)  

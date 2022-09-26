@@ -8,7 +8,7 @@ category: "Connectors"
 menus: 
     applicationconnector : 
         icon: fa fa-gg
-        weight: 6
+        weight: 11
         title: "Prestashop"
         identifier: prestashopconnector
 ---

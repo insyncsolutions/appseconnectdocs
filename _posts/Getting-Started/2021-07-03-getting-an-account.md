@@ -5,6 +5,8 @@ keywords: "Trial,Free Trial, Paid Trial, Accessing Account,steps to start, Multi
 toc: true
 tag: developers 
 category: "Getting Started"
+redirect_from: 
+     - /getting%20started/user-registration/
 menus: 
     gettingstarted:
         title: "Getting an Account"
