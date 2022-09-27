@@ -21,7 +21,7 @@ breadcrumbs              : true # false, false (default)
 words_per_minute         : 200
 main_baseurl             : "https://appseconnect.com/"
 comments:
-  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : false #(default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : docs-appseconnect-com
   discourse:
@@ -369,7 +369,7 @@ defaults:
       author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true 
   - scope:
       path: "customers"
