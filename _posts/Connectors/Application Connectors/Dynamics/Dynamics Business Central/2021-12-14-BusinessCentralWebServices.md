@@ -1,6 +1,8 @@
 ---
 title: "Dynamics 365 Business Central"
 toc: true
+description: "Get to know how you can configure the agent for Dynamics 365 Business Central"
+keywords: "Dynamics 365 Business Central Configuration, Configure the Dynamics 365 Business Central Application, Dynamics 365 Business Central OP agent, Dynamics 365 Business Central for Cloud agent"
 tag: developers
 category: "Connectors"
 menus: 

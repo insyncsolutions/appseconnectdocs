@@ -457,6 +457,12 @@
     <Content Include="staticfiles\connectors\media\application-connector\sapsl3.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\sapsl4.png" />
     <Content Include="staticfiles\connectors\media\application-connector\sap_actionfilter.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sendgridactionfilter.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sendgridapi.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sendgridcloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sendgridopagent.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sendgridopagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\sendgridopagent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shipstation3.png" />
@@ -1898,6 +1904,7 @@
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-07-configuring-teams-bot.md" />
     <None Include="_posts\Connectors\Application Connectors\Bots\2021-12-06-bots.md" />
     <None Include="_posts\Connectors\Application Connectors\Calendly\2022-08-18-calendly.md" />
+    <None Include="_posts\Connectors\Application Connectors\SendGrid\2022-09-29-sendgrid.md" />
     <None Include="_posts\Connectors\Application Connectors\Slack\2022-09-14-slack.md" />
     <None Include="_posts\Connectors\Application Connectors\SplitIt\2022-09-02-splitIt.md" />
     <None Include="_posts\Connectors\Application Connectors\Walmart\2022-09-07-walmart.md" />
