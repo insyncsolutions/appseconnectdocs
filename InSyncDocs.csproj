@@ -534,6 +534,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks4.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks5.PNG" />
     <Content Include="staticfiles\connectors\media\application-connector\zohobooks8.PNG" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruitcloud.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohocrm-addaccount1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohocrm-addaccount2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\zohocrm-addaccount3.png" />
@@ -546,6 +547,12 @@
     <Content Include="staticfiles\connectors\media\application-connector\Zohocrmv2-Adapter2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Zohocrmv2-Adapter3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\Zohocrmv2-Adapter4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruit1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruit2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruit3.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruit4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruit5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\zohorecruit6.png" />
     <Content Include="staticfiles\connectors\media\technology-connector\AddAdapter.png" />
     <Content Include="staticfiles\connectors\media\technology-connector\AppResources_AddAdapter.png" />
     <Content Include="staticfiles\connectors\media\technology-connector\basic-cloud-credential.png" />
