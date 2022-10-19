@@ -1916,6 +1916,7 @@
     <None Include="_posts\Connectors\Application Connectors\DocuSign\2022-10-06-docusign.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics Business Central\2021-12-10-generic-nav2013 R2-extension.md" />
+    <None Include="_posts\Connectors\Application Connectors\EasyShip\2022-10-18-easyship.md" />
     <None Include="_posts\Connectors\Application Connectors\Miva\2022-09-19-miva.md" />
     <None Include="_posts\Connectors\Application Connectors\Pipedrive\2022-10-13-pipedrive.md" />
     <None Include="_posts\Connectors\Application Connectors\SAP Solution\2022-08-25-sap-group.md" />
