@@ -251,6 +251,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\dynamic_action1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamic_action2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\dynamic_agentconfig.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\easyshipaction.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\easyshipapitoken.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\easyshipopagent1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\easyshipopagent2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\employeeadd-bamboohr3.png" />
