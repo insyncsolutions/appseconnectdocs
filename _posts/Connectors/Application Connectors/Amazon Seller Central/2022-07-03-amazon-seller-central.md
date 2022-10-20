@@ -32,6 +32,8 @@ Therefore, application configuration is a fundamental activity prior to the proc
 `Amazon Seller Central`, credentials need to be provided for validating the agent both in case of `OP` and `Cloud`. Here you will find the detailed description on 
 how to configure the agents for the application `Amazon Seller Central`, Troubleshooting issues, action and its filters. 
 
+![](https://www.youtube.com/watch?v=qpwNfUa-TMo)
+
 ## Pre-requisites for Amazon Seller Central Configuration 
 
 1) Create an account in Amazon with necessary credentials. `Email Id` and `Password` are the manadatory details for logging in to the application.    
