@@ -3,6 +3,8 @@ title: "I/C Inventory Update from SAGE 300 to Shopify"
 toc: true
 tag: developers
 category: "Integration/Sage-Shopify"
+redirect_from: 
+     - /Integration/Sage-Shopify/ic-inventory-update/
 deprecated: 
     url: "/processflow/overview-of-processflow"
     title: "Overview of ProcessFlow"
