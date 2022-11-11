@@ -57,7 +57,7 @@ You can survey the data by viewing the [Processed Snapshot](/workflow/list-of-sn
 ## Post Conditions:
 You can view the data sync inMagento by navigating to `Order Shipments tab` available in the `Order Details Page` of the customer.
 
-![shipadd11](/staticfiles/integration/Sage300-Magento/shipadd11.PNG)
+![shipadd11](/staticfiles/integration/Sage300-Magento/shipadd11.png)
 
 ## Frequency of Use:
 

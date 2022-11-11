@@ -36,7 +36,7 @@ to meet the condition of the decision.
 
 **The Decision property window is shown below**
 
-![decisionproperty](/staticfiles/workflow-management/media/rule/decisionproperty.png)
+![decisionproperty](/staticfiles/workflow-management/media/Rule/decisionproperty.png)
 
 The fields present in the decision screens are:
 
@@ -46,11 +46,11 @@ The fields present in the decision screens are:
 4. Value -  This is the value corresponding to which the decision is to be taken.
 
 **Note: It is mandatory to enable the checkbox beside the KEY for evaluating the decision.**  
-![decisionproperty1](/staticfiles/workflow-management/media/rule/decisionproperty1.png)
+![decisionproperty1](/staticfiles/workflow-management/media/Rule/decisionproperty1.png)
 
 **Execution screen for the DECISION Workflow**
 
-![decisionworkflow](/staticfiles/workflow-management/media/rule/decisionworkflow.png)
+![decisionworkflow](/staticfiles/workflow-management/media/Rule/decisionworkflow.png)
 
 ### Troubleshooting for Decision
 
@@ -71,7 +71,7 @@ BPAddresses is the Parent Node row is the child node of the Parent and the Count
 or the element upon which the decision is to be implemented on each data.
 
 The below image will help the reader to understand the concept in detail.  
-![decision-xml](/staticfiles/workflow-management/media/rule/decision-xml.png)
+![decision-xml](/staticfiles/workflow-management/media/Rule/decision-xml.png)
 
 Similarly this process can be implemented for the other touchpoints. The concept for applying the key in the DECISION node will remain 
 same if executed for any other touchpoint and also for a different connection.

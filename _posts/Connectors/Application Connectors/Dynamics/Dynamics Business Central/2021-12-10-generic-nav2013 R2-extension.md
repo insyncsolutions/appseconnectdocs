@@ -347,7 +347,7 @@ b) Add a base table (Contact Alt. Address) field "Contact No." with the name "Co
 
 Add a variable (varAECInvoice) for **AEC Invoice** in Sales Post (80) code unit.
 
-![nav2013ext19](/staticfiles/connectors/media/application-connector/navextension/nav2013ext19.png)
+![nav2013ext19](/staticfiles/connectors/media/application-connector/navextension/nav2013ext19.JPG)
 
 **Added below line after : SalesInvHeader.INSERT;**
 
@@ -376,7 +376,7 @@ varAECInvoice.WebInvoiceLineInsert(SalesInvLine);
 
 Add a variable (varAECShipment) for **AEC Shipment** in Sales Post (80) code unit.
 
-![nav2013ext18](/staticfiles/connectors/media/application-connector/navextension/nav2013ext18.png)
+![nav2013ext18](/staticfiles/connectors/media/application-connector/navextension/nav2013ext18.PNG)
 
 **Add below line after  : SalesShptHeader.INSERT;**
 
