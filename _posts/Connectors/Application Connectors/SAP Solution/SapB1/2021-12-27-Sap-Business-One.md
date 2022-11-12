@@ -110,7 +110,7 @@ While Adding make sure, the On-Premise Agent is closed & and Enable Environment 
 
 5) The file would look as given below.
 
-![sapdbtype3](/staticfiles/connectors/media/application-connector/sapdbtype3.PNG)
+![sapdbtype3](/staticfiles/connectors/media/application-connector/sapdbtype3.png)
 
 7) Restart your On-Premise Agent and check for the database type drop-down list. You should have the the added database type in the list.
 

@@ -1,5 +1,5 @@
 ---
-title: "Splitter Node"
+title: "Workflow Splitter Node"
 toc: true
 tag: 
         - developers

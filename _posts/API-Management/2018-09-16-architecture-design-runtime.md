@@ -1,5 +1,5 @@
 ---
-title: "Architecture"
+title: "APPSeCONNECT API Architecture"
 toc: true
 tag: developers
 category: "API-Management"
