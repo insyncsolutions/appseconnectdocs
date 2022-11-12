@@ -1,5 +1,5 @@
 ---
-title: "Important Terminologies"
+title: "API Management Terminologies"
 toc: true
 tag: developers
 category: "API-Management"

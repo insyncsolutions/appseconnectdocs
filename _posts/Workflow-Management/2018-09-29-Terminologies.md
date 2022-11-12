@@ -1,5 +1,5 @@
 ---
-title: "Important Terminologies"
+title: "Workflow Terminologies"
 toc: true
 tag: developers
 category: "Workflow"

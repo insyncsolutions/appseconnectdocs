@@ -1,5 +1,5 @@
 ---
-title: "Using Filters for Integration"
+title: "Using Filters for OLEDB based Integration"
 toc: true
 tag: developers
 category: "Connectors"

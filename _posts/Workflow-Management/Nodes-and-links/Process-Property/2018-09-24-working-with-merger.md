@@ -1,5 +1,5 @@
 ---
-title: "Merger Node"
+title: "Workflow Merger Node"
 toc: true
 tag: 
 tag: 

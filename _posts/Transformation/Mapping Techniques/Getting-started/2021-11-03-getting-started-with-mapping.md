@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Introduction"
 toc: true
 description: "Mapping provides a visual interface where one can map data coming from an API to another using our platform."
 keywords: "Structure of Mapping, Attribute Mapping"

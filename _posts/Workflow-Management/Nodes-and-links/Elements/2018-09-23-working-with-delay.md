@@ -1,5 +1,5 @@
 ---
-title: "DELAY Node"
+title: "Workflow DELAY Node"
 toc: true
 tag: 
         - developers

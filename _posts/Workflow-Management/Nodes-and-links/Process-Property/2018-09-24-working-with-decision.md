@@ -1,5 +1,5 @@
 ---
-title: "Decision Node"
+title: "Workflow Decision Node"
 toc: true
 tag: 
         - developers

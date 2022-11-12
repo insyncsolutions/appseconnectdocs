@@ -1,5 +1,5 @@
 ---
-title: "Architecture"
+title: "Workflow Architecture"
 toc: true
 tag: developers
 category: "Workflow"

@@ -1,5 +1,5 @@
 ---
-title: "Implementing Xpath in Mapping"
+title: "Implementing Xpath Mapping in Workflow"
 toc: true
 tag: developers
 category: "Transformation"

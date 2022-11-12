@@ -1,5 +1,5 @@
 ---
-title: "Best practices"
+title: "Do's and Don'ts"
 toc: true
 tag: developers
 category: "SDK"

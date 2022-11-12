@@ -1,5 +1,5 @@
 ---
-title: "Using Filters for Integration"
+title: "Using Filters for REST based Integration"
 toc: true
 tag: developers
 category: "Connectors"
