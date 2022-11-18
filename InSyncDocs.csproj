@@ -2076,7 +2076,7 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
-    <None Include="_posts\Connectors\Application Connectors\2022-09-22-bigcommerce.md" />
+    <None Include="_posts\Connectors\Application Connectors\BigCommerce\2022-09-22-bigcommerce.md" />
     <None Include="_posts\Connectors\Application Connectors\Amazon Vendor Central\2022-09-09-amazon-vendor.md" />
     <None Include="_posts\Connectors\Application Connectors\CommerceTools\2022-10-25-commercetools.md" />
     <None Include="_posts\Connectors\Application Connectors\DocuSign\2022-10-06-docusign.md" />
