@@ -41,7 +41,7 @@ how to configure the agent for `commercetools`, troubleshooting issues, action a
 ## Pre-requisites for Commercetools Configuration 
 
 1) Create an account in [commercetools](https://docs.commercetools.com/merchant-center/accounts) with necessary credentials according to the region of your business.   
-2) `Base URL`, `Client ID`, `Client Secret`, `Scope` and `Access Token Url` should be availbale.        
+2) `API URL`, `Client ID`, `Client Secret`, `Scope` and `Auth Token Url` should be availbale.        
 3) You need to know the [authorization mechanism](https://docs.commercetools.com/api/authorization) and [different APIs](https://docs.commercetools.com/api/projects/products) of the application along with their structures.       
 
 ### How to create API Client?
@@ -70,20 +70,35 @@ You need to install the agent on your local server. To Know about On-Premise Age
 The credential panel opens for the application. 
 ![commercetools1](/staticfiles/connectors/media/application-connector/commercetools1.png) 
 
-3) Enter `Base URL`, `Client ID`, `Client Secret`, `Scope` and `Access Token Url`at the required place. When logged in 
-to `commercetools` application, the `Base Url` will be displayed at the status bar depending on the region you have selected 
-for your business. Here, the `Base URL` will be `https://mc.europe-west1.gcp.commercetools.com/hackathon` and use 
-the `Access Token` as `https://auth.europe-west1.gcp.commercetools.com/oauth/token`.
-![commercetools2](/staticfiles/connectors/media/application-connector/commercetools2.png)
+3) Enter `API URL`, `Client ID`, `Client Secret`, `Scope` and `Auth Token Url`at the required place. When logged in 
+to `commercetools` application, the `API URL` will be displayed at the status bar depending on the region you have selected 
+for your business. Here, the `API URL` will be `https://api.us-central1.gcp.commercetools.com/shubhendu/` and use 
+the `Auth Token Url` as `https://auth.us-central1.gcp.commercetools.com/oauth/token`.
+![commercetools5](/staticfiles/connectors/media/application-connector/commercetools5.png)
 
 4) Click on the “Validate” button, to validate the connection. A message `Validation passed, now you can save these details` will appear 
 if all the credentials provided by you for `commercetools` is valid. After validating the credentials, click “Save” button to save the credetials. 
 Following the above processes, you can configure the `commercetools` application in the OP agent.  
 
+## Cloud Agent Configuration 
+
+### Configuring the Commercetools Application in Cloud Agent
+
+1. Login to APPSeCONNECT portal with valid credentials.   
+
+2. Navigate to **Manage > App**. Expand the commercetools application and click on `Credential`. 
+
+3. Expand the `REST` node, click on `Add New Credential`.  
+
+4. Provide the necessary information `API URL`, `Client ID`, `Client Secret`, `Scope` and `Auth Token Url`.    
+![commercetools6](/staticfiles/connectors/media/application-connector/commercetools6.png)    
+
+5. On clicking the validate button, the credentials will be validated provided by you. You can save the credentials by clicking `Save` button.  
+
 ## Troubleshooting
 
-**ISSUE 1 :** You should specify the `Base URL` according to the region your business belongs. Find the [region](https://docs.commercetools.com/api/authorization#requesting-an-access-token-using-the-composable-commerce-oauth-20-service) and select the 
-`Base URL` accordingly. 
+**ISSUE 1 :** You should specify the `API URL` according to the region your business belongs. Find the [region](https://docs.commercetools.com/api/authorization#requesting-an-access-token-using-the-composable-commerce-oauth-20-service) and select the 
+`API URL` accordingly. 
 
 **ISSUE 2 : Agent Validation may fail due to Client ID, Client Secret and Scope provided in the agent**
 

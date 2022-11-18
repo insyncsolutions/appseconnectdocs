@@ -218,6 +218,8 @@
     <Content Include="staticfiles\connectors\media\application-connector\commercetools2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\commercetools3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\commercetools4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\commercetools5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\commercetools6.png" />
     <Content Include="staticfiles\connectors\media\application-connector\config_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\config_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\config_3.png" />
