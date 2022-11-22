@@ -218,6 +218,8 @@
     <Content Include="staticfiles\connectors\media\application-connector\commercetools2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\commercetools3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\commercetools4.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\commercetools5.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\commercetools6.png" />
     <Content Include="staticfiles\connectors\media\application-connector\config_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\config_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\config_3.png" />
@@ -280,6 +282,10 @@
     <Content Include="staticfiles\connectors\media\application-connector\inventoryupdate-sage7.png" />
     <Content Include="staticfiles\connectors\media\application-connector\inventoryupdate-sage8.png" />
     <Content Include="staticfiles\connectors\media\application-connector\inventoryupdate-sage9.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\ivend1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\ivend2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\ivendcloud.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\ivendactionfilter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig10.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig11.png" />
@@ -529,6 +535,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_9.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_16.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_17.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_18.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopify_3.png" />
@@ -2070,13 +2077,14 @@
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-02-one-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-03-two-way-sync.md" />
     <None Include="_posts\Best-practices\Sync-strategies\2022-02-04-realtime-sync.md" />
-    <None Include="_posts\Connectors\Application Connectors\2022-09-22-bigcommerce.md" />
+    <None Include="_posts\Connectors\Application Connectors\BigCommerce\2022-09-22-bigcommerce.md" />
     <None Include="_posts\Connectors\Application Connectors\Amazon Vendor Central\2022-09-09-amazon-vendor.md" />
     <None Include="_posts\Connectors\Application Connectors\CommerceTools\2022-10-25-commercetools.md" />
     <None Include="_posts\Connectors\Application Connectors\DocuSign\2022-10-06-docusign.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics 365 crm\2022-08-23-dynamics-365-crm.md" />
     <None Include="_posts\Connectors\Application Connectors\Dynamics\Dynamics Business Central\2021-12-10-generic-nav2013 R2-extension.md" />
     <None Include="_posts\Connectors\Application Connectors\EasyShip\2022-10-18-easyship.md" />
+    <None Include="_posts\Connectors\Application Connectors\iVend\2022-11-17-ivend.md" />
     <None Include="_posts\Connectors\Application Connectors\Miva\2022-09-19-miva.md" />
     <None Include="_posts\Connectors\Application Connectors\Odoo\2022-10-20-odoo.md" />
     <None Include="_posts\Connectors\Application Connectors\Pipedrive\2022-10-13-pipedrive.md" />

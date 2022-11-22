@@ -202,8 +202,10 @@ You Custom Trace Conflict Bucket as mentioned above.
 
 You can also use `Shopify` as destination application to store data. While doing the same, you need to use some action filters in the 
 body section of the destination application. Let us suppose that, you need to add some product information in `Shopify`, 
-provide `inputSchemaName` as the key and mention the corrosponding schema name from the API as the value(here we have ProductInput as the schema name). 
-Also mention the fields whose value needs to be added in the application. In that case, mention `select` as the key and the 
-field names as the value(here we are considering the title, id, createdAt and updatedAt fields only).
+provide `$inputParams` as the key and the value fields corrosponding to `$inputParams` will remain blank. You need to use `$inputParams` 
+as the key irrespective of the schema used as the destination. Refer to the [API](https://shopify.dev/api/admin-graphql/2022-10/mutations/productCreate) of 
+`Shopify` to know the child condition that you need to mention `$inputParams`. 
+To specify the fields that needs to be updated, mention `select` as the key and the 
+field names as the value(you can provide title, id, createdAt and updatedAt fields and many more).
 
-![shopifygraphql_17](/staticfiles/connectors/media/application-connector/shopifygraphql_17.png)  
+![shopifygraphql_18](/staticfiles/connectors/media/application-connector/shopifygraphql_18.png)  
