@@ -1650,6 +1650,9 @@
     <Content Include="staticfiles\rules\media\create-rule3.png" />
     <Content Include="staticfiles\rules\media\create-rule4.png" />
     <Content Include="staticfiles\rules\media\create-rule5.png" />
+    <Content Include="staticfiles\rules\media\detailedsyncreportprocessflow1.PNG" />
+    <Content Include="staticfiles\rules\media\detailedsyncreportprocessflow2.png" />
+    <Content Include="staticfiles\rules\media\detailedsyncreportprocessflow3.png" />
     <Content Include="staticfiles\sdk-references\media\adapter-details.png" />
     <Content Include="staticfiles\sdk-references\media\adapter-folder-structure.png" />
     <Content Include="staticfiles\sdk-references\media\appseconnectAPI.png" />
@@ -2126,6 +2129,7 @@
     <None Include="_posts\Rule-Management\DefaultRule\2019-06-23-preconfigured-rule-for-log-bucket.md" />
     <None Include="_posts\Rule-Management\DefaultRule\2019-06-24-preconfigured-rule-for-misfire-event.md" />
     <None Include="_posts\Rule-Management\DefaultRule\2019-06-25-preconfigured-rule-for-resync-bucket.md" />
+    <None Include="_posts\Rule-Management\PreconfiguredRule\2022-11-22-detailedsyncreportproccessflow.md" />
     <None Include="_posts\Transformation\Mapping Techniques\Quickstart\2021-11-19-Working-with-functions.md" />
     <None Include="_posts\ProcessFlow Management\Quickstart\2021-08-08-trigger-processflow.md" />
     <None Include="_posts\Release-Notes\2022\Q2\2022-05-24-2022-Q2-V3-Hotfix.md" />
