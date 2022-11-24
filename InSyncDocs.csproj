@@ -2351,7 +2351,7 @@
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-25-09-BasicAuthentication.md" />
     <None Include="_posts\Connectors\Technology Connectors\Rest\2019-25-09-OAuth2.0.md" />
     <None Include="_posts\home.md" />
-    <None Include="_posts\getting-started.md" />
+    <None Include="_posts\Workflow-Management\getting-started.md" />
     <None Include="_posts\API-Management\2018-09-14-overview.md" />
     <None Include="_posts\API-Management\2018-09-15-Terminologies.md" />
     <None Include="_posts\API-Management\2018-09-16-architecture-design-runtime.md" />
