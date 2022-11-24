@@ -46,7 +46,7 @@ have errors while in execution.
 |---|---|
 |Hourly Based Sync Report|~{ReSyncBucketWithinScheduledTime("Error","Skipped")}~|
 
-# Rule Notification
+## Rule Notification
 
 Users would receive the `hourly report` in the `email id` provided for the Organisation. The email would consist 
 of the sync report(for failed transaction during the execution process) for the previous hour. The mail will 
