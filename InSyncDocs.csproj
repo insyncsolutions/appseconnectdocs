@@ -1650,6 +1650,8 @@
     <Content Include="staticfiles\rules\media\create-rule3.png" />
     <Content Include="staticfiles\rules\media\create-rule4.png" />
     <Content Include="staticfiles\rules\media\create-rule5.png" />
+    <Content Include="staticfiles\rules\media\detailedsyncreport.png" />
+    <Content Include="staticfiles\rules\media\detailedsyncreport1.png" />
     <Content Include="staticfiles\rules\media\detailedsyncreportprocessflow1.PNG" />
     <Content Include="staticfiles\rules\media\detailedsyncreportprocessflow2.png" />
     <Content Include="staticfiles\rules\media\detailedsyncreportprocessflow3.png" />

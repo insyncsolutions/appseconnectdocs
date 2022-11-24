@@ -35,7 +35,7 @@ organization.
 - Expand the node `On-Premise`. Select any environment where your processflow are deployed and executed. Click on the `Rules`.
 ![detailedsyncreportprocessflow2](/staticfiles/rules/media/detailedsyncreportprocessflow2.png)
 - On clicking the ellipses button(...), you will get to deploy the rule in your organization. If you, do not 
-deploy the processflow in your own organization, email will not be triggered such that you can get to know the processflow that 
+deploy the rule in your own organization, email will not be triggered such that you can get to know the processflow that 
 have errors while in execution.
 ![detailedsyncreportprocessflow3](/staticfiles/rules/media/detailedsyncreportprocessflow3.png)
 
@@ -44,7 +44,8 @@ have errors while in execution.
 Users would receive the `hourly report` in the `email id` provided for the Organisation. The email would consist 
 of the sync report(for failed transaction during the execution process) for the previous hour. The mail will 
 consists of the `time frame` for which the report has been generated, `ProcessFlow` folder name, `name of the processflow` and 
-the number of errors encountered during the execution the process.
+the number of errors encountered during the execution the process. On clicking the, `ProcessFlow` folder name, the `Sync Info` 
+will open up showing you the `success` and `erroneous` data. 
 ![detailedsyncreportprocessflow1](/staticfiles/rules/media/detailedsyncreportprocessflow1.PNG)
 
 **Note**  
