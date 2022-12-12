@@ -32,7 +32,7 @@ enivronment section of every organization. Follow the below mentioned steps to `
 organization. 
 
 - Login to `portal` with any valid login credentials. 
-- From the `Home` page, naviagte to `Deploy` -> `Environments`. 
+- From the `Home` page, navigate to `Deploy` -> `Environments`. 
 - Expand the node `On-Premise`. Select any environment where your workflow are deployed and executed. Click on the `Rules`.
 ![detailedsyncreportprocessflow2](/staticfiles/rules/media/detailedsyncreportprocessflow2.png)
 - On clicking the ellipses button(...), you will get to deploy the rule in your organization. If you, do not 

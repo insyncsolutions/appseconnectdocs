@@ -525,7 +525,9 @@
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_13.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_14.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_15.PNG" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_19.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_2.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_20.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_3.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_4.png" />
     <Content Include="staticfiles\connectors\media\application-connector\shopifygraphql_5.png" />
