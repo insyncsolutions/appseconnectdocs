@@ -285,7 +285,7 @@
     <Content Include="staticfiles\connectors\media\application-connector\ivend1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\ivend2.png" />
     <Content Include="staticfiles\connectors\media\application-connector\ivendcloud.png" />
-    <Content Include="staticfiles\connectors\media\application-connector\ivendactionfilter1.png" />
+    <Content Include="staticfiles\connectors\media\application-connector\ivendcloudactionfilter1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig1.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig10.png" />
     <Content Include="staticfiles\connectors\media\application-connector\lightspeed-agentconfig11.png" />
