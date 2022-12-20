@@ -1,6 +1,8 @@
 ---
 title: "Configuring Connectors"
 toc: true
+description: "Know our interactive web based interface accessible through set of Functional Modules"
+keywords: "APPSeCONNECT, Home, Portal, Designer, Deploy,Manage, Help,web based interface,advanced monitoring system,platform,ipaas,business process automation tool, middleware"
 tag: developers
 category: "Integration"
 redirect_from: 

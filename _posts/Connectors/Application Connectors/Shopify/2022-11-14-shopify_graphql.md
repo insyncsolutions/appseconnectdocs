@@ -1,7 +1,7 @@
 ﻿---
 title: "Shopify using GraphQL"
 toc: true
-description: "Get to know how you can configure the agent for shopify"
+description: "configure agent for shopify GraphQL"
 keywords: "creation of private app, shopify OP agent configuration, shopify Cloud agent configuration"
 tag: developers
 category: "Connectors"
