@@ -23,7 +23,9 @@ human resources management, manufacturing planning, supply chain management, fie
 collaboration, compliance, and IT management. This section provides you the detailed process of validating the 
 credential of the application Dynamic GP. 
 
-**Note : This document is for configuring Dynamic GP in On-Premise Agent only.** 
+**Note : This document is for configuring Dynamic GP in On-Premise Agent only.**
+
+![](https://www.youtube.com/watch?v=0EuuRM6VBtA)
 
 ## Pre-requisites for Dynamic GP Configuration 
 

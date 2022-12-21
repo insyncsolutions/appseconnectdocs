@@ -1,7 +1,7 @@
 ﻿---
 title: "Shopify using GraphQL"
 toc: true
-description: "Get to know how you can configure the agent for shopify"
+description: "configure agent for shopify GraphQL"
 keywords: "creation of private app, shopify OP agent configuration, shopify Cloud agent configuration"
 tag: developers
 category: "Connectors"
@@ -65,9 +65,9 @@ You need to install the agent on your local server. To Know about On-Premise Age
 1. In the App Configuration panel of the agent, click on the `+` button, beside the app Shopify.     
 ![shopifygraphql_1](/staticfiles/connectors/media/application-connector/shopifygraphql_1.png)     
 2. On clicking the `+` button, the credential panel opens for the application Shopify.    
-Provide the `Store Name`, `API Version` and `Access Token` in the agent.    
+Provide the `Base Url` and `Access Token` in the agent.    
 3. After providing the credentials, click on `Validate` button. On successful validation, a message `Successfully Validated, now you can save this details.!!!` will be displayed. Click on `SAVE` to save the credentials.  
-![shopifygraphql_2](/staticfiles/connectors/media/application-connector/shopifygraphql_2.png)   
+![shopifygraphql_20](/staticfiles/connectors/media/application-connector/shopifygraphql_20.png)   
 
 Following this process, the `Shopify's GraphQL` application can be configured in the OP agent.    
 
@@ -81,8 +81,8 @@ Following this process, the `Shopify's GraphQL` application can be configured in
 
 3. Expand the `REST` node, click on `Add New Credential`.  
 
-4. Provide the necessary information `Credential Name`, `Store Name`, `API Version` and `Access Token`.   
-![shopifygraphql_3](/staticfiles/connectors/media/application-connector/shopifygraphql_3.png)    
+4. Provide the necessary information `Credential Name`, `Bae Url` and `Access Token`.   
+![shopifygraphql_19](/staticfiles/connectors/media/application-connector/shopifygraphql_19.png)    
 
 5. On clicking `Validate` button, a message `Credentials validated successfully` will be displayed, if all credentials provided 
 by you is correct. Finally, click on `Save` to save the credentials permanently.   
