@@ -25,21 +25,25 @@ APPSeCONNECT lets the developers and citizen integrators freely connect to appli
 and services such that all the applications are updated with most current business data.
 
 In this section, we will talk about everything that you want to know to get started with APPSeCONNECT.
-Lets have a look at different aspects of `APPSeCONNECT` : 
+Lets learn more about `APPSeCONNECT` components : 
 
-- [Overview of APPSeCONNECT](https://docs.appseconnect.com/getting%20started/overview/)
+## Have a Knowledge how you can use APPSeCONNECT?
+
+- Get to know how [you can use APPSeCONNECT](https://docs.appseconnect.com/getting%20started/overview/)
 
 - [How to access APPSeCONNECT?](https://docs.appseconnect.com/getting%20started/getting-an-account/) 
 
-- [Learn Key Concepts](https://docs.appseconnect.com/getting%20started/terminology/) 
+- [Learn Key Concepts](https://docs.appseconnect.com/getting%20started/terminology/) of APPSeCONNECT
 
-- [How to create ProcessFlow from Scratch?](https://docs.appseconnect.com/getting%20started/create-your-first-processflow/) 
+- Navigate through different [APPSeCONNECT Components](https://docs.appseconnect.com/getting%20started/components-services/) 
 
-- [Learn more about APPSeCONNECT Components](https://docs.appseconnect.com/getting%20started/components-services/)
+- Navigate through [APPSeCONNECT Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/)
 
-- [Navigate through APPSeCONNECT Dashboard](https://docs.appseconnect.com/accessing%20portal/accessing-portal/)
+- How does lightweight [runtime engine](https://docs.appseconnect.com/getting%20started/accessing-agents/) works? 
 
-- [How does Agent works?](https://docs.appseconnect.com/getting%20started/accessing-agents/) 
+## How you can create and publish ProcessFlows?
+
+- [How to create ProcessFlow from Scratch?](https://docs.appseconnect.com/getting%20started/create-your-first-processflow/)
 
 - [How to use Marketplace?](https://docs.appseconnect.com/getting%20started/marketplace/)
 
