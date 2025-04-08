@@ -7,7 +7,7 @@ tag: developers
 category: "Connectors"
 menus: 
     shopifyconnector :
-        title: "Shopify Configuration"
+        title: "Shopify Self-boarding"
         weight: 38
         icon: fa fa-file-word-o
         identifier: shopifyselfonboardingconnector

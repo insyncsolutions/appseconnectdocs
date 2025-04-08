@@ -48,7 +48,7 @@ APPSeCONNECT introduces a new **Self Onboarding** feature, designed to simplify 
 * **Increased Agility:** Easily manage and modify your integrations as your business needs evolve.
 * **Greater Control:** Take ownership of your integration process and gain a deeper understanding of your data flow.
 
-* **[Shopify Self Onboarding](/connectors/Shopify_self_onboarding/):**
+* **[Shopify Self Onboarding](/connectors/shopify_self_onbourding/):**
 
 ## Explore Our Shopify API Integrations
 
