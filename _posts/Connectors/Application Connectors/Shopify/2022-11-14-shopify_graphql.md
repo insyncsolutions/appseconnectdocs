@@ -6,7 +6,7 @@ keywords: "creation of private app, shopify OP agent configuration, shopify Clou
 tag: developers
 category: "Connectors"
 menus: 
-    applicationconnector :
+    shopifyconnector :
         title: "Shopify GraphQL"
         weight: 38
         icon: fa fa-file-word-o
