@@ -13,9 +13,13 @@
 {% endif %}
 
 
+{% comment %}
 {% if site.url %}
   {% assign canonical_url = "https://www.appseconnect.com/integrations/" | append: page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
+{% endcomment %}
+
+{% assign canonical_url = "https://www.appseconnect.com/integrations/" %}
 
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
