@@ -6,6 +6,7 @@ toc: false
 tag: developers
 category: "Getting Started"
 permalink: /
+canonical_url: https://www.appseconnect.com/integrations/
 redirect_from:
   - /index
 menus: 
