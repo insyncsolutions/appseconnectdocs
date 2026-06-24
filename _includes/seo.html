@@ -13,13 +13,9 @@
 {% endif %}
 
 
-{% comment %}
 {% if site.url %}
-  {% assign canonical_url = "https://www.appseconnect.com/integrations/" | append: page.url | replace: "index.html", "" | prepend: site.url %}
+  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
-{% endcomment %}
-
-{% assign canonical_url = "https://www.appseconnect.com/integrations/" %}
 
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
@@ -57,9 +53,15 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
-{% if seo_url %}
-<link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-<meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+{% if page.canonical_url %}
+  {% assign seo_canonical_url = page.canonical_url %}
+{% elsif seo_url %}
+  {% assign seo_canonical_url = page.url | prepend: seo_url | replace: "/index.html", "/" %}
+{% endif %}
+
+{% if seo_canonical_url %}
+<link rel="canonical" href="{{ seo_canonical_url }}">
+<meta property="og:url" content="{{ seo_canonical_url }}">
 {% endif %}
 
 {% if page.excerpt %}
